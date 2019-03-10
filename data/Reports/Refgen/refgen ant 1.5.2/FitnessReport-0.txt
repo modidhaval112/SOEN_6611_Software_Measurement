@@ -1,0 +1,9 @@
+fitness:0.8951048951048951,total nodes:128,ref.success:128,ref.failed:0, remain aps:15,evaluations:1
+Best ant defect count
+15 solutions for LazyClass in results-0 in 73 ms.
+0 solutions for LongParameterList in results-0 in 26 ms.
+0 solutions for SpaghettiCode in results-0 in 65 ms.
+0 solutions for Blob in results-0 in 327 ms.
+0 solutions for SpeculativeGenerality in results-0 in 6 ms.
+Total execution time: 00:03:35
+Milliseconds: 215671

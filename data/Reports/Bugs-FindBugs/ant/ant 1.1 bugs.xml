@@ -1,0 +1,1623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1-dev-20150306-5afe4d1" sequence="1" timestamp="1552176107158" analysisTimestamp="1552176041998" release="">
+  <Project projectName="Ant">
+    <Jar>F:\SMeasure\latest ant files\build\ant\classes</Jar>
+    <AuxClasspathEntry>F:\SMeasure\latest ant files\build\ant\classes</AuxClasspathEntry>
+    <SrcDir>F:\SMeasure\latest ant files\ant-rel-1.1\src\main</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="com.oreilly.servlet.MailMessage">
+      <SourceLine classname="com.oreilly.servlet.MailMessage" sourcefile="MailMessage.java" sourcepath="com/oreilly/servlet/MailMessage.java"/>
+    </Class>
+    <Method classname="com.oreilly.servlet.MailMessage" name="connect" signature="()V" isStatic="false">
+      <SourceLine classname="com.oreilly.servlet.MailMessage" start="328" end="334" startBytecode="0" endBytecode="145" sourcefile="MailMessage.java" sourcepath="com/oreilly/servlet/MailMessage.java"/>
+    </Method>
+    <Method classname="java.io.InputStreamReader" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.InputStreamReader" start="72" end="79" startBytecode="0" endBytecode="108" sourcefile="InputStreamReader.java" sourcepath="java/io/InputStreamReader.java"/>
+    </Method>
+    <SourceLine classname="com.oreilly.servlet.MailMessage" start="332" end="332" startBytecode="58" endBytecode="58" sourcefile="MailMessage.java" sourcepath="com/oreilly/servlet/MailMessage.java"/>
+    <SourceLine classname="com.oreilly.servlet.MailMessage" start="332" end="332" startBytecode="58" endBytecode="58" sourcefile="MailMessage.java" sourcepath="com/oreilly/servlet/MailMessage.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="com.oreilly.servlet.MailPrintStream">
+      <SourceLine classname="com.oreilly.servlet.MailPrintStream" sourcefile="MailMessage.java" sourcepath="com/oreilly/servlet/MailMessage.java"/>
+    </Class>
+    <Method classname="com.oreilly.servlet.MailPrintStream" name="&lt;init&gt;" signature="(Ljava/io/OutputStream;)V" isStatic="false">
+      <SourceLine classname="com.oreilly.servlet.MailPrintStream" start="412" end="413" startBytecode="0" endBytecode="62" sourcefile="MailMessage.java" sourcepath="com/oreilly/servlet/MailMessage.java"/>
+    </Method>
+    <Method classname="com.oreilly.servlet.MailPrintStream" name="&lt;init&gt;" signature="(Ljava/io/OutputStream;Z)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="com.oreilly.servlet.MailPrintStream" sourcefile="MailMessage.java" sourcepath="com/oreilly/servlet/MailMessage.java"/>
+    </Method>
+    <SourceLine classname="com.oreilly.servlet.MailPrintStream" start="412" end="412" startBytecode="3" endBytecode="3" sourcefile="MailMessage.java" sourcepath="com/oreilly/servlet/MailMessage.java"/>
+    <SourceLine classname="com.oreilly.servlet.MailPrintStream" start="412" end="412" startBytecode="3" endBytecode="3" sourcefile="MailMessage.java" sourcepath="com/oreilly/servlet/MailMessage.java"/>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="2" rank="16" abbrev="Se" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tools.ant.BuildEvent">
+      <SourceLine classname="org.apache.tools.ant.BuildEvent" sourcefile="BuildEvent.java" sourcepath="org/apache/tools/ant/BuildEvent.java"/>
+    </Class>
+    <Field classname="org.apache.tools.ant.BuildEvent" name="project" signature="Lorg/apache/tools/ant/Project;" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.BuildEvent" start="60" end="60" startBytecode="0" endBytecode="0" sourcefile="BuildEvent.java" sourcepath="org/apache/tools/ant/BuildEvent.java"/>
+    </Field>
+    <Type descriptor="Lorg/apache/tools/ant/Project;" role="TYPE_FOUND">
+      <SourceLine classname="org.apache.tools.ant.Project" start="97" end="921" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="2" rank="16" abbrev="Se" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tools.ant.BuildEvent">
+      <SourceLine classname="org.apache.tools.ant.BuildEvent" sourcefile="BuildEvent.java" sourcepath="org/apache/tools/ant/BuildEvent.java"/>
+    </Class>
+    <Field classname="org.apache.tools.ant.BuildEvent" name="target" signature="Lorg/apache/tools/ant/Target;" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.BuildEvent" start="61" end="61" startBytecode="0" endBytecode="0" sourcefile="BuildEvent.java" sourcepath="org/apache/tools/ant/BuildEvent.java"/>
+    </Field>
+    <Type descriptor="Lorg/apache/tools/ant/Target;" role="TYPE_FOUND">
+      <SourceLine classname="org.apache.tools.ant.Target" start="65" end="159" sourcefile="Target.java" sourcepath="org/apache/tools/ant/Target.java"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE" priority="2" rank="13" abbrev="NP" category="STYLE" first="1">
+    <Class classname="org.apache.tools.ant.DirectoryScanner">
+      <SourceLine classname="org.apache.tools.ant.DirectoryScanner" sourcefile="DirectoryScanner.java" sourcepath="org/apache/tools/ant/DirectoryScanner.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.DirectoryScanner" name="scandir" signature="(Ljava/io/File;Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.DirectoryScanner" start="634" end="661" startBytecode="0" endBytecode="429" sourcefile="DirectoryScanner.java" sourcepath="org/apache/tools/ant/DirectoryScanner.java"/>
+    </Method>
+    <LocalVariable name="newfiles" register="3" pc="201" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="org.apache.tools.ant.DirectoryScanner" start="635" end="635" startBytecode="202" endBytecode="202" sourcefile="DirectoryScanner.java" sourcepath="org/apache/tools/ant/DirectoryScanner.java" role="SOURCE_LINE_DEREF"/>
+    <SourceLine classname="org.apache.tools.ant.DirectoryScanner" start="634" end="634" startBytecode="1" endBytecode="1" sourcefile="DirectoryScanner.java" sourcepath="org/apache/tools/ant/DirectoryScanner.java" role="SOURCE_LINE_KNOWN_NULL"/>
+  </BugInstance>
+  <BugInstance type="DM_BOOLEAN_CTOR" priority="2" rank="18" abbrev="Dm" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tools.ant.IntrospectionHelper$11">
+      <SourceLine classname="org.apache.tools.ant.IntrospectionHelper$11" sourcefile="IntrospectionHelper.java" sourcepath="org/apache/tools/ant/IntrospectionHelper.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.IntrospectionHelper$11" name="set" signature="(Lorg/apache/tools/ant/Project;Ljava/lang/Object;Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.IntrospectionHelper$11" start="420" end="422" startBytecode="0" endBytecode="111" sourcefile="IntrospectionHelper.java" sourcepath="org/apache/tools/ant/IntrospectionHelper.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tools.ant.IntrospectionHelper$11" start="421" end="421" startBytecode="19" endBytecode="19" sourcefile="IntrospectionHelper.java" sourcepath="org/apache/tools/ant/IntrospectionHelper.java"/>
+    <SourceLine classname="org.apache.tools.ant.IntrospectionHelper$11" start="421" end="421" startBytecode="19" endBytecode="19" sourcefile="IntrospectionHelper.java" sourcepath="org/apache/tools/ant/IntrospectionHelper.java"/>
+  </BugInstance>
+  <BugInstance type="DM_NUMBER_CTOR" priority="2" rank="18" abbrev="Bx" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tools.ant.IntrospectionHelper$4">
+      <SourceLine classname="org.apache.tools.ant.IntrospectionHelper$4" sourcefile="IntrospectionHelper.java" sourcepath="org/apache/tools/ant/IntrospectionHelper.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.IntrospectionHelper$4" name="set" signature="(Lorg/apache/tools/ant/Project;Ljava/lang/Object;Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.IntrospectionHelper$4" start="360" end="361" startBytecode="0" endBytecode="104" sourcefile="IntrospectionHelper.java" sourcepath="org/apache/tools/ant/IntrospectionHelper.java"/>
+    </Method>
+    <Method classname="java.lang.Character" name="&lt;init&gt;" signature="(C)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.Character" start="4537" end="4539" startBytecode="0" endBytecode="41" sourcefile="Character.java" sourcepath="java/lang/Character.java"/>
+    </Method>
+    <Method classname="java.lang.Character" name="valueOf" signature="(C)Ljava/lang/Character;" isStatic="true" role="SHOULD_CALL">
+      <SourceLine classname="java.lang.Character" start="4570" end="4573" startBytecode="0" endBytecode="61" sourcefile="Character.java" sourcepath="java/lang/Character.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tools.ant.IntrospectionHelper$4" start="360" end="360" startBytecode="20" endBytecode="20" sourcefile="IntrospectionHelper.java" sourcepath="org/apache/tools/ant/IntrospectionHelper.java"/>
+    <SourceLine classname="org.apache.tools.ant.IntrospectionHelper$4" start="360" end="360" startBytecode="20" endBytecode="20" sourcefile="IntrospectionHelper.java" sourcepath="org/apache/tools/ant/IntrospectionHelper.java"/>
+  </BugInstance>
+  <BugInstance type="DM_NUMBER_CTOR" priority="2" rank="18" abbrev="Bx" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tools.ant.IntrospectionHelper$5">
+      <SourceLine classname="org.apache.tools.ant.IntrospectionHelper$5" sourcefile="IntrospectionHelper.java" sourcepath="org/apache/tools/ant/IntrospectionHelper.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.IntrospectionHelper$5" name="set" signature="(Lorg/apache/tools/ant/Project;Ljava/lang/Object;Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.IntrospectionHelper$5" start="368" end="369" startBytecode="0" endBytecode="100" sourcefile="IntrospectionHelper.java" sourcepath="org/apache/tools/ant/IntrospectionHelper.java"/>
+    </Method>
+    <Method classname="java.lang.Byte" name="&lt;init&gt;" signature="(Ljava/lang/String;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.Byte" start="315" end="317" startBytecode="0" endBytecode="46" sourcefile="Byte.java" sourcepath="java/lang/Byte.java"/>
+    </Method>
+    <Method classname="java.lang.Byte" name="valueOf" signature="(Ljava/lang/String;)Ljava/lang/Byte;" isStatic="true" role="SHOULD_CALL">
+      <SourceLine classname="java.lang.Byte" start="231" end="231" startBytecode="0" endBytecode="30" sourcefile="Byte.java" sourcepath="java/lang/Byte.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tools.ant.IntrospectionHelper$5" start="368" end="368" startBytecode="16" endBytecode="16" sourcefile="IntrospectionHelper.java" sourcepath="org/apache/tools/ant/IntrospectionHelper.java"/>
+    <SourceLine classname="org.apache.tools.ant.IntrospectionHelper$5" start="368" end="368" startBytecode="16" endBytecode="16" sourcefile="IntrospectionHelper.java" sourcepath="org/apache/tools/ant/IntrospectionHelper.java"/>
+  </BugInstance>
+  <BugInstance type="DM_NUMBER_CTOR" priority="2" rank="18" abbrev="Bx" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tools.ant.IntrospectionHelper$6">
+      <SourceLine classname="org.apache.tools.ant.IntrospectionHelper$6" sourcefile="IntrospectionHelper.java" sourcepath="org/apache/tools/ant/IntrospectionHelper.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.IntrospectionHelper$6" name="set" signature="(Lorg/apache/tools/ant/Project;Ljava/lang/Object;Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.IntrospectionHelper$6" start="376" end="377" startBytecode="0" endBytecode="100" sourcefile="IntrospectionHelper.java" sourcepath="org/apache/tools/ant/IntrospectionHelper.java"/>
+    </Method>
+    <Method classname="java.lang.Short" name="&lt;init&gt;" signature="(Ljava/lang/String;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.Short" start="320" end="322" startBytecode="0" endBytecode="46" sourcefile="Short.java" sourcepath="java/lang/Short.java"/>
+    </Method>
+    <Method classname="java.lang.Short" name="valueOf" signature="(Ljava/lang/String;)Ljava/lang/Short;" isStatic="true" role="SHOULD_CALL">
+      <SourceLine classname="java.lang.Short" start="200" end="200" startBytecode="0" endBytecode="30" sourcefile="Short.java" sourcepath="java/lang/Short.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tools.ant.IntrospectionHelper$6" start="376" end="376" startBytecode="16" endBytecode="16" sourcefile="IntrospectionHelper.java" sourcepath="org/apache/tools/ant/IntrospectionHelper.java"/>
+    <SourceLine classname="org.apache.tools.ant.IntrospectionHelper$6" start="376" end="376" startBytecode="16" endBytecode="16" sourcefile="IntrospectionHelper.java" sourcepath="org/apache/tools/ant/IntrospectionHelper.java"/>
+  </BugInstance>
+  <BugInstance type="DM_NUMBER_CTOR" priority="2" rank="18" abbrev="Bx" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tools.ant.IntrospectionHelper$7">
+      <SourceLine classname="org.apache.tools.ant.IntrospectionHelper$7" sourcefile="IntrospectionHelper.java" sourcepath="org/apache/tools/ant/IntrospectionHelper.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.IntrospectionHelper$7" name="set" signature="(Lorg/apache/tools/ant/Project;Ljava/lang/Object;Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.IntrospectionHelper$7" start="384" end="385" startBytecode="0" endBytecode="100" sourcefile="IntrospectionHelper.java" sourcepath="org/apache/tools/ant/IntrospectionHelper.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="&lt;init&gt;" signature="(Ljava/lang/String;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.Integer" start="866" end="868" startBytecode="0" endBytecode="46" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="valueOf" signature="(Ljava/lang/String;)Ljava/lang/Integer;" isStatic="true" role="SHOULD_CALL">
+      <SourceLine classname="java.lang.Integer" start="766" end="766" startBytecode="0" endBytecode="33" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tools.ant.IntrospectionHelper$7" start="384" end="384" startBytecode="16" endBytecode="16" sourcefile="IntrospectionHelper.java" sourcepath="org/apache/tools/ant/IntrospectionHelper.java"/>
+    <SourceLine classname="org.apache.tools.ant.IntrospectionHelper$7" start="384" end="384" startBytecode="16" endBytecode="16" sourcefile="IntrospectionHelper.java" sourcepath="org/apache/tools/ant/IntrospectionHelper.java"/>
+  </BugInstance>
+  <BugInstance type="DM_NUMBER_CTOR" priority="2" rank="18" abbrev="Bx" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tools.ant.IntrospectionHelper$8">
+      <SourceLine classname="org.apache.tools.ant.IntrospectionHelper$8" sourcefile="IntrospectionHelper.java" sourcepath="org/apache/tools/ant/IntrospectionHelper.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.IntrospectionHelper$8" name="set" signature="(Lorg/apache/tools/ant/Project;Ljava/lang/Object;Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.IntrospectionHelper$8" start="392" end="393" startBytecode="0" endBytecode="100" sourcefile="IntrospectionHelper.java" sourcepath="org/apache/tools/ant/IntrospectionHelper.java"/>
+    </Method>
+    <Method classname="java.lang.Long" name="&lt;init&gt;" signature="(Ljava/lang/String;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.Long" start="964" end="966" startBytecode="0" endBytecode="46" sourcefile="Long.java" sourcepath="java/lang/Long.java"/>
+    </Method>
+    <Method classname="java.lang.Long" name="valueOf" signature="(Ljava/lang/String;)Ljava/lang/Long;" isStatic="true" role="SHOULD_CALL">
+      <SourceLine classname="java.lang.Long" start="803" end="803" startBytecode="0" endBytecode="33" sourcefile="Long.java" sourcepath="java/lang/Long.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tools.ant.IntrospectionHelper$8" start="392" end="392" startBytecode="16" endBytecode="16" sourcefile="IntrospectionHelper.java" sourcepath="org/apache/tools/ant/IntrospectionHelper.java"/>
+    <SourceLine classname="org.apache.tools.ant.IntrospectionHelper$8" start="392" end="392" startBytecode="16" endBytecode="16" sourcefile="IntrospectionHelper.java" sourcepath="org/apache/tools/ant/IntrospectionHelper.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tools.ant.Main">
+      <SourceLine classname="org.apache.tools.ant.Main" sourcefile="Main.java" sourcepath="org/apache/tools/ant/Main.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.Main" name="&lt;init&gt;" signature="([Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.Main" start="115" end="222" startBytecode="0" endBytecode="1242" sourcefile="Main.java" sourcepath="org/apache/tools/ant/Main.java"/>
+    </Method>
+    <Method classname="java.io.PrintStream" name="&lt;init&gt;" signature="(Ljava/io/OutputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.PrintStream" start="135" end="136" startBytecode="0" endBytecode="34" sourcefile="PrintStream.java" sourcepath="java/io/PrintStream.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tools.ant.Main" start="136" end="136" startBytecode="241" endBytecode="241" sourcefile="Main.java" sourcepath="org/apache/tools/ant/Main.java"/>
+    <SourceLine classname="org.apache.tools.ant.Main" start="136" end="136" startBytecode="241" endBytecode="241" sourcefile="Main.java" sourcepath="org/apache/tools/ant/Main.java"/>
+  </BugInstance>
+  <BugInstance type="NP_NULL_PARAM_DEREF" priority="2" rank="8" abbrev="NP" category="CORRECTNESS" first="1">
+    <Class classname="org.apache.tools.ant.Main">
+      <SourceLine classname="org.apache.tools.ant.Main" sourcefile="Main.java" sourcepath="org/apache/tools/ant/Main.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.Main" name="&lt;init&gt;" signature="([Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.Main" start="115" end="222" startBytecode="0" endBytecode="1242" sourcefile="Main.java" sourcepath="org/apache/tools/ant/Main.java"/>
+    </Method>
+    <Method classname="java.util.Hashtable" name="put" signature="(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.Hashtable" start="459" end="478" startBytecode="0" endBytecode="214" sourcefile="Hashtable.java" sourcepath="java/util/Hashtable.java"/>
+    </Method>
+    <Int value="2" role="INT_MAYBE_NULL_ARG"/>
+    <LocalVariable name="value" register="5" pc="472" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="org.apache.tools.ant.Main" start="192" end="192" startBytecode="492" endBytecode="492" sourcefile="Main.java" sourcepath="org/apache/tools/ant/Main.java" role="SOURCE_LINE_INVOKED"/>
+    <SourceLine classname="org.apache.tools.ant.Main" start="184" end="184" startBytecode="429" endBytecode="429" sourcefile="Main.java" sourcepath="org/apache/tools/ant/Main.java" role="SOURCE_LINE_NULL_VALUE"/>
+    <SourceLine classname="org.apache.tools.ant.Main" start="189" end="189" startBytecode="473" endBytecode="473" sourcefile="Main.java" sourcepath="org/apache/tools/ant/Main.java" role="SOURCE_LINE_KNOWN_NULL"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION_EXCEPTION_EDGE" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" first="1">
+    <Class classname="org.apache.tools.ant.Main">
+      <SourceLine classname="org.apache.tools.ant.Main" sourcefile="Main.java" sourcepath="org/apache/tools/ant/Main.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.Main" name="printVersion" signature="()V" isStatic="true">
+      <SourceLine classname="org.apache.tools.ant.Main" start="340" end="360" startBytecode="0" endBytecode="332" sourcefile="Main.java" sourcepath="org/apache/tools/ant/Main.java"/>
+    </Method>
+    <Class classname="java.io.InputStream" role="CLASS_REFTYPE">
+      <SourceLine classname="java.io.InputStream" sourcefile="InputStream.java" sourcepath="java/io/InputStream.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="org.apache.tools.ant.Main" start="342" end="342" startBytecode="13" endBytecode="13" sourcefile="Main.java" sourcepath="org/apache/tools/ant/Main.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="org.apache.tools.ant.Main" start="341" end="341" startBytecode="16" endBytecode="16" sourcefile="Main.java" sourcepath="org/apache/tools/ant/Main.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tools.ant.Main" start="343" end="343" startBytecode="17" endBytecode="17" sourcefile="Main.java" sourcepath="org/apache/tools/ant/Main.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tools.ant.Main" start="354" end="354" startBytecode="100" endBytecode="100" sourcefile="Main.java" sourcepath="org/apache/tools/ant/Main.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tools.ant.Main" start="355" end="355" startBytecode="101" endBytecode="101" sourcefile="Main.java" sourcepath="org/apache/tools/ant/Main.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tools.ant.Main" start="356" end="356" startBytecode="110" endBytecode="110" sourcefile="Main.java" sourcepath="org/apache/tools/ant/Main.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tools.ant.Main" start="360" end="360" startBytecode="133" endBytecode="133" sourcefile="Main.java" sourcepath="org/apache/tools/ant/Main.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{InputStream x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="MS_SHOULD_BE_FINAL" priority="1" rank="16" abbrev="MS" category="MALICIOUS_CODE" first="1">
+    <Class classname="org.apache.tools.ant.Path">
+      <SourceLine classname="org.apache.tools.ant.Path" sourcefile="Path.java" sourcepath="org/apache/tools/ant/Path.java"/>
+    </Class>
+    <Field classname="org.apache.tools.ant.Path" name="systemClasspath" signature="Lorg/apache/tools/ant/Path;" isStatic="true">
+      <SourceLine classname="org.apache.tools.ant.Path" sourcefile="Path.java" sourcepath="org/apache/tools/ant/Path.java"/>
+    </Field>
+    <SourceLine classname="org.apache.tools.ant.Path" start="94" end="94" startBytecode="12" endBytecode="12" sourcefile="Path.java" sourcepath="org/apache/tools/ant/Path.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tools.ant.Project">
+      <SourceLine classname="org.apache.tools.ant.Project" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.Project" name="copyFile" signature="(Ljava/io/File;Ljava/io/File;ZZ)V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.Project" start="610" end="657" startBytecode="0" endBytecode="697" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+    </Method>
+    <Method classname="java.io.FileReader" name="&lt;init&gt;" signature="(Ljava/io/File;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileReader" start="72" end="73" startBytecode="0" endBytecode="40" sourcefile="FileReader.java" sourcepath="java/io/FileReader.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tools.ant.Project" start="623" end="623" startBytecode="95" endBytecode="95" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+    <SourceLine classname="org.apache.tools.ant.Project" start="623" end="623" startBytecode="95" endBytecode="95" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tools.ant.Project">
+      <SourceLine classname="org.apache.tools.ant.Project" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.Project" name="copyFile" signature="(Ljava/io/File;Ljava/io/File;ZZ)V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.Project" start="610" end="657" startBytecode="0" endBytecode="697" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+    </Method>
+    <Method classname="java.io.FileWriter" name="&lt;init&gt;" signature="(Ljava/io/File;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileWriter" start="90" end="91" startBytecode="0" endBytecode="40" sourcefile="FileWriter.java" sourcepath="java/io/FileWriter.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tools.ant.Project" start="624" end="624" startBytecode="112" endBytecode="112" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+    <SourceLine classname="org.apache.tools.ant.Project" start="624" end="624" startBytecode="112" endBytecode="112" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" first="1">
+    <Class classname="org.apache.tools.ant.Project">
+      <SourceLine classname="org.apache.tools.ant.Project" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.Project" name="getFilters" signature="()Ljava/util/Hashtable;" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.Project" start="248" end="248" startBytecode="0" endBytecode="46" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+    </Method>
+    <Field classname="org.apache.tools.ant.Project" name="filters" signature="Ljava/util/Hashtable;" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.Project" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+    </Field>
+    <SourceLine classname="org.apache.tools.ant.Project" start="248" end="248" startBytecode="4" endBytecode="4" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+    <SourceLine classname="org.apache.tools.ant.Project" start="248" end="248" startBytecode="4" endBytecode="4" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" first="1">
+    <Class classname="org.apache.tools.ant.Project">
+      <SourceLine classname="org.apache.tools.ant.Project" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.Project" name="getProperties" signature="()Ljava/util/Hashtable;" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.Project" start="211" end="211" startBytecode="0" endBytecode="46" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+    </Method>
+    <Field classname="org.apache.tools.ant.Project" name="properties" signature="Ljava/util/Hashtable;" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.Project" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+    </Field>
+    <SourceLine classname="org.apache.tools.ant.Project" start="211" end="211" startBytecode="4" endBytecode="4" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+    <SourceLine classname="org.apache.tools.ant.Project" start="211" end="211" startBytecode="4" endBytecode="4" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" first="1">
+    <Class classname="org.apache.tools.ant.Project">
+      <SourceLine classname="org.apache.tools.ant.Project" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.Project" name="getReferences" signature="()Ljava/util/Hashtable;" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.Project" start="847" end="847" startBytecode="0" endBytecode="46" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+    </Method>
+    <Field classname="org.apache.tools.ant.Project" name="references" signature="Ljava/util/Hashtable;" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.Project" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+    </Field>
+    <SourceLine classname="org.apache.tools.ant.Project" start="847" end="847" startBytecode="4" endBytecode="4" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+    <SourceLine classname="org.apache.tools.ant.Project" start="847" end="847" startBytecode="4" endBytecode="4" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" first="1">
+    <Class classname="org.apache.tools.ant.Project">
+      <SourceLine classname="org.apache.tools.ant.Project" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.Project" name="getTargets" signature="()Ljava/util/Hashtable;" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.Project" start="380" end="380" startBytecode="0" endBytecode="46" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+    </Method>
+    <Field classname="org.apache.tools.ant.Project" name="targets" signature="Ljava/util/Hashtable;" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.Project" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+    </Field>
+    <SourceLine classname="org.apache.tools.ant.Project" start="380" end="380" startBytecode="4" endBytecode="4" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+    <SourceLine classname="org.apache.tools.ant.Project" start="380" end="380" startBytecode="4" endBytecode="4" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" first="1">
+    <Class classname="org.apache.tools.ant.Project">
+      <SourceLine classname="org.apache.tools.ant.Project" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.Project" name="getTaskDefinitions" signature="()Ljava/util/Hashtable;" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.Project" start="323" end="323" startBytecode="0" endBytecode="46" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+    </Method>
+    <Field classname="org.apache.tools.ant.Project" name="taskClassDefinitions" signature="Ljava/util/Hashtable;" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.Project" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+    </Field>
+    <SourceLine classname="org.apache.tools.ant.Project" start="323" end="323" startBytecode="4" endBytecode="4" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+    <SourceLine classname="org.apache.tools.ant.Project" start="323" end="323" startBytecode="4" endBytecode="4" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" first="1">
+    <Class classname="org.apache.tools.ant.Project">
+      <SourceLine classname="org.apache.tools.ant.Project" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.Project" name="getUserProperties" signature="()Ljava/util/Hashtable;" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.Project" start="215" end="215" startBytecode="0" endBytecode="46" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+    </Method>
+    <Field classname="org.apache.tools.ant.Project" name="userProperties" signature="Ljava/util/Hashtable;" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.Project" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+    </Field>
+    <SourceLine classname="org.apache.tools.ant.Project" start="215" end="215" startBytecode="4" endBytecode="4" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+    <SourceLine classname="org.apache.tools.ant.Project" start="215" end="215" startBytecode="4" endBytecode="4" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+  </BugInstance>
+  <BugInstance type="ES_COMPARING_PARAMETER_STRING_WITH_EQ" priority="2" rank="16" abbrev="ES" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tools.ant.Project">
+      <SourceLine classname="org.apache.tools.ant.Project" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.Project" name="tsort" signature="(Ljava/lang/String;Ljava/util/Hashtable;Ljava/util/Hashtable;Ljava/util/Stack;Ljava/util/Vector;)V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.Project" start="788" end="828" startBytecode="0" endBytecode="122" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="111" end="3141" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <LocalVariable name="p" register="7" pc="214" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <LocalVariable name="root" register="1" pc="214" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="org.apache.tools.ant.Project" start="823" end="823" startBytecode="216" endBytecode="216" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+    <SourceLine classname="org.apache.tools.ant.Project" start="823" end="823" startBytecode="216" endBytecode="216" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.RefComparisonWarningProperty.STATIC_AND_PARAMETER" value="true"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION_EXCEPTION_EDGE" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" first="1">
+    <Class classname="org.apache.tools.ant.Project">
+      <SourceLine classname="org.apache.tools.ant.Project" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.Project" name="copyFile" signature="(Ljava/io/File;Ljava/io/File;ZZ)V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.Project" start="610" end="657" startBytecode="0" endBytecode="697" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+    </Method>
+    <Class classname="java.io.InputStream" role="CLASS_REFTYPE">
+      <SourceLine classname="java.io.InputStream" sourcefile="InputStream.java" sourcepath="java/io/InputStream.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="org.apache.tools.ant.Project" start="643" end="643" startBytecode="203" endBytecode="203" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="org.apache.tools.ant.Project" start="644" end="644" startBytecode="208" endBytecode="208" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tools.ant.Project" start="646" end="646" startBytecode="218" endBytecode="218" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tools.ant.Project" start="647" end="647" startBytecode="225" endBytecode="225" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tools.ant.Project" start="649" end="649" startBytecode="228" endBytecode="228" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{InputStream x 1,OutputStream x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION_EXCEPTION_EDGE" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" first="1">
+    <Class classname="org.apache.tools.ant.Project">
+      <SourceLine classname="org.apache.tools.ant.Project" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.Project" name="copyFile" signature="(Ljava/io/File;Ljava/io/File;ZZ)V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.Project" start="610" end="657" startBytecode="0" endBytecode="697" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+    </Method>
+    <Class classname="java.io.OutputStream" role="CLASS_REFTYPE">
+      <SourceLine classname="java.io.OutputStream" sourcefile="OutputStream.java" sourcepath="java/io/OutputStream.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="org.apache.tools.ant.Project" start="644" end="644" startBytecode="213" endBytecode="213" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="org.apache.tools.ant.Project" start="646" end="646" startBytecode="218" endBytecode="218" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tools.ant.Project" start="647" end="647" startBytecode="225" endBytecode="225" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tools.ant.Project" start="649" end="649" startBytecode="228" endBytecode="228" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{InputStream x 1,OutputStream x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_BAD_PRACTICE" priority="2" rank="16" abbrev="RV" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tools.ant.Project">
+      <SourceLine classname="org.apache.tools.ant.Project" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.Project" name="copyFile" signature="(Ljava/io/File;Ljava/io/File;ZZ)V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.Project" start="610" end="657" startBytecode="0" endBytecode="697" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+    </Method>
+    <Method classname="java.io.File" name="mkdirs" signature="()Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.File" start="1340" end="1354" startBytecode="0" endBytecode="182" sourcefile="File.java" sourcepath="java/io/File.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tools.ant.Project" start="619" end="619" startBytecode="78" endBytecode="78" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+    <SourceLine classname="org.apache.tools.ant.Project" start="619" end="619" startBytecode="78" endBytecode="78" sourcefile="Project.java" sourcepath="org/apache/tools/ant/Project.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tools.ant.ProjectHelper">
+      <SourceLine classname="org.apache.tools.ant.ProjectHelper" sourcefile="ProjectHelper.java" sourcepath="org/apache/tools/ant/ProjectHelper.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.ProjectHelper" name="parse" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.ProjectHelper" start="100" end="135" startBytecode="0" endBytecode="581" sourcefile="ProjectHelper.java" sourcepath="org/apache/tools/ant/ProjectHelper.java"/>
+    </Method>
+    <Method classname="java.io.FileReader" name="&lt;init&gt;" signature="(Ljava/io/File;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileReader" start="72" end="73" startBytecode="0" endBytecode="40" sourcefile="FileReader.java" sourcepath="java/io/FileReader.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tools.ant.ProjectHelper" start="102" end="102" startBytecode="47" endBytecode="47" sourcefile="ProjectHelper.java" sourcepath="org/apache/tools/ant/ProjectHelper.java"/>
+    <SourceLine classname="org.apache.tools.ant.ProjectHelper" start="102" end="102" startBytecode="47" endBytecode="47" sourcefile="ProjectHelper.java" sourcepath="org/apache/tools/ant/ProjectHelper.java"/>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tools.ant.ProjectHelper$NestedElementHandler">
+      <SourceLine classname="org.apache.tools.ant.ProjectHelper$NestedElementHandler" sourcefile="ProjectHelper.java" sourcepath="org/apache/tools/ant/ProjectHelper.java"/>
+    </Class>
+    <Field classname="org.apache.tools.ant.ProjectHelper$NestedElementHandler" name="parentHandler" signature="Lorg/xml/sax/DocumentHandler;" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.ProjectHelper$NestedElementHandler" sourcefile="ProjectHelper.java" sourcepath="org/apache/tools/ant/ProjectHelper.java"/>
+    </Field>
+    <SourceLine classname="org.apache.tools.ant.ProjectHelper$NestedElementHandler" start="379" end="379" startBytecode="0" endBytecode="0" sourcefile="NestedElementHandler.java" sourcepath="org/apache/tools/ant/NestedElementHandler.java"/>
+  </BugInstance>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE" priority="2" rank="18" abbrev="RCN" category="STYLE" first="1">
+    <Class classname="org.apache.tools.ant.TaskAdapter">
+      <SourceLine classname="org.apache.tools.ant.TaskAdapter" sourcefile="TaskAdapter.java" sourcepath="org/apache/tools/ant/TaskAdapter.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.TaskAdapter" name="execute" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.TaskAdapter" start="74" end="86" startBytecode="0" endBytecode="282" sourcefile="TaskAdapter.java" sourcepath="org/apache/tools/ant/TaskAdapter.java"/>
+    </Method>
+    <LocalVariable name="executeM" register="1" pc="21" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <Method classname="java.lang.Class" name="getMethod" signature="(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;" isStatic="false" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="java.lang.Class" start="1783" end="1788" startBytecode="0" endBytecode="117" sourcefile="Class.java" sourcepath="java/lang/Class.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tools.ant.TaskAdapter" start="78" end="78" startBytecode="22" endBytecode="22" sourcefile="TaskAdapter.java" sourcepath="org/apache/tools/ant/TaskAdapter.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+    <SourceLine classname="org.apache.tools.ant.TaskAdapter" start="78" end="78" startBytecode="22" endBytecode="22" sourcefile="TaskAdapter.java" sourcepath="org/apache/tools/ant/TaskAdapter.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tools.ant.XmlLogger">
+      <SourceLine classname="org.apache.tools.ant.XmlLogger" sourcefile="XmlLogger.java" sourcepath="org/apache/tools/ant/XmlLogger.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.XmlLogger" name="buildFinished" signature="(Lorg/apache/tools/ant/BuildEvent;)V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.XmlLogger" start="114" end="132" startBytecode="0" endBytecode="259" sourcefile="XmlLogger.java" sourcepath="org/apache/tools/ant/XmlLogger.java"/>
+    </Method>
+    <Method classname="java.io.FileWriter" name="&lt;init&gt;" signature="(Ljava/lang/String;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileWriter" start="63" end="64" startBytecode="0" endBytecode="40" sourcefile="FileWriter.java" sourcepath="java/io/FileWriter.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tools.ant.XmlLogger" start="122" end="122" startBytecode="55" endBytecode="55" sourcefile="XmlLogger.java" sourcepath="org/apache/tools/ant/XmlLogger.java"/>
+    <SourceLine classname="org.apache.tools.ant.XmlLogger" start="122" end="122" startBytecode="55" endBytecode="55" sourcefile="XmlLogger.java" sourcepath="org/apache/tools/ant/XmlLogger.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.Ant">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Ant" sourcefile="Ant.java" sourcepath="org/apache/tools/ant/taskdefs/Ant.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.Ant" name="init" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Ant" start="91" end="125" startBytecode="0" endBytecode="575" sourcefile="Ant.java" sourcepath="org/apache/tools/ant/taskdefs/Ant.java"/>
+    </Method>
+    <Method classname="java.io.PrintStream" name="&lt;init&gt;" signature="(Ljava/io/OutputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.PrintStream" start="135" end="136" startBytecode="0" endBytecode="34" sourcefile="PrintStream.java" sourcepath="java/io/PrintStream.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Ant" start="99" end="99" startBytecode="72" endBytecode="72" sourcefile="Ant.java" sourcepath="org/apache/tools/ant/taskdefs/Ant.java"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Ant" start="99" end="99" startBytecode="72" endBytecode="72" sourcefile="Ant.java" sourcepath="org/apache/tools/ant/taskdefs/Ant.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.AntStructure">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.AntStructure" sourcefile="AntStructure.java" sourcepath="org/apache/tools/ant/taskdefs/AntStructure.java"/>
+    </Class>
+    <Field classname="org.apache.tools.ant.taskdefs.AntStructure" name="output" signature="Ljava/io/File;" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.AntStructure" sourcefile="AntStructure.java" sourcepath="org/apache/tools/ant/taskdefs/AntStructure.java"/>
+    </Field>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.AntStructure" start="82" end="82" startBytecode="2" endBytecode="2" sourcefile="AntStructure.java" sourcepath="org/apache/tools/ant/taskdefs/AntStructure.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.AntStructure">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.AntStructure" sourcefile="AntStructure.java" sourcepath="org/apache/tools/ant/taskdefs/AntStructure.java"/>
+    </Class>
+    <Field classname="org.apache.tools.ant.taskdefs.AntStructure" name="visited" signature="Ljava/util/Hashtable;" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.AntStructure" sourcefile="AntStructure.java" sourcepath="org/apache/tools/ant/taskdefs/AntStructure.java"/>
+    </Field>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.AntStructure" start="74" end="74" startBytecode="21" endBytecode="21" sourcefile="AntStructure.java" sourcepath="org/apache/tools/ant/taskdefs/AntStructure.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.Copydir">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Copydir" sourcefile="Copydir.java" sourcepath="org/apache/tools/ant/taskdefs/Copydir.java"/>
+    </Class>
+    <Field classname="org.apache.tools.ant.taskdefs.Copydir" name="destDir" signature="Ljava/io/File;" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Copydir" sourcefile="Copydir.java" sourcepath="org/apache/tools/ant/taskdefs/Copydir.java"/>
+    </Field>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Copydir" start="81" end="81" startBytecode="9" endBytecode="9" sourcefile="Copydir.java" sourcepath="org/apache/tools/ant/taskdefs/Copydir.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.Copydir">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Copydir" sourcefile="Copydir.java" sourcepath="org/apache/tools/ant/taskdefs/Copydir.java"/>
+    </Class>
+    <Field classname="org.apache.tools.ant.taskdefs.Copydir" name="filtering" signature="Z" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Copydir" sourcefile="Copydir.java" sourcepath="org/apache/tools/ant/taskdefs/Copydir.java"/>
+    </Field>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Copydir" start="72" end="72" startBytecode="6" endBytecode="6" sourcefile="Copydir.java" sourcepath="org/apache/tools/ant/taskdefs/Copydir.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.Copydir">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Copydir" sourcefile="Copydir.java" sourcepath="org/apache/tools/ant/taskdefs/Copydir.java"/>
+    </Class>
+    <Field classname="org.apache.tools.ant.taskdefs.Copydir" name="srcDir" signature="Ljava/io/File;" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Copydir" sourcefile="Copydir.java" sourcepath="org/apache/tools/ant/taskdefs/Copydir.java"/>
+    </Field>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Copydir" start="77" end="77" startBytecode="9" endBytecode="9" sourcefile="Copydir.java" sourcepath="org/apache/tools/ant/taskdefs/Copydir.java"/>
+  </BugInstance>
+  <BugInstance type="NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE" priority="2" rank="13" abbrev="NP" category="STYLE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.Deltree">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Deltree" sourcefile="Deltree.java" sourcepath="org/apache/tools/ant/taskdefs/Deltree.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.Deltree" name="removeDir" signature="(Ljava/io/File;)V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Deltree" start="105" end="120" startBytecode="0" endBytecode="294" sourcefile="Deltree.java" sourcepath="org/apache/tools/ant/taskdefs/Deltree.java"/>
+    </Method>
+    <LocalVariable name="list" register="2" pc="84" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Deltree" start="106" end="106" startBytecode="85" endBytecode="85" sourcefile="Deltree.java" sourcepath="org/apache/tools/ant/taskdefs/Deltree.java" role="SOURCE_LINE_DEREF"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Deltree" start="105" end="105" startBytecode="1" endBytecode="1" sourcefile="Deltree.java" sourcepath="org/apache/tools/ant/taskdefs/Deltree.java" role="SOURCE_LINE_KNOWN_NULL"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.Exec">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Exec" sourcefile="Exec.java" sourcepath="org/apache/tools/ant/taskdefs/Exec.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.Exec" name="run" signature="(Ljava/lang/String;)I" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Exec" start="82" end="163" startBytecode="0" endBytecode="1037" sourcefile="Exec.java" sourcepath="org/apache/tools/ant/taskdefs/Exec.java"/>
+    </Method>
+    <Method classname="java.io.FileWriter" name="&lt;init&gt;" signature="(Ljava/lang/String;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileWriter" start="63" end="64" startBytecode="0" endBytecode="40" sourcefile="FileWriter.java" sourcepath="java/io/FileWriter.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Exec" start="127" end="127" startBytecode="402" endBytecode="402" sourcefile="Exec.java" sourcepath="org/apache/tools/ant/taskdefs/Exec.java"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Exec" start="127" end="127" startBytecode="402" endBytecode="402" sourcefile="Exec.java" sourcepath="org/apache/tools/ant/taskdefs/Exec.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.Exec$StreamPumper">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Exec$StreamPumper" sourcefile="Exec.java" sourcepath="org/apache/tools/ant/taskdefs/Exec.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.Exec$StreamPumper" name="pumpStream" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Exec$StreamPumper" start="216" end="226" startBytecode="0" endBytecode="22" sourcefile="Exec.java" sourcepath="org/apache/tools/ant/taskdefs/Exec.java"/>
+    </Method>
+    <LocalVariable name="buf" register="1" pc="6" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Exec$StreamPumper" start="216" end="216" startBytecode="5" endBytecode="5" sourcefile="Exec.java" sourcepath="org/apache/tools/ant/taskdefs/Exec.java"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Exec$StreamPumper" start="216" end="216" startBytecode="5" endBytecode="5" sourcefile="Exec.java" sourcepath="org/apache/tools/ant/taskdefs/Exec.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="buf"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.Exec$StreamPumper">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Exec$StreamPumper" sourcefile="Exec.java" sourcepath="org/apache/tools/ant/taskdefs/Exec.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.Exec$StreamPumper" name="&lt;init&gt;" signature="(Lorg/apache/tools/ant/taskdefs/Exec;Ljava/io/InputStream;ILorg/apache/tools/ant/taskdefs/Exec;)V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Exec$StreamPumper" start="207" end="211" startBytecode="0" endBytecode="145" sourcefile="Exec.java" sourcepath="org/apache/tools/ant/taskdefs/Exec.java"/>
+    </Method>
+    <Method classname="java.io.InputStreamReader" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.InputStreamReader" start="72" end="79" startBytecode="0" endBytecode="108" sourcefile="InputStreamReader.java" sourcepath="java/io/InputStreamReader.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Exec$StreamPumper" start="208" end="208" startBytecode="29" endBytecode="29" sourcefile="Exec.java" sourcepath="org/apache/tools/ant/taskdefs/Exec.java"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Exec$StreamPumper" start="208" end="208" startBytecode="29" endBytecode="29" sourcefile="Exec.java" sourcepath="org/apache/tools/ant/taskdefs/Exec.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.Exec$StreamPumper">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Exec$StreamPumper" sourcefile="Exec.java" sourcepath="org/apache/tools/ant/taskdefs/Exec.java"/>
+    </Class>
+    <Field classname="org.apache.tools.ant.taskdefs.Exec$StreamPumper" name="parent" signature="Lorg/apache/tools/ant/taskdefs/Exec;" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Exec$StreamPumper" sourcefile="Exec.java" sourcepath="org/apache/tools/ant/taskdefs/Exec.java"/>
+    </Field>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Exec$StreamPumper" start="210" end="210" startBytecode="46" endBytecode="46" sourcefile="Exec.java" sourcepath="org/apache/tools/ant/taskdefs/Exec.java"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_BAD_PRACTICE" priority="2" rank="16" abbrev="RV" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.Expand">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Expand" sourcefile="Expand.java" sourcepath="org/apache/tools/ant/taskdefs/Expand.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.Expand" name="execute" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Expand" start="77" end="139" startBytecode="0" endBytecode="962" sourcefile="Expand.java" sourcepath="org/apache/tools/ant/taskdefs/Expand.java"/>
+    </Method>
+    <Method classname="java.io.File" name="mkdirs" signature="()Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.File" start="1340" end="1354" startBytecode="0" endBytecode="182" sourcefile="File.java" sourcepath="java/io/File.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Expand" start="102" end="102" startBytecode="178" endBytecode="178" sourcefile="Expand.java" sourcepath="org/apache/tools/ant/taskdefs/Expand.java"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Expand" start="102" end="102" startBytecode="178" endBytecode="178" sourcefile="Expand.java" sourcepath="org/apache/tools/ant/taskdefs/Expand.java"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.Get">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Get" sourcefile="Get.java" sourcepath="org/apache/tools/ant/taskdefs/Get.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.Get" name="execute" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Get" start="78" end="120" startBytecode="0" endBytecode="746" sourcefile="Get.java" sourcepath="org/apache/tools/ant/taskdefs/Get.java"/>
+    </Method>
+    <Class classname="java.io.OutputStream" role="CLASS_REFTYPE">
+      <SourceLine classname="java.io.OutputStream" sourcefile="OutputStream.java" sourcepath="java/io/OutputStream.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Get" start="88" end="88" startBytecode="70" endBytecode="70" sourcefile="Get.java" sourcepath="org/apache/tools/ant/taskdefs/Get.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Get" start="90" end="90" startBytecode="74" endBytecode="74" sourcefile="Get.java" sourcepath="org/apache/tools/ant/taskdefs/Get.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Get" start="91" end="91" startBytecode="77" endBytecode="77" sourcefile="Get.java" sourcepath="org/apache/tools/ant/taskdefs/Get.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Get" start="99" end="99" startBytecode="124" endBytecode="124" sourcefile="Get.java" sourcepath="org/apache/tools/ant/taskdefs/Get.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Get" start="100" end="100" startBytecode="129" endBytecode="129" sourcefile="Get.java" sourcepath="org/apache/tools/ant/taskdefs/Get.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Get" start="101" end="101" startBytecode="164" endBytecode="164" sourcefile="Get.java" sourcepath="org/apache/tools/ant/taskdefs/Get.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{OutputStream x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OS_OPEN_STREAM" priority="2" rank="16" abbrev="OS" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.Get">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Get" sourcefile="Get.java" sourcepath="org/apache/tools/ant/taskdefs/Get.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.Get" name="execute" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Get" start="78" end="120" startBytecode="0" endBytecode="159" sourcefile="Get.java" sourcepath="org/apache/tools/ant/taskdefs/Get.java"/>
+    </Method>
+    <Type descriptor="Ljava/io/OutputStream;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.io.OutputStream" start="46" end="152" sourcefile="OutputStream.java" sourcepath="java/io/OutputStream.java"/>
+    </Type>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Get" start="88" end="88" startBytecode="65" endBytecode="65" sourcefile="Get.java" sourcepath="org/apache/tools/ant/taskdefs/Get.java"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Get" start="88" end="88" startBytecode="65" endBytecode="65" sourcefile="Get.java" sourcepath="org/apache/tools/ant/taskdefs/Get.java"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.Jar">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Jar" sourcefile="Jar.java" sourcepath="org/apache/tools/ant/taskdefs/Jar.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.Jar" name="initZipOutputStream" signature="(Ljava/util/zip/ZipOutputStream;)V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Jar" start="85" end="103" startBytecode="0" endBytecode="222" sourcefile="Jar.java" sourcepath="org/apache/tools/ant/taskdefs/Jar.java"/>
+    </Method>
+    <Class classname="java.io.InputStream" role="CLASS_REFTYPE">
+      <SourceLine classname="java.io.InputStream" sourcefile="InputStream.java" sourcepath="java/io/InputStream.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Jar" start="98" end="98" startBytecode="50" endBytecode="50" sourcefile="Jar.java" sourcepath="org/apache/tools/ant/taskdefs/Jar.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Jar" start="99" end="99" startBytecode="54" endBytecode="54" sourcefile="Jar.java" sourcepath="org/apache/tools/ant/taskdefs/Jar.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Jar" start="101" end="101" startBytecode="82" endBytecode="82" sourcefile="Jar.java" sourcepath="org/apache/tools/ant/taskdefs/Jar.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Jar" start="103" end="103" startBytecode="93" endBytecode="93" sourcefile="Jar.java" sourcepath="org/apache/tools/ant/taskdefs/Jar.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{InputStream x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.Javac">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Javac" sourcefile="Javac.java" sourcepath="org/apache/tools/ant/taskdefs/Javac.java"/>
+    </Class>
+    <Field classname="org.apache.tools.ant.taskdefs.Javac" name="debug" signature="Z" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Javac" sourcefile="Javac.java" sourcepath="org/apache/tools/ant/taskdefs/Javac.java"/>
+    </Field>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Javac" start="100" end="100" startBytecode="6" endBytecode="6" sourcefile="Javac.java" sourcepath="org/apache/tools/ant/taskdefs/Javac.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.Javac">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Javac" sourcefile="Javac.java" sourcepath="org/apache/tools/ant/taskdefs/Javac.java"/>
+    </Class>
+    <Field classname="org.apache.tools.ant.taskdefs.Javac" name="deprecation" signature="Z" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Javac" sourcefile="Javac.java" sourcepath="org/apache/tools/ant/taskdefs/Javac.java"/>
+    </Field>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Javac" start="102" end="102" startBytecode="16" endBytecode="16" sourcefile="Javac.java" sourcepath="org/apache/tools/ant/taskdefs/Javac.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.Javac">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Javac" sourcefile="Javac.java" sourcepath="org/apache/tools/ant/taskdefs/Javac.java"/>
+    </Class>
+    <Field classname="org.apache.tools.ant.taskdefs.Javac" name="filtering" signature="Z" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Javac" sourcefile="Javac.java" sourcepath="org/apache/tools/ant/taskdefs/Javac.java"/>
+    </Field>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Javac" start="103" end="103" startBytecode="21" endBytecode="21" sourcefile="Javac.java" sourcepath="org/apache/tools/ant/taskdefs/Javac.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.Javac">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Javac" sourcefile="Javac.java" sourcepath="org/apache/tools/ant/taskdefs/Javac.java"/>
+    </Class>
+    <Field classname="org.apache.tools.ant.taskdefs.Javac" name="optimize" signature="Z" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Javac" sourcefile="Javac.java" sourcepath="org/apache/tools/ant/taskdefs/Javac.java"/>
+    </Field>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Javac" start="101" end="101" startBytecode="11" endBytecode="11" sourcefile="Javac.java" sourcepath="org/apache/tools/ant/taskdefs/Javac.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.Javac">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Javac" sourcefile="Javac.java" sourcepath="org/apache/tools/ant/taskdefs/Javac.java"/>
+    </Class>
+    <Field classname="org.apache.tools.ant.taskdefs.Javac" name="target" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Javac" sourcefile="Javac.java" sourcepath="org/apache/tools/ant/taskdefs/Javac.java"/>
+    </Field>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Javac" start="234" end="234" startBytecode="2" endBytecode="2" sourcefile="Javac.java" sourcepath="org/apache/tools/ant/taskdefs/Javac.java"/>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.Javac$JarFilenameFilter">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Javac$JarFilenameFilter" start="764" end="766" sourcefile="Javac.java" sourcepath="org/apache/tools/ant/taskdefs/Javac.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.Javadoc">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Javadoc" sourcefile="Javadoc.java" sourcepath="org/apache/tools/ant/taskdefs/Javadoc.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.Javadoc" name="getPackageName" signature="(Ljava/io/File;)Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Javadoc" start="850" end="876" startBytecode="0" endBytecode="395" sourcefile="Javadoc.java" sourcepath="org/apache/tools/ant/taskdefs/Javadoc.java"/>
+    </Method>
+    <Method classname="java.io.FileReader" name="&lt;init&gt;" signature="(Ljava/io/File;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileReader" start="72" end="73" startBytecode="0" endBytecode="40" sourcefile="FileReader.java" sourcepath="java/io/FileReader.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Javadoc" start="854" end="854" startBytecode="20" endBytecode="20" sourcefile="Javadoc.java" sourcepath="org/apache/tools/ant/taskdefs/Javadoc.java"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Javadoc" start="854" end="854" startBytecode="20" endBytecode="20" sourcefile="Javadoc.java" sourcepath="org/apache/tools/ant/taskdefs/Javadoc.java"/>
+  </BugInstance>
+  <BugInstance type="OS_OPEN_STREAM" priority="2" rank="16" abbrev="OS" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.Javadoc">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Javadoc" sourcefile="Javadoc.java" sourcepath="org/apache/tools/ant/taskdefs/Javadoc.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.Javadoc" name="getPackageName" signature="(Ljava/io/File;)Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Javadoc" start="850" end="876" startBytecode="0" endBytecode="86" sourcefile="Javadoc.java" sourcepath="org/apache/tools/ant/taskdefs/Javadoc.java"/>
+    </Method>
+    <Type descriptor="Ljava/io/Reader;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.io.Reader" start="66" end="249" sourcefile="Reader.java" sourcepath="java/io/Reader.java"/>
+    </Type>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Javadoc" start="854" end="854" startBytecode="2" endBytecode="2" sourcefile="Javadoc.java" sourcepath="org/apache/tools/ant/taskdefs/Javadoc.java"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Javadoc" start="854" end="854" startBytecode="2" endBytecode="2" sourcefile="Javadoc.java" sourcepath="org/apache/tools/ant/taskdefs/Javadoc.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.Javadoc">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Javadoc" sourcefile="Javadoc.java" sourcepath="org/apache/tools/ant/taskdefs/Javadoc.java"/>
+    </Class>
+    <Field classname="org.apache.tools.ant.taskdefs.Javadoc" name="compileList" signature="Ljava/util/Vector;" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Javadoc" sourcefile="Javadoc.java" sourcepath="org/apache/tools/ant/taskdefs/Javadoc.java"/>
+    </Field>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Javadoc" start="198" end="198" startBytecode="219" endBytecode="219" sourcefile="Javadoc.java" sourcepath="org/apache/tools/ant/taskdefs/Javadoc.java"/>
+  </BugInstance>
+  <BugInstance type="UWF_NULL_FIELD" priority="2" rank="12" abbrev="UwF" category="CORRECTNESS" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.Javadoc">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Javadoc" sourcefile="Javadoc.java" sourcepath="org/apache/tools/ant/taskdefs/Javadoc.java"/>
+    </Class>
+    <Field classname="org.apache.tools.ant.taskdefs.Javadoc" name="helpfile" signature="Ljava/io/File;" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Javadoc" start="196" end="196" startBytecode="0" endBytecode="0" sourcefile="Javadoc.java" sourcepath="org/apache/tools/ant/taskdefs/Javadoc.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.Javadoc$DocletParam">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Javadoc$DocletParam" start="91" end="108" sourcefile="Javadoc.java" sourcepath="org/apache/tools/ant/taskdefs/Javadoc.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.Javadoc$GroupArgument">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Javadoc$GroupArgument" start="426" end="442" sourcefile="Javadoc.java" sourcepath="org/apache/tools/ant/taskdefs/Javadoc.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.Javadoc$JavaReader">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Javadoc$JavaReader" start="920" end="986" sourcefile="Javadoc.java" sourcepath="org/apache/tools/ant/taskdefs/Javadoc.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="UC_USELESS_CONDITION" priority="2" rank="16" abbrev="UC" category="STYLE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.Javadoc$JavaReader">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Javadoc$JavaReader" sourcefile="Javadoc.java" sourcepath="org/apache/tools/ant/taskdefs/Javadoc.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.Javadoc$JavaReader" name="read" signature="()I" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Javadoc$JavaReader" start="925" end="964" startBytecode="0" endBytecode="422" sourcefile="Javadoc.java" sourcepath="org/apache/tools/ant/taskdefs/Javadoc.java"/>
+    </Method>
+    <String value="c != -1"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Javadoc$JavaReader" start="935" end="935" startBytecode="103" endBytecode="103" sourcefile="Javadoc.java" sourcepath="org/apache/tools/ant/taskdefs/Javadoc.java"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Javadoc$JavaReader" start="935" end="935" startBytecode="103" endBytecode="103" sourcefile="Javadoc.java" sourcepath="org/apache/tools/ant/taskdefs/Javadoc.java"/>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.Javadoc$LinkArgument">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Javadoc$LinkArgument" start="385" end="412" sourcefile="Javadoc.java" sourcepath="org/apache/tools/ant/taskdefs/Javadoc.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.Jikes">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Jikes" sourcefile="Jikes.java" sourcepath="org/apache/tools/ant/taskdefs/Jikes.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.Jikes" name="compile" signature="([Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Jikes" start="31" end="46" startBytecode="0" endBytecode="236" sourcefile="Jikes.java" sourcepath="org/apache/tools/ant/taskdefs/Jikes.java"/>
+    </Method>
+    <Method classname="java.io.InputStreamReader" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.InputStreamReader" start="72" end="79" startBytecode="0" endBytecode="108" sourcefile="InputStreamReader.java" sourcepath="java/io/InputStreamReader.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Jikes" start="41" end="41" startBytecode="44" endBytecode="44" sourcefile="Jikes.java" sourcepath="org/apache/tools/ant/taskdefs/Jikes.java"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Jikes" start="41" end="41" startBytecode="44" endBytecode="44" sourcefile="Jikes.java" sourcepath="org/apache/tools/ant/taskdefs/Jikes.java"/>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" rank="17" abbrev="UuF" category="STYLE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.JikesOutputParser">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.JikesOutputParser" sourcefile="JikesOutputParser.java" sourcepath="org/apache/tools/ant/taskdefs/JikesOutputParser.java"/>
+    </Class>
+    <Field classname="org.apache.tools.ant.taskdefs.JikesOutputParser" name="errors" signature="I" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.JikesOutputParser" start="19" end="19" startBytecode="0" endBytecode="0" sourcefile="JikesOutputParser.java" sourcepath="org/apache/tools/ant/taskdefs/JikesOutputParser.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" rank="17" abbrev="UuF" category="STYLE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.JikesOutputParser">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.JikesOutputParser" sourcefile="JikesOutputParser.java" sourcepath="org/apache/tools/ant/taskdefs/JikesOutputParser.java"/>
+    </Class>
+    <Field classname="org.apache.tools.ant.taskdefs.JikesOutputParser" name="warnings" signature="I" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.JikesOutputParser" start="19" end="19" startBytecode="0" endBytecode="0" sourcefile="JikesOutputParser.java" sourcepath="org/apache/tools/ant/taskdefs/JikesOutputParser.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.KeySubst">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.KeySubst" sourcefile="KeySubst.java" sourcepath="org/apache/tools/ant/taskdefs/KeySubst.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.KeySubst" name="execute" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.KeySubst" start="79" end="112" startBytecode="0" endBytecode="422" sourcefile="KeySubst.java" sourcepath="org/apache/tools/ant/taskdefs/KeySubst.java"/>
+    </Method>
+    <Method classname="java.io.FileReader" name="&lt;init&gt;" signature="(Ljava/io/File;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileReader" start="72" end="73" startBytecode="0" endBytecode="40" sourcefile="FileReader.java" sourcepath="java/io/FileReader.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.KeySubst" start="88" end="88" startBytecode="49" endBytecode="49" sourcefile="KeySubst.java" sourcepath="org/apache/tools/ant/taskdefs/KeySubst.java"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.KeySubst" start="88" end="88" startBytecode="49" endBytecode="49" sourcefile="KeySubst.java" sourcepath="org/apache/tools/ant/taskdefs/KeySubst.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.KeySubst">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.KeySubst" sourcefile="KeySubst.java" sourcepath="org/apache/tools/ant/taskdefs/KeySubst.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.KeySubst" name="execute" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.KeySubst" start="79" end="112" startBytecode="0" endBytecode="422" sourcefile="KeySubst.java" sourcepath="org/apache/tools/ant/taskdefs/KeySubst.java"/>
+    </Method>
+    <Method classname="java.io.FileWriter" name="&lt;init&gt;" signature="(Ljava/io/File;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileWriter" start="90" end="91" startBytecode="0" endBytecode="40" sourcefile="FileWriter.java" sourcepath="java/io/FileWriter.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.KeySubst" start="90" end="90" startBytecode="76" endBytecode="76" sourcefile="KeySubst.java" sourcepath="org/apache/tools/ant/taskdefs/KeySubst.java"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.KeySubst" start="90" end="90" startBytecode="76" endBytecode="76" sourcefile="KeySubst.java" sourcepath="org/apache/tools/ant/taskdefs/KeySubst.java"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_BAD_PRACTICE" priority="2" rank="16" abbrev="RV" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.KeySubst">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.KeySubst" sourcefile="KeySubst.java" sourcepath="org/apache/tools/ant/taskdefs/KeySubst.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.KeySubst" name="execute" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.KeySubst" start="79" end="112" startBytecode="0" endBytecode="422" sourcefile="KeySubst.java" sourcepath="org/apache/tools/ant/taskdefs/KeySubst.java"/>
+    </Method>
+    <Method classname="java.io.File" name="delete" signature="()Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.File" start="1034" end="1041" startBytecode="0" endBytecode="91" sourcefile="File.java" sourcepath="java/io/File.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.KeySubst" start="89" end="89" startBytecode="60" endBytecode="60" sourcefile="KeySubst.java" sourcepath="org/apache/tools/ant/taskdefs/KeySubst.java"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.KeySubst" start="89" end="89" startBytecode="60" endBytecode="60" sourcefile="KeySubst.java" sourcepath="org/apache/tools/ant/taskdefs/KeySubst.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.MatchingTask">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.MatchingTask" sourcefile="MatchingTask.java" sourcepath="org/apache/tools/ant/taskdefs/MatchingTask.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.MatchingTask" name="setIgnore" signature="(Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.MatchingTask" start="176" end="186" startBytecode="0" endBytecode="38" sourcefile="MatchingTask.java" sourcepath="org/apache/tools/ant/taskdefs/MatchingTask.java"/>
+    </Method>
+    <LocalVariable name="tmpExcludes" register="2" pc="26" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.MatchingTask" start="180" end="180" startBytecode="25" endBytecode="25" sourcefile="MatchingTask.java" sourcepath="org/apache/tools/ant/taskdefs/MatchingTask.java"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.MatchingTask" start="180" end="180" startBytecode="25" endBytecode="25" sourcefile="MatchingTask.java" sourcepath="org/apache/tools/ant/taskdefs/MatchingTask.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="tmpExcludes"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.MatchingTask">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.MatchingTask" sourcefile="MatchingTask.java" sourcepath="org/apache/tools/ant/taskdefs/MatchingTask.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.MatchingTask" name="readPatterns" signature="(Ljava/io/File;Ljava/util/Vector;)V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.MatchingTask" start="257" end="272" startBytecode="0" endBytecode="266" sourcefile="MatchingTask.java" sourcepath="org/apache/tools/ant/taskdefs/MatchingTask.java"/>
+    </Method>
+    <Method classname="java.io.FileReader" name="&lt;init&gt;" signature="(Ljava/io/File;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileReader" start="72" end="73" startBytecode="0" endBytecode="40" sourcefile="FileReader.java" sourcepath="java/io/FileReader.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.MatchingTask" start="257" end="257" startBytecode="9" endBytecode="9" sourcefile="MatchingTask.java" sourcepath="org/apache/tools/ant/taskdefs/MatchingTask.java"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.MatchingTask" start="257" end="257" startBytecode="9" endBytecode="9" sourcefile="MatchingTask.java" sourcepath="org/apache/tools/ant/taskdefs/MatchingTask.java"/>
+  </BugInstance>
+  <BugInstance type="OS_OPEN_STREAM" priority="2" rank="16" abbrev="OS" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.MatchingTask">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.MatchingTask" sourcefile="MatchingTask.java" sourcepath="org/apache/tools/ant/taskdefs/MatchingTask.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.MatchingTask" name="readPatterns" signature="(Ljava/io/File;Ljava/util/Vector;)V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.MatchingTask" start="257" end="272" startBytecode="0" endBytecode="37" sourcefile="MatchingTask.java" sourcepath="org/apache/tools/ant/taskdefs/MatchingTask.java"/>
+    </Method>
+    <Type descriptor="Ljava/io/Reader;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.io.Reader" start="66" end="249" sourcefile="Reader.java" sourcepath="java/io/Reader.java"/>
+    </Type>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.MatchingTask" start="257" end="257" startBytecode="0" endBytecode="0" sourcefile="MatchingTask.java" sourcepath="org/apache/tools/ant/taskdefs/MatchingTask.java"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.MatchingTask" start="257" end="257" startBytecode="0" endBytecode="0" sourcefile="MatchingTask.java" sourcepath="org/apache/tools/ant/taskdefs/MatchingTask.java"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.Property">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Property" sourcefile="Property.java" sourcepath="org/apache/tools/ant/taskdefs/Property.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.Property" name="loadFile" signature="(Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Property" start="118" end="130" startBytecode="0" endBytecode="240" sourcefile="Property.java" sourcepath="org/apache/tools/ant/taskdefs/Property.java"/>
+    </Method>
+    <Class classname="java.io.InputStream" role="CLASS_REFTYPE">
+      <SourceLine classname="java.io.InputStream" sourcefile="InputStream.java" sourcepath="java/io/InputStream.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Property" start="122" end="122" startBytecode="49" endBytecode="49" sourcefile="Property.java" sourcepath="org/apache/tools/ant/taskdefs/Property.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Property" start="123" end="123" startBytecode="55" endBytecode="55" sourcefile="Property.java" sourcepath="org/apache/tools/ant/taskdefs/Property.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Property" start="124" end="124" startBytecode="60" endBytecode="60" sourcefile="Property.java" sourcepath="org/apache/tools/ant/taskdefs/Property.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Property" start="130" end="130" startBytecode="105" endBytecode="105" sourcefile="Property.java" sourcepath="org/apache/tools/ant/taskdefs/Property.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{InputStream x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.Property">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Property" sourcefile="Property.java" sourcepath="org/apache/tools/ant/taskdefs/Property.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.Property" name="loadResource" signature="(Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Property" start="133" end="144" startBytecode="0" endBytecode="210" sourcefile="Property.java" sourcepath="org/apache/tools/ant/taskdefs/Property.java"/>
+    </Method>
+    <Class classname="java.io.InputStream" role="CLASS_REFTYPE">
+      <SourceLine classname="java.io.InputStream" sourcefile="InputStream.java" sourcepath="java/io/InputStream.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Property" start="136" end="136" startBytecode="34" endBytecode="34" sourcefile="Property.java" sourcepath="org/apache/tools/ant/taskdefs/Property.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Property" start="137" end="137" startBytecode="38" endBytecode="38" sourcefile="Property.java" sourcepath="org/apache/tools/ant/taskdefs/Property.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Property" start="138" end="138" startBytecode="42" endBytecode="42" sourcefile="Property.java" sourcepath="org/apache/tools/ant/taskdefs/Property.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Property" start="139" end="139" startBytecode="47" endBytecode="47" sourcefile="Property.java" sourcepath="org/apache/tools/ant/taskdefs/Property.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Property" start="141" end="141" startBytecode="52" endBytecode="52" sourcefile="Property.java" sourcepath="org/apache/tools/ant/taskdefs/Property.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Property" start="144" end="144" startBytecode="60" endBytecode="60" sourcefile="Property.java" sourcepath="org/apache/tools/ant/taskdefs/Property.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{InputStream x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OS_OPEN_STREAM" priority="2" rank="16" abbrev="OS" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.Property">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Property" sourcefile="Property.java" sourcepath="org/apache/tools/ant/taskdefs/Property.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.Property" name="loadFile" signature="(Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Property" start="118" end="130" startBytecode="0" endBytecode="51" sourcefile="Property.java" sourcepath="org/apache/tools/ant/taskdefs/Property.java"/>
+    </Method>
+    <Type descriptor="Ljava/io/InputStream;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.io.InputStream" start="45" end="364" sourcefile="InputStream.java" sourcepath="java/io/InputStream.java"/>
+    </Type>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Property" start="122" end="122" startBytecode="44" endBytecode="44" sourcefile="Property.java" sourcepath="org/apache/tools/ant/taskdefs/Property.java"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Property" start="122" end="122" startBytecode="44" endBytecode="44" sourcefile="Property.java" sourcepath="org/apache/tools/ant/taskdefs/Property.java"/>
+  </BugInstance>
+  <BugInstance type="OS_OPEN_STREAM" priority="2" rank="16" abbrev="OS" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.Property">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Property" sourcefile="Property.java" sourcepath="org/apache/tools/ant/taskdefs/Property.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.Property" name="loadResource" signature="(Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Property" start="133" end="144" startBytecode="0" endBytecode="31" sourcefile="Property.java" sourcepath="org/apache/tools/ant/taskdefs/Property.java"/>
+    </Method>
+    <Type descriptor="Ljava/io/InputStream;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.io.InputStream" start="45" end="364" sourcefile="InputStream.java" sourcepath="java/io/InputStream.java"/>
+    </Type>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Property" start="136" end="136" startBytecode="34" endBytecode="34" sourcefile="Property.java" sourcepath="org/apache/tools/ant/taskdefs/Property.java"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Property" start="136" end="136" startBytecode="34" endBytecode="34" sourcefile="Property.java" sourcepath="org/apache/tools/ant/taskdefs/Property.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.Replace">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Replace" sourcefile="Replace.java" sourcepath="org/apache/tools/ant/taskdefs/Replace.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.Replace" name="processFile" signature="(Ljava/io/File;)V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Replace" start="113" end="142" startBytecode="0" endBytecode="428" sourcefile="Replace.java" sourcepath="org/apache/tools/ant/taskdefs/Replace.java"/>
+    </Method>
+    <Method classname="java.io.FileReader" name="&lt;init&gt;" signature="(Ljava/io/File;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileReader" start="72" end="73" startBytecode="0" endBytecode="40" sourcefile="FileReader.java" sourcepath="java/io/FileReader.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Replace" start="120" end="120" startBytecode="78" endBytecode="78" sourcefile="Replace.java" sourcepath="org/apache/tools/ant/taskdefs/Replace.java"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Replace" start="120" end="120" startBytecode="78" endBytecode="78" sourcefile="Replace.java" sourcepath="org/apache/tools/ant/taskdefs/Replace.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.Replace">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Replace" sourcefile="Replace.java" sourcepath="org/apache/tools/ant/taskdefs/Replace.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.Replace" name="processFile" signature="(Ljava/io/File;)V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Replace" start="113" end="142" startBytecode="0" endBytecode="428" sourcefile="Replace.java" sourcepath="org/apache/tools/ant/taskdefs/Replace.java"/>
+    </Method>
+    <Method classname="java.io.FileWriter" name="&lt;init&gt;" signature="(Ljava/io/File;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileWriter" start="90" end="91" startBytecode="0" endBytecode="40" sourcefile="FileWriter.java" sourcepath="java/io/FileWriter.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Replace" start="121" end="121" startBytecode="94" endBytecode="94" sourcefile="Replace.java" sourcepath="org/apache/tools/ant/taskdefs/Replace.java"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Replace" start="121" end="121" startBytecode="94" endBytecode="94" sourcefile="Replace.java" sourcepath="org/apache/tools/ant/taskdefs/Replace.java"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_BAD_PRACTICE" priority="2" rank="16" abbrev="RV" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.Replace">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Replace" sourcefile="Replace.java" sourcepath="org/apache/tools/ant/taskdefs/Replace.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.Replace" name="processFile" signature="(Ljava/io/File;)V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Replace" start="113" end="142" startBytecode="0" endBytecode="428" sourcefile="Replace.java" sourcepath="org/apache/tools/ant/taskdefs/Replace.java"/>
+    </Method>
+    <Method classname="java.io.File" name="delete" signature="()Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.File" start="1034" end="1041" startBytecode="0" endBytecode="91" sourcefile="File.java" sourcepath="java/io/File.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Replace" start="136" end="136" startBytecode="158" endBytecode="158" sourcefile="Replace.java" sourcepath="org/apache/tools/ant/taskdefs/Replace.java"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Replace" start="136" end="136" startBytecode="158" endBytecode="158" sourcefile="Replace.java" sourcepath="org/apache/tools/ant/taskdefs/Replace.java"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_BAD_PRACTICE" priority="2" rank="16" abbrev="RV" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.Replace">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Replace" sourcefile="Replace.java" sourcepath="org/apache/tools/ant/taskdefs/Replace.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.Replace" name="processFile" signature="(Ljava/io/File;)V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Replace" start="113" end="142" startBytecode="0" endBytecode="428" sourcefile="Replace.java" sourcepath="org/apache/tools/ant/taskdefs/Replace.java"/>
+    </Method>
+    <Method classname="java.io.File" name="renameTo" signature="(Ljava/io/File;)Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.File" start="1386" end="1397" startBytecode="0" endBytecode="133" sourcefile="File.java" sourcepath="java/io/File.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Replace" start="137" end="137" startBytecode="164" endBytecode="164" sourcefile="Replace.java" sourcepath="org/apache/tools/ant/taskdefs/Replace.java"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Replace" start="137" end="137" startBytecode="164" endBytecode="164" sourcefile="Replace.java" sourcepath="org/apache/tools/ant/taskdefs/Replace.java"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_BAD_PRACTICE" priority="2" rank="16" abbrev="RV" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.Rmic">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Rmic" sourcefile="Rmic.java" sourcepath="org/apache/tools/ant/taskdefs/Rmic.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.Rmic" name="moveGeneratedFile" signature="(Ljava/io/File;Ljava/io/File;Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Rmic" start="239" end="263" startBytecode="0" endBytecode="640" sourcefile="Rmic.java" sourcepath="org/apache/tools/ant/taskdefs/Rmic.java"/>
+    </Method>
+    <Method classname="java.io.File" name="delete" signature="()Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.File" start="1034" end="1041" startBytecode="0" endBytecode="91" sourcefile="File.java" sourcepath="java/io/File.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Rmic" start="244" end="244" startBytecode="70" endBytecode="70" sourcefile="Rmic.java" sourcepath="org/apache/tools/ant/taskdefs/Rmic.java"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Rmic" start="244" end="244" startBytecode="70" endBytecode="70" sourcefile="Rmic.java" sourcepath="org/apache/tools/ant/taskdefs/Rmic.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.Rmic">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Rmic" sourcefile="Rmic.java" sourcepath="org/apache/tools/ant/taskdefs/Rmic.java"/>
+    </Class>
+    <Field classname="org.apache.tools.ant.taskdefs.Rmic" name="base" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Rmic" sourcefile="Rmic.java" sourcepath="org/apache/tools/ant/taskdefs/Rmic.java"/>
+    </Field>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Rmic" start="97" end="97" startBytecode="2" endBytecode="2" sourcefile="Rmic.java" sourcepath="org/apache/tools/ant/taskdefs/Rmic.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.Rmic">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Rmic" sourcefile="Rmic.java" sourcepath="org/apache/tools/ant/taskdefs/Rmic.java"/>
+    </Class>
+    <Field classname="org.apache.tools.ant.taskdefs.Rmic" name="classname" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Rmic" sourcefile="Rmic.java" sourcepath="org/apache/tools/ant/taskdefs/Rmic.java"/>
+    </Field>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Rmic" start="104" end="104" startBytecode="9" endBytecode="9" sourcefile="Rmic.java" sourcepath="org/apache/tools/ant/taskdefs/Rmic.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.Rmic">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Rmic" sourcefile="Rmic.java" sourcepath="org/apache/tools/ant/taskdefs/Rmic.java"/>
+    </Class>
+    <Field classname="org.apache.tools.ant.taskdefs.Rmic" name="sourceBase" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Rmic" sourcefile="Rmic.java" sourcepath="org/apache/tools/ant/taskdefs/Rmic.java"/>
+    </Field>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Rmic" start="112" end="112" startBytecode="2" endBytecode="2" sourcefile="Rmic.java" sourcepath="org/apache/tools/ant/taskdefs/Rmic.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.Rmic">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Rmic" sourcefile="Rmic.java" sourcepath="org/apache/tools/ant/taskdefs/Rmic.java"/>
+    </Class>
+    <Field classname="org.apache.tools.ant.taskdefs.Rmic" name="verify" signature="Z" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Rmic" sourcefile="Rmic.java" sourcepath="org/apache/tools/ant/taskdefs/Rmic.java"/>
+    </Field>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Rmic" start="91" end="91" startBytecode="6" endBytecode="6" sourcefile="Rmic.java" sourcepath="org/apache/tools/ant/taskdefs/Rmic.java"/>
+  </BugInstance>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE" priority="2" rank="18" abbrev="RCN" category="STYLE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.SignJar">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.SignJar" sourcefile="SignJar.java" sourcepath="org/apache/tools/ant/taskdefs/SignJar.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.SignJar" name="execute" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.SignJar" start="134" end="216" startBytecode="0" endBytecode="723" sourcefile="SignJar.java" sourcepath="org/apache/tools/ant/taskdefs/SignJar.java"/>
+    </Method>
+    <Field classname="org.apache.tools.ant.taskdefs.SignJar" name="storepass" signature="Ljava/lang/String;" isStatic="false" role="FIELD_VALUE_OF">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.SignJar" sourcefile="SignJar.java" sourcepath="org/apache/tools/ant/taskdefs/SignJar.java"/>
+    </Field>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.SignJar" start="160" end="160" startBytecode="121" endBytecode="121" sourcefile="SignJar.java" sourcepath="org/apache/tools/ant/taskdefs/SignJar.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.SignJar" start="160" end="160" startBytecode="121" endBytecode="121" sourcefile="SignJar.java" sourcepath="org/apache/tools/ant/taskdefs/SignJar.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+  </BugInstance>
+  <BugInstance type="DC_DOUBLECHECK" priority="2" rank="14" abbrev="DC" category="MT_CORRECTNESS" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.Touch">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Touch" sourcefile="Touch.java" sourcepath="org/apache/tools/ant/taskdefs/Touch.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.Touch" name="touch" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Touch" start="144" end="195" startBytecode="0" endBytecode="699" sourcefile="Touch.java" sourcepath="org/apache/tools/ant/taskdefs/Touch.java"/>
+    </Method>
+    <Field classname="org.apache.tools.ant.taskdefs.Touch" name="setLastModified" signature="Ljava/lang/reflect/Method;" isStatic="true" role="FIELD_ON">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Touch" sourcefile="Touch.java" sourcepath="org/apache/tools/ant/taskdefs/Touch.java"/>
+    </Field>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Touch" start="160" end="162" startBytecode="105" endBytecode="117" sourcefile="Touch.java" sourcepath="org/apache/tools/ant/taskdefs/Touch.java"/>
+  </BugInstance>
+  <BugInstance type="DM_NUMBER_CTOR" priority="2" rank="18" abbrev="Bx" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.Touch">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Touch" sourcefile="Touch.java" sourcepath="org/apache/tools/ant/taskdefs/Touch.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.Touch" name="touch" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Touch" start="144" end="195" startBytecode="0" endBytecode="699" sourcefile="Touch.java" sourcepath="org/apache/tools/ant/taskdefs/Touch.java"/>
+    </Method>
+    <Method classname="java.lang.Long" name="&lt;init&gt;" signature="(J)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.Long" start="947" end="949" startBytecode="0" endBytecode="41" sourcefile="Long.java" sourcepath="java/lang/Long.java"/>
+    </Method>
+    <Method classname="java.lang.Long" name="valueOf" signature="(J)Ljava/lang/Long;" isStatic="true" role="SHOULD_CALL">
+      <SourceLine classname="java.lang.Long" start="837" end="840" startBytecode="0" endBytecode="76" sourcefile="Long.java" sourcepath="java/lang/Long.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Touch" start="177" end="177" startBytecode="190" endBytecode="190" sourcefile="Touch.java" sourcepath="org/apache/tools/ant/taskdefs/Touch.java"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Touch" start="177" end="177" startBytecode="190" endBytecode="190" sourcefile="Touch.java" sourcepath="org/apache/tools/ant/taskdefs/Touch.java"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_BAD_PRACTICE" priority="2" rank="16" abbrev="RV" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.Untar">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Untar" sourcefile="Untar.java" sourcepath="org/apache/tools/ant/taskdefs/Untar.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.Untar" name="execute" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.Untar" start="79" end="147" startBytecode="0" endBytecode="1041" sourcefile="Untar.java" sourcepath="org/apache/tools/ant/taskdefs/Untar.java"/>
+    </Method>
+    <Method classname="java.io.File" name="mkdirs" signature="()Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.File" start="1340" end="1354" startBytecode="0" endBytecode="182" sourcefile="File.java" sourcepath="java/io/File.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Untar" start="109" end="109" startBytecode="243" endBytecode="243" sourcefile="Untar.java" sourcepath="org/apache/tools/ant/taskdefs/Untar.java"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.Untar" start="109" end="109" startBytecode="243" endBytecode="243" sourcefile="Untar.java" sourcepath="org/apache/tools/ant/taskdefs/Untar.java"/>
+  </BugInstance>
+  <BugInstance type="NP_NULL_ON_SOME_PATH_EXCEPTION" priority="2" rank="11" abbrev="NP" category="CORRECTNESS" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.XSLTProcess">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.XSLTProcess" sourcefile="XSLTProcess.java" sourcepath="org/apache/tools/ant/taskdefs/XSLTProcess.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.XSLTProcess" name="process" signature="(Ljava/io/File;Ljava/lang/String;Ljava/io/File;)V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.XSLTProcess" start="290" end="312" startBytecode="0" endBytecode="381" sourcefile="XSLTProcess.java" sourcepath="org/apache/tools/ant/taskdefs/XSLTProcess.java"/>
+    </Method>
+    <LocalVariable name="outFile" register="5" pc="17" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.XSLTProcess" start="308" end="308" startBytecode="155" endBytecode="155" sourcefile="XSLTProcess.java" sourcepath="org/apache/tools/ant/taskdefs/XSLTProcess.java" role="SOURCE_LINE_DEREF"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.XSLTProcess" start="291" end="291" startBytecode="6" endBytecode="6" sourcefile="XSLTProcess.java" sourcepath="org/apache/tools/ant/taskdefs/XSLTProcess.java" role="SOURCE_LINE_NULL_VALUE"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.XSLTProcess" start="295" end="295" startBytecode="18" endBytecode="18" sourcefile="XSLTProcess.java" sourcepath="org/apache/tools/ant/taskdefs/XSLTProcess.java" role="SOURCE_LINE_KNOWN_NULL"/>
+    <Property name="edu.umd.cs.findbugs.detect.DoomedCodeWarningProperty.DOOMED_CODE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullDerefProperty.ALWAYS_ON_EXCEPTION_PATH" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullDerefProperty.LONG_RANGE_NULL_SOURCE" value="true"/>
+  </BugInstance>
+  <BugInstance type="NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE" priority="2" rank="13" abbrev="NP" category="STYLE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.XSLTProcess">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.XSLTProcess" sourcefile="XSLTProcess.java" sourcepath="org/apache/tools/ant/taskdefs/XSLTProcess.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.XSLTProcess" name="execute" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.XSLTProcess" start="115" end="166" startBytecode="0" endBytecode="772" sourcefile="XSLTProcess.java" sourcepath="org/apache/tools/ant/taskdefs/XSLTProcess.java"/>
+    </Method>
+    <LocalVariable name="list" register="2" pc="339" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.XSLTProcess" start="163" end="163" startBytecode="340" endBytecode="340" sourcefile="XSLTProcess.java" sourcepath="org/apache/tools/ant/taskdefs/XSLTProcess.java" role="SOURCE_LINE_DEREF"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.XSLTProcess" start="162" end="162" startBytecode="308" endBytecode="308" sourcefile="XSLTProcess.java" sourcepath="org/apache/tools/ant/taskdefs/XSLTProcess.java" role="SOURCE_LINE_KNOWN_NULL"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_BAD_PRACTICE" priority="2" rank="16" abbrev="RV" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.XSLTProcess">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.XSLTProcess" sourcefile="XSLTProcess.java" sourcepath="org/apache/tools/ant/taskdefs/XSLTProcess.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.XSLTProcess" name="process" signature="(Ljava/io/File;Ljava/lang/String;Ljava/io/File;)V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.XSLTProcess" start="290" end="312" startBytecode="0" endBytecode="381" sourcefile="XSLTProcess.java" sourcepath="org/apache/tools/ant/taskdefs/XSLTProcess.java"/>
+    </Method>
+    <Method classname="java.io.File" name="delete" signature="()Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.File" start="1034" end="1041" startBytecode="0" endBytecode="91" sourcefile="File.java" sourcepath="java/io/File.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.XSLTProcess" start="308" end="308" startBytecode="155" endBytecode="155" sourcefile="XSLTProcess.java" sourcepath="org/apache/tools/ant/taskdefs/XSLTProcess.java"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.XSLTProcess" start="308" end="308" startBytecode="155" endBytecode="155" sourcefile="XSLTProcess.java" sourcepath="org/apache/tools/ant/taskdefs/XSLTProcess.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.optional.NetRexxC">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.NetRexxC" sourcefile="NetRexxC.java" sourcepath="org/apache/tools/ant/taskdefs/optional/NetRexxC.java"/>
+    </Class>
+    <Field classname="org.apache.tools.ant.taskdefs.optional.NetRexxC" name="java" signature="Z" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.NetRexxC" sourcefile="NetRexxC.java" sourcepath="org/apache/tools/ant/taskdefs/optional/NetRexxC.java"/>
+    </Field>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.optional.NetRexxC" start="261" end="261" startBytecode="5" endBytecode="5" sourcefile="NetRexxC.java" sourcepath="org/apache/tools/ant/taskdefs/optional/NetRexxC.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.optional.NetRexxC">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.NetRexxC" sourcefile="NetRexxC.java" sourcepath="org/apache/tools/ant/taskdefs/optional/NetRexxC.java"/>
+    </Class>
+    <Field classname="org.apache.tools.ant.taskdefs.optional.NetRexxC" name="oldClasspath" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.NetRexxC" sourcefile="NetRexxC.java" sourcepath="org/apache/tools/ant/taskdefs/optional/NetRexxC.java"/>
+    </Field>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.optional.NetRexxC" start="151" end="151" startBytecode="64" endBytecode="64" sourcefile="NetRexxC.java" sourcepath="org/apache/tools/ant/taskdefs/optional/NetRexxC.java"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_BAD_PRACTICE" priority="2" rank="16" abbrev="RV" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.optional.RenameExtensions">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.RenameExtensions" sourcefile="RenameExtensions.java" sourcepath="org/apache/tools/ant/taskdefs/optional/RenameExtensions.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.optional.RenameExtensions" name="execute" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.RenameExtensions" start="121" end="142" startBytecode="0" endBytecode="372" sourcefile="RenameExtensions.java" sourcepath="org/apache/tools/ant/taskdefs/optional/RenameExtensions.java"/>
+    </Method>
+    <Method classname="java.io.File" name="delete" signature="()Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.File" start="1034" end="1041" startBytecode="0" endBytecode="91" sourcefile="File.java" sourcepath="java/io/File.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.optional.RenameExtensions" start="138" end="138" startBytecode="110" endBytecode="110" sourcefile="RenameExtensions.java" sourcepath="org/apache/tools/ant/taskdefs/optional/RenameExtensions.java"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.optional.RenameExtensions" start="138" end="138" startBytecode="110" endBytecode="110" sourcefile="RenameExtensions.java" sourcepath="org/apache/tools/ant/taskdefs/optional/RenameExtensions.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.optional.Script">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.Script" sourcefile="Script.java" sourcepath="org/apache/tools/ant/taskdefs/optional/Script.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.optional.Script" name="setSrc" signature="(Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.Script" start="134" end="150" startBytecode="0" endBytecode="320" sourcefile="Script.java" sourcepath="org/apache/tools/ant/taskdefs/optional/Script.java"/>
+    </Method>
+    <Method classname="java.lang.String" name="&lt;init&gt;" signature="([B)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.String" start="566" end="567" startBytecode="0" endBytecode="36" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.optional.Script" start="149" end="149" startBytecode="116" endBytecode="116" sourcefile="Script.java" sourcepath="org/apache/tools/ant/taskdefs/optional/Script.java"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.optional.Script" start="149" end="149" startBytecode="116" endBytecode="116" sourcefile="Script.java" sourcepath="org/apache/tools/ant/taskdefs/optional/Script.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.optional.Script">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.Script" sourcefile="Script.java" sourcepath="org/apache/tools/ant/taskdefs/optional/Script.java"/>
+    </Class>
+    <Field classname="org.apache.tools.ant.taskdefs.optional.Script" name="language" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.Script" sourcefile="Script.java" sourcepath="org/apache/tools/ant/taskdefs/optional/Script.java"/>
+    </Field>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.optional.Script" start="125" end="125" startBytecode="2" endBytecode="2" sourcefile="Script.java" sourcepath="org/apache/tools/ant/taskdefs/optional/Script.java"/>
+  </BugInstance>
+  <BugInstance type="SBSC_USE_STRINGBUFFER_CONCATENATION" priority="2" rank="18" abbrev="SBSC" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.optional.ejb.DDCreator">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.DDCreator" sourcefile="DDCreator.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/DDCreator.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.optional.ejb.DDCreator" name="execute" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.DDCreator" start="101" end="131" startBytecode="0" endBytecode="545" sourcefile="DDCreator.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/DDCreator.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.DDCreator" start="118" end="118" startBytecode="140" endBytecode="140" sourcefile="DDCreator.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/DDCreator.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.optional.ejb.DDCreatorHelper">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.DDCreatorHelper" sourcefile="DDCreatorHelper.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/DDCreatorHelper.java"/>
+    </Class>
+    <Field classname="org.apache.tools.ant.taskdefs.optional.ejb.DDCreatorHelper" name="descriptorDirectory" signature="Ljava/io/File;" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.DDCreatorHelper" sourcefile="DDCreatorHelper.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/DDCreatorHelper.java"/>
+    </Field>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.DDCreatorHelper" start="99" end="99" startBytecode="20" endBytecode="20" sourcefile="DDCreatorHelper.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/DDCreatorHelper.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.optional.ejb.DDCreatorHelper">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.DDCreatorHelper" sourcefile="DDCreatorHelper.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/DDCreatorHelper.java"/>
+    </Class>
+    <Field classname="org.apache.tools.ant.taskdefs.optional.ejb.DDCreatorHelper" name="generatedFilesDirectory" signature="Ljava/io/File;" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.DDCreatorHelper" sourcefile="DDCreatorHelper.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/DDCreatorHelper.java"/>
+    </Field>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.DDCreatorHelper" start="100" end="100" startBytecode="37" endBytecode="37" sourcefile="DDCreatorHelper.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/DDCreatorHelper.java"/>
+  </BugInstance>
+  <BugInstance type="NP_NULL_ON_SOME_PATH_EXCEPTION" priority="2" rank="11" abbrev="NP" category="CORRECTNESS" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar" sourcefile="EjbJar.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/EjbJar.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar" name="execute" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar" start="459" end="637" startBytecode="0" endBytecode="1877" sourcefile="EjbJar.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/EjbJar.java"/>
+    </Method>
+    <LocalVariable name="files" register="3" pc="127" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar" start="618" end="618" startBytecode="755" endBytecode="755" sourcefile="EjbJar.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/EjbJar.java" role="SOURCE_LINE_DEREF"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar" start="461" end="461" startBytecode="4" endBytecode="4" sourcefile="EjbJar.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/EjbJar.java" role="SOURCE_LINE_NULL_VALUE"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar" start="485" end="485" startBytecode="129" endBytecode="129" sourcefile="EjbJar.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/EjbJar.java" role="SOURCE_LINE_KNOWN_NULL"/>
+    <Property name="edu.umd.cs.findbugs.detect.DoomedCodeWarningProperty.DOOMED_CODE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullDerefProperty.ALWAYS_ON_EXCEPTION_PATH" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullDerefProperty.LONG_RANGE_NULL_SOURCE" value="true"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_BAD_PRACTICE" priority="2" rank="16" abbrev="RV" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar" sourcefile="EjbJar.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/EjbJar.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar" name="execute" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar" start="459" end="637" startBytecode="0" endBytecode="1877" sourcefile="EjbJar.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/EjbJar.java"/>
+    </Method>
+    <Method classname="java.io.File" name="delete" signature="()Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.File" start="1034" end="1041" startBytecode="0" endBytecode="91" sourcefile="File.java" sourcepath="java/io/File.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar" start="606" end="606" startBytecode="691" endBytecode="691" sourcefile="EjbJar.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/EjbJar.java"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar" start="606" end="606" startBytecode="691" endBytecode="691" sourcefile="EjbJar.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/EjbJar.java"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_BAD_PRACTICE" priority="2" rank="16" abbrev="RV" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar" sourcefile="EjbJar.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/EjbJar.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar" name="writeJar" signature="(Ljava/io/File;Ljava/util/Hashtable;)V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar" start="372" end="414" startBytecode="0" endBytecode="498" sourcefile="EjbJar.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/EjbJar.java"/>
+    </Method>
+    <Method classname="java.io.File" name="createNewFile" signature="()Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.File" start="1007" end="1012" startBytecode="0" endBytecode="98" sourcefile="File.java" sourcepath="java/io/File.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar" start="385" end="385" startBytecode="32" endBytecode="32" sourcefile="EjbJar.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/EjbJar.java"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar" start="385" end="385" startBytecode="32" endBytecode="32" sourcefile="EjbJar.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/EjbJar.java"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_BAD_PRACTICE" priority="2" rank="16" abbrev="RV" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar" sourcefile="EjbJar.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/EjbJar.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar" name="writeJar" signature="(Ljava/io/File;Ljava/util/Hashtable;)V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar" start="372" end="414" startBytecode="0" endBytecode="498" sourcefile="EjbJar.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/EjbJar.java"/>
+    </Method>
+    <Method classname="java.io.File" name="delete" signature="()Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.File" start="1034" end="1041" startBytecode="0" endBytecode="91" sourcefile="File.java" sourcepath="java/io/File.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar" start="383" end="383" startBytecode="19" endBytecode="19" sourcefile="EjbJar.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/EjbJar.java"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar" start="383" end="383" startBytecode="19" endBytecode="19" sourcefile="EjbJar.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/EjbJar.java"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_BAD_PRACTICE" priority="2" rank="16" abbrev="RV" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar" sourcefile="EjbJar.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/EjbJar.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar" name="writeJar" signature="(Ljava/io/File;Ljava/util/Hashtable;)V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar" start="372" end="414" startBytecode="0" endBytecode="498" sourcefile="EjbJar.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/EjbJar.java"/>
+    </Method>
+    <Method classname="java.io.File" name="mkdirs" signature="()Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.File" start="1340" end="1354" startBytecode="0" endBytecode="182" sourcefile="File.java" sourcepath="java/io/File.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar" start="384" end="384" startBytecode="27" endBytecode="27" sourcefile="EjbJar.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/EjbJar.java"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar" start="384" end="384" startBytecode="27" endBytecode="27" sourcefile="EjbJar.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/EjbJar.java"/>
+  </BugInstance>
+  <BugInstance type="WMI_WRONG_MAP_ITERATOR" priority="2" rank="18" abbrev="WMI" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar" sourcefile="EjbJar.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/EjbJar.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar" name="writeJar" signature="(Ljava/io/File;Ljava/util/Hashtable;)V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar" start="372" end="414" startBytecode="0" endBytecode="498" sourcefile="EjbJar.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/EjbJar.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar" start="395" end="395" startBytecode="87" endBytecode="87" sourcefile="EjbJar.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/EjbJar.java"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar" start="395" end="395" startBytecode="87" endBytecode="87" sourcefile="EjbJar.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/EjbJar.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar$DescriptorHandler">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar$DescriptorHandler" sourcefile="EjbJar.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/EjbJar.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar$DescriptorHandler" name="getFiles" signature="()Ljava/util/Hashtable;" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar$DescriptorHandler" start="161" end="161" startBytecode="0" endBytecode="76" sourcefile="EjbJar.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/EjbJar.java"/>
+    </Method>
+    <Field classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar$DescriptorHandler" name="ejbFiles" signature="Ljava/util/Hashtable;" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar$DescriptorHandler" sourcefile="EjbJar.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/EjbJar.java"/>
+    </Field>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar$DescriptorHandler" start="161" end="161" startBytecode="21" endBytecode="21" sourcefile="EjbJar.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/EjbJar.java"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar$DescriptorHandler" start="161" end="161" startBytecode="21" endBytecode="21" sourcefile="EjbJar.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/EjbJar.java"/>
+  </BugInstance>
+  <BugInstance type="SBSC_USE_STRINGBUFFER_CONCATENATION" priority="2" rank="18" abbrev="SBSC" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.optional.ejb.Ejbc">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.Ejbc" sourcefile="Ejbc.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/Ejbc.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.optional.ejb.Ejbc" name="execute" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.Ejbc" start="111" end="150" startBytecode="0" endBytecode="719" sourcefile="Ejbc.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/Ejbc.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.Ejbc" start="142" end="142" startBytecode="352" endBytecode="352" sourcefile="Ejbc.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/Ejbc.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbcHelper">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbcHelper" sourcefile="EjbcHelper.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/EjbcHelper.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbcHelper" name="process" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbcHelper" start="231" end="251" startBytecode="0" endBytecode="375" sourcefile="EjbcHelper.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/EjbcHelper.java"/>
+    </Method>
+    <Method classname="java.io.FileWriter" name="&lt;init&gt;" signature="(Ljava/io/File;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileWriter" start="90" end="91" startBytecode="0" endBytecode="40" sourcefile="FileWriter.java" sourcepath="java/io/FileWriter.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbcHelper" start="246" end="246" startBytecode="155" endBytecode="155" sourcefile="EjbcHelper.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/EjbcHelper.java"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbcHelper" start="246" end="246" startBytecode="155" endBytecode="155" sourcefile="EjbcHelper.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/EjbcHelper.java"/>
+  </BugInstance>
+  <BugInstance type="OS_OPEN_STREAM" priority="2" rank="16" abbrev="OS" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbcHelper">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbcHelper" sourcefile="EjbcHelper.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/EjbcHelper.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbcHelper" name="process" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbcHelper" start="231" end="251" startBytecode="0" endBytecode="84" sourcefile="EjbcHelper.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/EjbcHelper.java"/>
+    </Method>
+    <Type descriptor="Ljava/io/Writer;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.io.Writer" start="50" end="294" sourcefile="Writer.java" sourcepath="java/io/Writer.java"/>
+    </Type>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbcHelper" start="247" end="247" startBytecode="159" endBytecode="159" sourcefile="EjbcHelper.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/EjbcHelper.java"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbcHelper" start="247" end="247" startBytecode="159" endBytecode="159" sourcefile="EjbcHelper.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/EjbcHelper.java"/>
+  </BugInstance>
+  <BugInstance type="SBSC_USE_STRINGBUFFER_CONCATENATION" priority="2" rank="18" abbrev="SBSC" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbcHelper">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbcHelper" sourcefile="EjbcHelper.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/EjbcHelper.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbcHelper" name="process" signature="()V" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbcHelper" start="231" end="251" startBytecode="0" endBytecode="375" sourcefile="EjbcHelper.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/EjbcHelper.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbcHelper" start="243" end="243" startBytecode="102" endBytecode="102" sourcefile="EjbcHelper.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/EjbcHelper.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbcHelper">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbcHelper" sourcefile="EjbcHelper.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/EjbcHelper.java"/>
+    </Class>
+    <Field classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbcHelper" name="generatedFilesDirectory" signature="Ljava/io/File;" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbcHelper" sourcefile="EjbcHelper.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/EjbcHelper.java"/>
+    </Field>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbcHelper" start="122" end="122" startBytecode="37" endBytecode="37" sourcefile="EjbcHelper.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/EjbcHelper.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbcHelper">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbcHelper" sourcefile="EjbcHelper.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/EjbcHelper.java"/>
+    </Class>
+    <Field classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbcHelper" name="sourceDirectory" signature="Ljava/io/File;" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbcHelper" sourcefile="EjbcHelper.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/EjbcHelper.java"/>
+    </Field>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbcHelper" start="123" end="123" startBytecode="54" endBytecode="54" sourcefile="EjbcHelper.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/EjbcHelper.java"/>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbcHelper">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbcHelper" sourcefile="EjbcHelper.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/EjbcHelper.java"/>
+    </Class>
+    <Field classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbcHelper" name="classpath" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.ejb.EjbcHelper" start="95" end="95" startBytecode="0" endBytecode="0" sourcefile="EjbcHelper.java" sourcepath="org/apache/tools/ant/taskdefs/optional/ejb/EjbcHelper.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="DM_STRING_CTOR" priority="2" rank="18" abbrev="Dm" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.optional.vss.MSVSS">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.vss.MSVSS" sourcefile="MSVSS.java" sourcepath="org/apache/tools/ant/taskdefs/optional/vss/MSVSS.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.optional.vss.MSVSS" name="getLoginCommand" signature="()Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.vss.MSVSS" start="120" end="123" startBytecode="0" endBytecode="95" sourcefile="MSVSS.java" sourcepath="org/apache/tools/ant/taskdefs/optional/vss/MSVSS.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.optional.vss.MSVSS" start="123" end="123" startBytecode="33" endBytecode="33" sourcefile="MSVSS.java" sourcepath="org/apache/tools/ant/taskdefs/optional/vss/MSVSS.java"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.optional.vss.MSVSS" start="123" end="123" startBytecode="33" endBytecode="33" sourcefile="MSVSS.java" sourcepath="org/apache/tools/ant/taskdefs/optional/vss/MSVSS.java"/>
+  </BugInstance>
+  <BugInstance type="DM_STRING_CTOR" priority="2" rank="18" abbrev="Dm" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.optional.vss.MSVSS">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.vss.MSVSS" sourcefile="MSVSS.java" sourcepath="org/apache/tools/ant/taskdefs/optional/vss/MSVSS.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.optional.vss.MSVSS" name="getVsspath" signature="()Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.vss.MSVSS" start="147" end="147" startBytecode="0" endBytecode="68" sourcefile="MSVSS.java" sourcepath="org/apache/tools/ant/taskdefs/optional/vss/MSVSS.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.optional.vss.MSVSS" start="147" end="147" startBytecode="23" endBytecode="23" sourcefile="MSVSS.java" sourcepath="org/apache/tools/ant/taskdefs/optional/vss/MSVSS.java"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.optional.vss.MSVSS" start="147" end="147" startBytecode="23" endBytecode="23" sourcefile="MSVSS.java" sourcepath="org/apache/tools/ant/taskdefs/optional/vss/MSVSS.java"/>
+  </BugInstance>
+  <BugInstance type="DM_STRING_CTOR" priority="2" rank="18" abbrev="Dm" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET" sourcefile="MSVSSGET.java" sourcepath="org/apache/tools/ant/taskdefs/optional/vss/MSVSSGET.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET" name="getLocalpathCommand" signature="()Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET" start="184" end="199" startBytecode="0" endBytecode="264" sourcefile="MSVSSGET.java" sourcepath="org/apache/tools/ant/taskdefs/optional/vss/MSVSSGET.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET" start="199" end="199" startBytecode="126" endBytecode="126" sourcefile="MSVSSGET.java" sourcepath="org/apache/tools/ant/taskdefs/optional/vss/MSVSSGET.java"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET" start="199" end="199" startBytecode="126" endBytecode="126" sourcefile="MSVSSGET.java" sourcepath="org/apache/tools/ant/taskdefs/optional/vss/MSVSSGET.java"/>
+  </BugInstance>
+  <BugInstance type="DM_STRING_CTOR" priority="2" rank="18" abbrev="Dm" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET" sourcefile="MSVSSGET.java" sourcepath="org/apache/tools/ant/taskdefs/optional/vss/MSVSSGET.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET" name="getRecursiveCommand" signature="()Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET" start="214" end="217" startBytecode="0" endBytecode="78" sourcefile="MSVSSGET.java" sourcepath="org/apache/tools/ant/taskdefs/optional/vss/MSVSSGET.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET" start="217" end="217" startBytecode="16" endBytecode="16" sourcefile="MSVSSGET.java" sourcepath="org/apache/tools/ant/taskdefs/optional/vss/MSVSSGET.java"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET" start="217" end="217" startBytecode="16" endBytecode="16" sourcefile="MSVSSGET.java" sourcepath="org/apache/tools/ant/taskdefs/optional/vss/MSVSSGET.java"/>
+  </BugInstance>
+  <BugInstance type="DM_STRING_CTOR" priority="2" rank="18" abbrev="Dm" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET" sourcefile="MSVSSGET.java" sourcepath="org/apache/tools/ant/taskdefs/optional/vss/MSVSSGET.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET" name="getVersionCommand" signature="()Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET" start="293" end="305" startBytecode="0" endBytecode="181" sourcefile="MSVSSGET.java" sourcepath="org/apache/tools/ant/taskdefs/optional/vss/MSVSSGET.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET" start="294" end="294" startBytecode="30" endBytecode="30" sourcefile="MSVSSGET.java" sourcepath="org/apache/tools/ant/taskdefs/optional/vss/MSVSSGET.java"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET" start="294" end="294" startBytecode="30" endBytecode="30" sourcefile="MSVSSGET.java" sourcepath="org/apache/tools/ant/taskdefs/optional/vss/MSVSSGET.java"/>
+  </BugInstance>
+  <BugInstance type="DM_STRING_CTOR" priority="2" rank="18" abbrev="Dm" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET" sourcefile="MSVSSGET.java" sourcepath="org/apache/tools/ant/taskdefs/optional/vss/MSVSSGET.java"/>
+    </Class>
+    <Method classname="org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET" name="getWritableCommand" signature="()Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET" start="232" end="235" startBytecode="0" endBytecode="78" sourcefile="MSVSSGET.java" sourcepath="org/apache/tools/ant/taskdefs/optional/vss/MSVSSGET.java"/>
+    </Method>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET" start="235" end="235" startBytecode="16" endBytecode="16" sourcefile="MSVSSGET.java" sourcepath="org/apache/tools/ant/taskdefs/optional/vss/MSVSSGET.java"/>
+    <SourceLine classname="org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET" start="235" end="235" startBytecode="16" endBytecode="16" sourcefile="MSVSSGET.java" sourcepath="org/apache/tools/ant/taskdefs/optional/vss/MSVSSGET.java"/>
+  </BugInstance>
+  <BugInstance type="EQ_SELF_USE_OBJECT" priority="2" rank="8" abbrev="Eq" category="CORRECTNESS" first="1">
+    <Class classname="org.apache.tools.tar.TarEntry">
+      <SourceLine classname="org.apache.tools.tar.TarEntry" sourcefile="TarEntry.java" sourcepath="org/apache/tools/tar/TarEntry.java"/>
+    </Class>
+    <Method classname="org.apache.tools.tar.TarEntry" name="equals" signature="(Lorg/apache/tools/tar/TarEntry;)Z" isStatic="false">
+      <SourceLine classname="org.apache.tools.tar.TarEntry" start="275" end="275" startBytecode="0" endBytecode="63" sourcefile="TarEntry.java" sourcepath="org/apache/tools/tar/TarEntry.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="HE_EQUALS_USE_HASHCODE" priority="2" rank="16" abbrev="HE" category="BAD_PRACTICE" first="1">
+    <Class classname="org.apache.tools.tar.TarEntry">
+      <SourceLine classname="org.apache.tools.tar.TarEntry" sourcefile="TarEntry.java" sourcepath="org/apache/tools/tar/TarEntry.java"/>
+    </Class>
+    <Method classname="org.apache.tools.tar.TarEntry" name="equals" signature="(Lorg/apache/tools/tar/TarEntry;)Z" isStatic="false">
+      <SourceLine classname="org.apache.tools.tar.TarEntry" start="275" end="275" startBytecode="0" endBytecode="63" sourcefile="TarEntry.java" sourcepath="org/apache/tools/tar/TarEntry.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE" priority="2" rank="13" abbrev="NP" category="STYLE" first="1">
+    <Class classname="org.apache.tools.tar.TarEntry">
+      <SourceLine classname="org.apache.tools.tar.TarEntry" sourcefile="TarEntry.java" sourcepath="org/apache/tools/tar/TarEntry.java"/>
+    </Class>
+    <Method classname="org.apache.tools.tar.TarEntry" name="getDirectoryEntries" signature="()[Lorg/apache/tools/tar/TarEntry;" isStatic="false">
+      <SourceLine classname="org.apache.tools.tar.TarEntry" start="485" end="496" startBytecode="0" endBytecode="196" sourcefile="TarEntry.java" sourcepath="org/apache/tools/tar/TarEntry.java"/>
+    </Method>
+    <LocalVariable name="list" register="1" pc="30" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="org.apache.tools.tar.TarEntry" start="490" end="490" startBytecode="31" endBytecode="31" sourcefile="TarEntry.java" sourcepath="org/apache/tools/tar/TarEntry.java" role="SOURCE_LINE_DEREF"/>
+    <SourceLine classname="org.apache.tools.tar.TarEntry" start="489" end="489" startBytecode="26" endBytecode="26" sourcefile="TarEntry.java" sourcepath="org/apache/tools/tar/TarEntry.java" role="SOURCE_LINE_KNOWN_NULL"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" first="1">
+    <Class classname="org.apache.tools.tar.TarEntry">
+      <SourceLine classname="org.apache.tools.tar.TarEntry" sourcefile="TarEntry.java" sourcepath="org/apache/tools/tar/TarEntry.java"/>
+    </Class>
+    <Field classname="org.apache.tools.tar.TarEntry" name="checkSum" signature="I" isStatic="false">
+      <SourceLine classname="org.apache.tools.tar.TarEntry" sourcefile="TarEntry.java" sourcepath="org/apache/tools/tar/TarEntry.java"/>
+    </Field>
+    <SourceLine classname="org.apache.tools.tar.TarEntry" start="164" end="164" startBytecode="13" endBytecode="13" sourcefile="TarEntry.java" sourcepath="org/apache/tools/tar/TarEntry.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_PUBLIC_OR_PROTECTED_FIELD" priority="2" rank="18" abbrev="UrF" category="STYLE" first="1">
+    <Class classname="org.apache.tools.tar.TarOutputStream">
+      <SourceLine classname="org.apache.tools.tar.TarOutputStream" sourcefile="TarOutputStream.java" sourcepath="org/apache/tools/tar/TarOutputStream.java"/>
+    </Class>
+    <Field classname="org.apache.tools.tar.TarOutputStream" name="debug" signature="Z" isStatic="false">
+      <SourceLine classname="org.apache.tools.tar.TarOutputStream" sourcefile="TarOutputStream.java" sourcepath="org/apache/tools/tar/TarOutputStream.java"/>
+    </Field>
+    <SourceLine classname="org.apache.tools.tar.TarOutputStream" start="93" end="93" startBytecode="21" endBytecode="21" sourcefile="TarOutputStream.java" sourcepath="org/apache/tools/tar/TarOutputStream.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="1">
+    <Class classname="org.apache.tools.tar.TarUtils">
+      <SourceLine classname="org.apache.tools.tar.TarUtils" sourcefile="TarUtils.java" sourcepath="org/apache/tools/tar/TarUtils.java"/>
+    </Class>
+    <Method classname="org.apache.tools.tar.TarUtils" name="getOctalBytes" signature="(J[BII)I" isStatic="true">
+      <SourceLine classname="org.apache.tools.tar.TarUtils" start="160" end="182" startBytecode="0" endBytecode="73" sourcefile="TarUtils.java" sourcepath="org/apache/tools/tar/TarUtils.java"/>
+    </Method>
+    <LocalVariable name="result" register="5" pc="6" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="org.apache.tools.tar.TarUtils" start="160" end="160" startBytecode="4" endBytecode="4" sourcefile="TarUtils.java" sourcepath="org/apache/tools/tar/TarUtils.java"/>
+    <SourceLine classname="org.apache.tools.tar.TarUtils" start="160" end="160" startBytecode="4" endBytecode="4" sourcefile="TarUtils.java" sourcepath="org/apache/tools/tar/TarUtils.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="result"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Sat, 9 Mar 2019 18:58:42 -0500" total_classes="117" referenced_classes="293" total_bugs="124" total_size="7170" num_packages="7" java_version="1.8.0_201" vm_version="25.201-b09" cpu_seconds="55.66" clock_seconds="83.28" peak_mbytes="945.78" alloc_mbytes="1024.00" gc_seconds="1.41" priority_2="101" priority_1="23">
+    <PackageStats package="com.oreilly.servlet" total_bugs="2" total_types="2" total_size="191" priority_1="2">
+      <ClassStats class="com.oreilly.servlet.MailMessage" sourceFile="MailMessage.java" interface="false" size="162" bugs="1" priority_1="1"/>
+      <ClassStats class="com.oreilly.servlet.MailPrintStream" sourceFile="MailMessage.java" interface="false" size="29" bugs="1" priority_1="1"/>
+    </PackageStats>
+    <PackageStats package="org.apache.tools.ant" total_bugs="29" total_types="42" total_size="2092" priority_2="23" priority_1="6">
+      <ClassStats class="org.apache.tools.ant.BuildEvent" sourceFile="BuildEvent.java" interface="false" size="45" bugs="2" priority_2="2"/>
+      <ClassStats class="org.apache.tools.ant.BuildException" sourceFile="BuildException.java" interface="false" size="35" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.BuildListener" sourceFile="BuildListener.java" interface="true" size="8" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.DefaultLogger" sourceFile="DefaultLogger.java" interface="false" size="57" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.DesirableFilter" sourceFile="DesirableFilter.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.DirectoryScanner" sourceFile="DirectoryScanner.java" interface="false" size="292" bugs="1" priority_2="1"/>
+      <ClassStats class="org.apache.tools.ant.EnumeratedAttribute" sourceFile="EnumeratedAttribute.java" interface="false" size="20" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.IntrospectionHelper" sourceFile="IntrospectionHelper.java" interface="false" size="169" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.IntrospectionHelper$1" sourceFile="IntrospectionHelper.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.IntrospectionHelper$10" sourceFile="IntrospectionHelper.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.IntrospectionHelper$11" sourceFile="IntrospectionHelper.java" interface="false" size="9" bugs="1" priority_2="1"/>
+      <ClassStats class="org.apache.tools.ant.IntrospectionHelper$12" sourceFile="IntrospectionHelper.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.IntrospectionHelper$13" sourceFile="IntrospectionHelper.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.IntrospectionHelper$14" sourceFile="IntrospectionHelper.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.IntrospectionHelper$15" sourceFile="IntrospectionHelper.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.IntrospectionHelper$2" sourceFile="IntrospectionHelper.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.IntrospectionHelper$3" sourceFile="IntrospectionHelper.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.IntrospectionHelper$4" sourceFile="IntrospectionHelper.java" interface="false" size="8" bugs="1" priority_2="1"/>
+      <ClassStats class="org.apache.tools.ant.IntrospectionHelper$5" sourceFile="IntrospectionHelper.java" interface="false" size="8" bugs="1" priority_2="1"/>
+      <ClassStats class="org.apache.tools.ant.IntrospectionHelper$6" sourceFile="IntrospectionHelper.java" interface="false" size="8" bugs="1" priority_2="1"/>
+      <ClassStats class="org.apache.tools.ant.IntrospectionHelper$7" sourceFile="IntrospectionHelper.java" interface="false" size="8" bugs="1" priority_2="1"/>
+      <ClassStats class="org.apache.tools.ant.IntrospectionHelper$8" sourceFile="IntrospectionHelper.java" interface="false" size="8" bugs="1" priority_2="1"/>
+      <ClassStats class="org.apache.tools.ant.IntrospectionHelper$9" sourceFile="IntrospectionHelper.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.IntrospectionHelper$AttributeSetter" sourceFile="IntrospectionHelper.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.IntrospectionHelper$NestedCreator" sourceFile="IntrospectionHelper.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.Location" sourceFile="Location.java" interface="false" size="28" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.Main" sourceFile="Main.java" interface="false" size="174" bugs="3" priority_2="2" priority_1="1"/>
+      <ClassStats class="org.apache.tools.ant.Map" sourceFile="Map.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.Path" sourceFile="Path.java" interface="false" size="70" bugs="1" priority_1="1"/>
+      <ClassStats class="org.apache.tools.ant.PathTokenizer" sourceFile="PathTokenizer.java" interface="false" size="30" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.Project" sourceFile="Project.java" interface="false" size="457" bugs="12" priority_2="10" priority_1="2"/>
+      <ClassStats class="org.apache.tools.ant.ProjectHelper" sourceFile="ProjectHelper.java" interface="false" size="103" bugs="1" priority_1="1"/>
+      <ClassStats class="org.apache.tools.ant.ProjectHelper$AbstractHandler" sourceFile="ProjectHelper.java" interface="false" size="18" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.ProjectHelper$NestedElementHandler" sourceFile="ProjectHelper.java" interface="false" size="31" bugs="1" priority_2="1"/>
+      <ClassStats class="org.apache.tools.ant.ProjectHelper$ProjectHandler" sourceFile="ProjectHelper.java" interface="false" size="52" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.ProjectHelper$RootHandler" sourceFile="ProjectHelper.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.ProjectHelper$TargetHandler" sourceFile="ProjectHelper.java" interface="false" size="46" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.ProjectHelper$TaskHandler" sourceFile="ProjectHelper.java" interface="false" size="30" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.Target" sourceFile="Target.java" interface="false" size="54" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.Task" sourceFile="Task.java" interface="false" size="53" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.TaskAdapter" sourceFile="TaskAdapter.java" interface="false" size="21" bugs="1" priority_2="1"/>
+      <ClassStats class="org.apache.tools.ant.XmlLogger" sourceFile="XmlLogger.java" interface="false" size="131" bugs="1" priority_1="1"/>
+    </PackageStats>
+    <PackageStats package="org.apache.tools.ant.taskdefs" total_bugs="59" total_types="52" total_size="3166" priority_2="47" priority_1="12">
+      <ClassStats class="org.apache.tools.ant.taskdefs.Ant" sourceFile="Ant.java" interface="false" size="71" bugs="1" priority_1="1"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.AntStructure" sourceFile="AntStructure.java" interface="false" size="45" bugs="2" priority_2="2"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.Available" sourceFile="Available.java" interface="false" size="44" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.Chmod" sourceFile="Chmod.java" interface="false" size="39" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.CompileTask" sourceFile="CompileTask.java" interface="false" size="23" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.Copydir" sourceFile="Copydir.java" interface="false" size="35" bugs="3" priority_2="3"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.Copyfile" sourceFile="Copyfile.java" interface="false" size="24" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.Cvs" sourceFile="Cvs.java" interface="false" size="61" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.Delete" sourceFile="Delete.java" interface="false" size="47" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.Deltree" sourceFile="Deltree.java" interface="false" size="32" bugs="1" priority_2="1"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.Echo" sourceFile="Echo.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.Exec" sourceFile="Exec.java" interface="false" size="87" bugs="1" priority_1="1"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.Exec$StreamPumper" sourceFile="Exec.java" interface="false" size="32" bugs="3" priority_2="1" priority_1="2"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.Expand" sourceFile="Expand.java" interface="false" size="52" bugs="1" priority_2="1"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.Filter" sourceFile="Filter.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.FixCRLF" sourceFile="FixCRLF.java" interface="false" size="149" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.FixCRLF$AddAsisRemove" sourceFile="FixCRLF.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.GUnzip" sourceFile="GUnzip.java" interface="false" size="52" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.GZip" sourceFile="GZip.java" interface="false" size="43" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.Get" sourceFile="Get.java" interface="false" size="51" bugs="2" priority_2="2"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.Jar" sourceFile="Jar.java" interface="false" size="30" bugs="1" priority_2="1"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.Java" sourceFile="Java.java" interface="false" size="98" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.Javac" sourceFile="Javac.java" interface="false" size="155" bugs="5" priority_2="5"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.Javac$JarFilenameFilter" sourceFile="Javac.java" interface="false" size="6" bugs="1" priority_2="1"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.JavacOutputStream" sourceFile="JavacOutputStream.java" interface="false" size="27" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.Javadoc" sourceFile="Javadoc.java" interface="false" size="547" bugs="4" priority_2="3" priority_1="1"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.Javadoc$DocletInfo" sourceFile="Javadoc.java" interface="false" size="31" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.Javadoc$DocletParam" sourceFile="Javadoc.java" interface="false" size="16" bugs="1" priority_2="1"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.Javadoc$GroupArgument" sourceFile="Javadoc.java" interface="false" size="17" bugs="1" priority_2="1"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.Javadoc$JavaReader" sourceFile="Javadoc.java" interface="false" size="49" bugs="2" priority_2="2"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.Javadoc$LinkArgument" sourceFile="Javadoc.java" interface="false" size="24" bugs="1" priority_2="1"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.Jikes" sourceFile="Jikes.java" interface="false" size="18" bugs="1" priority_1="1"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.JikesOutputParser" sourceFile="JikesOutputParser.java" interface="false" size="47" bugs="2" priority_2="2"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.KeySubst" sourceFile="KeySubst.java" interface="false" size="85" bugs="3" priority_2="1" priority_1="2"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.MatchingTask" sourceFile="MatchingTask.java" interface="false" size="105" bugs="3" priority_2="1" priority_1="2"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.MatchingTask$NameEntry" sourceFile="MatchingTask.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.Mkdir" sourceFile="Mkdir.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.Patch" sourceFile="Patch.java" interface="false" size="63" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.Property" sourceFile="Property.java" interface="false" size="122" bugs="4" priority_2="4"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.Rename" sourceFile="Rename.java" interface="false" size="25" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.Replace" sourceFile="Replace.java" interface="false" size="67" bugs="4" priority_2="2" priority_1="2"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.Rmic" sourceFile="Rmic.java" interface="false" size="144" bugs="5" priority_2="5"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.SignJar" sourceFile="SignJar.java" interface="false" size="101" bugs="1" priority_2="1"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.Tar" sourceFile="Tar.java" interface="false" size="53" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.TaskOutputStream" sourceFile="TaskOutputStream.java" interface="false" size="23" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.Taskdef" sourceFile="Taskdef.java" interface="false" size="31" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.Touch" sourceFile="Touch.java" interface="false" size="75" bugs="2" priority_2="2"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.Tstamp" sourceFile="Tstamp.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.Untar" sourceFile="Untar.java" interface="false" size="58" bugs="1" priority_2="1"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.XSLTLiaison" sourceFile="XSLTLiaison.java" interface="true" size="3" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.XSLTProcess" sourceFile="XSLTProcess.java" interface="false" size="79" bugs="3" priority_2="3"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.Zip" sourceFile="Zip.java" interface="false" size="103" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="org.apache.tools.ant.taskdefs.optional" total_bugs="5" total_types="5" total_size="328" priority_2="4" priority_1="1">
+      <ClassStats class="org.apache.tools.ant.taskdefs.optional.NetRexxC" sourceFile="NetRexxC.java" interface="false" size="220" bugs="2" priority_2="2"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.optional.RenameExtensions" sourceFile="RenameExtensions.java" interface="false" size="52" bugs="1" priority_2="1"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.optional.Script" sourceFile="Script.java" interface="false" size="38" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.optional.XalanLiaison" sourceFile="XalanLiaison.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.optional.XslpLiaison" sourceFile="XslpLiaison.java" interface="false" size="9" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="org.apache.tools.ant.taskdefs.optional.ejb" total_bugs="17" total_types="8" total_size="501" priority_2="16" priority_1="1">
+      <ClassStats class="org.apache.tools.ant.taskdefs.optional.ejb.DDCreator" sourceFile="DDCreator.java" interface="false" size="37" bugs="1" priority_2="1"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.optional.ejb.DDCreatorHelper" sourceFile="DDCreatorHelper.java" interface="false" size="19" bugs="2" priority_2="2"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar" sourceFile="EjbJar.java" interface="false" size="209" bugs="6" priority_2="6"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar$DescriptorHandler" sourceFile="EjbJar.java" interface="false" size="37" bugs="1" priority_2="1"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.optional.ejb.Ejbc" sourceFile="Ejbc.java" interface="false" size="53" bugs="1" priority_2="1"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.optional.ejb.EjbcHelper" sourceFile="EjbcHelper.java" interface="false" size="43" bugs="6" priority_2="5" priority_1="1"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.optional.ejb.WLRun" sourceFile="WLRun.java" interface="false" size="65" bugs="0"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.optional.ejb.WLStop" sourceFile="WLStop.java" interface="false" size="38" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="org.apache.tools.ant.taskdefs.optional.vss" total_bugs="6" total_types="2" total_size="138" priority_2="6">
+      <ClassStats class="org.apache.tools.ant.taskdefs.optional.vss.MSVSS" sourceFile="MSVSS.java" interface="false" size="49" bugs="2" priority_2="2"/>
+      <ClassStats class="org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET" sourceFile="MSVSSGET.java" interface="false" size="89" bugs="4" priority_2="4"/>
+    </PackageStats>
+    <PackageStats package="org.apache.tools.tar" total_bugs="6" total_types="6" total_size="754" priority_2="5" priority_1="1">
+      <ClassStats class="org.apache.tools.tar.TarBuffer" sourceFile="TarBuffer.java" interface="false" size="181" bugs="0"/>
+      <ClassStats class="org.apache.tools.tar.TarConstants" sourceFile="TarConstants.java" interface="true" size="23" bugs="0"/>
+      <ClassStats class="org.apache.tools.tar.TarEntry" sourceFile="TarEntry.java" interface="false" size="213" bugs="4" priority_2="4"/>
+      <ClassStats class="org.apache.tools.tar.TarInputStream" sourceFile="TarInputStream.java" interface="false" size="166" bugs="0"/>
+      <ClassStats class="org.apache.tools.tar.TarOutputStream" sourceFile="TarOutputStream.java" interface="false" size="107" bugs="1" priority_2="1"/>
+      <ClassStats class="org.apache.tools.tar.TarUtils" sourceFile="TarUtils.java" interface="false" size="64" bugs="1" priority_1="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="5940" invocations="1392" avgMicrosecondsPerInvocation="4267" maxMicrosecondsPerInvocation="3916503" standardDeviationMircosecondsPerInvocation="105093"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="4857" invocations="980" avgMicrosecondsPerInvocation="4956" maxMicrosecondsPerInvocation="1344014" standardDeviationMircosecondsPerInvocation="46032"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="4411" invocations="946" avgMicrosecondsPerInvocation="4663" maxMicrosecondsPerInvocation="229788" standardDeviationMircosecondsPerInvocation="17221"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="3786" invocations="929" avgMicrosecondsPerInvocation="4075" maxMicrosecondsPerInvocation="1320122" standardDeviationMircosecondsPerInvocation="46159"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="3664" invocations="2" avgMicrosecondsPerInvocation="1832405" maxMicrosecondsPerInvocation="2679269" standardDeviationMircosecondsPerInvocation="846863"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OptionalReturnNull" totalMilliseconds="3587" invocations="117" avgMicrosecondsPerInvocation="30665" maxMicrosecondsPerInvocation="3570489" standardDeviationMircosecondsPerInvocation="328664"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="3198" invocations="942" avgMicrosecondsPerInvocation="3395" maxMicrosecondsPerInvocation="375446" standardDeviationMircosecondsPerInvocation="21218"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="2858" invocations="929" avgMicrosecondsPerInvocation="3076" maxMicrosecondsPerInvocation="421721" standardDeviationMircosecondsPerInvocation="19797"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="2517" invocations="929" avgMicrosecondsPerInvocation="2710" maxMicrosecondsPerInvocation="250552" standardDeviationMircosecondsPerInvocation="13401"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="2384" invocations="973" avgMicrosecondsPerInvocation="2451" maxMicrosecondsPerInvocation="306530" standardDeviationMircosecondsPerInvocation="13906"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="1796" invocations="293" avgMicrosecondsPerInvocation="6129" maxMicrosecondsPerInvocation="162978" standardDeviationMircosecondsPerInvocation="14510"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="1530" invocations="293" avgMicrosecondsPerInvocation="5222" maxMicrosecondsPerInvocation="93254" standardDeviationMircosecondsPerInvocation="10802"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="1174" invocations="708" avgMicrosecondsPerInvocation="1658" maxMicrosecondsPerInvocation="191866" standardDeviationMircosecondsPerInvocation="9000"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindBadForLoop" totalMilliseconds="1040" invocations="117" avgMicrosecondsPerInvocation="8894" maxMicrosecondsPerInvocation="831354" standardDeviationMircosecondsPerInvocation="76493"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="928" invocations="929" avgMicrosecondsPerInvocation="999" maxMicrosecondsPerInvocation="80242" standardDeviationMircosecondsPerInvocation="3923"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ConstantDataflowFactory" totalMilliseconds="783" invocations="929" avgMicrosecondsPerInvocation="843" maxMicrosecondsPerInvocation="122508" standardDeviationMircosecondsPerInvocation="4981"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.StreamResourceTracker" totalMilliseconds="765" invocations="173" avgMicrosecondsPerInvocation="4422" maxMicrosecondsPerInvocation="61244" standardDeviationMircosecondsPerInvocation="10807"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindHEmismatch" totalMilliseconds="629" invocations="117" avgMicrosecondsPerInvocation="5377" maxMicrosecondsPerInvocation="282978" standardDeviationMircosecondsPerInvocation="26814"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="610" invocations="293" avgMicrosecondsPerInvocation="2085" maxMicrosecondsPerInvocation="154193" standardDeviationMircosecondsPerInvocation="12791"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindOpenStream" totalMilliseconds="598" invocations="117" avgMicrosecondsPerInvocation="5113" maxMicrosecondsPerInvocation="234732" standardDeviationMircosecondsPerInvocation="22948"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.EqualsOperandShouldHaveClassCompatibleWithThis" totalMilliseconds="566" invocations="293" avgMicrosecondsPerInvocation="1934" maxMicrosecondsPerInvocation="389726" standardDeviationMircosecondsPerInvocation="22742"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNullDeref$CheckCallSitesAndReturnInstructions" totalMilliseconds="557" invocations="929" avgMicrosecondsPerInvocation="600" maxMicrosecondsPerInvocation="104648" standardDeviationMircosecondsPerInvocation="4559"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="488" invocations="358" avgMicrosecondsPerInvocation="1365" maxMicrosecondsPerInvocation="62147" standardDeviationMircosecondsPerInvocation="4602"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="456" invocations="293" avgMicrosecondsPerInvocation="1557" maxMicrosecondsPerInvocation="57430" standardDeviationMircosecondsPerInvocation="4601"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1552176107150" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

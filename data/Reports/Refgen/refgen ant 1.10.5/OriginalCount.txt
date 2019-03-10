@@ -1,0 +1,8 @@
+Fitness original system:17.0,antipatterns remained:17Number of classes in the original system: 248
+Number of refactoring Opportunities: 9
+Original anti-pattern count
+6 solutions for LazyClass in 0 in 50 ms.
+9 solutions for LongParameterList in 0 in 28 ms.
+0 solutions for SpaghettiCode in 0 in 34 ms.
+0 solutions for Blob in 0 in 147 ms.
+2 solutions for SpeculativeGenerality in 0 in 8 ms.

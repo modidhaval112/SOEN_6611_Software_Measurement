@@ -1,0 +1,13 @@
+Mar 10, 2019 4:46:23 PM Refactoring.Generator.RefGen main
+INFO: refactoringIds file was not set in .prop file. 
+Mar 10, 2019 4:47:09 PM Refactoring.Generator.RefGen main
+INFO: Program analized... ant-rel-1.10.5
+Mar 10, 2019 4:47:09 PM Refactoring.Generator.RefGen main
+INFO: NOC 248
+Mar 10, 2019 4:47:49 PM Refactoring.Generator.RefGen main
+INFO: Starting at: Sun Mar 10 16:47:49 EDT 2019
+Mar 10, 2019 4:48:30 PM modelManager.RefactoringAbstractModel computeQMOOD
+WARNING: 
+Time of QMOOD computation:39555 ms.
+Mar 10, 2019 4:48:39 PM Refactoring.Generator.RefGen main
+INFO: Ending at: Sun Mar 10 16:48:39 EDT 2019

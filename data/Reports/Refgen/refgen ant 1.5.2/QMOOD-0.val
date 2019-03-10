@@ -1,0 +1,3028 @@
+Class:Property
+	Reusability:	827.5	Flexibility:	0.0	Understandability:	-546.5172058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Reference
+	Reusability:	827.5	Flexibility:	0.0	Understandability:	-546.5172058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Argument
+	Reusability:	827.5	Flexibility:	0.0	Understandability:	-546.5172058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:SysProperties
+	Reusability:	827.5	Flexibility:	0.0	Understandability:	-546.5172058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:TimeComparisons
+	Reusability:	827.5	Flexibility:	0.0	Understandability:	-546.5172058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Config
+	Reusability:	827.5	Flexibility:	0.0	Understandability:	-546.5172058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Variable
+	Reusability:	827.5	Flexibility:	0.0	Understandability:	-546.5172058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:FilterAttribute
+	Reusability:	827.5	Flexibility:	0.0	Understandability:	-546.5172058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Attribute
+	Reusability:	827.5	Flexibility:	0.0	Understandability:	-546.5172058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Section
+	Reusability:	827.5	Flexibility:	0.0	Understandability:	-546.5172058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:MapperType
+	Reusability:	827.5	Flexibility:	0.0	Understandability:	-546.5172058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:SelectorEntry
+	Reusability:	827.5	Flexibility:	0.0	Understandability:	-546.5172058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Include
+	Reusability:	827.5	Flexibility:	0.0	Understandability:	-546.5172058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:ByteUnits
+	Reusability:	827.5	Flexibility:	0.0	Understandability:	-546.5172058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:SizeComparisons
+	Reusability:	827.5	Flexibility:	0.0	Understandability:	-546.5172058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:A
+	Reusability:	828.0	Flexibility:	0.75	Understandability:	-546.5172058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.6225490196078431
+
+Class:APrivate
+	Reusability:	828.0	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:B
+	Reusability:	828.0	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:C
+	Reusability:	828.0	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	0.9938725490196079	Effectiveness:	0.39754901960784317
+
+Class:D
+	Reusability:	828.0	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	0.9938725490196079	Effectiveness:	0.39754901960784317
+
+Class:Junk1
+	Reusability:	825.75	Flexibility:	-2.5	Understandability:	-550.807205882353	Extendibility:	-5.054738562091503	Effectiveness:	0.5781045751633987
+
+Class:AntLibDefinition
+	Reusability:	829.5	Flexibility:	0.75	Understandability:	-547.5072058823529	Extendibility:	0.874554367201426	Effectiveness:	0.7498217468805705
+
+Class:AntLibHandler
+	Reusability:	828.5	Flexibility:	-0.71875	Understandability:	-549.4459558823529	Extendibility:	-1.9436274509803921	Effectiveness:	0.44754901960784316
+
+Class:AntLibManager
+	Reusability:	825.75	Flexibility:	-4.375	Understandability:	-555.2622058823529	Extendibility:	-9.21029411764706	Effectiveness:	0.6158823529411765
+
+Class:AntLibrary
+	Reusability:	827.25	Flexibility:	-5.25	Understandability:	-558.7272058823529	Extendibility:	-12.268627450980391	Effectiveness:	0.8925490196078432
+
+Class:AntLibrarySpec
+	Reusability:	832.5	Flexibility:	-3.5	Understandability:	-559.3872058823529	Extendibility:	-9.813997821350762	Effectiveness:	1.074400871459695
+
+Class:ClassNameHandler
+	Reusability:	829.0	Flexibility:	-0.25	Understandability:	-547.8372058823529	Extendibility:	0.056372549019607865	Effectiveness:	0.22254901960784315
+
+Class:ComponentLibrary
+	Reusability:	827.75	Flexibility:	1.0	Understandability:	-547.5072058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.6225490196078431
+
+Class:DefinitionHandler
+	Reusability:	829.75	Flexibility:	-0.4166666666666667	Understandability:	-548.7172058823529	Extendibility:	-0.44362745098039214	Effectiveness:	0.28921568627450983
+
+Class:DynamicLibrary
+	Reusability:	826.75	Flexibility:	-2.7916666666666665	Understandability:	-553.172205882353	Extendibility:	-7.174396681749623	Effectiveness:	0.8969079939668176
+
+Class:AntConfig
+	Reusability:	828.0	Flexibility:	-3.0	Understandability:	-555.427205882353	Extendibility:	-8.737745098039216	Effectiveness:	1.1049019607843138
+
+Class:AntConfigHandler
+	Reusability:	829.5	Flexibility:	0.3	Understandability:	-548.1012058823529	Extendibility:	0.056372549019607865	Effectiveness:	0.46254901960784317
+
+Class:AttributeSetter
+	Reusability:	829.0	Flexibility:	0.0	Understandability:	-549.4872058823529	Extendibility:	-1.674396681749623	Effectiveness:	0.9302413273001509
+
+Class:BuildEventSupport
+	Reusability:	817.0	Flexibility:	-16.5	Understandability:	-571.927205882353	Extendibility:	-32.759416924664606	Effectiveness:	0.496233230134159
+
+Class:ClassIntrospector
+	Reusability:	822.25	Flexibility:	-5.75	Understandability:	-555.7572058823529	Extendibility:	-12.125445632798574	Effectiveness:	0.7498217468805705
+
+Class:ComponentManager
+	Reusability:	821.25	Flexibility:	-10.75	Understandability:	-568.297205882353	Extendibility:	-21.33072422517394	Effectiveness:	0.46771030993042384
+
+Class:Constants
+	Reusability:	828.0	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	0.9938725490196079	Effectiveness:	0.39754901960784317
+
+Class:CoreDataService
+	Reusability:	827.25	Flexibility:	-3.25	Understandability:	-553.777205882353	Extendibility:	-7.2102941176470585	Effectiveness:	0.7158823529411765
+
+Class:CoreEventService
+	Reusability:	828.75	Flexibility:	0.25	Understandability:	-546.8472058823529	Extendibility:	0.9063725490196078	Effectiveness:	0.5625490196078432
+
+Class:CoreExecService
+	Reusability:	832.25	Flexibility:	0.25	Understandability:	-549.4872058823529	Extendibility:	0.7508169934640523	Effectiveness:	0.5003267973856209
+
+Class:CoreFileService
+	Reusability:	828.0	Flexibility:	0.5	Understandability:	-546.8472058823529	Extendibility:	0.44526143790849676	Effectiveness:	0.7781045751633987
+
+Class:CoreInputService
+	Reusability:	828.25	Flexibility:	0.25	Understandability:	-546.5172058823529	Extendibility:	0.9452614379084967	Effectiveness:	0.5781045751633987
+
+Class:DeferredSetter
+	Reusability:	833.25	Flexibility:	0.0	Understandability:	-549.8172058823529	Extendibility:	0.7508169934640523	Effectiveness:	0.30032679738562096
+
+Class:ExecutionContext
+	Reusability:	829.5	Flexibility:	1.5	Understandability:	-548.4972058823529	Extendibility:	0.30637254901960786	Effectiveness:	1.1225490196078434
+
+Class:ExecutionException
+	Reusability:	830.5	Flexibility:	0.0	Understandability:	-548.4972058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:ExecutionManager
+	Reusability:	830.25	Flexibility:	1.25	Understandability:	-548.4972058823529	Extendibility:	-0.17439668174962292	Effectiveness:	1.130241327300151
+
+Class:ImportInfo
+	Reusability:	830.0	Flexibility:	1.25	Understandability:	-547.8372058823529	Extendibility:	0.8480392156862746	Effectiveness:	0.9392156862745099
+
+Class:Reflector
+	Reusability:	825.5	Flexibility:	-9.5	Understandability:	-564.3372058823529	Extendibility:	-18.79779411764706	Effectiveness:	0.48088235294117654
+
+Class:ElementAdder
+	Reusability:	827.5	Flexibility:	-0.25	Understandability:	-546.8472058823529	Extendibility:	0.056372549019607865	Effectiveness:	0.22254901960784315
+
+Class:ElementCreator
+	Reusability:	827.5	Flexibility:	-0.25	Understandability:	-546.8472058823529	Extendibility:	0.056372549019607865	Effectiveness:	0.22254901960784315
+
+Class:Setter
+	Reusability:	827.75	Flexibility:	0.0	Understandability:	-549.4872058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:TaskAdapter
+	Reusability:	827.75	Flexibility:	-0.5	Understandability:	-547.8372058823529	Extendibility:	-0.9436274509803921	Effectiveness:	0.4225490196078432
+
+Class:BuildElementHandler
+	Reusability:	828.75	Flexibility:	-0.75	Understandability:	-549.157205882353	Extendibility:	-1.4436274509803921	Effectiveness:	0.4225490196078432
+
+Class:IncludeHandler
+	Reusability:	828.5	Flexibility:	-0.125	Understandability:	-547.3422058823529	Extendibility:	0.056372549019607865	Effectiveness:	0.32254901960784316
+
+Class:ModelElementHandler
+	Reusability:	828.25	Flexibility:	0.75	Understandability:	-546.8472058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.6225490196078431
+
+Class:ProjectHandler
+	Reusability:	829.0	Flexibility:	-1.2142857142857142	Understandability:	-549.7700630252101	Extendibility:	-1.9436274509803921	Effectiveness:	0.2511204481792717
+
+Class:TargetHandler
+	Reusability:	822.25	Flexibility:	-7.458333333333333	Understandability:	-557.682205882353	Extendibility:	-14.443627450980392	Effectiveness:	0.2558823529411765
+
+Class:XMLProjectParser
+	Reusability:	828.5	Flexibility:	-0.25	Understandability:	-547.177205882353	Extendibility:	0.44526143790849676	Effectiveness:	0.3781045751633987
+
+Class:ElementHandler
+	Reusability:	824.25	Flexibility:	-7.75	Understandability:	-563.677205882353	Extendibility:	-16.443627450980394	Effectiveness:	0.6225490196078431
+
+Class:ParseContext
+	Reusability:	826.75	Flexibility:	-1.75	Understandability:	-550.1472058823529	Extendibility:	-4.093627450980392	Effectiveness:	0.7625490196078432
+
+Class:RootHandler
+	Reusability:	827.0	Flexibility:	-1.0	Understandability:	-549.8172058823529	Extendibility:	-3.943627450980392	Effectiveness:	0.8225490196078432
+
+Class:XMLParseException
+	Reusability:	830.5	Flexibility:	0.0	Understandability:	-548.4972058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:ScriptBase
+	Reusability:	821.5	Flexibility:	-8.0	Understandability:	-559.7172058823529	Extendibility:	-16.943627450980394	Effectiveness:	0.6225490196078431
+
+Class:ScriptDef
+	Reusability:	830.0	Flexibility:	0.5	Understandability:	-548.167205882353	Extendibility:	0.056372549019607865	Effectiveness:	0.6225490196078431
+
+Class:ScriptFactory
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-548.8272058823529	Extendibility:	-0.9436274509803921	Effectiveness:	0.6225490196078431
+
+Class:ScriptInfo
+	Reusability:	828.5	Flexibility:	-0.25	Understandability:	-547.8372058823529	Extendibility:	-0.09362745098039216	Effectiveness:	0.5625490196078432
+
+Class:Ant
+	Reusability:	826.75	Flexibility:	-3.25	Understandability:	-552.1272058823529	Extendibility:	-6.443627450980392	Effectiveness:	0.4225490196078432
+
+Class:AntBase
+	Reusability:	830.75	Flexibility:	1.25	Understandability:	-548.8272058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.8225490196078432
+
+Class:AntCall
+	Reusability:	829.25	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:FileConverter
+	Reusability:	829.25	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Import
+	Reusability:	830.75	Flexibility:	-0.25	Understandability:	-548.8272058823529	Extendibility:	-0.44362745098039214	Effectiveness:	0.4225490196078432
+
+Class:LibPath
+	Reusability:	831.0	Flexibility:	0.0	Understandability:	-548.8272058823529	Extendibility:	0.056372549019607865	Effectiveness:	0.4225490196078432
+
+Class:LoadLib
+	Reusability:	830.25	Flexibility:	-0.25	Understandability:	-549.8172058823529	Extendibility:	-1.4436274509803921	Effectiveness:	0.6225490196078431
+
+Class:Parallel
+	Reusability:	824.5	Flexibility:	-4.5	Understandability:	-553.1172058823529	Extendibility:	-8.943627450980392	Effectiveness:	0.4225490196078432
+
+Class:TaskThread
+	Reusability:	828.25	Flexibility:	1.0	Understandability:	-547.5072058823529	Extendibility:	0.4563725490196079	Effectiveness:	0.9825490196078432
+
+Class:PrimitiveConverter
+	Reusability:	828.75	Flexibility:	-0.5	Understandability:	-547.8372058823529	Extendibility:	-0.44362745098039214	Effectiveness:	0.22254901960784315
+
+Class:Ref
+	Reusability:	830.0	Flexibility:	0.5	Understandability:	-547.8372058823529	Extendibility:	0.056372549019607865	Effectiveness:	0.6225490196078431
+
+Class:Sequential
+	Reusability:	826.25	Flexibility:	-2.75	Understandability:	-550.807205882353	Extendibility:	-5.443627450980392	Effectiveness:	0.4225490196078432
+
+Class:SubBuild
+	Reusability:	824.5	Flexibility:	-4.0	Understandability:	-555.427205882353	Extendibility:	-9.943627450980392	Effectiveness:	0.8225490196078432
+
+Class:Property
+	Reusability:	828.5	Flexibility:	-2.0	Understandability:	-550.807205882353	Extendibility:	-3.943627450980392	Effectiveness:	0.4225490196078432
+
+Class:Reference
+	Reusability:	830.25	Flexibility:	-0.25	Understandability:	-548.4972058823529	Extendibility:	-0.44362745098039214	Effectiveness:	0.4225490196078432
+
+Class:Taskdef
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Typedef
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:URLConverter
+	Reusability:	829.25	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Bootstrap
+	Reusability:	824.75	Flexibility:	-4.0	Understandability:	-552.1272058823529	Extendibility:	-7.054738562091503	Effectiveness:	0.3781045751633987
+
+Class:Ant1CompatBuilder
+	Reusability:	828.25	Flexibility:	0.0	Understandability:	-547.8372058823529	Extendibility:	0.8480392156862746	Effectiveness:	0.3392156862745098
+
+Class:BuildHelper
+	Reusability:	776.5	Flexibility:	-51.5	Understandability:	-620.7672058823529	Extendibility:	-102.81399782135075	Effectiveness:	0.47440087145969506
+
+Class:FileSetInfo
+	Reusability:	826.75	Flexibility:	-1.0	Understandability:	-548.167205882353	Extendibility:	-1.5061274509803921	Effectiveness:	0.5975490196078432
+
+Class:Builder
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.8372058823529	Extendibility:	0.34803921568627455	Effectiveness:	0.5392156862745099
+
+Class:MutantBuilder
+	Reusability:	828.25	Flexibility:	0.0	Understandability:	-551.4672058823529	Extendibility:	0.7085464620630861	Effectiveness:	0.28341858482523447
+
+Class:BuildLogger
+	Reusability:	827.75	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Commandline
+	Reusability:	766.75	Flexibility:	-60.25	Understandability:	-631.6572058823529	Extendibility:	-123.25941692466459	Effectiveness:	1.096233230134159
+
+Class:DefaultLogger
+	Reusability:	775.5	Flexibility:	-56.5	Understandability:	-628.027205882353	Extendibility:	-116.77696078431372	Effectiveness:	1.2892156862745099
+
+Class:AbstractComponent
+	Reusability:	830.25	Flexibility:	0.75	Understandability:	-548.167205882353	Extendibility:	0.8063725490196079	Effectiveness:	0.7225490196078431
+
+Class:AbstractConverter
+	Reusability:	829.25	Flexibility:	0.75	Understandability:	-547.177205882353	Extendibility:	0.874554367201426	Effectiveness:	0.7498217468805705
+
+Class:AbstractTask
+	Reusability:	830.25	Flexibility:	0.25	Understandability:	-547.5072058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.4225490196078432
+
+Class:AntContext
+	Reusability:	827.75	Flexibility:	0.0	Understandability:	-547.5072058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:AntLibFactory
+	Reusability:	827.75	Flexibility:	0.0	Understandability:	-547.5072058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Converter
+	Reusability:	827.75	Flexibility:	0.0	Understandability:	-547.5072058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:DataType
+	Reusability:	827.5	Flexibility:	0.0	Understandability:	-546.5172058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:DeferredTask
+	Reusability:	827.75	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:ExecutionComponent
+	Reusability:	827.75	Flexibility:	0.0	Understandability:	-547.5072058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:StandardLibFactory
+	Reusability:	829.75	Flexibility:	0.25	Understandability:	-548.4972058823529	Extendibility:	-0.17439668174962292	Effectiveness:	0.7302413273001509
+
+Class:Task
+	Reusability:	827.75	Flexibility:	0.0	Understandability:	-547.8372058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:TaskContainer
+	Reusability:	827.75	Flexibility:	0.0	Understandability:	-546.5172058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:BuildListener
+	Reusability:	827.75	Flexibility:	0.0	Understandability:	-548.4972058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:BuildListenerAdapter
+	Reusability:	831.75	Flexibility:	0.0	Understandability:	-548.8272058823529	Extendibility:	0.7897058823529413	Effectiveness:	0.3158823529411765
+
+Class:MessageLevel
+	Reusability:	828.0	Flexibility:	2.5	Understandability:	-546.8472058823529	Extendibility:	0.9938725490196079	Effectiveness:	1.3975490196078433
+
+Class:InputRequest
+	Reusability:	830.25	Flexibility:	0.25	Understandability:	-547.5072058823529	Extendibility:	0.8480392156862746	Effectiveness:	0.5392156862745099
+
+Class:BuildElement
+	Reusability:	825.0	Flexibility:	-7.0	Understandability:	-558.3972058823529	Extendibility:	-13.943627450980392	Effectiveness:	0.4225490196078432
+
+Class:ModelElement
+	Reusability:	830.0	Flexibility:	-1.5	Understandability:	-552.787205882353	Extendibility:	-4.737745098039215	Effectiveness:	0.9049019607843138
+
+Class:ModelException
+	Reusability:	830.5	Flexibility:	0.0	Understandability:	-548.4972058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Project
+	Reusability:	825.25	Flexibility:	-9.785714285714286	Understandability:	-564.0543487394958	Extendibility:	-19.443627450980394	Effectiveness:	0.3939775910364146
+
+Class:Target
+	Reusability:	828.25	Flexibility:	-5.75	Understandability:	-558.0672058823529	Extendibility:	-11.443627450980392	Effectiveness:	0.4225490196078432
+
+Class:ComponentService
+	Reusability:	827.75	Flexibility:	0.0	Understandability:	-549.157205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:DataService
+	Reusability:	827.75	Flexibility:	0.0	Understandability:	-548.4972058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:EventService
+	Reusability:	827.75	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:ExecService
+	Reusability:	827.75	Flexibility:	0.0	Understandability:	-549.157205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:FileService
+	Reusability:	827.75	Flexibility:	0.0	Understandability:	-546.5172058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:InputService
+	Reusability:	827.75	Flexibility:	0.0	Understandability:	-546.5172058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:MagicProperties
+	Reusability:	828.0	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	0.9938725490196079	Effectiveness:	0.39754901960784317
+
+Class:CircularDependencyChecker
+	Reusability:	827.0	Flexibility:	-2.0	Understandability:	-550.1472058823529	Extendibility:	-3.6254456327985736	Effectiveness:	0.5498217468805705
+
+Class:CircularDependencyException
+	Reusability:	830.5	Flexibility:	0.0	Understandability:	-548.4972058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:ConfigException
+	Reusability:	830.5	Flexibility:	0.0	Understandability:	-548.4972058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:DemuxOutputReceiver
+	Reusability:	827.75	Flexibility:	0.0	Understandability:	-546.5172058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:DemuxOutputStream
+	Reusability:	820.5	Flexibility:	-7.5	Understandability:	-560.3772058823529	Extendibility:	-17.832516339869283	Effectiveness:	1.0669934640522878
+
+Class:BufferInfo
+	Reusability:	823.5	Flexibility:	-3.75	Understandability:	-552.4572058823529	Extendibility:	-8.006127450980392	Effectiveness:	0.7975490196078432
+
+Class:ExecutionException
+	Reusability:	830.5	Flexibility:	0.0	Understandability:	-548.4972058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:PathTokenizer
+	Reusability:	823.25	Flexibility:	-5.0	Understandability:	-554.7672058823529	Extendibility:	-10.593627450980392	Effectiveness:	0.7625490196078432
+
+Class:PropertyUtils
+	Reusability:	826.25	Flexibility:	-3.0	Understandability:	-551.1372058823529	Extendibility:	-5.093627450980392	Effectiveness:	0.36254901960784314
+
+Class:StringUtils
+	Reusability:	826.25	Flexibility:	-4.0	Understandability:	-553.1172058823529	Extendibility:	-7.151960784313725	Effectiveness:	0.3392156862745098
+
+Class:Case
+	Reusability:	829.25	Flexibility:	-0.25	Understandability:	-548.8272058823529	Extendibility:	-1.4436274509803921	Effectiveness:	0.6225490196078431
+
+Class:When
+	Reusability:	823.75	Flexibility:	-7.25	Understandability:	-558.0672058823529	Extendibility:	-14.193627450980392	Effectiveness:	0.5225490196078432
+
+Class:FrontendUtils
+	Reusability:	829.25	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.9063725490196078	Effectiveness:	0.36254901960784314
+
+Class:ClassLocator
+	Reusability:	821.25	Flexibility:	-8.0	Understandability:	-557.7372058823529	Extendibility:	-15.093627450980392	Effectiveness:	0.36254901960784314
+
+Class:InitConfig
+	Reusability:	834.75	Flexibility:	-2.275	Understandability:	-555.7902058823529	Extendibility:	-4.313997821350762	Effectiveness:	0.45440087145969504
+
+Class:InitUtils
+	Reusability:	827.0	Flexibility:	-1.75	Understandability:	-549.157205882353	Extendibility:	-2.554738562091503	Effectiveness:	0.3781045751633987
+
+Class:RemoteMain
+	Reusability:	818.5	Flexibility:	-10.25	Understandability:	-560.3772058823529	Extendibility:	-19.554738562091504	Effectiveness:	0.3781045751633987
+
+Class:Main
+	Reusability:	825.25	Flexibility:	-4.0	Understandability:	-552.787205882353	Extendibility:	-7.125445632798574	Effectiveness:	0.34982174688057044
+
+Class:BaseParamFilterReader
+	Reusability:	828.25	Flexibility:	-0.25	Understandability:	-548.4972058823529	Extendibility:	-1.4436274509803921	Effectiveness:	0.6225490196078431
+
+Class:ChainableReader
+	Reusability:	828.25	Flexibility:	0.0	Understandability:	-546.5172058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:ClassConstants
+	Reusability:	823.25	Flexibility:	-6.25	Understandability:	-555.7572058823529	Extendibility:	-12.443627450980392	Effectiveness:	0.4225490196078432
+
+Class:ExpandProperties
+	Reusability:	824.75	Flexibility:	-4.75	Understandability:	-553.777205882353	Extendibility:	-9.443627450980392	Effectiveness:	0.4225490196078432
+
+Class:HeadFilter
+	Reusability:	829.25	Flexibility:	0.25	Understandability:	-549.4872058823529	Extendibility:	-1.4436274509803921	Effectiveness:	0.8225490196078432
+
+Class:LineContains
+	Reusability:	822.5	Flexibility:	-7.5	Understandability:	-558.7272058823529	Extendibility:	-14.943627450980392	Effectiveness:	0.4225490196078432
+
+Class:Contains
+	Reusability:	827.5	Flexibility:	-1.5	Understandability:	-549.157205882353	Extendibility:	-2.593627450980392	Effectiveness:	0.5625490196078432
+
+Class:LineContainsRegExp
+	Reusability:	824.75	Flexibility:	-5.25	Understandability:	-555.7572058823529	Extendibility:	-10.443627450980392	Effectiveness:	0.4225490196078432
+
+Class:LineContainsTest
+	Reusability:	829.5	Flexibility:	0.0	Understandability:	-547.8372058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:PrefixLines
+	Reusability:	824.75	Flexibility:	-5.25	Understandability:	-555.427205882353	Extendibility:	-10.443627450980392	Effectiveness:	0.4225490196078432
+
+Class:StringInputStream
+	Reusability:	828.25	Flexibility:	-2.25	Understandability:	-551.1372058823529	Extendibility:	-4.318627450980392	Effectiveness:	0.4725490196078432
+
+Class:StripJavaComments
+	Reusability:	829.75	Flexibility:	1.25	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.8225490196078432
+
+Class:StripLineBreaks
+	Reusability:	829.75	Flexibility:	-0.25	Understandability:	-548.8272058823529	Extendibility:	-0.44362745098039214	Effectiveness:	0.4225490196078432
+
+Class:StripLineComments
+	Reusability:	823.25	Flexibility:	-6.75	Understandability:	-557.7372058823529	Extendibility:	-13.443627450980392	Effectiveness:	0.4225490196078432
+
+Class:Comment
+	Reusability:	827.5	Flexibility:	-1.5	Understandability:	-549.157205882353	Extendibility:	-2.593627450980392	Effectiveness:	0.5625490196078432
+
+Class:TabsToSpaces
+	Reusability:	829.75	Flexibility:	1.25	Understandability:	-548.8272058823529	Extendibility:	-0.44362745098039214	Effectiveness:	1.0225490196078433
+
+Class:TailFilter
+	Reusability:	824.25	Flexibility:	-2.75	Understandability:	-556.0872058823529	Extendibility:	-11.443627450980392	Effectiveness:	1.6225490196078434
+
+Class:ChainReaderHelper
+	Reusability:	825.75	Flexibility:	-4.9375	Understandability:	-556.6647058823529	Extendibility:	-11.21029411764706	Effectiveness:	0.7658823529411766
+
+Class:ProjectHelperImpl
+	Reusability:	822.0	Flexibility:	-6.0	Understandability:	-555.7572058823529	Extendibility:	-12.943627450980392	Effectiveness:	0.6225490196078431
+
+Class:AbstractHandler
+	Reusability:	828.25	Flexibility:	0.625	Understandability:	-550.6422058823529	Extendibility:	-0.9436274509803919	Effectiveness:	1.1225490196078431
+
+Class:DataTypeHandler
+	Reusability:	821.0	Flexibility:	-9.0	Understandability:	-559.7172058823529	Extendibility:	-17.80077030812325	Effectiveness:	0.47969187675070035
+
+Class:NestedElementHandler
+	Reusability:	821.25	Flexibility:	-8.25	Understandability:	-558.3972058823529	Extendibility:	-16.276960784313726	Effectiveness:	0.48921568627450984
+
+Class:ProjectHandler
+	Reusability:	826.25	Flexibility:	-3.0	Understandability:	-552.787205882353	Extendibility:	-5.307263814616755	Effectiveness:	0.2770944741532977
+
+Class:RootHandler
+	Reusability:	826.25	Flexibility:	-3.0	Understandability:	-552.1272058823529	Extendibility:	-6.443627450980392	Effectiveness:	0.4225490196078432
+
+Class:TargetHandler
+	Reusability:	821.5	Flexibility:	-7.5	Understandability:	-557.0772058823529	Extendibility:	-14.693627450980392	Effectiveness:	0.5225490196078432
+
+Class:TaskHandler
+	Reusability:	821.0	Flexibility:	-7.5	Understandability:	-559.057205882353	Extendibility:	-16.86029411764706	Effectiveness:	0.8558823529411765
+
+Class:ProjectHelperImpl2
+	Reusability:	822.0	Flexibility:	-7.0	Understandability:	-556.417205882353	Extendibility:	-13.943627450980392	Effectiveness:	0.4225490196078432
+
+Class:AntHandler
+	Reusability:	829.75	Flexibility:	1.5	Understandability:	-549.8172058823529	Extendibility:	1.8480392156862746	Effectiveness:	1.1392156862745098
+
+Class:AntXmlContext
+	Reusability:	826.25	Flexibility:	-1.5	Understandability:	-549.4872058823529	Extendibility:	-3.054738562091503	Effectiveness:	0.5781045751633987
+
+Class:DataTypeHandler
+	Reusability:	820.75	Flexibility:	-8.75	Understandability:	-559.057205882353	Extendibility:	-17.11029411764706	Effectiveness:	0.5558823529411765
+
+Class:MainHandler
+	Reusability:	829.0	Flexibility:	-0.25	Understandability:	-547.5072058823529	Extendibility:	0.43137254901960786	Effectiveness:	0.37254901960784315
+
+Class:NestedElementHandler
+	Reusability:	821.5	Flexibility:	-8.0	Understandability:	-558.0672058823529	Extendibility:	-15.610294117647058	Effectiveness:	0.5558823529411765
+
+Class:ProjectHandler
+	Reusability:	826.0	Flexibility:	-3.25	Understandability:	-551.4672058823529	Extendibility:	-5.568627450980392	Effectiveness:	0.37254901960784315
+
+Class:RootHandler
+	Reusability:	826.75	Flexibility:	-3.0	Understandability:	-553.4472058823529	Extendibility:	-7.443627450980392	Effectiveness:	0.6225490196078431
+
+Class:TargetHandler
+	Reusability:	821.5	Flexibility:	-7.5	Understandability:	-557.0772058823529	Extendibility:	-14.568627450980392	Effectiveness:	0.5725490196078432
+
+Class:TaskHandler
+	Reusability:	822.25	Flexibility:	-6.75	Understandability:	-558.0672058823529	Extendibility:	-15.151960784313726	Effectiveness:	0.9392156862745099
+
+Class:DefaultInputHandler
+	Reusability:	825.75	Flexibility:	-3.0	Understandability:	-551.4672058823529	Extendibility:	-5.125445632798574	Effectiveness:	0.34982174688057044
+
+Class:InputHandler
+	Reusability:	827.75	Flexibility:	0.0	Understandability:	-546.5172058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:InputRequest
+	Reusability:	828.0	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	1.0147058823529411	Effectiveness:	0.40588235294117647
+
+Class:MultipleChoiceInputRequest
+	Reusability:	828.75	Flexibility:	0.0	Understandability:	-547.5072058823529	Extendibility:	0.056372549019607865	Effectiveness:	0.4225490196078432
+
+Class:PropertyFileInputHandler
+	Reusability:	827.0	Flexibility:	-1.625	Understandability:	-549.3222058823529	Extendibility:	-2.593627450980392	Effectiveness:	0.4625490196078431
+
+Class:AnsiColorLogger
+	Reusability:	823.0	Flexibility:	7.5	Understandability:	-553.777205882353	Extendibility:	-9.943627450980392	Effectiveness:	5.422549019607843
+
+Class:CommonsLoggingListener
+	Reusability:	831.25	Flexibility:	0.75	Understandability:	-549.157205882353	Extendibility:	-0.2102941176470588	Effectiveness:	0.9158823529411766
+
+Class:Log4jListener
+	Reusability:	830.25	Flexibility:	-0.75	Understandability:	-550.4772058823529	Extendibility:	-2.2102941176470585	Effectiveness:	0.7158823529411765
+
+Class:Ant1Converter
+	Reusability:	828.75	Flexibility:	-0.75	Understandability:	-548.4972058823529	Extendibility:	-1.4436274509803921	Effectiveness:	0.4225490196078432
+
+Class:Ant1Factory
+	Reusability:	826.25	Flexibility:	-3.25	Understandability:	-553.1172058823529	Extendibility:	-7.443627450980392	Effectiveness:	0.6225490196078431
+
+Class:Ant1InputHandler
+	Reusability:	828.75	Flexibility:	0.75	Understandability:	-546.5172058823529	Extendibility:	0.9452614379084967	Effectiveness:	0.7781045751633987
+
+Class:AntClassLoader
+	Reusability:	818.25	Flexibility:	-19.75	Understandability:	-587.4372058823529	Extendibility:	-43.35667092924126	Effectiveness:	1.2573316283034954
+
+Class:ResourceEnumeration
+	Reusability:	827.5	Flexibility:	-0.25	Understandability:	-548.8272058823529	Extendibility:	-1.125445632798574	Effectiveness:	0.7498217468805705
+
+Class:AntClassLoaderTest
+	Reusability:	829.0	Flexibility:	0.25	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.4225490196078432
+
+Class:BuildListener
+	Reusability:	827.75	Flexibility:	0.0	Understandability:	-548.4972058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:BuildLogger
+	Reusability:	827.75	Flexibility:	0.0	Understandability:	-547.5072058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:DemuxOutputStream
+	Reusability:	817.75	Flexibility:	-10.75	Understandability:	-564.667205882353	Extendibility:	-23.352718360071304	Effectiveness:	0.8589126559714796
+
+Class:BufferInfo
+	Reusability:	823.5	Flexibility:	-3.75	Understandability:	-552.4572058823529	Extendibility:	-8.006127450980392	Effectiveness:	0.7975490196078432
+
+Class:Diagnostics
+	Reusability:	812.75	Flexibility:	-17.5	Understandability:	-572.917205882353	Extendibility:	-34.24918300653595	Effectiveness:	0.30032679738562096
+
+Class:DirectoryScanner
+	Reusability:	813.25	Flexibility:	-22.25	Understandability:	-587.767205882353	Extendibility:	-47.351522187822496	Effectiveness:	1.059391124871001
+
+Class:DirectoryScannerTest
+	Reusability:	826.0	Flexibility:	-2.25	Understandability:	-551.1372058823529	Extendibility:	-5.443627450980392	Effectiveness:	0.6225490196078431
+
+Class:DummyTaskAbstract
+	Reusability:	829.0	Flexibility:	0.0	Understandability:	-547.5072058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:DummyTaskInterface
+	Reusability:	827.5	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:DummyTaskOk
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:DummyTaskOkNonTask
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.9452614379084967	Effectiveness:	0.3781045751633987
+
+Class:DummyTaskPackage
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:DummyTaskWithNonPublicExecute
+	Reusability:	828.0	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.9452614379084967	Effectiveness:	0.3781045751633987
+
+Class:DummyTaskWithNonVoidExecute
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.9452614379084967	Effectiveness:	0.3781045751633987
+
+Class:DummyTaskWithoutDefaultConstructor
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:DummyTaskWithoutExecute
+	Reusability:	828.75	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	0.9452614379084967	Effectiveness:	0.3781045751633987
+
+Class:DummyTaskWithoutPublicConstructor
+	Reusability:	828.0	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:DynamicConfigurator
+	Reusability:	828.75	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:FileScanner
+	Reusability:	827.75	Flexibility:	0.0	Understandability:	-551.4672058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:ImmutableTest
+	Reusability:	832.0	Flexibility:	0.0	Understandability:	-549.4872058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:IncludeTest
+	Reusability:	832.5	Flexibility:	0.0	Understandability:	-549.8172058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:IntrospectionHelper
+	Reusability:	789.0	Flexibility:	-47.0	Understandability:	-615.157205882353	Extendibility:	-93.81862745098039	Effectiveness:	0.4725490196078432
+
+Class:AttributeSetter
+	Reusability:	827.5	Flexibility:	-0.25	Understandability:	-546.8472058823529	Extendibility:	0.056372549019607865	Effectiveness:	0.22254901960784315
+
+Class:NestedCreator
+	Reusability:	827.5	Flexibility:	-0.25	Understandability:	-546.8472058823529	Extendibility:	0.056372549019607865	Effectiveness:	0.22254901960784315
+
+Class:NestedStorer
+	Reusability:	827.5	Flexibility:	-0.25	Understandability:	-546.8472058823529	Extendibility:	0.056372549019607865	Effectiveness:	0.22254901960784315
+
+Class:IntrospectionHelperTest
+	Reusability:	838.25	Flexibility:	-9.75	Understandability:	-572.5872058823529	Extendibility:	-19.443627450980394	Effectiveness:	0.4225490196078432
+
+Class:Main
+	Reusability:	828.75	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	0.9452614379084967	Effectiveness:	0.3781045751633987
+
+Class:MockBuildListener
+	Reusability:	820.75	Flexibility:	-11.75	Understandability:	-564.9972058823529	Extendibility:	-23.443627450980394	Effectiveness:	0.4225490196078432
+
+Class:NoBannerLogger
+	Reusability:	829.5	Flexibility:	0.0	Understandability:	-547.5072058823529	Extendibility:	0.056372549019607865	Effectiveness:	0.4225490196078432
+
+Class:PathTokenizer
+	Reusability:	819.75	Flexibility:	-8.0	Understandability:	-559.3872058823529	Extendibility:	-17.593627450980392	Effectiveness:	0.9625490196078432
+
+Class:ProjectComponent
+	Reusability:	831.75	Flexibility:	0.75	Understandability:	-548.4972058823529	Extendibility:	0.7897058823529413	Effectiveness:	0.7158823529411765
+
+Class:ProjectComponentHelper
+	Reusability:	829.25	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.9063725490196078	Effectiveness:	0.36254901960784314
+
+Class:ProjectHelper
+	Reusability:	830.25	Flexibility:	0.0	Understandability:	-547.8372058823529	Extendibility:	0.8480392156862746	Effectiveness:	0.3392156862745098
+
+Class:ProjectTest
+	Reusability:	830.75	Flexibility:	-0.25	Understandability:	-550.4772058823529	Extendibility:	-1.4436274509803921	Effectiveness:	0.6225490196078431
+
+Class:DummyTaskPrivate
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:DummyTaskProtected
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:PropertyExpansionTest
+	Reusability:	830.25	Flexibility:	0.0	Understandability:	-548.167205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:RoleAdapter
+	Reusability:	829.25	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:RuntimeConfigurable
+	Reusability:	825.5	Flexibility:	-6.0	Understandability:	-558.7272058823529	Extendibility:	-12.759416924664603	Effectiveness:	0.6962332301341589
+
+Class:Target
+	Reusability:	829.5	Flexibility:	0.0	Understandability:	-547.5072058823529	Extendibility:	0.37455436720142604	Effectiveness:	0.5498217468805705
+
+Class:Task
+	Reusability:	830.75	Flexibility:	-3.75	Understandability:	-560.3772058823529	Extendibility:	-9.443627450980392	Effectiveness:	1.022549019607843
+
+Class:TaskAdapter
+	Reusability:	821.75	Flexibility:	-9.5	Understandability:	-561.037205882353	Extendibility:	-18.443627450980394	Effectiveness:	0.22254901960784315
+
+Class:TaskContainer
+	Reusability:	827.75	Flexibility:	0.0	Understandability:	-546.5172058823529	Extendibility:	0.8063725490196079	Effectiveness:	0.32254901960784316
+
+Class:UnknownElement
+	Reusability:	828.25	Flexibility:	-2.75	Understandability:	-554.7672058823529	Extendibility:	-5.443627450980392	Effectiveness:	0.4225490196078432
+
+Class:XmlLogger
+	Reusability:	807.0	Flexibility:	-25.5	Understandability:	-586.1172058823529	Extendibility:	-52.78453654188949	Effectiveness:	0.8861853832442068
+
+Class:TimedElement
+	Reusability:	824.5	Flexibility:	-2.75	Understandability:	-551.1372058823529	Extendibility:	-6.006127450980392	Effectiveness:	0.7975490196078432
+
+Class:FileSelector
+	Reusability:	829.25	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:FileTypeSelector
+	Reusability:	819.5	Flexibility:	-9.5	Understandability:	-563.677205882353	Extendibility:	-22.693627450980394	Effectiveness:	1.3225490196078433
+
+Class:CompilerAdapter
+	Reusability:	827.75	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:CompilerAdapterFactory
+	Reusability:	824.0	Flexibility:	-4.25	Understandability:	-553.1172058823529	Extendibility:	-7.625445632798574	Effectiveness:	0.34982174688057044
+
+Class:DefaultCompilerAdapter
+	Reusability:	806.0	Flexibility:	-17.5	Understandability:	-582.157205882353	Extendibility:	-45.79779411764706	Effectiveness:	2.6808823529411767
+
+Class:Gcj
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.5072058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Javac12
+	Reusability:	826.75	Flexibility:	-1.75	Understandability:	-549.4872058823529	Extendibility:	-2.943627450980392	Effectiveness:	0.22254901960784315
+
+Class:Javac13
+	Reusability:	827.25	Flexibility:	-0.5	Understandability:	-548.4972058823529	Extendibility:	-1.9436274509803921	Effectiveness:	0.6225490196078431
+
+Class:JavacExternal
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Jikes
+	Reusability:	828.25	Flexibility:	-0.25	Understandability:	-547.5072058823529	Extendibility:	0.056372549019607865	Effectiveness:	0.22254901960784315
+
+Class:Jvc
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Kjc
+	Reusability:	827.5	Flexibility:	-1.0	Understandability:	-548.8272058823529	Extendibility:	-1.4436274509803921	Effectiveness:	0.22254901960784315
+
+Class:Sj
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:And
+	Reusability:	828.0	Flexibility:	-0.5	Understandability:	-547.8372058823529	Extendibility:	-0.44362745098039214	Effectiveness:	0.22254901960784315
+
+Class:Condition
+	Reusability:	827.5	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:ConditionBase
+	Reusability:	831.5	Flexibility:	-4.0	Understandability:	-557.407205882353	Extendibility:	-7.943627450980392	Effectiveness:	0.4225490196078432
+
+Class:Contains
+	Reusability:	829.25	Flexibility:	-0.25	Understandability:	-548.8272058823529	Extendibility:	-1.1519607843137254	Effectiveness:	0.7392156862745098
+
+Class:ContainsTest
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Equals
+	Reusability:	829.75	Flexibility:	0.25	Understandability:	-549.157205882353	Extendibility:	-1.174396681749623	Effectiveness:	0.9302413273001509
+
+Class:EqualsTest
+	Reusability:	829.0	Flexibility:	0.0	Understandability:	-547.5072058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:FilesMatch
+	Reusability:	829.75	Flexibility:	0.75	Understandability:	-547.177205882353	Extendibility:	0.874554367201426	Effectiveness:	0.7498217468805705
+
+Class:Http
+	Reusability:	829.25	Flexibility:	0.25	Understandability:	-547.8372058823529	Extendibility:	-0.44362745098039214	Effectiveness:	0.6225490196078431
+
+Class:IsFalse
+	Reusability:	823.0	Flexibility:	-6.0	Understandability:	-555.0972058823529	Extendibility:	-11.943627450980392	Effectiveness:	0.4225490196078432
+
+Class:IsSet
+	Reusability:	829.0	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.056372549019607865	Effectiveness:	0.4225490196078432
+
+Class:IsTrue
+	Reusability:	823.0	Flexibility:	-6.0	Understandability:	-555.0972058823529	Extendibility:	-11.943627450980392	Effectiveness:	0.4225490196078432
+
+Class:Not
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Or
+	Reusability:	828.0	Flexibility:	-0.5	Understandability:	-547.8372058823529	Extendibility:	-0.44362745098039214	Effectiveness:	0.22254901960784315
+
+Class:Os
+	Reusability:	826.0	Flexibility:	-7.5	Understandability:	-560.047205882353	Extendibility:	-14.759416924664603	Effectiveness:	0.496233230134159
+
+Class:Socket
+	Reusability:	829.0	Flexibility:	0.0	Understandability:	-548.167205882353	Extendibility:	-0.9436274509803921	Effectiveness:	0.6225490196078431
+
+Class:CVSEntry
+	Reusability:	828.25	Flexibility:	-1.25	Understandability:	-550.807205882353	Extendibility:	-2.2436274509803917	Effectiveness:	0.5025490196078433
+
+Class:ChangeLogParser
+	Reusability:	818.5	Flexibility:	-7.0	Understandability:	-563.0172058823529	Extendibility:	-19.74918300653595	Effectiveness:	1.700326797385621
+
+Class:ChangeLogTask
+	Reusability:	825.5	Flexibility:	-7.0	Understandability:	-560.3772058823529	Extendibility:	-13.943627450980392	Effectiveness:	0.4225490196078432
+
+Class:ChangeLogWriter
+	Reusability:	824.25	Flexibility:	-4.25	Understandability:	-552.787205882353	Extendibility:	-8.093627450980392	Effectiveness:	0.5625490196078432
+
+Class:CvsTagDiff
+	Reusability:	821.5	Flexibility:	-9.575	Understandability:	-563.446205882353	Extendibility:	-19.943627450980394	Effectiveness:	0.5625490196078431
+
+Class:CvsTagEntry
+	Reusability:	828.75	Flexibility:	-2.25	Understandability:	-551.797205882353	Extendibility:	-3.712858220211161	Effectiveness:	0.31485671191553544
+
+Class:CvsUser
+	Reusability:	829.25	Flexibility:	0.25	Understandability:	-547.8372058823529	Extendibility:	0.825603318250377	Effectiveness:	0.5302413273001509
+
+Class:RCSFile
+	Reusability:	827.25	Flexibility:	0.0	Understandability:	-548.167205882353	Extendibility:	0.34803921568627455	Effectiveness:	0.5392156862745099
+
+Class:RedirectingOutputStream
+	Reusability:	828.25	Flexibility:	0.75	Understandability:	-546.5172058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.6225490196078431
+
+Class:RedirectingStreamHandler
+	Reusability:	827.75	Flexibility:	-0.25	Understandability:	-547.8372058823529	Extendibility:	0.056372549019607865	Effectiveness:	0.22254901960784315
+
+Class:B
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.9563725490196079	Effectiveness:	0.38254901960784315
+
+Class:A
+	Reusability:	823.25	Flexibility:	-5.0	Understandability:	-555.7572058823529	Extendibility:	-10.643627450980391	Effectiveness:	0.7425490196078433
+
+Class:EmailAddress
+	Reusability:	831.0	Flexibility:	0.0	Understandability:	-548.4972058823529	Extendibility:	0.28714177978883865	Effectiveness:	0.5148567119155355
+
+Class:EmailTask
+	Reusability:	782.5	Flexibility:	-54.05555555555556	Understandability:	-628.4305392156863	Extendibility:	-112.94362745098039	Effectiveness:	1.3781045751633987
+
+Class:Encoding
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Mailer
+	Reusability:	830.0	Flexibility:	-1.5	Understandability:	-556.0872058823529	Extendibility:	-7.776960784313725	Effectiveness:	1.4892156862745098
+
+Class:Message
+	Reusability:	824.0	Flexibility:	-7.5	Understandability:	-559.7172058823529	Extendibility:	-15.943627450980392	Effectiveness:	0.6225490196078431
+
+Class:MimeMailer
+	Reusability:	825.75	Flexibility:	-3.0	Understandability:	-551.1372058823529	Extendibility:	-5.443627450980392	Effectiveness:	0.22254901960784315
+
+Class:PlainMailer
+	Reusability:	823.25	Flexibility:	-5.5	Understandability:	-554.4372058823529	Extendibility:	-10.443627450980392	Effectiveness:	0.22254901960784315
+
+Class:UUMailer
+	Reusability:	827.0	Flexibility:	-1.25	Understandability:	-548.4972058823529	Extendibility:	-1.9436274509803921	Effectiveness:	0.22254901960784315
+
+Class:CCMCheck
+	Reusability:	821.0	Flexibility:	-10.6	Understandability:	-563.1492058823529	Extendibility:	-20.943627450980394	Effectiveness:	0.3425490196078431
+
+Class:CCMCheckin
+	Reusability:	828.0	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:CCMCheckinDefault
+	Reusability:	828.0	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:CCMCheckout
+	Reusability:	828.0	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:CCMCreateTask
+	Reusability:	835.0	Flexibility:	-2.125	Understandability:	-555.5922058823529	Extendibility:	-3.943627450980392	Effectiveness:	0.32254901960784316
+
+Class:CCMReconfigure
+	Reusability:	831.75	Flexibility:	1.125	Understandability:	-548.9922058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.7225490196078432
+
+Class:Continuus
+	Reusability:	829.25	Flexibility:	-0.40625	Understandability:	-549.0334558823529	Extendibility:	-0.44362745098039214	Effectiveness:	0.2975490196078432
+
+Class:CCCheckin
+	Reusability:	828.25	Flexibility:	0.25	Understandability:	-551.1372058823529	Extendibility:	-3.443627450980392	Effectiveness:	1.2225490196078432
+
+Class:CCCheckout
+	Reusability:	799.5	Flexibility:	-29.5	Understandability:	-591.7272058823529	Extendibility:	-63.943627450980394	Effectiveness:	1.4225490196078432
+
+Class:CCMatchingTask
+	Reusability:	826.0	Flexibility:	-3.0	Understandability:	-554.7672058823529	Extendibility:	-6.943627450980392	Effectiveness:	0.6225490196078431
+
+Class:CCMkelem
+	Reusability:	824.75	Flexibility:	-4.25	Understandability:	-556.417205882353	Extendibility:	-11.443627450980392	Effectiveness:	1.0225490196078433
+
+Class:CCMklabel
+	Reusability:	828.0	Flexibility:	-0.5	Understandability:	-551.4672058823529	Extendibility:	-3.943627450980392	Effectiveness:	1.0225490196078433
+
+Class:CCRmname
+	Reusability:	826.75	Flexibility:	-1.75	Understandability:	-550.807205882353	Extendibility:	-4.443627450980392	Effectiveness:	0.6225490196078431
+
+Class:CCUnCheckout
+	Reusability:	829.75	Flexibility:	0.5833333333333334	Understandability:	-547.7272058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.48921568627450984
+
+Class:CCUpdate
+	Reusability:	831.75	Flexibility:	-0.3846153846153846	Understandability:	-555.2748981900452	Extendibility:	-5.443627450980392	Effectiveness:	1.3148567119155354
+
+Class:CCUtils
+	Reusability:	826.25	Flexibility:	-6.8125	Understandability:	-560.7897058823529	Extendibility:	-15.268627450980391	Effectiveness:	0.8425490196078431
+
+Class:ClearCase
+	Reusability:	829.25	Flexibility:	-0.39285714285714285	Understandability:	-548.6857773109243	Extendibility:	-0.44362745098039214	Effectiveness:	0.30826330532212887
+
+Class:CmdResult
+	Reusability:	830.5	Flexibility:	0.75	Understandability:	-548.167205882353	Extendibility:	0.825603318250377	Effectiveness:	0.7302413273001509
+
+Class:ClassCPInfo
+	Reusability:	830.0	Flexibility:	0.5	Understandability:	-547.8372058823529	Extendibility:	0.056372549019607865	Effectiveness:	0.6225490196078431
+
+Class:ConstantCPInfo
+	Reusability:	827.25	Flexibility:	-1.25	Understandability:	-548.8272058823529	Extendibility:	-2.443627450980392	Effectiveness:	0.4225490196078432
+
+Class:ConstantPoolEntry
+	Reusability:	831.0	Flexibility:	6.803571428571429	Understandability:	-548.7564915966386	Extendibility:	0.30637254901960786	Effectiveness:	3.1654061624649863
+
+Class:DoubleCPInfo
+	Reusability:	829.0	Flexibility:	-0.25	Understandability:	-547.5072058823529	Extendibility:	0.056372549019607865	Effectiveness:	0.22254901960784315
+
+Class:FieldRefCPInfo
+	Reusability:	830.75	Flexibility:	0.75	Understandability:	-548.8272058823529	Extendibility:	-0.44362745098039214	Effectiveness:	0.8225490196078432
+
+Class:FloatCPInfo
+	Reusability:	829.0	Flexibility:	-0.25	Understandability:	-547.5072058823529	Extendibility:	0.056372549019607865	Effectiveness:	0.22254901960784315
+
+Class:IntegerCPInfo
+	Reusability:	829.0	Flexibility:	-0.25	Understandability:	-547.5072058823529	Extendibility:	0.056372549019607865	Effectiveness:	0.22254901960784315
+
+Class:InterfaceMethodRefCPInfo
+	Reusability:	830.75	Flexibility:	0.75	Understandability:	-548.8272058823529	Extendibility:	-0.44362745098039214	Effectiveness:	0.8225490196078432
+
+Class:LongCPInfo
+	Reusability:	829.0	Flexibility:	-0.25	Understandability:	-547.5072058823529	Extendibility:	0.056372549019607865	Effectiveness:	0.22254901960784315
+
+Class:MethodRefCPInfo
+	Reusability:	830.75	Flexibility:	0.75	Understandability:	-548.8272058823529	Extendibility:	-0.44362745098039214	Effectiveness:	0.8225490196078432
+
+Class:NameAndTypeCPInfo
+	Reusability:	828.5	Flexibility:	-1.0	Understandability:	-550.807205882353	Extendibility:	-3.943627450980392	Effectiveness:	0.8225490196078432
+
+Class:StringCPInfo
+	Reusability:	829.5	Flexibility:	0.5	Understandability:	-547.5072058823529	Extendibility:	0.056372549019607865	Effectiveness:	0.6225490196078431
+
+Class:Utf8CPInfo
+	Reusability:	828.0	Flexibility:	-1.5	Understandability:	-549.4872058823529	Extendibility:	-2.943627450980392	Effectiveness:	0.4225490196078432
+
+Class:AntAnalyzer
+	Reusability:	818.0	Flexibility:	-10.25	Understandability:	-560.7072058823529	Extendibility:	-19.943627450980394	Effectiveness:	0.22254901960784315
+
+Class:ClassFile
+	Reusability:	828.0	Flexibility:	-1.0	Understandability:	-549.4872058823529	Extendibility:	-2.6254456327985736	Effectiveness:	0.7498217468805705
+
+Class:ClassFileIterator
+	Reusability:	827.5	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:ClassFileUtils
+	Reusability:	828.5	Flexibility:	-0.75	Understandability:	-548.167205882353	Extendibility:	-0.5936274509803922	Effectiveness:	0.36254901960784314
+
+Class:Depend
+	Reusability:	796.75	Flexibility:	-35.25	Understandability:	-601.6272058823529	Extendibility:	-72.44362745098039	Effectiveness:	0.8225490196078432
+
+Class:ClassFileInfo
+	Reusability:	824.75	Flexibility:	-2.5	Understandability:	-550.807205882353	Extendibility:	-5.506127450980392	Effectiveness:	0.7975490196078432
+
+Class:DependTest
+	Reusability:	830.75	Flexibility:	-2.75	Understandability:	-554.4372058823529	Extendibility:	-4.943627450980392	Effectiveness:	0.22254901960784315
+
+Class:DirectoryIterator
+	Reusability:	825.0	Flexibility:	-3.0	Understandability:	-551.797205882353	Extendibility:	-6.593627450980392	Effectiveness:	0.7625490196078432
+
+Class:JarFileIterator
+	Reusability:	826.5	Flexibility:	-2.0	Understandability:	-549.8172058823529	Extendibility:	-3.593627450980392	Effectiveness:	0.5625490196078432
+
+Class:CSharp
+	Reusability:	829.5	Flexibility:	-11.517857142857142	Understandability:	-589.1107773109244	Extendibility:	-33.943627450980394	Effectiveness:	2.608263305322129
+
+Class:Ilasm
+	Reusability:	829.5	Flexibility:	-5.5	Understandability:	-565.3272058823529	Extendibility:	-14.943627450980392	Effectiveness:	1.2225490196078432
+
+Class:NetCommand
+	Reusability:	830.75	Flexibility:	1.25	Understandability:	-549.8172058823529	Extendibility:	-0.23774509803921567	Effectiveness:	1.1049019607843138
+
+Class:WsdlToDotnet
+	Reusability:	816.75	Flexibility:	-14.75	Understandability:	-570.6072058823529	Extendibility:	-31.443627450980394	Effectiveness:	0.8225490196078432
+
+Class:BorlandGenerateClient
+	Reusability:	829.25	Flexibility:	-2.5	Understandability:	-555.427205882353	Extendibility:	-6.443627450980392	Effectiveness:	0.6225490196078431
+
+Class:DDCreator
+	Reusability:	827.0	Flexibility:	-3.0	Understandability:	-551.797205882353	Extendibility:	-5.943627450980392	Effectiveness:	0.4225490196078432
+
+Class:DescriptorHandler
+	Reusability:	822.0	Flexibility:	-6.0	Understandability:	-563.677205882353	Extendibility:	-20.943627450980394	Effectiveness:	2.2225490196078432
+
+Class:EJBDeploymentTool
+	Reusability:	827.75	Flexibility:	0.0	Understandability:	-547.5072058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:EjbJar
+	Reusability:	832.5	Flexibility:	-6.0	Understandability:	-563.0172058823529	Extendibility:	-12.943627450980392	Effectiveness:	0.6225490196078431
+
+Class:Config
+	Reusability:	826.25	Flexibility:	-0.75	Understandability:	-549.157205882353	Extendibility:	-2.506127450980392	Effectiveness:	0.7975490196078432
+
+Class:DTDLocation
+	Reusability:	828.0	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	1.0147058823529411	Effectiveness:	0.40588235294117647
+
+Class:NamingScheme
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Ejbc
+	Reusability:	826.5	Flexibility:	-5.041666666666667	Understandability:	-556.4722058823529	Extendibility:	-10.943627450980392	Effectiveness:	0.5892156862745099
+
+Class:GenericDeploymentTool
+	Reusability:	802.5	Flexibility:	-28.083333333333332	Understandability:	-596.787205882353	Extendibility:	-59.856127450980395	Effectiveness:	1.1908823529411765
+
+Class:IPlanetDeploymentTool
+	Reusability:	821.0	Flexibility:	-9.0	Understandability:	-563.677205882353	Extendibility:	-19.943627450980394	Effectiveness:	0.8225490196078432
+
+Class:IPlanetEjbcTask
+	Reusability:	823.25	Flexibility:	-8.25	Understandability:	-563.0172058823529	Extendibility:	-18.443627450980394	Effectiveness:	0.8225490196078432
+
+Class:InnerClassFilenameFilter
+	Reusability:	826.75	Flexibility:	-1.25	Understandability:	-548.4972058823529	Extendibility:	-2.054738562091503	Effectiveness:	0.5781045751633987
+
+Class:JbossDeploymentTool
+	Reusability:	827.5	Flexibility:	-1.0	Understandability:	-548.8272058823529	Extendibility:	-1.9436274509803921	Effectiveness:	0.4225490196078432
+
+Class:JonasDeploymentTool
+	Reusability:	816.75	Flexibility:	-15.25	Understandability:	-580.177205882353	Extendibility:	-37.443627450980394	Effectiveness:	1.8225490196078433
+
+Class:WLRun
+	Reusability:	834.0	Flexibility:	-2.5	Understandability:	-556.417205882353	Extendibility:	-4.943627450980392	Effectiveness:	0.4225490196078432
+
+Class:WLStop
+	Reusability:	831.5	Flexibility:	0.0	Understandability:	-549.8172058823529	Extendibility:	-0.9436274509803921	Effectiveness:	0.6225490196078431
+
+Class:WeblogicTOPLinkDeploymentTool
+	Reusability:	829.0	Flexibility:	-0.5	Understandability:	-548.8272058823529	Extendibility:	-0.9436274509803921	Effectiveness:	0.4225490196078432
+
+Class:WebsphereDeploymentTool
+	Reusability:	817.75	Flexibility:	-15.768518518518519	Understandability:	-584.8216503267973	Extendibility:	-42.443627450980394	Effectiveness:	2.6077342047930285
+
+Class:DBVendor
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Compatibility
+	Reusability:	828.0	Flexibility:	0.25	Understandability:	-546.8472058823529	Extendibility:	0.9313725490196079	Effectiveness:	0.5725490196078432
+
+Class:ExtensionAdapter
+	Reusability:	832.75	Flexibility:	0.25	Understandability:	-549.8172058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.4225490196078432
+
+Class:ExtensionResolver
+	Reusability:	827.75	Flexibility:	0.0	Understandability:	-546.5172058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:ExtensionSet
+	Reusability:	829.0	Flexibility:	-2.0	Understandability:	-551.1372058823529	Extendibility:	-3.943627450980392	Effectiveness:	0.4225490196078432
+
+Class:ExtensionUtil
+	Reusability:	825.0	Flexibility:	-3.25	Understandability:	-552.787205882353	Extendibility:	-5.693627450980392	Effectiveness:	0.32254901960784316
+
+Class:ExtraAttribute
+	Reusability:	829.75	Flexibility:	0.25	Understandability:	-547.8372058823529	Extendibility:	0.825603318250377	Effectiveness:	0.5302413273001509
+
+Class:JarLibAvailableTask
+	Reusability:	826.0	Flexibility:	-4.0	Understandability:	-554.4372058823529	Extendibility:	-8.943627450980392	Effectiveness:	0.6225490196078431
+
+Class:JarLibDisplayTask
+	Reusability:	823.25	Flexibility:	-6.25	Understandability:	-556.0872058823529	Extendibility:	-12.443627450980392	Effectiveness:	0.4225490196078432
+
+Class:JarLibResolveTask
+	Reusability:	830.25	Flexibility:	-0.75	Understandability:	-552.787205882353	Extendibility:	-3.443627450980392	Effectiveness:	0.8225490196078432
+
+Class:LibFileSet
+	Reusability:	829.75	Flexibility:	1.25	Understandability:	-548.167205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.8225490196078432
+
+Class:LibraryDisplayer
+	Reusability:	791.5	Flexibility:	-36.75	Understandability:	-596.677205882353	Extendibility:	-72.67439668174961	Effectiveness:	0.3302413273001509
+
+Class:AntResolver
+	Reusability:	830.0	Flexibility:	-0.5	Understandability:	-549.157205882353	Extendibility:	-0.7128582202111613	Effectiveness:	0.5148567119155355
+
+Class:LocationResolver
+	Reusability:	829.75	Flexibility:	0.25	Understandability:	-547.177205882353	Extendibility:	0.8563725490196079	Effectiveness:	0.5425490196078432
+
+Class:URLResolver
+	Reusability:	829.75	Flexibility:	-0.75	Understandability:	-549.8172058823529	Extendibility:	-1.229341736694678	Effectiveness:	0.5082633053221289
+
+Class:Base64Encode
+	Reusability:	828.75	Flexibility:	0.75	Understandability:	-546.5172058823529	Extendibility:	0.9452614379084967	Effectiveness:	0.7781045751633987
+
+Class:ContentGuesser
+	Reusability:	828.75	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.9063725490196078	Effectiveness:	0.36254901960784314
+
+Class:HttpAuthenticationStrategy
+	Reusability:	828.25	Flexibility:	0.0	Understandability:	-546.5172058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:HttpBasicAuth
+	Reusability:	828.25	Flexibility:	-0.5	Understandability:	-547.5072058823529	Extendibility:	-0.05473856209150324	Effectiveness:	0.3781045751633987
+
+Class:HttpDigestAuth
+	Reusability:	828.25	Flexibility:	-0.5	Understandability:	-547.5072058823529	Extendibility:	-0.05473856209150324	Effectiveness:	0.3781045751633987
+
+Class:HttpGet
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.5072058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:HttpHead
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.8372058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:HttpPost
+	Reusability:	828.25	Flexibility:	-2.25	Understandability:	-552.787205882353	Extendibility:	-4.443627450980392	Effectiveness:	0.4225490196078432
+
+Class:HttpRequestParameter
+	Reusability:	829.0	Flexibility:	-2.0	Understandability:	-551.1372058823529	Extendibility:	-3.712858220211161	Effectiveness:	0.5148567119155355
+
+Class:NullOutputStream
+	Reusability:	829.75	Flexibility:	0.0	Understandability:	-547.5072058823529	Extendibility:	0.7230392156862745	Effectiveness:	0.28921568627450983
+
+Class:SetProxy
+	Reusability:	829.5	Flexibility:	-1.5	Understandability:	-552.787205882353	Extendibility:	-4.943627450980392	Effectiveness:	0.8225490196078432
+
+Class:Translate
+	Reusability:	778.75	Flexibility:	-52.75	Understandability:	-625.7172058823529	Extendibility:	-111.44362745098039	Effectiveness:	1.6225490196078434
+
+Class:VAJAntTool
+	Reusability:	829.5	Flexibility:	0.0	Understandability:	-547.5072058823529	Extendibility:	0.37455436720142604	Effectiveness:	0.5498217468805705
+
+Class:VAJBuildInfo
+	Reusability:	822.5	Flexibility:	-13.5	Understandability:	-574.5672058823529	Extendibility:	-29.837566844919788	Effectiveness:	1.0649732620320858
+
+Class:BuildInterruptedException
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:InterruptedChecker
+	Reusability:	830.5	Flexibility:	-0.75	Understandability:	-550.807205882353	Extendibility:	-1.7248774509803921	Effectiveness:	0.5100490196078432
+
+Class:VAJExport
+	Reusability:	831.25	Flexibility:	0.75	Understandability:	-554.1072058823529	Extendibility:	-5.443627450980392	Effectiveness:	1.8225490196078433
+
+Class:VAJExportServlet
+	Reusability:	828.0	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:VAJImport
+	Reusability:	795.0	Flexibility:	-34.5	Understandability:	-597.3372058823529	Extendibility:	-72.94362745098039	Effectiveness:	1.2225490196078432
+
+Class:VAJImportServlet
+	Reusability:	828.0	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:VAJLoad
+	Reusability:	828.75	Flexibility:	-0.25	Understandability:	-547.8372058823529	Extendibility:	0.056372549019607865	Effectiveness:	0.22254901960784315
+
+Class:VAJLoadProjects
+	Reusability:	828.0	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:VAJLoadServlet
+	Reusability:	827.75	Flexibility:	-0.25	Understandability:	-547.5072058823529	Extendibility:	0.056372549019607865	Effectiveness:	0.22254901960784315
+
+Class:VAJProjectDescription
+	Reusability:	831.0	Flexibility:	0.0	Understandability:	-549.4872058823529	Extendibility:	-0.7102941176470587	Effectiveness:	0.7158823529411765
+
+Class:VAJRemoteUtil
+	Reusability:	826.5	Flexibility:	-3.25	Understandability:	-553.4472058823529	Extendibility:	-6.693627450980392	Effectiveness:	0.5225490196078432
+
+Class:VAJTask
+	Reusability:	828.75	Flexibility:	0.75	Understandability:	-546.8472058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.6225490196078431
+
+Class:VAJLocalToolUtil
+	Reusability:	828.75	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:VAJToolsServlet
+	Reusability:	827.25	Flexibility:	0.0	Understandability:	-551.4672058823529	Extendibility:	-2.443627450980392	Effectiveness:	0.8225490196078432
+
+Class:VAJLocalServletUtil
+	Reusability:	827.25	Flexibility:	-1.5	Understandability:	-548.8272058823529	Extendibility:	-2.443627450980392	Effectiveness:	0.22254901960784315
+
+Class:VAJUtil
+	Reusability:	827.75	Flexibility:	2.5	Understandability:	-547.5072058823529	Extendibility:	0.5563725490196079	Effectiveness:	1.2225490196078432
+
+Class:VAJWorkspaceScanner
+	Reusability:	826.5	Flexibility:	-4.0	Understandability:	-553.4472058823529	Extendibility:	-7.943627450980392	Effectiveness:	0.4225490196078432
+
+Class:AbstractHotDeploymentTool
+	Reusability:	833.75	Flexibility:	0.25	Understandability:	-551.4672058823529	Extendibility:	-0.2845365418894831	Effectiveness:	0.6861853832442067
+
+Class:GenericHotDeploymentTool
+	Reusability:	832.25	Flexibility:	0.75	Understandability:	-549.157205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.6225490196078431
+
+Class:HotDeploymentTool
+	Reusability:	829.25	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:JonasHotDeploymentTool
+	Reusability:	827.25	Flexibility:	-3.25	Understandability:	-553.777205882353	Extendibility:	-7.443627450980392	Effectiveness:	0.6225490196078431
+
+Class:ServerDeploy
+	Reusability:	828.25	Flexibility:	-3.75	Understandability:	-554.1072058823529	Extendibility:	-7.443627450980392	Effectiveness:	0.4225490196078432
+
+Class:JJTree
+	Reusability:	802.75	Flexibility:	-32.25	Understandability:	-594.6972058823529	Extendibility:	-65.44362745098039	Effectiveness:	0.6225490196078431
+
+Class:JavaCC
+	Reusability:	805.75	Flexibility:	-33.75	Understandability:	-600.307205882353	Extendibility:	-68.44362745098039	Effectiveness:	0.6225490196078431
+
+Class:JDependTask
+	Reusability:	834.5	Flexibility:	-1.5	Understandability:	-558.0672058823529	Extendibility:	-6.943627450980392	Effectiveness:	1.2225490196078432
+
+Class:FormatAttribute
+	Reusability:	828.5	Flexibility:	0.25	Understandability:	-546.8472058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.4225490196078432
+
+Class:ClassNameReader
+	Reusability:	827.5	Flexibility:	-1.25	Understandability:	-548.4972058823529	Extendibility:	-1.5547385620915033	Effectiveness:	0.3781045751633987
+
+Class:ConstantPool
+	Reusability:	825.25	Flexibility:	4.25	Understandability:	-549.8172058823529	Extendibility:	-3.506127450980392	Effectiveness:	2.997549019607843
+
+Class:JlinkTask
+	Reusability:	829.25	Flexibility:	-1.75	Understandability:	-552.787205882353	Extendibility:	-4.443627450980392	Effectiveness:	0.6225490196078431
+
+Class:jlink
+	Reusability:	799.25	Flexibility:	-31.799999999999997	Understandability:	-595.0932058823529	Extendibility:	-65.29779411764706	Effectiveness:	0.8408823529411765
+
+Class:DefaultJspCompilerAdapter
+	Reusability:	827.75	Flexibility:	-1.75	Understandability:	-552.1272058823529	Extendibility:	-4.224877450980392	Effectiveness:	0.7100490196078432
+
+Class:JasperC
+	Reusability:	829.0	Flexibility:	0.5	Understandability:	-547.8372058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.4225490196078432
+
+Class:JspCompilerAdapter
+	Reusability:	827.75	Flexibility:	0.0	Understandability:	-547.5072058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:JspCompilerAdapterFactory
+	Reusability:	828.0	Flexibility:	-0.75	Understandability:	-548.4972058823529	Extendibility:	-0.625445632798574	Effectiveness:	0.34982174688057044
+
+Class:JspC
+	Reusability:	817.25	Flexibility:	-26.264705882352942	Understandability:	-597.3566176470588	Extendibility:	-56.443627450980394	Effectiveness:	1.2107843137254903
+
+Class:WebAppParameter
+	Reusability:	828.5	Flexibility:	-0.5	Understandability:	-547.8372058823529	Extendibility:	-0.5936274509803922	Effectiveness:	0.5625490196078432
+
+Class:JspMangler
+	Reusability:	827.75	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:WLJspc
+	Reusability:	819.5	Flexibility:	-11.5	Understandability:	-564.3372058823529	Extendibility:	-22.943627450980394	Effectiveness:	0.4225490196078432
+
+Class:AggregateTransformer
+	Reusability:	826.5	Flexibility:	-4.055555555555555	Understandability:	-555.8305392156863	Extendibility:	-8.749183006535947	Effectiveness:	0.6558823529411764
+
+Class:Format
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:ArrayEnumeration
+	Reusability:	829.0	Flexibility:	0.75	Understandability:	-547.177205882353	Extendibility:	0.9063725490196078	Effectiveness:	0.7625490196078432
+
+Class:BaseTest
+	Reusability:	825.5	Flexibility:	-9.0	Understandability:	-566.6472058823529	Extendibility:	-21.803627450980393	Effectiveness:	1.2785490196078433
+
+Class:BatchTest
+	Reusability:	790.25	Flexibility:	-38.75	Understandability:	-600.6372058823529	Extendibility:	-78.44362745098039	Effectiveness:	0.6225490196078431
+
+Class:CompoundEnumeration
+	Reusability:	827.5	Flexibility:	-0.75	Understandability:	-549.157205882353	Extendibility:	-2.093627450980392	Effectiveness:	0.7625490196078432
+
+Class:Enumerations
+	Reusability:	828.75	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.9063725490196078	Effectiveness:	0.36254901960784314
+
+Class:FormatterElement
+	Reusability:	800.5	Flexibility:	-30.5	Understandability:	-590.7372058823529	Extendibility:	-61.74918300653595	Effectiveness:	0.7003267973856209
+
+Class:TypeAttribute
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:JUnitClassLoaderTest
+	Reusability:	827.75	Flexibility:	-0.75	Understandability:	-548.167205882353	Extendibility:	-0.9436274509803921	Effectiveness:	0.22254901960784315
+
+Class:JUnitReportTest
+	Reusability:	828.25	Flexibility:	-0.25	Understandability:	-548.167205882353	Extendibility:	0.056372549019607865	Effectiveness:	0.22254901960784315
+
+Class:JUnitResultFormatter
+	Reusability:	827.75	Flexibility:	0.0	Understandability:	-547.8372058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:JUnitTest
+	Reusability:	833.75	Flexibility:	-0.75	Understandability:	-556.0872058823529	Extendibility:	-5.443627450980392	Effectiveness:	1.2225490196078432
+
+Class:JUnitTestRunner
+	Reusability:	811.0	Flexibility:	-18.541666666666668	Understandability:	-586.172205882353	Extendibility:	-47.834252450980394	Effectiveness:	2.63296568627451
+
+Class:TeeOutputStream
+	Reusability:	828.25	Flexibility:	0.25	Understandability:	-546.5172058823529	Extendibility:	0.8897058823529411	Effectiveness:	0.5558823529411765
+
+Class:JUnitTestRunnerTest
+	Reusability:	830.75	Flexibility:	-0.5	Understandability:	-549.4872058823529	Extendibility:	-0.44362745098039214	Effectiveness:	0.22254901960784315
+
+Class:InvalidSuiteTestCase
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.7230392156862745	Effectiveness:	0.28921568627450983
+
+Class:InvalidTestCase
+	Reusability:	828.0	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:NoSuiteTestCase
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:NoTestCase
+	Reusability:	828.0	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	0.9938725490196079	Effectiveness:	0.39754901960784317
+
+Class:ResultFormatter
+	Reusability:	831.0	Flexibility:	-2.0	Understandability:	-552.787205882353	Extendibility:	-3.7594169246646025	Effectiveness:	0.496233230134159
+
+Class:SuiteTestCase
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.7230392156862745	Effectiveness:	0.28921568627450983
+
+Class:TestRunner
+	Reusability:	826.0	Flexibility:	-0.75	Understandability:	-548.8272058823529	Extendibility:	-2.443627450980392	Effectiveness:	0.6225490196078431
+
+Class:JUnitVersionHelper
+	Reusability:	828.0	Flexibility:	-0.5	Understandability:	-547.5072058823529	Extendibility:	-0.5547385620915033	Effectiveness:	0.5781045751633987
+
+Class:JUnitVersionHelperTest
+	Reusability:	831.0	Flexibility:	0.0	Understandability:	-548.8272058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Foo
+	Reusability:	829.25	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.9063725490196078	Effectiveness:	0.36254901960784314
+
+Class:Foo1
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.965463458110517	Effectiveness:	0.3861853832442068
+
+Class:Foo2
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.965463458110517	Effectiveness:	0.3861853832442068
+
+Class:Foo3
+	Reusability:	828.0	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	1.0063725490196078	Effectiveness:	0.4025490196078432
+
+Class:Foo4
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.965463458110517	Effectiveness:	0.3861853832442068
+
+Class:XMLConstants
+	Reusability:	827.5	Flexibility:	0.0	Understandability:	-546.5172058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:XMLJUnitResultFormatter
+	Reusability:	787.25	Flexibility:	-45.75	Understandability:	-611.1972058823529	Extendibility:	-91.27696078431372	Effectiveness:	0.48921568627450984
+
+Class:XMLResultAggregator
+	Reusability:	788.5	Flexibility:	-42.083333333333336	Understandability:	-605.6972058823529	Extendibility:	-83.94362745098039	Effectiveness:	0.3558823529411765
+
+Class:Xalan1Executor
+	Reusability:	827.75	Flexibility:	-0.25	Understandability:	-547.5072058823529	Extendibility:	0.056372549019607865	Effectiveness:	0.22254901960784315
+
+Class:Xalan2Executor
+	Reusability:	827.5	Flexibility:	-0.5	Understandability:	-547.8372058823529	Extendibility:	-0.44362745098039214	Effectiveness:	0.22254901960784315
+
+Class:XalanExecutor
+	Reusability:	825.5	Flexibility:	-2.0	Understandability:	-551.4672058823529	Extendibility:	-4.674396681749623	Effectiveness:	0.7302413273001509
+
+Class:AbstractMetamataTask
+	Reusability:	822.5	Flexibility:	-9.0	Understandability:	-566.3172058823529	Extendibility:	-18.943627450980394	Effectiveness:	0.6225490196078431
+
+Class:MAudit
+	Reusability:	829.25	Flexibility:	-0.27083333333333304	Understandability:	-557.104705882353	Extendibility:	-8.443627450980392	Effectiveness:	2.0058823529411764
+
+Class:MAuditParser
+	Reusability:	826.25	Flexibility:	-0.75	Understandability:	-548.4972058823529	Extendibility:	-2.054738562091503	Effectiveness:	0.7781045751633987
+
+Class:Violation
+	Reusability:	818.0	Flexibility:	-10.0	Understandability:	-560.047205882353	Extendibility:	-19.006127450980394	Effectiveness:	0.39754901960784317
+
+Class:MAuditParserTest
+	Reusability:	828.25	Flexibility:	-0.5	Understandability:	-549.4872058823529	Extendibility:	-1.9436274509803921	Effectiveness:	0.6225490196078431
+
+Class:MMetrics
+	Reusability:	826.25	Flexibility:	-3.25	Understandability:	-553.777205882353	Extendibility:	-6.443627450980392	Effectiveness:	0.4225490196078432
+
+Class:GranularityAttribute
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:MMetricsStreamHandler
+	Reusability:	823.0	Flexibility:	-6.5	Understandability:	-559.057205882353	Extendibility:	-13.749183006535947	Effectiveness:	0.7003267973856209
+
+Class:ElementEntry
+	Reusability:	825.25	Flexibility:	-2.5	Understandability:	-551.4672058823529	Extendibility:	-5.593627450980392	Effectiveness:	0.7625490196078432
+
+Class:MParse
+	Reusability:	802.25	Flexibility:	-28.75	Understandability:	-594.3672058823529	Extendibility:	-62.443627450980394	Effectiveness:	1.4225490196078432
+
+Class:MetricsElement
+	Reusability:	825.25	Flexibility:	-4.75	Understandability:	-555.427205882353	Extendibility:	-10.193627450980392	Effectiveness:	0.7225490196078431
+
+Class:FTP
+	Reusability:	789.75	Flexibility:	-39.75	Understandability:	-621.0972058823529	Extendibility:	-96.44362745098039	Effectiveness:	3.8225490196078438
+
+Class:Action
+	Reusability:	826.25	Flexibility:	-2.5	Understandability:	-550.807205882353	Extendibility:	-4.943627450980392	Effectiveness:	0.4225490196078432
+
+Class:FTPDirectoryScanner
+	Reusability:	828.75	Flexibility:	0.25	Understandability:	-546.8472058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.4225490196078432
+
+Class:MimeMail
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:SetProxy
+	Reusability:	828.75	Flexibility:	-1.75	Understandability:	-553.1172058823529	Extendibility:	-5.443627450980392	Effectiveness:	0.8225490196078432
+
+Class:ANTLR
+	Reusability:	813.5	Flexibility:	-18.0	Understandability:	-583.1472058823529	Extendibility:	-44.943627450980394	Effectiveness:	2.2225490196078432
+
+Class:ANTLRTest
+	Reusability:	835.0	Flexibility:	-0.25	Understandability:	-552.1272058823529	Extendibility:	-0.44362745098039214	Effectiveness:	0.4225490196078432
+
+Class:AbstractXSLTLiaisonTest
+	Reusability:	826.0	Flexibility:	-2.5	Understandability:	-552.4572058823529	Extendibility:	-5.943627450980392	Effectiveness:	0.6225490196078431
+
+Class:BeanShellScriptTest
+	Reusability:	829.0	Flexibility:	0.0	Understandability:	-547.5072058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:CalcFileFilter
+	Reusability:	828.5	Flexibility:	-0.25	Understandability:	-547.177205882353	Extendibility:	0.44526143790849676	Effectiveness:	0.3781045751633987
+
+Class:EchoProperties
+	Reusability:	827.0	Flexibility:	-2.5	Understandability:	-552.787205882353	Extendibility:	-5.943627450980392	Effectiveness:	0.6225490196078431
+
+Class:EchoPropertiesTest
+	Reusability:	830.75	Flexibility:	-2.25	Understandability:	-554.1072058823529	Extendibility:	-4.443627450980392	Effectiveness:	0.4225490196078432
+
+Class:HTMLFilter
+	Reusability:	828.5	Flexibility:	-0.25	Understandability:	-547.177205882353	Extendibility:	0.44526143790849676	Effectiveness:	0.3781045751633987
+
+Class:Javah
+	Reusability:	823.75	Flexibility:	-9.75	Understandability:	-567.9672058823529	Extendibility:	-23.443627450980394	Effectiveness:	1.2225490196078432
+
+Class:ClassArgument
+	Reusability:	828.75	Flexibility:	-0.25	Understandability:	-547.5072058823529	Extendibility:	-0.09362745098039216	Effectiveness:	0.5625490196078432
+
+Class:JspcTest
+	Reusability:	832.0	Flexibility:	-1.5	Understandability:	-553.4472058823529	Extendibility:	-2.943627450980392	Effectiveness:	0.4225490196078432
+
+Class:Native2Ascii
+	Reusability:	823.5	Flexibility:	-7.5	Understandability:	-559.7172058823529	Extendibility:	-15.943627450980392	Effectiveness:	0.6225490196078431
+
+Class:ExtMapper
+	Reusability:	829.25	Flexibility:	-0.5	Understandability:	-548.167205882353	Extendibility:	-0.12544563279857396	Effectiveness:	0.34982174688057044
+
+Class:NetRexxC
+	Reusability:	790.25	Flexibility:	-42.27906976744186	Understandability:	-636.9755779753762	Extendibility:	-114.44362745098039	Effectiveness:	6.399293205654355
+
+Class:TraceAttr
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:VerboseAttr
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:PropertyFile
+	Reusability:	818.75	Flexibility:	-11.25	Understandability:	-564.667205882353	Extendibility:	-22.443627450980394	Effectiveness:	0.4225490196078432
+
+Class:Entry
+	Reusability:	825.75	Flexibility:	-3.75	Understandability:	-558.3972058823529	Extendibility:	-11.276960784313726	Effectiveness:	1.2892156862745099
+
+Class:Operation
+	Reusability:	828.75	Flexibility:	1.0	Understandability:	-547.8372058823529	Extendibility:	-0.44362745098039214	Effectiveness:	0.8225490196078432
+
+Class:Type
+	Reusability:	828.75	Flexibility:	1.0	Understandability:	-547.8372058823529	Extendibility:	-0.44362745098039214	Effectiveness:	0.8225490196078432
+
+Class:Unit
+	Reusability:	826.5	Flexibility:	-2.25	Understandability:	-550.4772058823529	Extendibility:	-4.443627450980392	Effectiveness:	0.4225490196078432
+
+Class:PropertyFileTest
+	Reusability:	825.0	Flexibility:	-4.75	Understandability:	-555.7572058823529	Extendibility:	-9.443627450980392	Effectiveness:	0.4225490196078432
+
+Class:PvcsTest
+	Reusability:	831.5	Flexibility:	0.0	Understandability:	-549.157205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:RenameExtensions
+	Reusability:	829.5	Flexibility:	0.0	Understandability:	-549.4872058823529	Extendibility:	-1.9436274509803921	Effectiveness:	0.8225490196078432
+
+Class:ReplaceRegExpTest
+	Reusability:	829.5	Flexibility:	-1.0	Understandability:	-549.8172058823529	Extendibility:	-1.4436274509803921	Effectiveness:	0.22254901960784315
+
+Class:RhinoScriptTest
+	Reusability:	829.5	Flexibility:	0.0	Understandability:	-547.8372058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Rpm
+	Reusability:	831.25	Flexibility:	0.25	Understandability:	-551.1372058823529	Extendibility:	-2.443627450980392	Effectiveness:	1.0225490196078433
+
+Class:Script
+	Reusability:	824.75	Flexibility:	-5.25	Understandability:	-555.0972058823529	Extendibility:	-10.443627450980392	Effectiveness:	0.4225490196078432
+
+Class:StyleBook
+	Reusability:	830.25	Flexibility:	-0.25	Understandability:	-548.4972058823529	Extendibility:	-0.44362745098039214	Effectiveness:	0.4225490196078432
+
+Class:Test
+	Reusability:	830.25	Flexibility:	-0.75	Understandability:	-549.4872058823529	Extendibility:	-1.4436274509803921	Effectiveness:	0.4225490196078432
+
+Class:TestletEntry
+	Reusability:	829.25	Flexibility:	0.25	Understandability:	-546.8472058823529	Extendibility:	0.8897058823529411	Effectiveness:	0.5558823529411765
+
+Class:TraXLiaison
+	Reusability:	819.5	Flexibility:	-12.5	Understandability:	-569.6172058823529	Extendibility:	-26.79779411764706	Effectiveness:	0.8808823529411766
+
+Class:TraXLiaisonTest
+	Reusability:	829.75	Flexibility:	-1.5	Understandability:	-550.4772058823529	Extendibility:	-2.443627450980392	Effectiveness:	0.22254901960784315
+
+Class:WsdlToDotnetTest
+	Reusability:	833.5	Flexibility:	0.25	Understandability:	-550.1472058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.4225490196078432
+
+Class:XMLValidateTask
+	Reusability:	772.5	Flexibility:	-59.5	Understandability:	-633.9672058823529	Extendibility:	-123.94362745098039	Effectiveness:	1.4225490196078432
+
+Class:ValidatorErrorHandler
+	Reusability:	829.25	Flexibility:	-0.75	Understandability:	-550.4772058823529	Extendibility:	-2.2102941176470585	Effectiveness:	0.7158823529411765
+
+Class:XalanLiaison
+	Reusability:	827.75	Flexibility:	-1.25	Understandability:	-549.8172058823529	Extendibility:	-3.1254456327985736	Effectiveness:	0.7498217468805705
+
+Class:XalanLiaisonTest
+	Reusability:	828.25	Flexibility:	-0.75	Understandability:	-548.8272058823529	Extendibility:	-0.9436274509803921	Effectiveness:	0.22254901960784315
+
+Class:XmlValidateTest
+	Reusability:	832.0	Flexibility:	0.25	Understandability:	-549.157205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.4225490196078432
+
+Class:XslpLiaison
+	Reusability:	829.25	Flexibility:	0.25	Understandability:	-547.8372058823529	Extendibility:	-0.12544563279857396	Effectiveness:	0.7498217468805705
+
+Class:XslpLiaisonTest
+	Reusability:	828.0	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:XsltTest
+	Reusability:	830.5	Flexibility:	0.25	Understandability:	-548.167205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.4225490196078432
+
+Class:P4Base
+	Reusability:	831.0	Flexibility:	0.0	Understandability:	-550.1472058823529	Extendibility:	-0.6221988795518207	Effectiveness:	0.7511204481792717
+
+Class:P4ChangeTest
+	Reusability:	829.0	Flexibility:	0.25	Understandability:	-547.5072058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.4225490196078432
+
+Class:P4Counter
+	Reusability:	828.25	Flexibility:	-0.5	Understandability:	-550.4772058823529	Extendibility:	-3.443627450980392	Effectiveness:	0.8225490196078432
+
+Class:P4Delete
+	Reusability:	829.25	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:P4Edit
+	Reusability:	829.25	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:P4Handler
+	Reusability:	828.75	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:P4HandlerAdapter
+	Reusability:	827.75	Flexibility:	-4.0	Understandability:	-554.1072058823529	Extendibility:	-7.2102941176470585	Effectiveness:	0.3158823529411765
+
+Class:Reader
+	Reusability:	829.0	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.40637254901960784	Effectiveness:	0.5625490196078432
+
+Class:P4Have
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:P4Label
+	Reusability:	824.0	Flexibility:	-6.0	Understandability:	-555.7572058823529	Extendibility:	-11.943627450980392	Effectiveness:	0.4225490196078432
+
+Class:P4OutputHandler
+	Reusability:	828.25	Flexibility:	0.0	Understandability:	-546.5172058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:P4Reopen
+	Reusability:	829.0	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.056372549019607865	Effectiveness:	0.4225490196078432
+
+Class:P4Revert
+	Reusability:	829.5	Flexibility:	0.5	Understandability:	-547.5072058823529	Extendibility:	0.056372549019607865	Effectiveness:	0.6225490196078431
+
+Class:P4Submit
+	Reusability:	829.25	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:P4Sync
+	Reusability:	828.0	Flexibility:	-1.625	Understandability:	-549.652205882353	Extendibility:	-2.943627450980392	Effectiveness:	0.32254901960784316
+
+Class:SimpleP4OutputHandler
+	Reusability:	827.75	Flexibility:	-0.5	Understandability:	-548.167205882353	Extendibility:	-1.4436274509803921	Effectiveness:	0.4225490196078432
+
+Class:Pvcs
+	Reusability:	827.5	Flexibility:	-13.0	Understandability:	-575.2272058823529	Extendibility:	-27.763627450980394	Effectiveness:	0.8945490196078432
+
+Class:PvcsProject
+	Reusability:	829.0	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.40637254901960784	Effectiveness:	0.5625490196078432
+
+Class:Test1
+	Reusability:	829.5	Flexibility:	0.0	Understandability:	-547.8372058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:BaseFormatter
+	Reusability:	833.25	Flexibility:	0.0	Understandability:	-549.8172058823529	Extendibility:	0.7508169934640523	Effectiveness:	0.30032679738562096
+
+Class:BaseStreamFormatter
+	Reusability:	828.5	Flexibility:	-0.625	Understandability:	-549.3222058823529	Extendibility:	-0.9436274509803921	Effectiveness:	0.32254901960784316
+
+Class:BriefFormatter
+	Reusability:	829.25	Flexibility:	0.75	Understandability:	-546.8472058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.6225490196078431
+
+Class:FilterFormatter
+	Reusability:	832.75	Flexibility:	0.75	Understandability:	-550.1472058823529	Extendibility:	0.7313725490196079	Effectiveness:	0.6925490196078431
+
+Class:FilterStackFormatterTest
+	Reusability:	826.5	Flexibility:	-7.0	Understandability:	-559.7172058823529	Extendibility:	-13.943627450980392	Effectiveness:	0.4225490196078432
+
+Class:Formatter
+	Reusability:	828.25	Flexibility:	0.0	Understandability:	-546.5172058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:FormatterRecorder
+	Reusability:	828.75	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:PlainFormatter
+	Reusability:	832.25	Flexibility:	0.0	Understandability:	-549.157205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:SummaryFormatter
+	Reusability:	829.25	Flexibility:	0.75	Understandability:	-546.8472058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.6225490196078431
+
+Class:XMLFormatter
+	Reusability:	818.5	Flexibility:	-13.1875	Understandability:	-568.8747058823529	Extendibility:	-27.943627450980394	Effectiveness:	0.6725490196078432
+
+Class:ArrayEnumeration
+	Reusability:	829.0	Flexibility:	0.6666666666666666	Understandability:	-547.287205882353	Extendibility:	0.9063725490196078	Effectiveness:	0.6958823529411765
+
+Class:BaseTestElement
+	Reusability:	829.75	Flexibility:	0.25	Understandability:	-547.8372058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.4225490196078432
+
+Class:BatchTestElement
+	Reusability:	830.75	Flexibility:	0.75	Understandability:	-547.8372058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.6225490196078431
+
+Class:ClasspathTestCollector
+	Reusability:	826.5	Flexibility:	-2.5	Understandability:	-555.0972058823529	Extendibility:	-7.943627450980392	Effectiveness:	1.0225490196078433
+
+Class:ClientElement
+	Reusability:	825.5	Flexibility:	-4.0	Understandability:	-559.3872058823529	Extendibility:	-12.943627450980392	Effectiveness:	1.4225490196078432
+
+Class:CompoundEnumeration
+	Reusability:	827.5	Flexibility:	-0.75	Understandability:	-549.157205882353	Extendibility:	-2.093627450980392	Effectiveness:	0.7625490196078432
+
+Class:FilterElement
+	Reusability:	828.0	Flexibility:	-1.5	Understandability:	-549.4872058823529	Extendibility:	-2.6254456327985736	Effectiveness:	0.5498217468805705
+
+Class:FilterAttribute
+	Reusability:	828.75	Flexibility:	0.0	Understandability:	-547.5072058823529	Extendibility:	0.056372549019607865	Effectiveness:	0.4225490196078432
+
+Class:JUnitHelper
+	Reusability:	825.25	Flexibility:	-5.75	Understandability:	-556.0872058823529	Extendibility:	-11.193627450980392	Effectiveness:	0.5225490196078432
+
+Class:KeepAliveOutputStream
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:OutputAttribute
+	Reusability:	826.5	Flexibility:	-1.9166666666666667	Understandability:	-549.7072058823529	Extendibility:	-3.443627450980392	Effectiveness:	0.28921568627450983
+
+Class:RJUnitTask
+	Reusability:	828.25	Flexibility:	0.25	Understandability:	-551.1372058823529	Extendibility:	-4.443627450980392	Effectiveness:	1.4225490196078432
+
+Class:ServerWorker
+	Reusability:	828.5	Flexibility:	-0.25	Understandability:	-547.8372058823529	Extendibility:	-0.04362745098039211	Effectiveness:	0.5825490196078432
+
+Class:RJUnitTaskTest
+	Reusability:	822.75	Flexibility:	-6.5	Understandability:	-556.417205882353	Extendibility:	-12.443627450980392	Effectiveness:	0.22254901960784315
+
+Class:ResultFormatterElement
+	Reusability:	790.0	Flexibility:	-41.0	Understandability:	-602.9472058823529	Extendibility:	-81.71029411764705	Effectiveness:	0.5158823529411766
+
+Class:Parameter
+	Reusability:	828.25	Flexibility:	-2.25	Understandability:	-551.1372058823529	Extendibility:	-4.174396681749623	Effectiveness:	0.5302413273001509
+
+Class:TypeAttribute
+	Reusability:	828.75	Flexibility:	0.0	Understandability:	-547.5072058823529	Extendibility:	0.056372549019607865	Effectiveness:	0.4225490196078432
+
+Class:ServerElement
+	Reusability:	823.75	Flexibility:	-4.75	Understandability:	-557.0772058823529	Extendibility:	-13.443627450980392	Effectiveness:	1.2225490196078432
+
+Class:TestElement
+	Reusability:	829.0	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.056372549019607865	Effectiveness:	0.4225490196078432
+
+Class:TestRunRecorder
+	Reusability:	831.0	Flexibility:	-1.75	Understandability:	-551.797205882353	Extendibility:	-2.7377450980392153	Effectiveness:	0.30490196078431375
+
+Class:WatchdogTest
+	Reusability:	827.5	Flexibility:	-0.5	Understandability:	-548.4972058823529	Extendibility:	-1.9436274509803921	Effectiveness:	0.6225490196078431
+
+Class:ZipScanner
+	Reusability:	828.25	Flexibility:	-1.5	Understandability:	-550.1472058823529	Extendibility:	-2.443627450980392	Effectiveness:	0.22254901960784315
+
+Class:ZipScannerTest
+	Reusability:	829.25	Flexibility:	0.25	Understandability:	-548.167205882353	Extendibility:	-0.44362745098039214	Effectiveness:	0.6225490196078431
+
+Class:EventDispatcher
+	Reusability:	823.25	Flexibility:	-6.25	Understandability:	-556.417205882353	Extendibility:	-12.174396681749622	Effectiveness:	0.5302413273001509
+
+Class:EventAction
+	Reusability:	828.0	Flexibility:	-0.25	Understandability:	-546.8472058823529	Extendibility:	0.056372549019607865	Effectiveness:	0.22254901960784315
+
+Class:RunEndedAction
+	Reusability:	828.75	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	0.9452614379084967	Effectiveness:	0.3781045751633987
+
+Class:RunStartedAction
+	Reusability:	828.75	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	0.9452614379084967	Effectiveness:	0.3781045751633987
+
+Class:RunStoppedAction
+	Reusability:	828.75	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	0.9452614379084967	Effectiveness:	0.3781045751633987
+
+Class:SuiteEndedAction
+	Reusability:	828.75	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	0.9452614379084967	Effectiveness:	0.3781045751633987
+
+Class:SuiteStartedAction
+	Reusability:	828.75	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	0.9452614379084967	Effectiveness:	0.3781045751633987
+
+Class:TestEndedAction
+	Reusability:	828.75	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	0.9452614379084967	Effectiveness:	0.3781045751633987
+
+Class:TestErrorAction
+	Reusability:	828.75	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	0.9452614379084967	Effectiveness:	0.3781045751633987
+
+Class:TestFailureAction
+	Reusability:	828.75	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	0.9452614379084967	Effectiveness:	0.3781045751633987
+
+Class:TestStartedAction
+	Reusability:	828.75	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	0.9452614379084967	Effectiveness:	0.3781045751633987
+
+Class:MessageReaderTest
+	Reusability:	831.5	Flexibility:	0.75	Understandability:	-549.157205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.6225490196078431
+
+Class:Server
+	Reusability:	824.0	Flexibility:	-6.0	Understandability:	-558.0672058823529	Extendibility:	-13.71029411764706	Effectiveness:	0.9158823529411766
+
+Class:TestCases
+	Reusability:	828.0	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	0.9938725490196079	Effectiveness:	0.39754901960784317
+
+Class:FailSetupTestSuite
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:FailTestSetup
+	Reusability:	828.0	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:NullTestCase
+	Reusability:	829.5	Flexibility:	0.0	Understandability:	-547.8372058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:NullTestSuite
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:SimpleTestCase
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:TestRunListener
+	Reusability:	827.75	Flexibility:	0.0	Understandability:	-549.157205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:TestRunnerTest
+	Reusability:	833.5	Flexibility:	0.44999999999999996	Understandability:	-553.513205882353	Extendibility:	-1.9436274509803921	Effectiveness:	0.9825490196078432
+
+Class:AttributeInfo
+	Reusability:	827.5	Flexibility:	0.0	Understandability:	-546.5172058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:ClassFile
+	Reusability:	825.25	Flexibility:	-4.5	Understandability:	-556.0872058823529	Extendibility:	-10.693627450980392	Effectiveness:	0.9225490196078432
+
+Class:ClassFilter
+	Reusability:	828.5	Flexibility:	-0.25	Understandability:	-547.177205882353	Extendibility:	0.44526143790849676	Effectiveness:	0.3781045751633987
+
+Class:ClassPathLoader
+	Reusability:	819.0	Flexibility:	-11.125	Understandability:	-563.5122058823529	Extendibility:	-22.674396681749624	Effectiveness:	0.6302413273001508
+
+Class:FileLoader
+	Reusability:	827.0	Flexibility:	-0.5	Understandability:	-547.8372058823529	Extendibility:	-0.44362745098039214	Effectiveness:	0.22254901960784315
+
+Class:LoaderEnumeration
+	Reusability:	827.5	Flexibility:	-0.75	Understandability:	-549.157205882353	Extendibility:	-2.093627450980392	Effectiveness:	0.7625490196078432
+
+Class:DirectoryFilter
+	Reusability:	828.5	Flexibility:	-0.25	Understandability:	-547.177205882353	Extendibility:	0.44526143790849676	Effectiveness:	0.3781045751633987
+
+Class:DirectoryLoader
+	Reusability:	825.5	Flexibility:	-3.5	Understandability:	-552.4572058823529	Extendibility:	-6.651960784313725	Effectiveness:	0.5392156862745099
+
+Class:JarLoader
+	Reusability:	818.5	Flexibility:	-9.75	Understandability:	-560.3772058823529	Extendibility:	-19.093627450980392	Effectiveness:	0.5625490196078432
+
+Class:MethodInfo
+	Reusability:	827.0	Flexibility:	-5.5	Understandability:	-559.057205882353	Extendibility:	-12.785732714138287	Effectiveness:	0.8857069143446853
+
+Class:NullLoader
+	Reusability:	821.25	Flexibility:	-7.0	Understandability:	-557.0772058823529	Extendibility:	-13.625445632798574	Effectiveness:	0.5498217468805705
+
+Class:Utils
+	Reusability:	824.0	Flexibility:	-7.75	Understandability:	-572.2572058823529	Extendibility:	-27.82293779580798	Effectiveness:	2.8708248816768087
+
+Class:ClassFileTest
+	Reusability:	827.5	Flexibility:	-1.25	Understandability:	-548.8272058823529	Extendibility:	-1.9436274509803921	Effectiveness:	0.22254901960784315
+
+Class:ClassPathLoaderTest
+	Reusability:	828.0	Flexibility:	-0.5	Understandability:	-547.8372058823529	Extendibility:	-0.44362745098039214	Effectiveness:	0.22254901960784315
+
+Class:ClassTest
+	Reusability:	826.0	Flexibility:	-3.0	Understandability:	-551.4672058823529	Extendibility:	-5.093627450980392	Effectiveness:	0.36254901960784314
+
+Class:CovMerge
+	Reusability:	790.5	Flexibility:	-39.5	Understandability:	-602.287205882353	Extendibility:	-79.94362745098039	Effectiveness:	0.6225490196078431
+
+Class:CovReport
+	Reusability:	824.0	Flexibility:	-9.0	Understandability:	-564.3372058823529	Extendibility:	-19.943627450980394	Effectiveness:	0.8225490196078432
+
+Class:Reference
+	Reusability:	823.25	Flexibility:	-5.0	Understandability:	-555.0972058823529	Extendibility:	-10.625445632798574	Effectiveness:	0.7498217468805705
+
+Class:ReportFormat
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:ReportType
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Coverage
+	Reusability:	798.5	Flexibility:	-37.5	Understandability:	-608.557205882353	Extendibility:	-80.94362745098039	Effectiveness:	1.6225490196078434
+
+Class:CoverageStreamHandler
+	Reusability:	828.0	Flexibility:	-0.25	Understandability:	-547.177205882353	Extendibility:	0.056372549019607865	Effectiveness:	0.22254901960784315
+
+Class:Finalsnapshot
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Javavm
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Recordfromstart
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:ReportFilters
+	Reusability:	818.25	Flexibility:	-11.75	Understandability:	-563.677205882353	Extendibility:	-23.174396681749624	Effectiveness:	0.5302413273001509
+
+Class:Exclude
+	Reusability:	828.0	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	1.0109180035650625	Effectiveness:	0.404367201426025
+
+Class:FilterElement
+	Reusability:	829.25	Flexibility:	-0.75	Understandability:	-548.8272058823529	Extendibility:	-1.1709001782531194	Effectiveness:	0.5316399286987523
+
+Class:Include
+	Reusability:	828.0	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	1.0109180035650625	Effectiveness:	0.404367201426025
+
+Class:Socket
+	Reusability:	829.25	Flexibility:	0.25	Understandability:	-547.8372058823529	Extendibility:	-0.14362745098039215	Effectiveness:	0.7425490196078431
+
+Class:StringUtil
+	Reusability:	826.5	Flexibility:	-1.75	Understandability:	-549.157205882353	Extendibility:	-2.554738562091503	Effectiveness:	0.3781045751633987
+
+Class:XMLReportTest
+	Reusability:	825.25	Flexibility:	-3.5	Understandability:	-552.1272058823529	Extendibility:	-6.443627450980392	Effectiveness:	0.22254901960784315
+
+Class:SOS
+	Reusability:	842.75	Flexibility:	0.75	Understandability:	-559.057205882353	Extendibility:	-2.443627450980392	Effectiveness:	1.2225490196078432
+
+Class:SOSCheckin
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.5072058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:SOSCheckout
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.5072058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:SOSCmd
+	Reusability:	827.5	Flexibility:	0.0	Understandability:	-546.5172058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:SOSGet
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.5072058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:SOSLabel
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.5072058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:SOSTest
+	Reusability:	831.25	Flexibility:	0.5	Understandability:	-553.777205882353	Extendibility:	-3.943627450980392	Effectiveness:	1.4225490196078432
+
+Class:AntSoundPlayer
+	Reusability:	830.25	Flexibility:	-1.75	Understandability:	-554.4372058823529	Extendibility:	-5.276960784313725	Effectiveness:	0.8892156862745099
+
+Class:SoundTask
+	Reusability:	830.0	Flexibility:	1.25	Understandability:	-547.8372058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.8225490196078432
+
+Class:BuildAlert
+	Reusability:	819.0	Flexibility:	-11.5	Understandability:	-564.3372058823529	Extendibility:	-23.693627450980394	Effectiveness:	0.7225490196078431
+
+Class:SplashScreenTest
+	Reusability:	825.5	Flexibility:	-3.25	Understandability:	-551.1372058823529	Extendibility:	-5.554738562091503	Effectiveness:	0.3781045751633987
+
+Class:SplashTask
+	Reusability:	821.5	Flexibility:	-9.5	Understandability:	-563.0172058823529	Extendibility:	-20.943627450980394	Effectiveness:	0.8225490196078432
+
+Class:StarTeamLabel
+	Reusability:	831.25	Flexibility:	1.25	Understandability:	-548.4972058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.8225490196078432
+
+Class:StarTeamTask
+	Reusability:	832.5	Flexibility:	-2.0	Understandability:	-556.7472058823529	Extendibility:	-4.943627450980392	Effectiveness:	0.6225490196078431
+
+Class:MSVSS
+	Reusability:	830.75	Flexibility:	-0.9537037037037037	Understandability:	-550.4160947712418	Extendibility:	-1.4436274509803921	Effectiveness:	0.2595860566448802
+
+Class:MSVSSADD
+	Reusability:	826.25	Flexibility:	-6.25	Understandability:	-559.7172058823529	Extendibility:	-14.443627450980392	Effectiveness:	0.8225490196078432
+
+Class:MSVSSCHECKIN
+	Reusability:	825.5	Flexibility:	-7.0	Understandability:	-560.7072058823529	Extendibility:	-15.943627450980392	Effectiveness:	0.8225490196078432
+
+Class:MSVSSCHECKOUT
+	Reusability:	824.5	Flexibility:	-8.5	Understandability:	-562.027205882353	Extendibility:	-17.943627450980394	Effectiveness:	0.6225490196078431
+
+Class:MSVSSCP
+	Reusability:	822.75	Flexibility:	-6.75	Understandability:	-556.417205882353	Extendibility:	-13.443627450980392	Effectiveness:	0.4225490196078432
+
+Class:MSVSSCREATE
+	Reusability:	824.75	Flexibility:	-6.25	Understandability:	-558.7272058823529	Extendibility:	-14.443627450980392	Effectiveness:	0.8225490196078432
+
+Class:MSVSSGET
+	Reusability:	826.5	Flexibility:	-7.5	Understandability:	-563.3472058823529	Extendibility:	-17.943627450980394	Effectiveness:	1.0225490196078433
+
+Class:MSVSSHISTORY
+	Reusability:	827.0	Flexibility:	-5.571428571428571	Understandability:	-560.8014915966386	Extendibility:	-12.943627450980392	Effectiveness:	0.765406162464986
+
+Class:BriefCodediffNofile
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:MSVSSLABEL
+	Reusability:	824.75	Flexibility:	-8.3	Understandability:	-560.773205882353	Extendibility:	-16.443627450980394	Effectiveness:	0.38254901960784315
+
+Class:AbstractCvsTaskTest
+	Reusability:	830.0	Flexibility:	-1.0	Understandability:	-550.1472058823529	Extendibility:	-1.4436274509803921	Effectiveness:	0.22254901960784315
+
+Class:Ant
+	Reusability:	828.0	Flexibility:	-4.5	Understandability:	-556.7472058823529	Extendibility:	-9.943627450980392	Effectiveness:	0.6225490196078431
+
+Class:AntStructure
+	Reusability:	799.25	Flexibility:	-29.75	Understandability:	-588.427205882353	Extendibility:	-59.443627450980394	Effectiveness:	0.4225490196078432
+
+Class:AntStructureTest
+	Reusability:	829.0	Flexibility:	0.0	Understandability:	-547.5072058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:AntTest
+	Reusability:	836.25	Flexibility:	-3.5	Understandability:	-559.3872058823529	Extendibility:	-6.443627450980392	Effectiveness:	0.22254901960784315
+
+Class:BasedirChecker
+	Reusability:	831.0	Flexibility:	1.0	Understandability:	-549.157205882353	Extendibility:	0.27512254901960786	Effectiveness:	0.9100490196078432
+
+Class:InputHandlerChecker
+	Reusability:	831.0	Flexibility:	1.0	Understandability:	-549.4872058823529	Extendibility:	0.2622549019607843	Effectiveness:	0.9049019607843138
+
+Class:PropertyChecker
+	Reusability:	831.0	Flexibility:	1.0	Understandability:	-549.157205882353	Extendibility:	0.27512254901960786	Effectiveness:	0.9100490196078432
+
+Class:ReferenceChecker
+	Reusability:	829.25	Flexibility:	-0.25	Understandability:	-551.4672058823529	Extendibility:	-3.224877450980392	Effectiveness:	1.1100490196078432
+
+Class:Antjar
+	Reusability:	827.5	Flexibility:	-0.5	Understandability:	-549.157205882353	Extendibility:	-1.9436274509803921	Effectiveness:	0.6225490196078431
+
+Class:Antlib
+	Reusability:	818.5	Flexibility:	-13.020833333333334	Understandability:	-573.9347058823529	Extendibility:	-30.943627450980394	Effectiveness:	1.4058823529411764
+
+Class:Alias
+	Reusability:	829.0	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.40637254901960784	Effectiveness:	0.5625490196078432
+
+Class:AntLibraryHandler
+	Reusability:	825.75	Flexibility:	-2.75	Understandability:	-552.4572058823529	Extendibility:	-6.443627450980392	Effectiveness:	0.6225490196078431
+
+Class:DescriptorEnumeration
+	Reusability:	825.75	Flexibility:	-2.25	Understandability:	-551.4672058823529	Extendibility:	-5.151960784313725	Effectiveness:	0.7392156862745098
+
+Class:FailureAction
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Available
+	Reusability:	804.0	Flexibility:	-30.0	Understandability:	-594.3672058823529	Extendibility:	-62.943627450980394	Effectiveness:	1.0225490196078433
+
+Class:FileDir
+	Reusability:	827.75	Flexibility:	-1.5	Understandability:	-549.8172058823529	Extendibility:	-2.943627450980392	Effectiveness:	0.4225490196078432
+
+Class:AvailableTest
+	Reusability:	841.5	Flexibility:	0.0	Understandability:	-555.7572058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:BUnzip2
+	Reusability:	826.5	Flexibility:	-1.25	Understandability:	-549.157205882353	Extendibility:	-2.443627450980392	Effectiveness:	0.4225490196078432
+
+Class:BUnzip2Test
+	Reusability:	829.5	Flexibility:	0.0	Understandability:	-547.8372058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:BZip2
+	Reusability:	827.5	Flexibility:	-0.5	Understandability:	-547.8372058823529	Extendibility:	-0.44362745098039214	Effectiveness:	0.22254901960784315
+
+Class:BZip2Test
+	Reusability:	829.75	Flexibility:	-0.25	Understandability:	-548.4972058823529	Extendibility:	0.056372549019607865	Effectiveness:	0.22254901960784315
+
+Class:Basename
+	Reusability:	816.75	Flexibility:	-13.25	Understandability:	-565.3272058823529	Extendibility:	-26.443627450980394	Effectiveness:	0.4225490196078432
+
+Class:BasenameTest
+	Reusability:	833.0	Flexibility:	0.0	Understandability:	-550.1472058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:BuildNumber
+	Reusability:	823.0	Flexibility:	-6.0	Understandability:	-556.0872058823529	Extendibility:	-11.943627450980392	Effectiveness:	0.4225490196078432
+
+Class:CVSPassTest
+	Reusability:	830.0	Flexibility:	-1.5	Understandability:	-551.1372058823529	Extendibility:	-2.943627450980392	Effectiveness:	0.4225490196078432
+
+Class:CallTarget
+	Reusability:	826.0	Flexibility:	-4.5	Understandability:	-555.427205882353	Extendibility:	-9.943627450980392	Effectiveness:	0.6225490196078431
+
+Class:Checksum
+	Reusability:	760.25	Flexibility:	-71.75	Understandability:	-647.8272058823529	Extendibility:	-146.4436274509804	Effectiveness:	1.0225490196078433
+
+Class:ChecksumTest
+	Reusability:	831.25	Flexibility:	0.0	Understandability:	-548.8272058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Chmod
+	Reusability:	834.75	Flexibility:	0.75	Understandability:	-552.1272058823529	Extendibility:	-0.44362745098039214	Effectiveness:	0.8225490196078432
+
+Class:ConcatTest
+	Reusability:	830.0	Flexibility:	-1.75	Understandability:	-551.797205882353	Extendibility:	-3.443627450980392	Effectiveness:	0.4225490196078432
+
+Class:ConditionTask
+	Reusability:	828.0	Flexibility:	-1.5	Understandability:	-549.4872058823529	Extendibility:	-2.943627450980392	Effectiveness:	0.4225490196078432
+
+Class:ConditionTest
+	Reusability:	848.0	Flexibility:	0.0	Understandability:	-560.047205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Copy
+	Reusability:	706.25	Flexibility:	-127.25	Understandability:	-728.3472058823529	Extendibility:	-262.4436274509804	Effectiveness:	2.022549019607843
+
+Class:CopyTest
+	Reusability:	828.0	Flexibility:	-4.0	Understandability:	-554.7672058823529	Extendibility:	-7.443627450980392	Effectiveness:	0.22254901960784315
+
+Class:Copydir
+	Reusability:	811.5	Flexibility:	-18.0	Understandability:	-574.5672058823529	Extendibility:	-38.943627450980394	Effectiveness:	1.0225490196078433
+
+Class:CopydirTest
+	Reusability:	831.5	Flexibility:	-0.5	Understandability:	-550.1472058823529	Extendibility:	-0.44362745098039214	Effectiveness:	0.22254901960784315
+
+Class:Copyfile
+	Reusability:	817.0	Flexibility:	-12.5	Understandability:	-565.9872058823529	Extendibility:	-26.943627450980394	Effectiveness:	0.8225490196078432
+
+Class:CopyfileTest
+	Reusability:	831.5	Flexibility:	-0.5	Understandability:	-550.1472058823529	Extendibility:	-0.44362745098039214	Effectiveness:	0.22254901960784315
+
+Class:Cvs
+	Reusability:	828.0	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Definer
+	Reusability:	823.25	Flexibility:	-9.75	Understandability:	-564.667205882353	Extendibility:	-20.443627450980394	Effectiveness:	0.6225490196078431
+
+Class:Delete
+	Reusability:	755.75	Flexibility:	-86.75	Understandability:	-676.2072058823529	Extendibility:	-178.4436274509804	Effectiveness:	1.4225490196078432
+
+Class:DeleteTest
+	Reusability:	830.5	Flexibility:	0.0	Understandability:	-548.4972058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Deltree
+	Reusability:	810.25	Flexibility:	-18.75	Understandability:	-572.2572058823529	Extendibility:	-37.443627450980394	Effectiveness:	0.4225490196078432
+
+Class:DeltreeTest
+	Reusability:	829.5	Flexibility:	0.0	Understandability:	-547.8372058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:DemuxOutputTask
+	Reusability:	823.25	Flexibility:	-4.25	Understandability:	-554.4372058823529	Extendibility:	-10.443627450980392	Effectiveness:	0.8225490196078432
+
+Class:DependSet
+	Reusability:	819.0	Flexibility:	-11.5	Understandability:	-563.3472058823529	Extendibility:	-22.943627450980394	Effectiveness:	0.4225490196078432
+
+Class:DependSetTest
+	Reusability:	831.0	Flexibility:	-0.5	Understandability:	-549.8172058823529	Extendibility:	-0.44362745098039214	Effectiveness:	0.22254901960784315
+
+Class:Dirname
+	Reusability:	818.75	Flexibility:	-10.75	Understandability:	-561.6972058823529	Extendibility:	-21.443627450980394	Effectiveness:	0.4225490196078432
+
+Class:DirnameTest
+	Reusability:	830.25	Flexibility:	-0.75	Understandability:	-549.8172058823529	Extendibility:	-0.9436274509803921	Effectiveness:	0.22254901960784315
+
+Class:DynamicTask
+	Reusability:	829.75	Flexibility:	0.0	Understandability:	-547.5072058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Sub
+	Reusability:	829.25	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.9063725490196078	Effectiveness:	0.36254901960784314
+
+Class:DynamicTest
+	Reusability:	829.0	Flexibility:	0.0	Understandability:	-547.5072058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Ear
+	Reusability:	828.0	Flexibility:	-1.0	Understandability:	-550.4772058823529	Extendibility:	-2.943627450980392	Effectiveness:	0.6225490196078431
+
+Class:Echo
+	Reusability:	817.75	Flexibility:	-12.25	Understandability:	-565.9872058823529	Extendibility:	-26.443627450980394	Effectiveness:	0.8225490196078432
+
+Class:EchoLevel
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:EchoTest
+	Reusability:	830.0	Flexibility:	0.0	Understandability:	-548.167205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Exec
+	Reusability:	784.75	Flexibility:	-45.25	Understandability:	-610.537205882353	Extendibility:	-92.44362745098039	Effectiveness:	0.8225490196078432
+
+Class:StreamPumper
+	Reusability:	827.5	Flexibility:	0.75	Understandability:	-549.157205882353	Extendibility:	-2.043627450980392	Effectiveness:	1.3825490196078434
+
+Class:Execute
+	Reusability:	829.25	Flexibility:	-2.7666666666666666	Understandability:	-563.0392058823529	Extendibility:	-14.322937795807977	Effectiveness:	2.2574915483434754
+
+Class:CommandLauncher
+	Reusability:	828.5	Flexibility:	0.25	Understandability:	-548.8272058823529	Extendibility:	0.40637254901960784	Effectiveness:	0.7625490196078432
+
+Class:CommandLauncherProxy
+	Reusability:	828.25	Flexibility:	0.75	Understandability:	-546.5172058823529	Extendibility:	0.9563725490196079	Effectiveness:	0.7825490196078432
+
+Class:Java11CommandLauncher
+	Reusability:	828.25	Flexibility:	-0.5	Understandability:	-547.5072058823529	Extendibility:	-0.04362745098039211	Effectiveness:	0.38254901960784315
+
+Class:Java13CommandLauncher
+	Reusability:	827.75	Flexibility:	-0.75	Understandability:	-547.8372058823529	Extendibility:	-1.043627450980392	Effectiveness:	0.5825490196078432
+
+Class:MacCommandLauncher
+	Reusability:	827.5	Flexibility:	-0.75	Understandability:	-547.8372058823529	Extendibility:	-0.5436274509803921	Effectiveness:	0.38254901960784315
+
+Class:OS2CommandLauncher
+	Reusability:	827.25	Flexibility:	-1.0	Understandability:	-548.167205882353	Extendibility:	-1.043627450980392	Effectiveness:	0.38254901960784315
+
+Class:PerlScriptCommandLauncher
+	Reusability:	827.75	Flexibility:	-0.25	Understandability:	-547.177205882353	Extendibility:	-0.04362745098039211	Effectiveness:	0.5825490196078432
+
+Class:ScriptCommandLauncher
+	Reusability:	827.75	Flexibility:	-0.25	Understandability:	-547.177205882353	Extendibility:	-0.04362745098039211	Effectiveness:	0.5825490196078432
+
+Class:WinNTCommandLauncher
+	Reusability:	827.75	Flexibility:	-0.5	Understandability:	-547.5072058823529	Extendibility:	-0.04362745098039211	Effectiveness:	0.38254901960784315
+
+Class:ExecuteJava
+	Reusability:	827.0	Flexibility:	-4.5	Understandability:	-556.7472058823529	Extendibility:	-10.737745098039216	Effectiveness:	0.9049019607843138
+
+Class:ExecuteJavaTest
+	Reusability:	826.5	Flexibility:	-0.5	Understandability:	-551.4672058823529	Extendibility:	-4.943627450980392	Effectiveness:	1.2225490196078432
+
+Class:ExecuteOn
+	Reusability:	780.0	Flexibility:	-49.0	Understandability:	-620.767205882353	Extendibility:	-104.94362745098039	Effectiveness:	1.8225490196078433
+
+Class:FileDirBoth
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:ExecuteStreamHandler
+	Reusability:	827.75	Flexibility:	0.0	Understandability:	-547.8372058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:ExecuteWatchdog
+	Reusability:	831.0	Flexibility:	0.5	Understandability:	-549.8172058823529	Extendibility:	-0.7248774509803921	Effectiveness:	0.9100490196078432
+
+Class:ExecuteWatchdogTest
+	Reusability:	822.0	Flexibility:	-6.0	Understandability:	-560.047205882353	Extendibility:	-15.943627450980392	Effectiveness:	1.2225490196078432
+
+Class:Exit
+	Reusability:	828.75	Flexibility:	-1.75	Understandability:	-551.1372058823529	Extendibility:	-3.443627450980392	Effectiveness:	0.4225490196078432
+
+Class:Expand
+	Reusability:	770.5	Flexibility:	-60.0	Understandability:	-629.0172058823529	Extendibility:	-120.94362745098039	Effectiveness:	0.6225490196078431
+
+Class:FailTest
+	Reusability:	831.0	Flexibility:	0.0	Understandability:	-548.8272058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Filter
+	Reusability:	828.75	Flexibility:	-1.25	Understandability:	-549.8172058823529	Extendibility:	-2.443627450980392	Effectiveness:	0.4225490196078432
+
+Class:FilterTest
+	Reusability:	832.5	Flexibility:	-1.25	Understandability:	-552.1272058823529	Extendibility:	-1.9436274509803921	Effectiveness:	0.22254901960784315
+
+Class:FixCrLfTest
+	Reusability:	833.5	Flexibility:	-2.75	Understandability:	-555.427205882353	Extendibility:	-4.943627450980392	Effectiveness:	0.22254901960784315
+
+Class:GUnzip
+	Reusability:	826.75	Flexibility:	-1.0	Understandability:	-548.8272058823529	Extendibility:	-1.9436274509803921	Effectiveness:	0.4225490196078432
+
+Class:GUnzipTest
+	Reusability:	831.0	Flexibility:	0.0	Understandability:	-548.8272058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:GZip
+	Reusability:	828.0	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Get
+	Reusability:	803.0	Flexibility:	-27.5	Understandability:	-587.4372058823529	Extendibility:	-57.943627450980394	Effectiveness:	1.0225490196078433
+
+Class:Base64Converter
+	Reusability:	828.75	Flexibility:	0.0	Understandability:	-547.8372058823529	Extendibility:	-0.09362745098039216	Effectiveness:	0.5625490196078432
+
+Class:GetTest
+	Reusability:	831.0	Flexibility:	-0.5	Understandability:	-549.8172058823529	Extendibility:	-0.44362745098039214	Effectiveness:	0.22254901960784315
+
+Class:GzipTest
+	Reusability:	831.25	Flexibility:	-0.75	Understandability:	-550.4772058823529	Extendibility:	-0.9436274509803921	Effectiveness:	0.22254901960784315
+
+Class:InitializeClassTest
+	Reusability:	828.25	Flexibility:	-1.25	Understandability:	-549.4872058823529	Extendibility:	-1.9436274509803921	Effectiveness:	0.22254901960784315
+
+Class:Input
+	Reusability:	830.25	Flexibility:	-0.25	Understandability:	-548.4972058823529	Extendibility:	-0.44362745098039214	Effectiveness:	0.4225490196078432
+
+Class:InputTest
+	Reusability:	830.75	Flexibility:	-0.25	Understandability:	-549.157205882353	Extendibility:	-0.44362745098039214	Effectiveness:	0.4225490196078432
+
+Class:JDBCTask
+	Reusability:	834.25	Flexibility:	-2.25	Understandability:	-558.7272058823529	Extendibility:	-6.443627450980392	Effectiveness:	0.8225490196078432
+
+Class:Jar
+	Reusability:	823.25	Flexibility:	-3.25	Understandability:	-564.0072058823529	Extendibility:	-16.443627450980394	Effectiveness:	2.4225490196078434
+
+Class:FilesetManifestConfig
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:JarTest
+	Reusability:	836.5	Flexibility:	-2.5	Understandability:	-557.7372058823529	Extendibility:	-4.943627450980392	Effectiveness:	0.4225490196078432
+
+Class:Java
+	Reusability:	782.25	Flexibility:	-55.25	Understandability:	-633.307205882353	Extendibility:	-115.44362745098039	Effectiveness:	1.4225490196078432
+
+Class:JavaTest
+	Reusability:	834.75	Flexibility:	0.5	Understandability:	-551.4672058823529	Extendibility:	0.056372549019607865	Effectiveness:	0.6225490196078431
+
+Class:EntryPoint
+	Reusability:	824.25	Flexibility:	-4.5	Understandability:	-552.787205882353	Extendibility:	-8.054738562091503	Effectiveness:	0.3781045751633987
+
+Class:ExceptingEntryPoint
+	Reusability:	828.75	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	0.9452614379084967	Effectiveness:	0.3781045751633987
+
+Class:Javac
+	Reusability:	834.75	Flexibility:	-19.75	Understandability:	-603.277205882353	Extendibility:	-50.443627450980394	Effectiveness:	2.6225490196078436
+
+Class:ImplementationSpecificArgument
+	Reusability:	828.75	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	0.8063725490196079	Effectiveness:	0.32254901960784316
+
+Class:JavacTest
+	Reusability:	829.5	Flexibility:	-0.75	Understandability:	-550.4772058823529	Extendibility:	-2.443627450980392	Effectiveness:	0.6225490196078431
+
+Class:Jikes
+	Reusability:	822.0	Flexibility:	-5.0	Understandability:	-554.1072058823529	Extendibility:	-10.554738562091503	Effectiveness:	0.7781045751633987
+
+Class:JikesOutputParser
+	Reusability:	825.75	Flexibility:	-1.25	Understandability:	-555.7572058823529	Extendibility:	-8.259416924664603	Effectiveness:	1.6962332301341592
+
+Class:KeySubst
+	Reusability:	813.0	Flexibility:	-18.5	Understandability:	-573.2472058823529	Extendibility:	-36.943627450980394	Effectiveness:	0.4225490196078432
+
+Class:LoadFile
+	Reusability:	821.25	Flexibility:	-9.25	Understandability:	-561.3672058823529	Extendibility:	-19.443627450980394	Effectiveness:	0.6225490196078431
+
+Class:LoadFileTest
+	Reusability:	834.0	Flexibility:	0.0	Understandability:	-550.807205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:LoadProperties
+	Reusability:	817.25	Flexibility:	-12.25	Understandability:	-563.677205882353	Extendibility:	-24.443627450980394	Effectiveness:	0.4225490196078432
+
+Class:LoadPropertiesTest
+	Reusability:	829.5	Flexibility:	0.0	Understandability:	-547.8372058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:LogOutputStream
+	Reusability:	819.25	Flexibility:	-8.75	Understandability:	-562.027205882353	Extendibility:	-20.293627450980395	Effectiveness:	1.0825490196078433
+
+Class:LogStreamHandler
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Manifest
+	Reusability:	826.75	Flexibility:	-7.423076923076923	Understandability:	-563.2456674208145	Extendibility:	-17.307263814616757	Effectiveness:	0.9386329356917593
+
+Class:Attribute
+	Reusability:	814.25	Flexibility:	-20.25	Understandability:	-578.8572058823529	Extendibility:	-41.29145353793692	Effectiveness:	0.6834185848252344
+
+Class:Section
+	Reusability:	797.0	Flexibility:	-38.5	Understandability:	-602.6172058823529	Extendibility:	-76.79779411764706	Effectiveness:	0.48088235294117654
+
+Class:ManifestTask
+	Reusability:	828.75	Flexibility:	-0.75	Understandability:	-550.4772058823529	Extendibility:	-3.443627450980392	Effectiveness:	0.8225490196078432
+
+Class:Mode
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:ManifestTest
+	Reusability:	835.75	Flexibility:	-3.5	Understandability:	-558.7272058823529	Extendibility:	-6.443627450980392	Effectiveness:	0.22254901960784315
+
+Class:MatchingTask
+	Reusability:	842.75	Flexibility:	-1.75	Understandability:	-561.3672058823529	Extendibility:	-4.443627450980392	Effectiveness:	0.6225490196078431
+
+Class:Mkdir
+	Reusability:	811.75	Flexibility:	-17.25	Understandability:	-569.9472058823529	Extendibility:	-34.443627450980394	Effectiveness:	0.4225490196078432
+
+Class:MkdirTest
+	Reusability:	829.25	Flexibility:	-0.75	Understandability:	-549.157205882353	Extendibility:	-0.9436274509803921	Effectiveness:	0.22254901960784315
+
+Class:Move
+	Reusability:	820.25	Flexibility:	-8.0	Understandability:	-558.3972058823529	Extendibility:	-15.443627450980392	Effectiveness:	0.22254901960784315
+
+Class:MoveTest
+	Reusability:	829.5	Flexibility:	-0.5	Understandability:	-548.8272058823529	Extendibility:	-0.44362745098039214	Effectiveness:	0.22254901960784315
+
+Class:Pack
+	Reusability:	816.5	Flexibility:	-13.0	Understandability:	-565.9872058823529	Extendibility:	-25.943627450980394	Effectiveness:	0.4225490196078432
+
+Class:ParallelTest
+	Reusability:	829.0	Flexibility:	-1.0	Understandability:	-549.4872058823529	Extendibility:	-1.4436274509803921	Effectiveness:	0.22254901960784315
+
+Class:Patch
+	Reusability:	830.25	Flexibility:	-1.75	Understandability:	-552.4572058823529	Extendibility:	-4.443627450980392	Effectiveness:	0.6225490196078431
+
+Class:PathConvert
+	Reusability:	830.0	Flexibility:	-1.5	Understandability:	-555.7572058823529	Extendibility:	-6.943627450980392	Effectiveness:	1.2225490196078432
+
+Class:MapEntry
+	Reusability:	825.75	Flexibility:	-3.75	Understandability:	-552.4572058823529	Extendibility:	-7.125445632798574	Effectiveness:	0.5498217468805705
+
+Class:TargetOs
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:ProcessDestroyer
+	Reusability:	827.25	Flexibility:	-2.25	Understandability:	-550.4772058823529	Extendibility:	-4.068627450980392	Effectiveness:	0.5725490196078432
+
+Class:Property
+	Reusability:	820.75	Flexibility:	-17.25	Understandability:	-580.5072058823529	Extendibility:	-36.443627450980394	Effectiveness:	0.8225490196078432
+
+Class:PropertyTest
+	Reusability:	831.5	Flexibility:	0.0	Understandability:	-549.157205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Recorder
+	Reusability:	828.5	Flexibility:	-1.5	Understandability:	-552.1272058823529	Extendibility:	-4.943627450980392	Effectiveness:	0.8225490196078432
+
+Class:ActionChoices
+	Reusability:	828.5	Flexibility:	0.25	Understandability:	-546.8472058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.4225490196078432
+
+Class:VerbosityLevelChoices
+	Reusability:	828.5	Flexibility:	0.25	Understandability:	-546.8472058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.4225490196078432
+
+Class:Rename
+	Reusability:	822.5	Flexibility:	-7.0	Understandability:	-557.7372058823529	Extendibility:	-14.943627450980392	Effectiveness:	0.6225490196078431
+
+Class:RenameTest
+	Reusability:	830.5	Flexibility:	0.0	Understandability:	-548.4972058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:ReplaceTest
+	Reusability:	832.5	Flexibility:	0.0	Understandability:	-549.8172058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Rmic
+	Reusability:	829.25	Flexibility:	-16.25	Understandability:	-588.427205882353	Extendibility:	-40.443627450980394	Effectiveness:	2.022549019607843
+
+Class:ImplementationSpecificArgument
+	Reusability:	828.75	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	0.8063725490196079	Effectiveness:	0.32254901960784316
+
+Class:RmicTest
+	Reusability:	829.0	Flexibility:	0.25	Understandability:	-548.167205882353	Extendibility:	-0.44362745098039214	Effectiveness:	0.6225490196078431
+
+Class:SQLExec
+	Reusability:	772.5	Flexibility:	-59.5	Understandability:	-633.6372058823529	Extendibility:	-123.94362745098039	Effectiveness:	1.4225490196078432
+
+Class:DelimiterType
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:OnError
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Transaction
+	Reusability:	827.5	Flexibility:	-1.5	Understandability:	-549.4872058823529	Extendibility:	-2.6254456327985736	Effectiveness:	0.5498217468805705
+
+Class:SQLExecTest
+	Reusability:	824.5	Flexibility:	-3.25	Understandability:	-555.427205882353	Extendibility:	-8.943627450980392	Effectiveness:	0.8225490196078432
+
+Class:NullDriver
+	Reusability:	831.25	Flexibility:	0.0	Understandability:	-548.4972058823529	Extendibility:	0.8063725490196079	Effectiveness:	0.32254901960784316
+
+Class:SendEmail
+	Reusability:	828.5	Flexibility:	-0.25	Understandability:	-547.177205882353	Extendibility:	0.056372549019607865	Effectiveness:	0.22254901960784315
+
+Class:Sequential
+	Reusability:	826.5	Flexibility:	-3.0	Understandability:	-551.4672058823529	Extendibility:	-5.943627450980392	Effectiveness:	0.4225490196078432
+
+Class:SignJar
+	Reusability:	795.5	Flexibility:	-38.0	Understandability:	-605.2572058823529	Extendibility:	-79.94362745098039	Effectiveness:	1.2225490196078432
+
+Class:Sleep
+	Reusability:	832.0	Flexibility:	2.5	Understandability:	-549.4872058823529	Extendibility:	0.056372549019607865	Effectiveness:	1.4225490196078432
+
+Class:SleepTest
+	Reusability:	816.5	Flexibility:	-13.75	Understandability:	-568.6272058823529	Extendibility:	-29.443627450980394	Effectiveness:	0.8225490196078432
+
+Class:Timer
+	Reusability:	825.0	Flexibility:	-3.5	Understandability:	-553.777205882353	Extendibility:	-8.125445632798574	Effectiveness:	0.7498217468805705
+
+Class:StreamPumper
+	Reusability:	827.0	Flexibility:	-0.75	Understandability:	-550.807205882353	Extendibility:	-4.125445632798574	Effectiveness:	1.1498217468805705
+
+Class:TStampTest
+	Reusability:	828.5	Flexibility:	-0.75	Understandability:	-550.1472058823529	Extendibility:	-2.443627450980392	Effectiveness:	0.6225490196078431
+
+Class:Tar
+	Reusability:	771.0	Flexibility:	-59.6875	Understandability:	-630.9147058823529	Extendibility:	-121.94362745098039	Effectiveness:	0.8725490196078433
+
+Class:TarCompressionMethod
+	Reusability:	828.0	Flexibility:	-0.5	Understandability:	-547.8372058823529	Extendibility:	-0.9436274509803921	Effectiveness:	0.4225490196078432
+
+Class:TarFileSet
+	Reusability:	830.5	Flexibility:	-3.5	Understandability:	-557.0772058823529	Extendibility:	-8.943627450980392	Effectiveness:	0.8225490196078432
+
+Class:TarLongFileMode
+	Reusability:	826.75	Flexibility:	-4.208333333333333	Understandability:	-554.3822058823529	Extendibility:	-7.943627450980392	Effectiveness:	0.2558823529411765
+
+Class:TarTest
+	Reusability:	832.5	Flexibility:	-2.0	Understandability:	-553.777205882353	Extendibility:	-3.443627450980392	Effectiveness:	0.22254901960784315
+
+Class:Taskdef
+	Reusability:	828.25	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:TaskdefTest
+	Reusability:	832.75	Flexibility:	-0.75	Understandability:	-551.4672058823529	Extendibility:	-0.9436274509803921	Effectiveness:	0.22254901960784315
+
+Class:TaskdefsTest
+	Reusability:	828.0	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:TempFile
+	Reusability:	824.25	Flexibility:	-6.25	Understandability:	-556.417205882353	Extendibility:	-12.443627450980392	Effectiveness:	0.4225490196078432
+
+Class:Test
+	Reusability:	827.25	Flexibility:	-1.25	Understandability:	-548.4972058823529	Extendibility:	-2.054738562091503	Effectiveness:	0.5781045751633987
+
+Class:TestProcess
+	Reusability:	819.75	Flexibility:	-9.25	Understandability:	-561.3672058823529	Extendibility:	-20.151960784313726	Effectiveness:	0.9392156862745099
+
+Class:TestProcessShutdownHook
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.9849439775910365	Effectiveness:	0.3939775910364146
+
+Class:TimeProcess
+	Reusability:	828.25	Flexibility:	-0.5	Understandability:	-547.5072058823529	Extendibility:	-0.05473856209150324	Effectiveness:	0.3781045751633987
+
+Class:Touch
+	Reusability:	772.0	Flexibility:	-57.5	Understandability:	-626.047205882353	Extendibility:	-116.94362745098039	Effectiveness:	0.8225490196078432
+
+Class:Transform
+	Reusability:	828.0	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Tstamp
+	Reusability:	827.0	Flexibility:	-2.5	Understandability:	-551.1372058823529	Extendibility:	-4.943627450980392	Effectiveness:	0.4225490196078432
+
+Class:CustomFormat
+	Reusability:	829.25	Flexibility:	-1.75	Understandability:	-552.787205882353	Extendibility:	-5.224877450980392	Effectiveness:	0.9100490196078432
+
+Class:Unit
+	Reusability:	826.5	Flexibility:	-2.25	Understandability:	-550.4772058823529	Extendibility:	-4.443627450980392	Effectiveness:	0.4225490196078432
+
+Class:Typedef
+	Reusability:	828.25	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:TypedefTest
+	Reusability:	830.5	Flexibility:	-1.0	Understandability:	-550.4772058823529	Extendibility:	-1.4436274509803921	Effectiveness:	0.22254901960784315
+
+Class:Unpack
+	Reusability:	814.25	Flexibility:	-16.25	Understandability:	-570.9372058823529	Extendibility:	-32.443627450980394	Effectiveness:	0.4225490196078432
+
+Class:Untar
+	Reusability:	827.75	Flexibility:	-0.25	Understandability:	-548.167205882353	Extendibility:	-1.4436274509803921	Effectiveness:	0.6225490196078431
+
+Class:UntarCompressionMethod
+	Reusability:	827.5	Flexibility:	-1.0	Understandability:	-548.4972058823529	Extendibility:	-1.9436274509803921	Effectiveness:	0.4225490196078432
+
+Class:UntarTest
+	Reusability:	832.5	Flexibility:	0.0	Understandability:	-549.8172058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:UnzipTest
+	Reusability:	831.5	Flexibility:	0.0	Understandability:	-549.157205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:UpToDate
+	Reusability:	827.0	Flexibility:	-5.0	Understandability:	-556.417205882353	Extendibility:	-9.943627450980392	Effectiveness:	0.4225490196078432
+
+Class:WaitFor
+	Reusability:	830.5	Flexibility:	1.5	Understandability:	-549.157205882353	Extendibility:	-0.9436274509803921	Effectiveness:	1.2225490196078432
+
+Class:Unit
+	Reusability:	826.5	Flexibility:	-2.25	Understandability:	-550.4772058823529	Extendibility:	-4.443627450980392	Effectiveness:	0.4225490196078432
+
+Class:War
+	Reusability:	829.0	Flexibility:	-1.0	Understandability:	-551.1372058823529	Extendibility:	-2.943627450980392	Effectiveness:	0.6225490196078431
+
+Class:WarTest
+	Reusability:	829.5	Flexibility:	0.0	Understandability:	-547.8372058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:XSLTLiaison
+	Reusability:	827.75	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:XSLTLogger
+	Reusability:	827.75	Flexibility:	0.0	Understandability:	-546.5172058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:XSLTLoggerAware
+	Reusability:	827.75	Flexibility:	0.0	Understandability:	-546.5172058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:XSLTProcess
+	Reusability:	819.5	Flexibility:	-14.0	Understandability:	-578.1972058823529	Extendibility:	-34.943627450980394	Effectiveness:	1.8225490196078433
+
+Class:OutputProperty
+	Reusability:	828.0	Flexibility:	-2.0	Understandability:	-550.4772058823529	Extendibility:	-3.6519607843137254	Effectiveness:	0.5392156862745099
+
+Class:Param
+	Reusability:	829.5	Flexibility:	-0.5	Understandability:	-548.4972058823529	Extendibility:	-0.6519607843137254	Effectiveness:	0.5392156862745099
+
+Class:XmlProperty
+	Reusability:	822.75	Flexibility:	-7.25	Understandability:	-560.7072058823529	Extendibility:	-17.116704374057317	Effectiveness:	1.153318250377074
+
+Class:XmlPropertyTest
+	Reusability:	829.0	Flexibility:	0.0	Understandability:	-547.5072058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Zip
+	Reusability:	750.25	Flexibility:	-83.75	Understandability:	-672.5772058823529	Extendibility:	-174.4436274509804	Effectiveness:	1.8225490196078433
+
+Class:Duplicate
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:WhenEmpty
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:ZipTest
+	Reusability:	832.5	Flexibility:	-1.5	Understandability:	-552.787205882353	Extendibility:	-2.443627450980392	Effectiveness:	0.22254901960784315
+
+Class:DefaultRmicAdapter
+	Reusability:	826.25	Flexibility:	-2.75	Understandability:	-555.0972058823529	Extendibility:	-7.2594169246646025	Effectiveness:	0.896233230134159
+
+Class:RmicFileNameMapper
+	Reusability:	824.25	Flexibility:	-5.0	Understandability:	-554.1072058823529	Extendibility:	-9.125445632798574	Effectiveness:	0.34982174688057044
+
+Class:KaffeRmic
+	Reusability:	827.0	Flexibility:	-1.5	Understandability:	-549.157205882353	Extendibility:	-2.443627450980392	Effectiveness:	0.22254901960784315
+
+Class:RmicAdapter
+	Reusability:	827.75	Flexibility:	0.0	Understandability:	-547.5072058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:RmicAdapterFactory
+	Reusability:	827.0	Flexibility:	-1.25	Understandability:	-548.8272058823529	Extendibility:	-1.5936274509803923	Effectiveness:	0.36254901960784314
+
+Class:SunRmic
+	Reusability:	827.0	Flexibility:	-1.5	Understandability:	-549.157205882353	Extendibility:	-2.443627450980392	Effectiveness:	0.22254901960784315
+
+Class:WLRmic
+	Reusability:	828.75	Flexibility:	-0.75	Understandability:	-548.8272058823529	Extendibility:	-0.9436274509803921	Effectiveness:	0.22254901960784315
+
+Class:ClassFileSetTest
+	Reusability:	827.75	Flexibility:	-3.25	Understandability:	-553.1172058823529	Extendibility:	-5.943627450980392	Effectiveness:	0.22254901960784315
+
+Class:ClassfileSet
+	Reusability:	824.0	Flexibility:	-6.5	Understandability:	-557.0772058823529	Extendibility:	-12.943627450980392	Effectiveness:	0.4225490196078432
+
+Class:ClassRoot
+	Reusability:	829.0	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.40637254901960784	Effectiveness:	0.5625490196078432
+
+Class:DependScanner
+	Reusability:	828.25	Flexibility:	-6.3	Understandability:	-560.1132058823529	Extendibility:	-13.443627450980392	Effectiveness:	0.5825490196078431
+
+Class:AbstractFileSet
+	Reusability:	824.75	Flexibility:	-20.25	Understandability:	-589.417205882353	Extendibility:	-44.443627450980394	Effectiveness:	1.2225490196078432
+
+Class:AbstractFileSetTest
+	Reusability:	829.5	Flexibility:	0.25	Understandability:	-548.167205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.4225490196078432
+
+Class:AntFilterReader
+	Reusability:	829.75	Flexibility:	-2.75	Understandability:	-553.1172058823529	Extendibility:	-5.443627450980392	Effectiveness:	0.4225490196078432
+
+Class:CommandlineJava
+	Reusability:	837.75	Flexibility:	-1.75	Understandability:	-558.7272058823529	Extendibility:	-5.352718360071301	Effectiveness:	0.8589126559714796
+
+Class:SysProperties
+	Reusability:	826.75	Flexibility:	-3.75	Understandability:	-553.4472058823529	Extendibility:	-6.943627450980392	Effectiveness:	0.22254901960784315
+
+Class:CommandlineJavaTest
+	Reusability:	827.75	Flexibility:	-2.0	Understandability:	-550.807205882353	Extendibility:	-3.943627450980392	Effectiveness:	0.4225490196078432
+
+Class:CommandlineTest
+	Reusability:	829.5	Flexibility:	0.0	Understandability:	-547.8372058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:DTDLocation
+	Reusability:	830.25	Flexibility:	0.25	Understandability:	-547.5072058823529	Extendibility:	0.8480392156862746	Effectiveness:	0.5392156862745099
+
+Class:DataType
+	Reusability:	830.0	Flexibility:	0.0	Understandability:	-551.4672058823529	Extendibility:	-1.9436274509803921	Effectiveness:	0.8225490196078432
+
+Class:DataTypeAdapterTask
+	Reusability:	827.5	Flexibility:	-3.75	Understandability:	-553.4472058823529	Extendibility:	-6.943627450980392	Effectiveness:	0.22254901960784315
+
+Class:Description
+	Reusability:	828.75	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:DescriptionTest
+	Reusability:	831.0	Flexibility:	0.0	Understandability:	-548.8272058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:DirSet
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.5072058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:DirSetTest
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.5072058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:EnumeratedAttribute
+	Reusability:	829.5	Flexibility:	-1.0	Understandability:	-550.807205882353	Extendibility:	-2.7293417366946775	Effectiveness:	0.7082633053221289
+
+Class:EnumeratedAttributeTest
+	Reusability:	827.75	Flexibility:	-1.0	Understandability:	-548.8272058823529	Extendibility:	-1.9436274509803921	Effectiveness:	0.4225490196078432
+
+Class:TestNormal
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:TestNull
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Environment
+	Reusability:	828.25	Flexibility:	-0.75	Understandability:	-548.167205882353	Extendibility:	-1.0936274509803923	Effectiveness:	0.5625490196078432
+
+Class:Variable
+	Reusability:	823.5	Flexibility:	-8.0	Understandability:	-559.3872058823529	Extendibility:	-15.71029411764706	Effectiveness:	0.5158823529411766
+
+Class:FileList
+	Reusability:	821.5	Flexibility:	-9.0	Understandability:	-560.7072058823529	Extendibility:	-17.943627450980394	Effectiveness:	0.4225490196078432
+
+Class:FileListTest
+	Reusability:	829.5	Flexibility:	0.25	Understandability:	-547.5072058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.4225490196078432
+
+Class:FileSet
+	Reusability:	819.25	Flexibility:	-15.75	Understandability:	-575.557205882353	Extendibility:	-34.443627450980394	Effectiveness:	1.0225490196078433
+
+Class:FileSetTest
+	Reusability:	828.0	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:FilterChain
+	Reusability:	832.25	Flexibility:	-3.25	Understandability:	-555.7572058823529	Extendibility:	-6.443627450980392	Effectiveness:	0.4225490196078432
+
+Class:FilterSet
+	Reusability:	819.25	Flexibility:	-15.85	Understandability:	-573.0492058823529	Extendibility:	-31.443627450980394	Effectiveness:	0.3425490196078431
+
+Class:Filter
+	Reusability:	828.75	Flexibility:	-2.0	Understandability:	-550.807205882353	Extendibility:	-3.1743966817496228	Effectiveness:	0.3302413273001509
+
+Class:FiltersFile
+	Reusability:	828.75	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	0.9452614379084967	Effectiveness:	0.3781045751633987
+
+Class:FilterSetCollection
+	Reusability:	827.25	Flexibility:	-2.75	Understandability:	-551.4672058823529	Extendibility:	-5.151960784313725	Effectiveness:	0.5392156862745099
+
+Class:FilterSetTest
+	Reusability:	815.0	Flexibility:	-15.5	Understandability:	-569.9472058823529	Extendibility:	-31.943627450980394	Effectiveness:	0.6225490196078431
+
+Class:FlexInteger
+	Reusability:	817.75	Flexibility:	-11.0	Understandability:	-562.027205882353	Extendibility:	-21.61029411764706	Effectiveness:	0.5558823529411765
+
+Class:FlexIntegerTest
+	Reusability:	830.25	Flexibility:	-0.8333333333333333	Understandability:	-550.5872058823529	Extendibility:	-2.443627450980392	Effectiveness:	0.5558823529411765
+
+Class:Mapper
+	Reusability:	828.0	Flexibility:	-4.0	Understandability:	-555.7572058823529	Extendibility:	-8.943627450980392	Effectiveness:	0.6225490196078431
+
+Class:MapperType
+	Reusability:	826.25	Flexibility:	-2.5	Understandability:	-550.807205882353	Extendibility:	-4.943627450980392	Effectiveness:	0.4225490196078432
+
+Class:MapperTest
+	Reusability:	830.0	Flexibility:	0.25	Understandability:	-547.8372058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.4225490196078432
+
+Class:TaskdefForCopyTest
+	Reusability:	828.25	Flexibility:	-0.75	Understandability:	-548.8272058823529	Extendibility:	-0.9436274509803921	Effectiveness:	0.22254901960784315
+
+Class:Parameter
+	Reusability:	828.0	Flexibility:	-3.0	Understandability:	-552.4572058823529	Extendibility:	-5.693627450980392	Effectiveness:	0.5225490196078432
+
+Class:Parameterizable
+	Reusability:	827.75	Flexibility:	0.0	Understandability:	-546.5172058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:PathTest
+	Reusability:	820.75	Flexibility:	-13.166666666666666	Understandability:	-570.167205882353	Extendibility:	-27.943627450980394	Effectiveness:	0.6892156862745098
+
+Class:Pattern
+	Reusability:	830.25	Flexibility:	0.25	Understandability:	-547.5072058823529	Extendibility:	0.8480392156862746	Effectiveness:	0.5392156862745099
+
+Class:PatternSet
+	Reusability:	823.75	Flexibility:	-12.25	Understandability:	-570.277205882353	Extendibility:	-24.443627450980394	Effectiveness:	0.4225490196078432
+
+Class:NameEntry
+	Reusability:	826.5	Flexibility:	-6.0	Understandability:	-558.0672058823529	Extendibility:	-11.776960784313726	Effectiveness:	0.48921568627450984
+
+Class:SelectorEntry
+	Reusability:	828.0	Flexibility:	-3.0	Understandability:	-552.4572058823529	Extendibility:	-5.693627450980392	Effectiveness:	0.5225490196078432
+
+Class:PatternSetTest
+	Reusability:	830.0	Flexibility:	0.25	Understandability:	-547.8372058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.4225490196078432
+
+Class:Reference
+	Reusability:	830.25	Flexibility:	0.25	Understandability:	-547.5072058823529	Extendibility:	0.8480392156862746	Effectiveness:	0.5392156862745099
+
+Class:RegularExpression
+	Reusability:	830.0	Flexibility:	0.9166666666666666	Understandability:	-547.9472058823529	Extendibility:	0.056372549019607865	Effectiveness:	0.7558823529411764
+
+Class:Resource
+	Reusability:	833.25	Flexibility:	0.75	Understandability:	-551.4672058823529	Extendibility:	-1.268627450980392	Effectiveness:	1.0925490196078433
+
+Class:ResourceFactory
+	Reusability:	827.75	Flexibility:	0.0	Understandability:	-546.5172058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Substitution
+	Reusability:	829.5	Flexibility:	-0.125	Understandability:	-547.672205882353	Extendibility:	0.056372549019607865	Effectiveness:	0.32254901960784316
+
+Class:XMLCatalog
+	Reusability:	824.25	Flexibility:	-7.75	Understandability:	-564.0072058823529	Extendibility:	-16.443627450980394	Effectiveness:	0.6225490196078431
+
+Class:XMLCatalogBuildFileTest
+	Reusability:	831.0	Flexibility:	0.0	Understandability:	-548.8272058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:XMLCatalogTest
+	Reusability:	831.25	Flexibility:	-1.25	Understandability:	-553.777205882353	Extendibility:	-4.443627450980392	Effectiveness:	0.8225490196078432
+
+Class:ZipFileSet
+	Reusability:	829.25	Flexibility:	-2.3125	Understandability:	-557.8197058823529	Extendibility:	-9.443627450980392	Effectiveness:	1.3725490196078431
+
+Class:ZipScanner
+	Reusability:	824.75	Flexibility:	-5.75	Understandability:	-555.7572058823529	Extendibility:	-11.443627450980392	Effectiveness:	0.4225490196078432
+
+Class:AndSelector
+	Reusability:	827.75	Flexibility:	-1.5	Understandability:	-549.157205882353	Extendibility:	-2.443627450980392	Effectiveness:	0.22254901960784315
+
+Class:BaseExtendSelector
+	Reusability:	828.25	Flexibility:	-0.75	Understandability:	-548.4972058823529	Extendibility:	-1.4436274509803921	Effectiveness:	0.4225490196078432
+
+Class:BaseSelector
+	Reusability:	830.75	Flexibility:	0.25	Understandability:	-547.8372058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.4225490196078432
+
+Class:BaseSelectorContainer
+	Reusability:	835.25	Flexibility:	-3.75	Understandability:	-558.7272058823529	Extendibility:	-7.443627450980392	Effectiveness:	0.4225490196078432
+
+Class:ContainsSelector
+	Reusability:	825.25	Flexibility:	-5.375	Understandability:	-556.2522058823529	Extendibility:	-11.443627450980392	Effectiveness:	0.5225490196078432
+
+Class:ContainsSelectorTest
+	Reusability:	829.5	Flexibility:	0.75	Understandability:	-547.5072058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.6225490196078431
+
+Class:DateSelectorTest
+	Reusability:	829.25	Flexibility:	0.5	Understandability:	-547.8372058823529	Extendibility:	0.056372549019607865	Effectiveness:	0.6225490196078431
+
+Class:DependSelectorTest
+	Reusability:	829.25	Flexibility:	0.5	Understandability:	-547.8372058823529	Extendibility:	0.056372549019607865	Effectiveness:	0.6225490196078431
+
+Class:DepthSelectorTest
+	Reusability:	829.5	Flexibility:	0.75	Understandability:	-547.5072058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.6225490196078431
+
+Class:ExtendFileSelector
+	Reusability:	827.5	Flexibility:	0.0	Understandability:	-546.5172058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:ExtendSelector
+	Reusability:	827.25	Flexibility:	-4.75	Understandability:	-556.417205882353	Extendibility:	-10.443627450980392	Effectiveness:	0.6225490196078431
+
+Class:FileSelector
+	Reusability:	828.25	Flexibility:	0.0	Understandability:	-546.5172058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:FilenameSelector
+	Reusability:	827.5	Flexibility:	-3.125	Understandability:	-554.2722058823529	Extendibility:	-7.943627450980392	Effectiveness:	0.7225490196078432
+
+Class:FilenameSelectorTest
+	Reusability:	829.5	Flexibility:	0.75	Understandability:	-547.5072058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.6225490196078431
+
+Class:MajoritySelector
+	Reusability:	828.25	Flexibility:	-0.75	Understandability:	-549.157205882353	Extendibility:	-2.443627450980392	Effectiveness:	0.6225490196078431
+
+Class:NoneSelector
+	Reusability:	827.75	Flexibility:	-1.5	Understandability:	-549.157205882353	Extendibility:	-2.443627450980392	Effectiveness:	0.22254901960784315
+
+Class:NotSelector
+	Reusability:	828.0	Flexibility:	-1.0	Understandability:	-548.8272058823529	Extendibility:	-1.4436274509803921	Effectiveness:	0.22254901960784315
+
+Class:OrSelector
+	Reusability:	827.75	Flexibility:	-1.5	Understandability:	-549.157205882353	Extendibility:	-2.443627450980392	Effectiveness:	0.22254901960784315
+
+Class:PresentSelectorTest
+	Reusability:	829.5	Flexibility:	0.75	Understandability:	-547.5072058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.6225490196078431
+
+Class:SelectSelector
+	Reusability:	830.75	Flexibility:	-1.0	Understandability:	-550.4772058823529	Extendibility:	-1.4436274509803921	Effectiveness:	0.22254901960784315
+
+Class:SelectorContainer
+	Reusability:	837.25	Flexibility:	0.0	Understandability:	-552.4572058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:SelectorScanner
+	Reusability:	828.75	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:SelectorUtils
+	Reusability:	821.25	Flexibility:	-10.25	Understandability:	-563.677205882353	Extendibility:	-21.237745098039216	Effectiveness:	0.7049019607843138
+
+Class:SizeSelectorTest
+	Reusability:	829.5	Flexibility:	0.75	Understandability:	-547.5072058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.6225490196078431
+
+Class:AncestorAnalyzer
+	Reusability:	821.0	Flexibility:	-7.25	Understandability:	-556.7472058823529	Extendibility:	-13.943627450980392	Effectiveness:	0.22254901960784315
+
+Class:DependencyVisitor
+	Reusability:	827.75	Flexibility:	-3.25	Understandability:	-554.7672058823529	Extendibility:	-7.443627450980392	Effectiveness:	0.6225490196078431
+
+Class:FullAnalyzer
+	Reusability:	821.0	Flexibility:	-7.25	Understandability:	-556.7472058823529	Extendibility:	-13.943627450980392	Effectiveness:	0.22254901960784315
+
+Class:AbstractAnalyzer
+	Reusability:	826.25	Flexibility:	-3.78125	Understandability:	-559.7584558823529	Extendibility:	-12.291453537936913	Effectiveness:	1.4584185848252345
+
+Class:DependencyAnalyzer
+	Reusability:	827.75	Flexibility:	0.0	Understandability:	-549.4872058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:FacadeTaskHelper
+	Reusability:	830.25	Flexibility:	-1.75	Understandability:	-551.4672058823529	Extendibility:	-3.224877450980392	Effectiveness:	0.5100490196078432
+
+Class:FacadeTaskHelperTest
+	Reusability:	829.0	Flexibility:	0.0	Understandability:	-547.5072058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:ImplementationSpecificArgument
+	Reusability:	829.0	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.056372549019607865	Effectiveness:	0.4225490196078432
+
+Class:ImplementationSpecificArgumentTest
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:NoExitSecurityManager
+	Reusability:	829.25	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:CollectionUtils
+	Reusability:	825.75	Flexibility:	-3.5	Understandability:	-551.797205882353	Extendibility:	-6.093627450980392	Effectiveness:	0.36254901960784314
+
+Class:CollectionUtilsTest
+	Reusability:	825.5	Flexibility:	-3.5	Understandability:	-552.1272058823529	Extendibility:	-6.443627450980392	Effectiveness:	0.22254901960784315
+
+Class:DOMElementWriterTest
+	Reusability:	830.0	Flexibility:	0.75	Understandability:	-547.8372058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.6225490196078431
+
+Class:DateUtilsTest
+	Reusability:	827.0	Flexibility:	-4.0	Understandability:	-554.1072058823529	Extendibility:	-7.443627450980392	Effectiveness:	0.22254901960784315
+
+Class:FileNameMapper
+	Reusability:	827.75	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:FileUtilsTest
+	Reusability:	825.5	Flexibility:	-7.0	Understandability:	-560.047205882353	Extendibility:	-14.943627450980392	Effectiveness:	0.6225490196078431
+
+Class:FlatFileNameMapper
+	Reusability:	829.5	Flexibility:	-0.25	Understandability:	-547.8372058823529	Extendibility:	0.37455436720142604	Effectiveness:	0.34982174688057044
+
+Class:GlobPatternMapper
+	Reusability:	826.75	Flexibility:	-1.75	Understandability:	-551.4672058823529	Extendibility:	-5.151960784313725	Effectiveness:	0.9392156862745099
+
+Class:GlobPatternMapperTest
+	Reusability:	830.0	Flexibility:	0.0	Understandability:	-548.167205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:IdentityMapper
+	Reusability:	829.75	Flexibility:	0.0	Understandability:	-547.5072058823529	Extendibility:	0.874554367201426	Effectiveness:	0.34982174688057044
+
+Class:JAXPUtils
+	Reusability:	828.25	Flexibility:	-2.25	Understandability:	-551.797205882353	Extendibility:	-4.2102941176470585	Effectiveness:	0.5158823529411766
+
+Class:JAXPUtilsTest
+	Reusability:	828.0	Flexibility:	-0.5	Understandability:	-547.8372058823529	Extendibility:	-0.44362745098039214	Effectiveness:	0.22254901960784315
+
+Class:JavaEnvUtils
+	Reusability:	819.25	Flexibility:	-9.346153846153847	Understandability:	-565.124128959276	Extendibility:	-23.237745098039216	Effectiveness:	1.4279788838612368
+
+Class:JavaEnvUtilsTest
+	Reusability:	824.5	Flexibility:	-5.0	Understandability:	-554.4372058823529	Extendibility:	-9.443627450980392	Effectiveness:	0.22254901960784315
+
+Class:KeepAliveOutputStream
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:LoaderUtils
+	Reusability:	828.75	Flexibility:	-0.75	Understandability:	-548.4972058823529	Extendibility:	-1.125445632798574	Effectiveness:	0.5498217468805705
+
+Class:MergingMapper
+	Reusability:	829.75	Flexibility:	0.25	Understandability:	-547.177205882353	Extendibility:	0.874554367201426	Effectiveness:	0.5498217468805705
+
+Class:PackageNameMapperTest
+	Reusability:	828.5	Flexibility:	-0.25	Understandability:	-547.5072058823529	Extendibility:	0.056372549019607865	Effectiveness:	0.22254901960784315
+
+Class:SourceFileScanner
+	Reusability:	824.5	Flexibility:	-4.0	Understandability:	-554.1072058823529	Extendibility:	-9.625445632798574	Effectiveness:	0.9498217468805705
+
+Class:StringUtils
+	Reusability:	825.75	Flexibility:	-4.5	Understandability:	-553.777205882353	Extendibility:	-8.151960784313726	Effectiveness:	0.3392156862745098
+
+Class:StringUtilsTest
+	Reusability:	826.75	Flexibility:	-2.75	Understandability:	-551.4672058823529	Extendibility:	-4.943627450980392	Effectiveness:	0.22254901960784315
+
+Class:TaskLogger
+	Reusability:	830.75	Flexibility:	0.75	Understandability:	-547.8372058823529	Extendibility:	0.825603318250377	Effectiveness:	0.7302413273001509
+
+Class:TimeoutObserver
+	Reusability:	827.75	Flexibility:	0.0	Understandability:	-546.5172058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Watchdog
+	Reusability:	828.0	Flexibility:	-1.5	Understandability:	-551.797205882353	Extendibility:	-4.693627450980392	Effectiveness:	0.9225490196078432
+
+Class:JakartaOroMatcher
+	Reusability:	831.0	Flexibility:	1.0	Understandability:	-549.157205882353	Extendibility:	0.27512254901960786	Effectiveness:	0.9100490196078432
+
+Class:JakartaOroMatcherTest
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:JakartaOroRegexpTest
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:JakartaRegexpMatcher
+	Reusability:	831.0	Flexibility:	0.0	Understandability:	-549.4872058823529	Extendibility:	0.2622549019607843	Effectiveness:	0.5049019607843138
+
+Class:JakartaRegexpMatcherTest
+	Reusability:	829.75	Flexibility:	0.0	Understandability:	-547.8372058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:JakartaRegexpRegexpTest
+	Reusability:	829.75	Flexibility:	0.0	Understandability:	-547.8372058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Jdk14RegexpMatcherTest
+	Reusability:	830.5	Flexibility:	0.0	Understandability:	-548.4972058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Jdk14RegexpRegexpTest
+	Reusability:	830.5	Flexibility:	0.0	Understandability:	-548.4972058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Regexp
+	Reusability:	827.75	Flexibility:	1.0	Understandability:	-546.5172058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.6225490196078431
+
+Class:RegexpFactory
+	Reusability:	829.0	Flexibility:	-0.25	Understandability:	-547.8372058823529	Extendibility:	0.056372549019607865	Effectiveness:	0.22254901960784315
+
+Class:RegexpMatcher
+	Reusability:	827.75	Flexibility:	2.0	Understandability:	-548.167205882353	Extendibility:	0.5563725490196079	Effectiveness:	1.0225490196078433
+
+Class:RegexpMatcherFactory
+	Reusability:	828.25	Flexibility:	-1.0	Understandability:	-549.157205882353	Extendibility:	-1.1519607843137254	Effectiveness:	0.3392156862745098
+
+Class:RegexpMatcherTest
+	Reusability:	830.25	Flexibility:	-3.875	Understandability:	-558.2322058823529	Extendibility:	-8.443627450980392	Effectiveness:	0.5225490196078432
+
+Class:RegexpTest
+	Reusability:	830.5	Flexibility:	0.25	Understandability:	-548.167205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.4225490196078432
+
+Class:RegexpUtil
+	Reusability:	829.25	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.9063725490196078	Effectiveness:	0.36254901960784314
+
+Class:AntXDocletTask
+	Reusability:	828.5	Flexibility:	-1.0	Understandability:	-549.157205882353	Extendibility:	-1.9436274509803921	Effectiveness:	0.4225490196078432
+
+Class:DatatypeSubTask
+	Reusability:	829.25	Flexibility:	0.0	Understandability:	-547.8372058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:TaskSubTask
+	Reusability:	827.75	Flexibility:	-1.5	Understandability:	-550.1472058823529	Extendibility:	-2.443627450980392	Effectiveness:	0.22254901960784315
+
+Class:BZip2Constants
+	Reusability:	827.5	Flexibility:	5.5	Understandability:	-546.5172058823529	Extendibility:	0.5563725490196079	Effectiveness:	2.4225490196078434
+
+Class:CBZip2InputStream
+	Reusability:	822.25	Flexibility:	16.6968085106383	Understandability:	-565.0674186483104	Extendibility:	-12.364680082559339	Effectiveness:	9.611574775486904
+
+Class:CBZip2OutputStream
+	Reusability:	825.0	Flexibility:	14.94047619047619	Understandability:	-564.4157773109243	Extendibility:	-10.915056022408963	Effectiveness:	8.586358543417367
+
+Class:StackElem
+	Reusability:	828.0	Flexibility:	1.5	Understandability:	-546.8472058823529	Extendibility:	0.9938725490196079	Effectiveness:	0.9975490196078433
+
+Class:CRC
+	Reusability:	828.25	Flexibility:	1.0	Understandability:	-548.167205882353	Extendibility:	0.825603318250377	Effectiveness:	0.7302413273001509
+
+Class:MailMessage
+	Reusability:	784.25	Flexibility:	-47.275	Understandability:	-620.8002058823529	Extendibility:	-98.34640522875816	Effectiveness:	1.2414379084967322
+
+Class:MailPrintStream
+	Reusability:	828.5	Flexibility:	-0.25	Understandability:	-548.8272058823529	Extendibility:	-0.6221988795518207	Effectiveness:	0.5511204481792717
+
+Class:SmtpResponseReader
+	Reusability:	823.25	Flexibility:	-5.75	Understandability:	-555.427205882353	Extendibility:	-11.151960784313726	Effectiveness:	0.5392156862745099
+
+Class:TarBuffer
+	Reusability:	822.5	Flexibility:	-9.045454545454545	Understandability:	-570.9972058823529	Extendibility:	-26.818627450980394	Effectiveness:	2.236185383244207
+
+Class:TarConstants
+	Reusability:	827.5	Flexibility:	10.5	Understandability:	-546.5172058823529	Extendibility:	0.5563725490196079	Effectiveness:	4.422549019607843
+
+Class:TarInputStream
+	Reusability:	825.25	Flexibility:	-6.25	Understandability:	-564.9972058823529	Extendibility:	-20.443627450980394	Effectiveness:	2.022549019607843
+
+Class:TarOutputStream
+	Reusability:	827.75	Flexibility:	-0.8125	Understandability:	-560.1297058823529	Extendibility:	-13.443627450980392	Effectiveness:	2.7725490196078435
+
+Class:AsiExtraField
+	Reusability:	829.25	Flexibility:	-4.75	Understandability:	-562.027205882353	Extendibility:	-14.309012066365007	Effectiveness:	1.476395173453997
+
+Class:AsiExtraFieldTest
+	Reusability:	829.5	Flexibility:	0.0	Understandability:	-547.8372058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:ExtraFieldUtils
+	Reusability:	827.5	Flexibility:	-3.0	Understandability:	-552.1272058823529	Extendibility:	-5.674396681749623	Effectiveness:	0.5302413273001509
+
+Class:ExtraFieldUtilsTest
+	Reusability:	827.0	Flexibility:	-0.25	Understandability:	-550.807205882353	Extendibility:	-4.443627450980392	Effectiveness:	1.2225490196078432
+
+Class:UnixStat
+	Reusability:	827.5	Flexibility:	3.5	Understandability:	-546.5172058823529	Extendibility:	0.5563725490196079	Effectiveness:	1.6225490196078434
+
+Class:UnrecognizedExtraField
+	Reusability:	832.5	Flexibility:	1.5	Understandability:	-549.4872058823529	Extendibility:	0.2622549019607843	Effectiveness:	1.1049019607843138
+
+Class:ZipEntry
+	Reusability:	831.0	Flexibility:	-3.0	Understandability:	-561.6972058823529	Extendibility:	-11.763071895424837	Effectiveness:	1.6947712418300656
+
+Class:ZipEntryTest
+	Reusability:	828.5	Flexibility:	0.0	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:ZipExtraField
+	Reusability:	827.75	Flexibility:	0.0	Understandability:	-548.167205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:ZipLong
+	Reusability:	829.75	Flexibility:	-0.75	Understandability:	-550.1472058823529	Extendibility:	-2.193627450980392	Effectiveness:	0.7225490196078431
+
+Class:ZipLongTest
+	Reusability:	830.0	Flexibility:	0.0	Understandability:	-548.167205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:ZipOutputStream
+	Reusability:	659.5	Flexibility:	-164.52272727272728	Understandability:	-779.8572058823529	Extendibility:	-345.88807189542484	Effectiveness:	3.8265894236482474
+
+Class:ZipShort
+	Reusability:	829.75	Flexibility:	-0.75	Understandability:	-550.1472058823529	Extendibility:	-2.193627450980392	Effectiveness:	0.7225490196078431
+
+Class:ZipShortTest
+	Reusability:	830.0	Flexibility:	0.0	Understandability:	-548.167205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Output
+	Reusability:	825.5	Flexibility:	-3.0	Understandability:	-551.1372058823529	Extendibility:	-5.443627450980392	Effectiveness:	0.22254901960784315
+
+Class:ThreadedOutput
+	Reusability:	828.0	Flexibility:	-0.5	Understandability:	-547.8372058823529	Extendibility:	-0.44362745098039214	Effectiveness:	0.22254901960784315
+
+Class:TaskdefTestContainerTask
+	Reusability:	828.0	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:TaskdefTestSimpleTask
+	Reusability:	829.0	Flexibility:	0.75	Understandability:	-547.177205882353	Extendibility:	0.5563725490196079	Effectiveness:	0.6225490196078431
+
+Class:Echo
+	Reusability:	827.75	Flexibility:	-0.25	Understandability:	-547.177205882353	Extendibility:	-0.05473856209150324	Effectiveness:	0.5781045751633987
+
+Class:TypedefTestType
+	Reusability:	828.0	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	0.5563725490196079	Effectiveness:	0.22254901960784315
+
+Class:Outer
+	Reusability:	828.0	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	0.9938725490196079	Effectiveness:	0.39754901960784317
+
+Class:Inner
+	Reusability:	828.0	Flexibility:	0.0	Understandability:	-546.8472058823529	Extendibility:	0.9938725490196079	Effectiveness:	0.39754901960784317
+
+
