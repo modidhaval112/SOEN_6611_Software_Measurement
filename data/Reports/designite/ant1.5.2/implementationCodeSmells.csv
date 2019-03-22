@@ -1,0 +1,1747 @@
+Project Name,Package Name,Type Name,Method Name,Code Smell
+main,org.apache.tools.ant,AntClassLoader,findNextResource,Empty catch clause
+main,org.apache.tools.ant,AntClassLoader,AntClassLoader,Empty catch clause
+main,org.apache.tools.ant,AntClassLoader,initializeClass,Empty catch clause
+main,org.apache.tools.ant,AntClassLoader,initializeClass,Magic Number
+main,org.apache.tools.ant,AntClassLoader,getResourceStream,Long Statement
+main,org.apache.tools.ant,AntClassLoader,getResource,Complex Method
+main,org.apache.tools.ant,AntClassLoader,findClassInComponents,Empty catch clause
+main,org.apache.tools.ant,AntClassLoader,cleanup,Empty catch clause
+main,org.apache.tools.ant,ResourceEnumeration,findNextResource,Empty catch clause
+main,org.apache.tools.ant,DemuxOutputStream,resetBufferInfo,Empty catch clause
+main,org.apache.tools.ant,Diagnostics,validateVersion,Empty catch clause
+main,org.apache.tools.ant,Diagnostics,validateVersion,Long Statement
+main,org.apache.tools.ant,DirectoryScanner,scan,Complex Method
+main,org.apache.tools.ant,DirectoryScanner,scandir,Complex Method
+main,org.apache.tools.ant,IntrospectionHelper,IntrospectionHelper,Complex Conditional
+main,org.apache.tools.ant,IntrospectionHelper,IntrospectionHelper,Complex Conditional
+main,org.apache.tools.ant,IntrospectionHelper,IntrospectionHelper,Complex Conditional
+main,org.apache.tools.ant,IntrospectionHelper,IntrospectionHelper,Complex Conditional
+main,org.apache.tools.ant,IntrospectionHelper,IntrospectionHelper,Complex Conditional
+main,org.apache.tools.ant,IntrospectionHelper,IntrospectionHelper,Complex Conditional
+main,org.apache.tools.ant,IntrospectionHelper,IntrospectionHelper,Complex Conditional
+main,org.apache.tools.ant,IntrospectionHelper,IntrospectionHelper,Complex Method
+main,org.apache.tools.ant,IntrospectionHelper,IntrospectionHelper,Empty catch clause
+main,org.apache.tools.ant,IntrospectionHelper,IntrospectionHelper,Empty catch clause
+main,org.apache.tools.ant,IntrospectionHelper,IntrospectionHelper,Long Statement
+main,org.apache.tools.ant,IntrospectionHelper,IntrospectionHelper,Long Statement
+main,org.apache.tools.ant,IntrospectionHelper,IntrospectionHelper,Long Statement
+main,org.apache.tools.ant,IntrospectionHelper,IntrospectionHelper,Long Statement
+main,org.apache.tools.ant,IntrospectionHelper,IntrospectionHelper,Long Statement
+main,org.apache.tools.ant,IntrospectionHelper,createAttributeSetter,Complex Method
+main,org.apache.tools.ant,IntrospectionHelper,createAttributeSetter,Empty catch clause
+main,org.apache.tools.ant,IntrospectionHelper,createAttributeSetter,Long Statement
+main,org.apache.tools.ant,IntrospectionHelper,createAttributeSetter,Long Statement
+main,org.apache.tools.ant,IntrospectionHelper,createAttributeSetter,Long Statement
+main,org.apache.tools.ant,IntrospectionHelper,createAttributeSetter,Long Statement
+main,org.apache.tools.ant,IntrospectionHelper,set,Long Statement
+main,org.apache.tools.ant,Main,start,Empty catch clause
+main,org.apache.tools.ant,Main,start,Empty catch clause
+main,org.apache.tools.ant,Main,Main,Complex Conditional
+main,org.apache.tools.ant,Main,Main,Complex Method
+main,org.apache.tools.ant,Main,Main,Empty catch clause
+main,org.apache.tools.ant,Main,Main,Long Method
+main,org.apache.tools.ant,Main,Main,Long Statement
+main,org.apache.tools.ant,Main,Main,Magic Number
+main,org.apache.tools.ant,Main,runBuild,Complex Method
+main,org.apache.tools.ant,Main,addInputHandler,Long Statement
+main,org.apache.tools.ant,Main,addInputHandler,Long Statement
+main,org.apache.tools.ant,Main,createLogger,Long Statement
+main,org.apache.tools.ant,Main,printTargets,Long Parameter List
+main,org.apache.tools.ant,Main,printTargets,Magic Number
+main,org.apache.tools.ant,NoBannerLogger,messageLogged,Complex Conditional
+main,org.apache.tools.ant,PathTokenizer,nextToken,Complex Conditional
+main,org.apache.tools.ant,PathTokenizer,nextToken,Complex Method
+main,org.apache.tools.ant,Project,addTaskDefinition,Complex Conditional
+main,org.apache.tools.ant,Project,addTaskDefinition,Long Statement
+main,org.apache.tools.ant,Project,translatePath,Magic Number
+main,org.apache.tools.ant,Project,copyFile,Long Parameter List
+main,org.apache.tools.ant,Project,copyFile,Long Parameter List
+main,org.apache.tools.ant,Project,tsort,Long Parameter List
+main,org.apache.tools.ant,Project,fireMessageLoggedEvent,Long Statement
+main,org.apache.tools.ant,ProjectHelper,parse,Long Statement
+main,org.apache.tools.ant,ProjectHelper,getProjectHelper,Complex Method
+main,org.apache.tools.ant,ProjectHelper,getProjectHelper,Long Statement
+main,org.apache.tools.ant,ProjectHelper,newHelper,Empty catch clause
+main,org.apache.tools.ant,ProjectHelper,addText,Long Parameter List
+main,org.apache.tools.ant,ProjectHelper,parsePropertyString,Complex Method
+main,org.apache.tools.ant,ProjectHelper,parsePropertyString,Magic Number
+main,org.apache.tools.ant,ProjectHelper,parsePropertyString,Magic Number
+main,org.apache.tools.ant,ProjectHelper,parsePropertyString,Magic Number
+main,org.apache.tools.ant,ProjectHelper,parsePropertyString,Magic Number
+main,org.apache.tools.ant,Target,setDepends,Long Statement
+main,org.apache.tools.ant,Target,setDepends,Long Statement
+main,org.apache.tools.ant,TaskAdapter,checkTaskClass,Long Statement
+main,org.apache.tools.ant,TaskAdapter,execute,Empty catch clause
+main,org.apache.tools.ant,UnknownElement,getNotFoundException,Long Statement
+main,org.apache.tools.ant,XmlLogger,buildFinished,Empty catch clause
+main,org.apache.tools.ant,XmlLogger,targetFinished,Long Statement
+main,org.apache.tools.ant,XmlLogger,taskFinished,Long Statement
+main,org.apache.tools.ant,XmlLogger,messageLogged,Complex Method
+main,org.apache.tools.ant,XmlLogger,messageLogged,Missing default
+main,org.apache.tools.ant.filters,BaseFilterReader,BaseFilterReader,Empty catch clause
+main,org.apache.tools.ant.filters,BaseFilterReader,readFully,Magic Number
+main,org.apache.tools.ant.filters,LineContains,read,Complex Method
+main,org.apache.tools.ant.filters,LineContainsRegExp,read,Complex Method
+main,org.apache.tools.ant.filters,ReplaceTokens,read,Complex Method
+main,org.apache.tools.ant.filters,ReplaceTokens,initialize,Complex Method
+main,org.apache.tools.ant.filters,StripJavaComments,read,Complex Method
+main,org.apache.tools.ant.filters,StripLineComments,read,Complex Method
+main,org.apache.tools.ant.filters,TailFilter,read,Complex Method
+main,org.apache.tools.ant.filters,TailFilter,read,Magic Number
+main,org.apache.tools.ant.filters.util,ChainReaderHelper,getAssembledReader,Complex Method
+main,org.apache.tools.ant.helper,ProjectHelperImpl,parse,Empty catch clause
+main,org.apache.tools.ant.helper,ProjectHelperImpl,resolveEntity,Magic Number
+main,org.apache.tools.ant.helper,ProjectHelperImpl,resolveEntity,Magic Number
+main,org.apache.tools.ant.helper,ProjectHelperImpl,resolveEntity,Magic Number
+main,org.apache.tools.ant.helper,ProjectHelperImpl,init,Complex Method
+main,org.apache.tools.ant.helper,ProjectHelperImpl,init,Complex Method
+main,org.apache.tools.ant.helper,ProjectHelperImpl,TaskHandler,Long Parameter List
+main,org.apache.tools.ant.helper,ProjectHelperImpl,init,Empty catch clause
+main,org.apache.tools.ant.helper,ProjectHelperImpl,init,Long Statement
+main,org.apache.tools.ant.helper,ProjectHelperImpl,NestedElementHandler,Long Parameter List
+main,org.apache.tools.ant.helper,RootHandler,resolveEntity,Magic Number
+main,org.apache.tools.ant.helper,RootHandler,resolveEntity,Magic Number
+main,org.apache.tools.ant.helper,RootHandler,resolveEntity,Magic Number
+main,org.apache.tools.ant.helper,ProjectHandler,init,Complex Method
+main,org.apache.tools.ant.helper,TargetHandler,init,Complex Method
+main,org.apache.tools.ant.helper,TaskHandler,TaskHandler,Long Parameter List
+main,org.apache.tools.ant.helper,TaskHandler,init,Empty catch clause
+main,org.apache.tools.ant.helper,TaskHandler,init,Long Statement
+main,org.apache.tools.ant.helper,NestedElementHandler,NestedElementHandler,Long Parameter List
+main,org.apache.tools.ant.listener,AnsiColorLogger,setColors,Complex Method
+main,org.apache.tools.ant.listener,AnsiColorLogger,setColors,Empty catch clause
+main,org.apache.tools.ant.listener,AnsiColorLogger,setColors,Empty catch clause
+main,org.apache.tools.ant.listener,AnsiColorLogger,printMessage,Complex Method
+main,org.apache.tools.ant.listener,CommonsLoggingListener,messageLogged,Complex Method
+main,org.apache.tools.ant.listener,CommonsLoggingListener,messageLogged,Missing default
+main,org.apache.tools.ant.listener,Log4jListener,messageLogged,Complex Method
+main,org.apache.tools.ant.listener,Log4jListener,messageLogged,Missing default
+main,org.apache.tools.ant.listener,MailLogger,buildFinished,Empty catch clause
+main,org.apache.tools.ant.listener,MailLogger,buildFinished,Empty catch clause
+main,org.apache.tools.ant.listener,MailLogger,sendMail,Long Parameter List
+main,org.apache.tools.ant.taskdefs,AbstractCvsTask,runCommand,Complex Method
+main,org.apache.tools.ant.taskdefs,AbstractCvsTask,runCommand,Empty catch clause
+main,org.apache.tools.ant.taskdefs,AbstractCvsTask,runCommand,Empty catch clause
+main,org.apache.tools.ant.taskdefs,AbstractCvsTask,runCommand,Long Method
+main,org.apache.tools.ant.taskdefs,AbstractCvsTask,runCommand,Long Statement
+main,org.apache.tools.ant.taskdefs,AbstractCvsTask,runCommand,Long Statement
+main,org.apache.tools.ant.taskdefs,AbstractCvsTask,configureCommandline,Magic Number
+main,org.apache.tools.ant.taskdefs,Ant,reinit,Complex Method
+main,org.apache.tools.ant.taskdefs,Ant,initializeProject,Complex Method
+main,org.apache.tools.ant.taskdefs,Ant,execute,Complex Conditional
+main,org.apache.tools.ant.taskdefs,Ant,execute,Complex Method
+main,org.apache.tools.ant.taskdefs,Ant,execute,Long Statement
+main,org.apache.tools.ant.taskdefs,Ant,execute,Long Statement
+main,org.apache.tools.ant.taskdefs,Ant,addReferences,Complex Method
+main,org.apache.tools.ant.taskdefs,Ant,copyReference,Empty catch clause
+main,org.apache.tools.ant.taskdefs,Ant,copyReference,Empty catch clause
+main,org.apache.tools.ant.taskdefs,AntStructure,isNmtoken,Complex Conditional
+main,org.apache.tools.ant.taskdefs,Available,execute,Long Statement
+main,org.apache.tools.ant.taskdefs,Available,eval,Complex Conditional
+main,org.apache.tools.ant.taskdefs,Available,eval,Complex Method
+main,org.apache.tools.ant.taskdefs,Available,eval,Long Statement
+main,org.apache.tools.ant.taskdefs,Available,checkFile,Complex Conditional
+main,org.apache.tools.ant.taskdefs,Available,checkFile,Complex Method
+main,org.apache.tools.ant.taskdefs,Basename,execute,Complex Conditional
+main,org.apache.tools.ant.taskdefs,BuildNumber,execute,Empty catch clause
+main,org.apache.tools.ant.taskdefs,BuildNumber,loadProperties,Empty catch clause
+main,org.apache.tools.ant.taskdefs,BUnzip2,extract,Complex Method
+main,org.apache.tools.ant.taskdefs,BUnzip2,extract,Empty catch clause
+main,org.apache.tools.ant.taskdefs,BUnzip2,extract,Empty catch clause
+main,org.apache.tools.ant.taskdefs,BUnzip2,extract,Empty catch clause
+main,org.apache.tools.ant.taskdefs,BUnzip2,extract,Empty catch clause
+main,org.apache.tools.ant.taskdefs,BUnzip2,extract,Magic Number
+main,org.apache.tools.ant.taskdefs,BUnzip2,extract,Magic Number
+main,org.apache.tools.ant.taskdefs,BZip2,pack,Empty catch clause
+main,org.apache.tools.ant.taskdefs,Checksum,validateAndExecute,Complex Conditional
+main,org.apache.tools.ant.taskdefs,Checksum,validateAndExecute,Complex Method
+main,org.apache.tools.ant.taskdefs,Checksum,addToIncludeFileMap,Complex Conditional
+main,org.apache.tools.ant.taskdefs,Checksum,generateChecksums,Complex Method
+main,org.apache.tools.ant.taskdefs,Checksum,generateChecksums,Empty catch clause
+main,org.apache.tools.ant.taskdefs,Checksum,generateChecksums,Empty catch clause
+main,org.apache.tools.ant.taskdefs,Checksum,generateChecksums,Magic Number
+main,org.apache.tools.ant.taskdefs,Checksum,generateChecksums,Magic Number
+main,org.apache.tools.ant.taskdefs,Concat,catFiles,Complex Method
+main,org.apache.tools.ant.taskdefs,Concat,catFiles,Empty catch clause
+main,org.apache.tools.ant.taskdefs,Concat,catFiles,Empty catch clause
+main,org.apache.tools.ant.taskdefs,Concat,catFiles,Empty catch clause
+main,org.apache.tools.ant.taskdefs,Concat,catFiles,Empty catch clause
+main,org.apache.tools.ant.taskdefs,Concat,catFiles,Long Method
+main,org.apache.tools.ant.taskdefs,Concat,catFiles,Magic Number
+main,org.apache.tools.ant.taskdefs,Concat,catFiles,Magic Number
+main,org.apache.tools.ant.taskdefs,Concat,catText,Empty catch clause
+main,org.apache.tools.ant.taskdefs,Concat,catText,Empty catch clause
+main,org.apache.tools.ant.taskdefs,Copy,execute,Complex Conditional
+main,org.apache.tools.ant.taskdefs,Copy,execute,Complex Conditional
+main,org.apache.tools.ant.taskdefs,Copy,execute,Complex Conditional
+main,org.apache.tools.ant.taskdefs,Copy,execute,Complex Method
+main,org.apache.tools.ant.taskdefs,Copy,validateAttributes,Complex Conditional
+main,org.apache.tools.ant.taskdefs,Copy,validateAttributes,Complex Method
+main,org.apache.tools.ant.taskdefs,Copy,buildMap,Long Parameter List
+main,org.apache.tools.ant.taskdefs,Copy,doFileOperations,Complex Method
+main,org.apache.tools.ant.taskdefs,Copy,doFileOperations,Long Statement
+main,org.apache.tools.ant.taskdefs,Copydir,execute,Long Statement
+main,org.apache.tools.ant.taskdefs,CVSPass,CVSPass,Long Statement
+main,org.apache.tools.ant.taskdefs,CVSPass,execute,Complex Method
+main,org.apache.tools.ant.taskdefs,CVSPass,execute,Empty catch clause
+main,org.apache.tools.ant.taskdefs,Definer,execute,Complex Method
+main,org.apache.tools.ant.taskdefs,Definer,execute,Empty catch clause
+main,org.apache.tools.ant.taskdefs,Definer,createLoader,Complex Method
+main,org.apache.tools.ant.taskdefs,Delete,execute,Complex Conditional
+main,org.apache.tools.ant.taskdefs,Delete,execute,Complex Conditional
+main,org.apache.tools.ant.taskdefs,Delete,execute,Complex Method
+main,org.apache.tools.ant.taskdefs,Delete,removeDir,Complex Method
+main,org.apache.tools.ant.taskdefs,Delete,removeFiles,Complex Method
+main,org.apache.tools.ant.taskdefs,DependSet,execute,Complex Method
+main,org.apache.tools.ant.taskdefs,DependSet,execute,Long Method
+main,org.apache.tools.ant.taskdefs,DependSet,execute,Magic Number
+main,org.apache.tools.ant.taskdefs,Ear,zipFile,Complex Conditional
+main,org.apache.tools.ant.taskdefs,Ear,zipFile,Long Statement
+main,org.apache.tools.ant.taskdefs,Echo,execute,Empty catch clause
+main,org.apache.tools.ant.taskdefs,Exec,run,Complex Method
+main,org.apache.tools.ant.taskdefs,Exec,run,Empty catch clause
+main,org.apache.tools.ant.taskdefs,Exec,run,Empty catch clause
+main,org.apache.tools.ant.taskdefs,Exec,run,Empty catch clause
+main,org.apache.tools.ant.taskdefs,StreamPumper,run,Empty catch clause
+main,org.apache.tools.ant.taskdefs,StreamPumper,run,Empty catch clause
+main,org.apache.tools.ant.taskdefs,ExecTask,setCommand,Long Statement
+main,org.apache.tools.ant.taskdefs,ExecTask,logFlush,Empty catch clause
+main,org.apache.tools.ant.taskdefs,Execute,getProcEnvironment,Complex Method
+main,org.apache.tools.ant.taskdefs,Execute,toString,Empty catch clause
+main,org.apache.tools.ant.taskdefs,Execute,launch,Long Parameter List
+main,org.apache.tools.ant.taskdefs,Execute,exec,Magic Number
+main,org.apache.tools.ant.taskdefs,Execute,exec,Magic Number
+main,org.apache.tools.ant.taskdefs,Execute,exec,Magic Number
+main,org.apache.tools.ant.taskdefs,Execute,exec,Magic Number
+main,org.apache.tools.ant.taskdefs,Execute,exec,Magic Number
+main,org.apache.tools.ant.taskdefs,Execute,exec,Magic Number
+main,org.apache.tools.ant.taskdefs,Execute,exec,Magic Number
+main,org.apache.tools.ant.taskdefs,Execute,exec,Magic Number
+main,org.apache.tools.ant.taskdefs,Execute,exec,Magic Number
+main,org.apache.tools.ant.taskdefs,Execute,exec,Magic Number
+main,org.apache.tools.ant.taskdefs,Execute,exec,Magic Number
+main,org.apache.tools.ant.taskdefs,Execute,exec,Magic Number
+main,org.apache.tools.ant.taskdefs,Execute,exec,Magic Number
+main,org.apache.tools.ant.taskdefs,Execute,exec,Magic Number
+main,org.apache.tools.ant.taskdefs,Execute,exec,Magic Number
+main,org.apache.tools.ant.taskdefs,Execute,exec,Magic Number
+main,org.apache.tools.ant.taskdefs,Execute,exec,Magic Number
+main,org.apache.tools.ant.taskdefs,Execute,exec,Magic Number
+main,org.apache.tools.ant.taskdefs,OS2CommandLauncher,exec,Magic Number
+main,org.apache.tools.ant.taskdefs,OS2CommandLauncher,exec,Magic Number
+main,org.apache.tools.ant.taskdefs,OS2CommandLauncher,exec,Magic Number
+main,org.apache.tools.ant.taskdefs,OS2CommandLauncher,exec,Magic Number
+main,org.apache.tools.ant.taskdefs,OS2CommandLauncher,exec,Magic Number
+main,org.apache.tools.ant.taskdefs,OS2CommandLauncher,exec,Magic Number
+main,org.apache.tools.ant.taskdefs,OS2CommandLauncher,exec,Magic Number
+main,org.apache.tools.ant.taskdefs,OS2CommandLauncher,exec,Magic Number
+main,org.apache.tools.ant.taskdefs,WinNTCommandLauncher,exec,Magic Number
+main,org.apache.tools.ant.taskdefs,WinNTCommandLauncher,exec,Magic Number
+main,org.apache.tools.ant.taskdefs,WinNTCommandLauncher,exec,Magic Number
+main,org.apache.tools.ant.taskdefs,WinNTCommandLauncher,exec,Magic Number
+main,org.apache.tools.ant.taskdefs,WinNTCommandLauncher,exec,Magic Number
+main,org.apache.tools.ant.taskdefs,ScriptCommandLauncher,exec,Magic Number
+main,org.apache.tools.ant.taskdefs,ScriptCommandLauncher,exec,Magic Number
+main,org.apache.tools.ant.taskdefs,PerlScriptCommandLauncher,exec,Magic Number
+main,org.apache.tools.ant.taskdefs,PerlScriptCommandLauncher,exec,Magic Number
+main,org.apache.tools.ant.taskdefs,PerlScriptCommandLauncher,exec,Magic Number
+main,org.apache.tools.ant.taskdefs,ExecuteJava,execute,Complex Method
+main,org.apache.tools.ant.taskdefs,ExecuteJava,execute,Empty catch clause
+main,org.apache.tools.ant.taskdefs,ExecuteOn,checkConfiguration,Complex Conditional
+main,org.apache.tools.ant.taskdefs,ExecuteOn,runExec,Complex Conditional
+main,org.apache.tools.ant.taskdefs,ExecuteOn,runExec,Complex Method
+main,org.apache.tools.ant.taskdefs,ExecuteOn,getCommandline,Complex Conditional
+main,org.apache.tools.ant.taskdefs,ExecuteOn,getCommandline,Complex Method
+main,org.apache.tools.ant.taskdefs,Expand,execute,Complex Method
+main,org.apache.tools.ant.taskdefs,Expand,expandFile,Empty catch clause
+main,org.apache.tools.ant.taskdefs,Expand,extractFile,Complex Conditional
+main,org.apache.tools.ant.taskdefs,Expand,extractFile,Complex Method
+main,org.apache.tools.ant.taskdefs,Expand,extractFile,Empty catch clause
+main,org.apache.tools.ant.taskdefs,Expand,extractFile,Long Parameter List
+main,org.apache.tools.ant.taskdefs,Expand,extractFile,Magic Number
+main,org.apache.tools.ant.taskdefs,Filter,execute,Long Statement
+main,org.apache.tools.ant.taskdefs,FixCRLF,setTablength,Magic Number
+main,org.apache.tools.ant.taskdefs,FixCRLF,setTablength,Magic Number
+main,org.apache.tools.ant.taskdefs,FixCRLF,execute,Complex Method
+main,org.apache.tools.ant.taskdefs,FixCRLF,execute,Long Statement
+main,org.apache.tools.ant.taskdefs,FixCRLF,processFile,Complex Method
+main,org.apache.tools.ant.taskdefs,FixCRLF,processFile,Long Method
+main,org.apache.tools.ant.taskdefs,FixCRLF,processFile,Long Statement
+main,org.apache.tools.ant.taskdefs,FixCRLF,processFile,Long Statement
+main,org.apache.tools.ant.taskdefs,FixCRLF,processFile,Long Statement
+main,org.apache.tools.ant.taskdefs,FixCRLF,processFile,Magic Number
+main,org.apache.tools.ant.taskdefs,FixCRLF,nextStateChange,Complex Method
+main,org.apache.tools.ant.taskdefs,FixCRLF,notInConstant,Magic Number
+main,org.apache.tools.ant.taskdefs,FixCRLF,notInConstant,Magic Number
+main,org.apache.tools.ant.taskdefs,FixCRLF,nextLine,Complex Method
+main,org.apache.tools.ant.taskdefs,FixCRLF,nextLine,Magic Number
+main,org.apache.tools.ant.taskdefs,FixCRLF,nextLine,Magic Number
+main,org.apache.tools.ant.taskdefs,FixCRLF,nextLine,Missing default
+main,org.apache.tools.ant.taskdefs,OneLiner,nextLine,Complex Method
+main,org.apache.tools.ant.taskdefs,OneLiner,nextLine,Magic Number
+main,org.apache.tools.ant.taskdefs,OneLiner,nextLine,Magic Number
+main,org.apache.tools.ant.taskdefs,OneLiner,nextLine,Missing default
+main,org.apache.tools.ant.taskdefs,GenerateKey,execute,Complex Method
+main,org.apache.tools.ant.taskdefs,Get,execute,Complex Method
+main,org.apache.tools.ant.taskdefs,Get,execute,Long Method
+main,org.apache.tools.ant.taskdefs,Get,execute,Long Statement
+main,org.apache.tools.ant.taskdefs,Get,execute,Magic Number
+main,org.apache.tools.ant.taskdefs,Get,execute,Magic Number
+main,org.apache.tools.ant.taskdefs,Get,execute,Magic Number
+main,org.apache.tools.ant.taskdefs,Get,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Get,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Get,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Get,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Get,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Get,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Get,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Get,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Get,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Get,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Get,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Get,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Get,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Get,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Get,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Get,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Get,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Get,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Get,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Get,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Get,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Get,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Get,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Get,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Get,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Get,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Get,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Get,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Get,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Get,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Get,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Base64Converter,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Base64Converter,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Base64Converter,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Base64Converter,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Base64Converter,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Base64Converter,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Base64Converter,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Base64Converter,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Base64Converter,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Base64Converter,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Base64Converter,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Base64Converter,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Base64Converter,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Base64Converter,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Base64Converter,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Base64Converter,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Base64Converter,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Base64Converter,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Base64Converter,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Base64Converter,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Base64Converter,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Base64Converter,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Base64Converter,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Base64Converter,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Base64Converter,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Base64Converter,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Base64Converter,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Base64Converter,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Base64Converter,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Base64Converter,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,Base64Converter,encode,Magic Number
+main,org.apache.tools.ant.taskdefs,GUnzip,extract,Empty catch clause
+main,org.apache.tools.ant.taskdefs,GUnzip,extract,Empty catch clause
+main,org.apache.tools.ant.taskdefs,GUnzip,extract,Empty catch clause
+main,org.apache.tools.ant.taskdefs,GUnzip,extract,Magic Number
+main,org.apache.tools.ant.taskdefs,GUnzip,extract,Magic Number
+main,org.apache.tools.ant.taskdefs,GZip,pack,Empty catch clause
+main,org.apache.tools.ant.taskdefs,Jar,getManifest,Empty catch clause
+main,org.apache.tools.ant.taskdefs,Jar,zipFile,Long Parameter List
+main,org.apache.tools.ant.taskdefs,Jar,createEmptyZip,Empty catch clause
+main,org.apache.tools.ant.taskdefs,Java,executeJava,Complex Method
+main,org.apache.tools.ant.taskdefs,Java,run,Complex Method
+main,org.apache.tools.ant.taskdefs,Java,run,Empty catch clause
+main,org.apache.tools.ant.taskdefs,Javac,isJdkCompiler,Long Statement
+main,org.apache.tools.ant.taskdefs,Javac,checkParameters,Long Statement
+main,org.apache.tools.ant.taskdefs,Javac,compile,Long Statement
+main,org.apache.tools.ant.taskdefs,Javadoc,setLinkoffline,Long Statement
+main,org.apache.tools.ant.taskdefs,Javadoc,setScope,Complex Method
+main,org.apache.tools.ant.taskdefs,Javadoc,execute,Complex Conditional
+main,org.apache.tools.ant.taskdefs,Javadoc,execute,Complex Method
+main,org.apache.tools.ant.taskdefs,Javadoc,execute,Long Method
+main,org.apache.tools.ant.taskdefs,Javadoc,execute,Long Statement
+main,org.apache.tools.ant.taskdefs,TagArgument,setScope,Complex Method
+main,org.apache.tools.ant.taskdefs,JDBCTask,isValidRdbms,Complex Conditional
+main,org.apache.tools.ant.taskdefs,Jikes,compile,Empty catch clause
+main,org.apache.tools.ant.taskdefs,Jikes,compile,Magic Number
+main,org.apache.tools.ant.taskdefs,KeySubst,execute,Empty catch clause
+main,org.apache.tools.ant.taskdefs,KeySubst,execute,Empty catch clause
+main,org.apache.tools.ant.taskdefs,KeySubst,replace,Magic Number
+main,org.apache.tools.ant.taskdefs,KeySubst,replace,Magic Number
+main,org.apache.tools.ant.taskdefs,KeySubst,replace,Magic Number
+main,org.apache.tools.ant.taskdefs,LoadFile,execute,Complex Method
+main,org.apache.tools.ant.taskdefs,LoadFile,execute,Empty catch clause
+main,org.apache.tools.ant.taskdefs,LoadProperties,execute,Complex Conditional
+main,org.apache.tools.ant.taskdefs,LoadProperties,execute,Complex Method
+main,org.apache.tools.ant.taskdefs,LoadProperties,execute,Empty catch clause
+main,org.apache.tools.ant.taskdefs,Manifest,equals,Complex Conditional
+main,org.apache.tools.ant.taskdefs,Manifest,parse,Long Statement
+main,org.apache.tools.ant.taskdefs,Manifest,parse,Magic Number
+main,org.apache.tools.ant.taskdefs,Manifest,merge,Complex Conditional
+main,org.apache.tools.ant.taskdefs,Manifest,addConfiguredAttribute,Long Statement
+main,org.apache.tools.ant.taskdefs,Manifest,addAttributeAndCheck,Complex Method
+main,org.apache.tools.ant.taskdefs,Manifest,addAttributeAndCheck,Long Statement
+main,org.apache.tools.ant.taskdefs,Manifest,addAttributeAndCheck,Long Statement
+main,org.apache.tools.ant.taskdefs,Manifest,addAttributeAndCheck,Long Statement
+main,org.apache.tools.ant.taskdefs,Manifest,getDefaultManifest,Long Statement
+main,org.apache.tools.ant.taskdefs,Manifest,Manifest,Long Statement
+main,org.apache.tools.ant.taskdefs,Manifest,write,Empty catch clause
+main,org.apache.tools.ant.taskdefs,Attribute,equals,Complex Conditional
+main,org.apache.tools.ant.taskdefs,Attribute,parse,Long Statement
+main,org.apache.tools.ant.taskdefs,Attribute,parse,Magic Number
+main,org.apache.tools.ant.taskdefs,Section,merge,Complex Conditional
+main,org.apache.tools.ant.taskdefs,Section,addConfiguredAttribute,Long Statement
+main,org.apache.tools.ant.taskdefs,Section,addAttributeAndCheck,Complex Method
+main,org.apache.tools.ant.taskdefs,Section,addAttributeAndCheck,Long Statement
+main,org.apache.tools.ant.taskdefs,Section,addAttributeAndCheck,Long Statement
+main,org.apache.tools.ant.taskdefs,Section,addAttributeAndCheck,Long Statement
+main,org.apache.tools.ant.taskdefs,ManifestTask,execute,Complex Method
+main,org.apache.tools.ant.taskdefs,ManifestTask,execute,Empty catch clause
+main,org.apache.tools.ant.taskdefs,MatchingTask,XsetItems,Complex Conditional
+main,org.apache.tools.ant.taskdefs,Mkdir,execute,Long Statement
+main,org.apache.tools.ant.taskdefs,Move,doFileOperations,Complex Method
+main,org.apache.tools.ant.taskdefs,Move,doFileOperations,Long Statement
+main,org.apache.tools.ant.taskdefs,Move,renameFile,Complex Conditional
+main,org.apache.tools.ant.taskdefs,Move,renameFile,Long Statement
+main,org.apache.tools.ant.taskdefs,Pack,zipFile,Magic Number
+main,org.apache.tools.ant.taskdefs,Pack,zipFile,Magic Number
+main,org.apache.tools.ant.taskdefs,Parallel,execute,Complex Method
+main,org.apache.tools.ant.taskdefs,Parallel,execute,Empty catch clause
+main,org.apache.tools.ant.taskdefs,PathConvert,execute,Complex Method
+main,org.apache.tools.ant.taskdefs,PathConvert,execute,Magic Number
+main,org.apache.tools.ant.taskdefs,PathConvert,validateSetup,Complex Conditional
+main,org.apache.tools.ant.taskdefs,ProcessDestroyer,ProcessDestroyer,Empty catch clause
+main,org.apache.tools.ant.taskdefs,Property,execute,Complex Conditional
+main,org.apache.tools.ant.taskdefs,Property,execute,Complex Conditional
+main,org.apache.tools.ant.taskdefs,Property,execute,Complex Method
+main,org.apache.tools.ant.taskdefs,Property,execute,Long Statement
+main,org.apache.tools.ant.taskdefs,Property,loadResource,Empty catch clause
+main,org.apache.tools.ant.taskdefs,Property,resolveAllProperties,Complex Method
+main,org.apache.tools.ant.taskdefs,PumpStreamHandler,stop,Empty catch clause
+main,org.apache.tools.ant.taskdefs,PumpStreamHandler,stop,Empty catch clause
+main,org.apache.tools.ant.taskdefs,PumpStreamHandler,stop,Empty catch clause
+main,org.apache.tools.ant.taskdefs,PumpStreamHandler,stop,Empty catch clause
+main,org.apache.tools.ant.taskdefs,RecorderEntry,formatTime,Long Statement
+main,org.apache.tools.ant.taskdefs,RecorderEntry,formatTime,Magic Number
+main,org.apache.tools.ant.taskdefs,RecorderEntry,formatTime,Magic Number
+main,org.apache.tools.ant.taskdefs,RecorderEntry,formatTime,Magic Number
+main,org.apache.tools.ant.taskdefs,RecorderEntry,formatTime,Magic Number
+main,org.apache.tools.ant.taskdefs,RecorderEntry,formatTime,Magic Number
+main,org.apache.tools.ant.taskdefs,Replace,validate,Long Statement
+main,org.apache.tools.ant.taskdefs,Replace,processFile,Complex Method
+main,org.apache.tools.ant.taskdefs,Replace,processFile,Empty catch clause
+main,org.apache.tools.ant.taskdefs,Replace,processFile,Empty catch clause
+main,org.apache.tools.ant.taskdefs,Replace,processFile,Long Statement
+main,org.apache.tools.ant.taskdefs,Replacefilter,validate,Long Statement
+main,org.apache.tools.ant.taskdefs,Rmic,execute,Complex Conditional
+main,org.apache.tools.ant.taskdefs,Rmic,execute,Complex Method
+main,org.apache.tools.ant.taskdefs,Rmic,scanDir,Complex Conditional
+main,org.apache.tools.ant.taskdefs,Rmic,isValidRmiRemote,Complex Conditional
+main,org.apache.tools.ant.taskdefs,SignJar,doOneJar,Complex Method
+main,org.apache.tools.ant.taskdefs,SignJar,isUpToDate,Complex Method
+main,org.apache.tools.ant.taskdefs,SignJar,isSigned,Empty catch clause
+main,org.apache.tools.ant.taskdefs,Sleep,doSleep,Empty catch clause
+main,org.apache.tools.ant.taskdefs,Sleep,getSleepTime,Magic Number
+main,org.apache.tools.ant.taskdefs,Sleep,getSleepTime,Magic Number
+main,org.apache.tools.ant.taskdefs,Sleep,getSleepTime,Magic Number
+main,org.apache.tools.ant.taskdefs,SQLExec,execute,Complex Conditional
+main,org.apache.tools.ant.taskdefs,SQLExec,execute,Complex Conditional
+main,org.apache.tools.ant.taskdefs,SQLExec,execute,Complex Conditional
+main,org.apache.tools.ant.taskdefs,SQLExec,execute,Complex Method
+main,org.apache.tools.ant.taskdefs,SQLExec,execute,Empty catch clause
+main,org.apache.tools.ant.taskdefs,SQLExec,execute,Empty catch clause
+main,org.apache.tools.ant.taskdefs,SQLExec,execute,Empty catch clause
+main,org.apache.tools.ant.taskdefs,SQLExec,runStatements,Complex Conditional
+main,org.apache.tools.ant.taskdefs,SQLExec,runStatements,Complex Method
+main,org.apache.tools.ant.taskdefs,SQLExec,runStatements,Long Statement
+main,org.apache.tools.ant.taskdefs,SQLExec,printResults,Complex Method
+main,org.apache.tools.ant.taskdefs,SQLExec,runTransaction,Long Statement
+main,org.apache.tools.ant.taskdefs,Transaction,runTransaction,Long Statement
+main,org.apache.tools.ant.taskdefs,StreamPumper,run,Empty catch clause
+main,org.apache.tools.ant.taskdefs,StreamPumper,run,Empty catch clause
+main,org.apache.tools.ant.taskdefs,Tar,setLongfile,Long Statement
+main,org.apache.tools.ant.taskdefs,Tar,execute,Complex Method
+main,org.apache.tools.ant.taskdefs,Tar,execute,Empty catch clause
+main,org.apache.tools.ant.taskdefs,Tar,execute,Long Statement
+main,org.apache.tools.ant.taskdefs,Tar,tarFile,Complex Method
+main,org.apache.tools.ant.taskdefs,Tar,tarFile,Magic Number
+main,org.apache.tools.ant.taskdefs,Tar,tarFile,Magic Number
+main,org.apache.tools.ant.taskdefs,Tar,setMode,Magic Number
+main,org.apache.tools.ant.taskdefs,Tar,setMode,Magic Number
+main,org.apache.tools.ant.taskdefs,TarFileSet,setMode,Magic Number
+main,org.apache.tools.ant.taskdefs,TarFileSet,setMode,Magic Number
+main,org.apache.tools.ant.taskdefs,Touch,execute,Complex Conditional
+main,org.apache.tools.ant.taskdefs,Touch,execute,Long Statement
+main,org.apache.tools.ant.taskdefs,Touch,touch,Complex Method
+main,org.apache.tools.ant.taskdefs,Unpack,createDestFile,Complex Conditional
+main,org.apache.tools.ant.taskdefs,Unpack,createDestFile,Long Statement
+main,org.apache.tools.ant.taskdefs,Untar,expandFile,Empty catch clause
+main,org.apache.tools.ant.taskdefs,WaitFor,execute,Empty catch clause
+main,org.apache.tools.ant.taskdefs,WaitFor,Unit,Magic Number
+main,org.apache.tools.ant.taskdefs,WaitFor,Unit,Magic Number
+main,org.apache.tools.ant.taskdefs,WaitFor,Unit,Magic Number
+main,org.apache.tools.ant.taskdefs,WaitFor,Unit,Magic Number
+main,org.apache.tools.ant.taskdefs,WaitFor,Unit,Magic Number
+main,org.apache.tools.ant.taskdefs,WaitFor,Unit,Magic Number
+main,org.apache.tools.ant.taskdefs,WaitFor,Unit,Magic Number
+main,org.apache.tools.ant.taskdefs,WaitFor,Unit,Magic Number
+main,org.apache.tools.ant.taskdefs,WaitFor,Unit,Magic Number
+main,org.apache.tools.ant.taskdefs,WaitFor,Unit,Magic Number
+main,org.apache.tools.ant.taskdefs,WaitFor,Unit,Magic Number
+main,org.apache.tools.ant.taskdefs,WaitFor,Unit,Magic Number
+main,org.apache.tools.ant.taskdefs,WaitFor,Unit,Magic Number
+main,org.apache.tools.ant.taskdefs,WaitFor,Unit,Magic Number
+main,org.apache.tools.ant.taskdefs,WaitFor,Unit,Magic Number
+main,org.apache.tools.ant.taskdefs,Unit,Unit,Magic Number
+main,org.apache.tools.ant.taskdefs,Unit,Unit,Magic Number
+main,org.apache.tools.ant.taskdefs,Unit,Unit,Magic Number
+main,org.apache.tools.ant.taskdefs,Unit,Unit,Magic Number
+main,org.apache.tools.ant.taskdefs,Unit,Unit,Magic Number
+main,org.apache.tools.ant.taskdefs,Unit,Unit,Magic Number
+main,org.apache.tools.ant.taskdefs,Unit,Unit,Magic Number
+main,org.apache.tools.ant.taskdefs,Unit,Unit,Magic Number
+main,org.apache.tools.ant.taskdefs,Unit,Unit,Magic Number
+main,org.apache.tools.ant.taskdefs,Unit,Unit,Magic Number
+main,org.apache.tools.ant.taskdefs,Unit,Unit,Magic Number
+main,org.apache.tools.ant.taskdefs,Unit,Unit,Magic Number
+main,org.apache.tools.ant.taskdefs,Unit,Unit,Magic Number
+main,org.apache.tools.ant.taskdefs,Unit,Unit,Magic Number
+main,org.apache.tools.ant.taskdefs,Unit,Unit,Magic Number
+main,org.apache.tools.ant.taskdefs,War,zipFile,Complex Conditional
+main,org.apache.tools.ant.taskdefs,War,zipFile,Long Statement
+main,org.apache.tools.ant.taskdefs,XmlProperty,execute,Empty catch clause
+main,org.apache.tools.ant.taskdefs,XmlProperty,addNodeRecursively,Complex Method
+main,org.apache.tools.ant.taskdefs,XmlProperty,addNodeRecursively,Long Statement
+main,org.apache.tools.ant.taskdefs,XSLTProcess,execute,Complex Method
+main,org.apache.tools.ant.taskdefs,XSLTProcess,process,Complex Conditional
+main,org.apache.tools.ant.taskdefs,XSLTProcess,process,Complex Conditional
+main,org.apache.tools.ant.taskdefs,Zip,execute,Complex Conditional
+main,org.apache.tools.ant.taskdefs,Zip,execute,Complex Conditional
+main,org.apache.tools.ant.taskdefs,Zip,execute,Complex Method
+main,org.apache.tools.ant.taskdefs,Zip,execute,Long Method
+main,org.apache.tools.ant.taskdefs,Zip,addResources,Complex Conditional
+main,org.apache.tools.ant.taskdefs,Zip,addResources,Complex Method
+main,org.apache.tools.ant.taskdefs,Zip,createEmptyZip,Empty catch clause
+main,org.apache.tools.ant.taskdefs,Zip,createEmptyZip,Magic Number
+main,org.apache.tools.ant.taskdefs,Zip,createEmptyZip,Magic Number
+main,org.apache.tools.ant.taskdefs,Zip,createEmptyZip,Magic Number
+main,org.apache.tools.ant.taskdefs,Zip,createEmptyZip,Magic Number
+main,org.apache.tools.ant.taskdefs,Zip,createEmptyZip,Magic Number
+main,org.apache.tools.ant.taskdefs,Zip,createEmptyZip,Magic Number
+main,org.apache.tools.ant.taskdefs,Zip,createEmptyZip,Magic Number
+main,org.apache.tools.ant.taskdefs,Zip,getResourcesToAdd,Complex Method
+main,org.apache.tools.ant.taskdefs,Zip,getResourcesToAdd,Long Statement
+main,org.apache.tools.ant.taskdefs,Zip,zipDir,Magic Number
+main,org.apache.tools.ant.taskdefs,Zip,zipDir,Magic Number
+main,org.apache.tools.ant.taskdefs,Zip,zipFile,Complex Method
+main,org.apache.tools.ant.taskdefs,Zip,zipFile,Long Parameter List
+main,org.apache.tools.ant.taskdefs,Zip,zipFile,Magic Number
+main,org.apache.tools.ant.taskdefs,Zip,zipFile,Magic Number
+main,org.apache.tools.ant.taskdefs,Zip,zipFile,Magic Number
+main,org.apache.tools.ant.taskdefs,Zip,zipFile,Magic Number
+main,org.apache.tools.ant.taskdefs,Zip,zipFile,Magic Number
+main,org.apache.tools.ant.taskdefs,Zip,zipFile,Magic Number
+main,org.apache.tools.ant.taskdefs,Zip,zipFile,Magic Number
+main,org.apache.tools.ant.taskdefs,Zip,addParentDirs,Long Parameter List
+main,org.apache.tools.ant.taskdefs.compilers,CompilerAdapterFactory,getCompiler,Complex Conditional
+main,org.apache.tools.ant.taskdefs.compilers,CompilerAdapterFactory,getCompiler,Complex Conditional
+main,org.apache.tools.ant.taskdefs.compilers,CompilerAdapterFactory,getCompiler,Complex Method
+main,org.apache.tools.ant.taskdefs.compilers,CompilerAdapterFactory,getCompiler,Long Statement
+main,org.apache.tools.ant.taskdefs.compilers,CompilerAdapterFactory,getCompiler,Long Statement
+main,org.apache.tools.ant.taskdefs.compilers,CompilerAdapterFactory,getCompiler,Long Statement
+main,org.apache.tools.ant.taskdefs.compilers,DefaultCompilerAdapter,setupJavacCommandlineSwitches,Complex Method
+main,org.apache.tools.ant.taskdefs.compilers,DefaultCompilerAdapter,setupJavacCommandlineSwitches,Long Method
+main,org.apache.tools.ant.taskdefs.compilers,DefaultCompilerAdapter,executeExternalCompile,Empty catch clause
+main,org.apache.tools.ant.taskdefs.compilers,DefaultCompilerAdapter,executeExternalCompile,Magic Number
+main,org.apache.tools.ant.taskdefs.compilers,DefaultCompilerAdapter,assumeJava11,Long Statement
+main,org.apache.tools.ant.taskdefs.compilers,DefaultCompilerAdapter,assumeJava12,Long Statement
+main,org.apache.tools.ant.taskdefs.compilers,DefaultCompilerAdapter,assumeJava13,Long Statement
+main,org.apache.tools.ant.taskdefs.compilers,Gcj,setupGCJCommand,Complex Method
+main,org.apache.tools.ant.taskdefs.compilers,Javac12,execute,Long Statement
+main,org.apache.tools.ant.taskdefs.compilers,Jikes,execute,Complex Method
+main,org.apache.tools.ant.taskdefs.compilers,Jvc,execute,Complex Method
+main,org.apache.tools.ant.taskdefs.compilers,Kjc,execute,Long Statement
+main,org.apache.tools.ant.taskdefs.compilers,Kjc,setupKjcCommand,Complex Method
+main,org.apache.tools.ant.taskdefs.condition,Os,isOs,Complex Conditional
+main,org.apache.tools.ant.taskdefs.condition,Os,isOs,Complex Method
+main,org.apache.tools.ant.taskdefs.condition,Os,isOs,Long Statement
+main,org.apache.tools.ant.taskdefs.cvslib,ChangeLogParser,processFile,Magic Number
+main,org.apache.tools.ant.taskdefs.cvslib,ChangeLogParser,processRevision,Magic Number
+main,org.apache.tools.ant.taskdefs.cvslib,ChangeLogParser,processDate,Magic Number
+main,org.apache.tools.ant.taskdefs.cvslib,ChangeLogParser,processDate,Magic Number
+main,org.apache.tools.ant.taskdefs.cvslib,ChangeLogParser,processDate,Magic Number
+main,org.apache.tools.ant.taskdefs.cvslib,ChangeLogParser,processGetPreviousRevision,Magic Number
+main,org.apache.tools.ant.taskdefs.cvslib,ChangeLogTask,setDaysinpast,Magic Number
+main,org.apache.tools.ant.taskdefs.cvslib,ChangeLogTask,setDaysinpast,Magic Number
+main,org.apache.tools.ant.taskdefs.cvslib,ChangeLogTask,setDaysinpast,Magic Number
+main,org.apache.tools.ant.taskdefs.cvslib,ChangeLogTask,setDaysinpast,Magic Number
+main,org.apache.tools.ant.taskdefs.cvslib,ChangeLogTask,execute,Complex Method
+main,org.apache.tools.ant.taskdefs.cvslib,ChangeLogTask,writeChangeLog,Empty catch clause
+main,org.apache.tools.ant.taskdefs.cvslib,CvsTagDiff,execute,Long Statement
+main,org.apache.tools.ant.taskdefs.cvslib,CvsTagDiff,parseRDiff,Empty catch clause
+main,org.apache.tools.ant.taskdefs.cvslib,CvsTagDiff,parseRDiff,Magic Number
+main,org.apache.tools.ant.taskdefs.cvslib,CvsTagDiff,parseRDiff,Magic Number
+main,org.apache.tools.ant.taskdefs.cvslib,CvsTagDiff,writeTagDiff,Empty catch clause
+main,org.apache.tools.ant.taskdefs.email,EmailTask,execute,Complex Conditional
+main,org.apache.tools.ant.taskdefs.email,EmailTask,execute,Complex Conditional
+main,org.apache.tools.ant.taskdefs.email,EmailTask,execute,Complex Conditional
+main,org.apache.tools.ant.taskdefs.email,EmailTask,execute,Complex Conditional
+main,org.apache.tools.ant.taskdefs.email,EmailTask,execute,Complex Method
+main,org.apache.tools.ant.taskdefs.email,PlainMailer,attach,Magic Number
+main,org.apache.tools.ant.taskdefs.optional,ANTLR,addClasspathEntry,Magic Number
+main,org.apache.tools.ant.taskdefs.optional,ANTLR,addClasspathEntry,Magic Number
+main,org.apache.tools.ant.taskdefs.optional,ANTLR,populateAttributes,Complex Method
+main,org.apache.tools.ant.taskdefs.optional,ANTLR,getGeneratedFile,Magic Number
+main,org.apache.tools.ant.taskdefs.optional,Cab,execute,Complex Method
+main,org.apache.tools.ant.taskdefs.optional,Cab,execute,Magic Number
+main,org.apache.tools.ant.taskdefs.optional,EchoProperties,execute,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional,IContract,setControlfile,Long Statement
+main,org.apache.tools.ant.taskdefs.optional,IContract,execute,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional,IContract,execute,Complex Method
+main,org.apache.tools.ant.taskdefs.optional,IContract,execute,Long Identifier
+main,org.apache.tools.ant.taskdefs.optional,IContract,execute,Long Statement
+main,org.apache.tools.ant.taskdefs.optional,IContract,execute,Long Statement
+main,org.apache.tools.ant.taskdefs.optional,IContract,execute,Long Statement
+main,org.apache.tools.ant.taskdefs.optional,IContract,scan,Complex Method
+main,org.apache.tools.ant.taskdefs.optional,IContract,directiveString,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional,IContract,directiveString,Complex Method
+main,org.apache.tools.ant.taskdefs.optional,Javah,execute,Complex Method
+main,org.apache.tools.ant.taskdefs.optional,Javah,setupJavahCommand,Complex Method
+main,org.apache.tools.ant.taskdefs.optional,Native2Ascii,execute,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional,Native2Ascii,execute,Complex Method
+main,org.apache.tools.ant.taskdefs.optional,NetRexxC,setSuppressPrivatePropertyNotUsed,Long Identifier
+main,org.apache.tools.ant.taskdefs.optional,NetRexxC,init,Complex Method
+main,org.apache.tools.ant.taskdefs.optional,NetRexxC,init,Long Identifier
+main,org.apache.tools.ant.taskdefs.optional,NetRexxC,copyFilesToDestination,Long Statement
+main,org.apache.tools.ant.taskdefs.optional,NetRexxC,doNetRexxCompile,Complex Method
+main,org.apache.tools.ant.taskdefs.optional,NetRexxC,doNetRexxCompile,Long Identifier
+main,org.apache.tools.ant.taskdefs.optional,PropertyFile,writeFile,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional,PropertyFile,executeDate,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional,PropertyFile,executeInteger,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional,PropertyFile,executeInteger,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional,PropertyFile,executeInteger,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional,PropertyFile,executeInteger,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional,PropertyFile,getCurrentValue,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional,PropertyFile,getCurrentValue,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional,PropertyFile,getCurrentValue,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional,PropertyFile,getCurrentValue,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional,Entry,executeDate,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional,Entry,executeInteger,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional,Entry,executeInteger,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional,Entry,executeInteger,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional,Entry,executeInteger,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional,Entry,getCurrentValue,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional,Entry,getCurrentValue,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional,Entry,getCurrentValue,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional,Entry,getCurrentValue,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional,RenameExtensions,execute,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional,ReplaceRegExp,doReplace,Complex Method
+main,org.apache.tools.ant.taskdefs.optional,ReplaceRegExp,doReplace,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional,ReplaceRegExp,doReplace,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional,ReplaceRegExp,doReplace,Long Method
+main,org.apache.tools.ant.taskdefs.optional,ReplaceRegExp,doReplace,Long Statement
+main,org.apache.tools.ant.taskdefs.optional,ReplaceRegExp,execute,Complex Method
+main,org.apache.tools.ant.taskdefs.optional,Rpm,execute,Complex Method
+main,org.apache.tools.ant.taskdefs.optional,Rpm,execute,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional,Rpm,execute,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional,TraXLiaison,transform,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional,TraXLiaison,transform,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional,TraXLiaison,logError,Complex Method
+main,org.apache.tools.ant.taskdefs.optional,TraXLiaison,logError,Magic Number
+main,org.apache.tools.ant.taskdefs.optional,XalanLiaison,transform,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional,XalanLiaison,transform,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional,XalanLiaison,transform,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional,XMLValidateTask,execute,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional,XMLValidateTask,getMessage,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional,XMLValidateTask,getMessage,Long Statement
+main,org.apache.tools.ant.taskdefs.optional,ValidatorErrorHandler,getMessage,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional,ValidatorErrorHandler,getMessage,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.clearcase,CCCheckout,checkOptions,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.depend,AntAnalyzer,determineDependencies,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.depend,AntAnalyzer,determineDependencies,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.depend,Depend,determineDependencies,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.depend,Depend,determineDependencies,Long Method
+main,org.apache.tools.ant.taskdefs.optional.depend,Depend,determineDependencies,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.depend,Depend,deleteAffectedFiles,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.depend,Depend,deleteAffectedFiles,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.depend,Depend,deleteAffectedFiles,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.depend,Depend,deleteAffectedFiles,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.depend,Depend,determineOutOfDateClasses,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.depend,Depend,execute,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional.depend,Depend,execute,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.depend,Depend,addClassFiles,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.depend,JarFileIterator,getEntryBytes,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.depend,JarFileIterator,getEntryBytes,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.depend.constantpool,ConstantPool,getMethodRefEntry,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional.depend.constantpool,ConstantPool,getMethodRefEntry,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.depend.constantpool,ConstantPool,getInterfaceMethodRefEntry,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional.depend.constantpool,ConstantPool,getInterfaceMethodRefEntry,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.depend.constantpool,ConstantPool,getFieldRefEntry,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional.depend.constantpool,ConstantPool,getFieldRefEntry,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.depend.constantpool,ConstantPoolEntry,readEntry,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.depend.constantpool,ConstantPoolEntry,readEntry,Missing default
+main,org.apache.tools.ant.taskdefs.optional.depend.constantpool,DoubleCPInfo,DoubleCPInfo,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.depend.constantpool,InterfaceMethodRefCPInfo,toString,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.depend.constantpool,LongCPInfo,LongCPInfo,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.dotnet,CSharp,setTargetType,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional.dotnet,CSharp,setTargetType,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.dotnet,CSharp,Clear,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.dotnet,WsdlToDotnet,validate,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.dotnet,WsdlToDotnet,execute,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional.ejb,BorlandDeploymentTool,generateClient,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ejb,DDCreatorHelper,process,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional.ejb,DescriptorHandler,registerDTD,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.ejb,DescriptorHandler,registerDTD,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.ejb,DescriptorHandler,resolveEntity,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.ejb,DescriptorHandler,resolveEntity,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.ejb,DescriptorHandler,resolveEntity,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ejb,DescriptorHandler,startDocument,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ejb,DescriptorHandler,processElement,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional.ejb,DescriptorHandler,processElement,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional.ejb,DescriptorHandler,processElement,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ejb,EjbcHelper,isRegenRequired,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional.ejb,EjbcHelper,isRegenRequired,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional.ejb,EjbcHelper,isRegenRequired,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.ejb,EjbcHelper,isRegenRequired,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ejb,EjbJar,createWeblogictoplink,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ejb,EjbJar,setBasejarname,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ejb,EjbJar,setNaming,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ejb,GenericDeploymentTool,createAnalyzer,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ejb,GenericDeploymentTool,createAnalyzer,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ejb,GenericDeploymentTool,addFileToJar,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.ejb,GenericDeploymentTool,addFileToJar,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ejb,GenericDeploymentTool,addFileToJar,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ejb,GenericDeploymentTool,addFileToJar,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ejb,GenericDeploymentTool,processDescriptor,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ejb,GenericDeploymentTool,processDescriptor,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ejb,GenericDeploymentTool,parseEjbFiles,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.ejb,GenericDeploymentTool,getJarBaseName,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.ejb,GenericDeploymentTool,getVendorDDPrefix,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional.ejb,GenericDeploymentTool,getVendorDDPrefix,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ejb,GenericDeploymentTool,writeJar,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.ejb,GenericDeploymentTool,writeJar,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.ejb,IPlanetDeploymentTool,setGenericJarSuffix,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ejb,IPlanetDeploymentTool,processDescriptor,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ejb,IPlanetDeploymentTool,checkConfiguration,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ejb,IPlanetDeploymentTool,parseEjbFiles,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ejb,IPlanetEjbc,IPlanetEjbc,Long Parameter List
+main,org.apache.tools.ant.taskdefs.optional.ejb,IPlanetEjbc,main,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.ejb,IPlanetEjbc,main,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ejb,IPlanetEjbc,main,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ejb,IPlanetEjbc,main,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ejb,IPlanetEjbc,main,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ejb,IPlanetEjbc,callEjbc,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.ejb,IPlanetEjbc,checkConfiguration,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.ejb,IPlanetEjbc,buildArgumentList,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.ejb,IPlanetEjbc,EjbcHandler,Long Identifier
+main,org.apache.tools.ant.taskdefs.optional.ejb,IPlanetEjbc,stdCharacters,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.ejb,IPlanetEjbc,checkConfiguration,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional.ejb,IPlanetEjbc,checkConfiguration,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.ejb,IPlanetEjbc,checkConfiguration,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ejb,IPlanetEjbc,checkConfiguration,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ejb,IPlanetEjbc,checkConfiguration,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ejb,IPlanetEjbc,classesToGenerate,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ejb,IPlanetEjbc,classesToGenerate,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ejb,IPlanetEjbc,toString,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ejb,IPlanetEjbc,run,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.ejb,EjbcHandler,EjbcHandler,Long Identifier
+main,org.apache.tools.ant.taskdefs.optional.ejb,EjbcHandler,stdCharacters,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.ejb,EjbInfo,checkConfiguration,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional.ejb,EjbInfo,checkConfiguration,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.ejb,EjbInfo,checkConfiguration,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ejb,EjbInfo,checkConfiguration,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ejb,EjbInfo,checkConfiguration,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ejb,EjbInfo,classesToGenerate,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ejb,EjbInfo,classesToGenerate,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ejb,EjbInfo,toString,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ejb,RedirectOutput,run,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.ejb,IPlanetEjbcTask,checkConfiguration,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.ejb,JonasDeploymentTool,addVendorFiles,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ejb,JonasDeploymentTool,registerKnownDTDs,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ejb,JonasDeploymentTool,registerKnownDTDs,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ejb,JonasDeploymentTool,addGenICGeneratedFiles,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.ejb,JonasDeploymentTool,addGenICGeneratedFiles,Long Method
+main,org.apache.tools.ant.taskdefs.optional.ejb,JonasDeploymentTool,addGenICGeneratedFiles,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ejb,JonasDeploymentTool,checkConfiguration,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional.ejb,JonasDeploymentTool,checkConfiguration,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ejb,WeblogicDeploymentTool,registerKnownDTDs,Long Identifier
+main,org.apache.tools.ant.taskdefs.optional.ejb,WeblogicDeploymentTool,addVendorFiles,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ejb,WeblogicDeploymentTool,addVendorFiles,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ejb,WeblogicDeploymentTool,buildWeblogicJar,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional.ejb,WeblogicDeploymentTool,buildWeblogicJar,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.ejb,WeblogicDeploymentTool,isRebuildRequired,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional.ejb,WeblogicDeploymentTool,isRebuildRequired,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.ejb,WeblogicDeploymentTool,isRebuildRequired,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.ejb,WeblogicDeploymentTool,isRebuildRequired,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.ejb,WeblogicDeploymentTool,isRebuildRequired,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.ejb,WeblogicDeploymentTool,isRebuildRequired,Long Method
+main,org.apache.tools.ant.taskdefs.optional.ejb,WeblogicDeploymentTool,isRebuildRequired,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ejb,WeblogicDeploymentTool,isRebuildRequired,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ejb,WebsphereDeploymentTool,getValues,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ejb,WebsphereDeploymentTool,addVendorFiles,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ejb,WebsphereDeploymentTool,getOptions,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.ejb,WebsphereDeploymentTool,isRebuildRequired,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional.ejb,WebsphereDeploymentTool,isRebuildRequired,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.ejb,WebsphereDeploymentTool,isRebuildRequired,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.ejb,WebsphereDeploymentTool,isRebuildRequired,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.ejb,WebsphereDeploymentTool,isRebuildRequired,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.ejb,WebsphereDeploymentTool,isRebuildRequired,Long Method
+main,org.apache.tools.ant.taskdefs.optional.ejb,WebsphereDeploymentTool,isRebuildRequired,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ejb,WebsphereDeploymentTool,isRebuildRequired,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ejb,DBVendor,getValues,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ejb,WLRun,executeWLS,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.extension,DeweyDecimal,DeweyDecimal,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.extension,Extension,Extension,Long Parameter List
+main,org.apache.tools.ant.taskdefs.optional.extension,Extension,Extension,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.extension,Extension,Extension,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.extension,Extension,getCompatibilityWith,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.extension,Extension,getCompatibilityWith,Long Identifier
+main,org.apache.tools.ant.taskdefs.optional.extension,ExtensionAdapter,setRefid,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional.extension,ExtensionAdapter,setRefid,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.extension,ExtensionAdapter,toExtension,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.extension,ExtensionUtil,addExtension,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.extension,ExtensionUtil,addExtension,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.extension,ExtensionUtil,addExtension,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.extension,JarLibManifestTask,writeManifest,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.extension,LibraryDisplayer,displayLibrary,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional.extension,LibraryDisplayer,displayLibrary,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.extension,Specification,Specification,Long Parameter List
+main,org.apache.tools.ant.taskdefs.optional.extension,Specification,Specification,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.extension,Specification,Specification,Long Parameter List
+main,org.apache.tools.ant.taskdefs.optional.extension,Specification,Specification,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.extension,Specification,getCompatibilityWith,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.extension,Specification,isEqual,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.extension,Specification,mergeInSections,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.i18n,Translate,execute,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.i18n,Translate,loadResourceMaps,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.i18n,Translate,loadResourceMaps,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.i18n,Translate,loadResourceMaps,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.i18n,Translate,loadResourceMaps,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.i18n,Translate,loadResourceMaps,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.i18n,Translate,loadResourceMap,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional.i18n,Translate,loadResourceMap,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.i18n,Translate,translate,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional.i18n,Translate,translate,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional.i18n,Translate,translate,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.i18n,Translate,translate,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.i18n,Translate,translate,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.i18n,Translate,translate,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.i18n,Translate,translate,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.i18n,Translate,translate,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.i18n,Translate,translate,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntTool,main,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,buildFinished,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,actionPerformed,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,actionPerformed,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,centerDialog,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,centerDialog,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,centerDialog,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,centerDialog,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,centerDialog,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getAboutDialog,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getAboutDialog,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getAboutDialog,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getAboutDialog,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getAboutInfoPanel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getAboutInfoPanel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getAboutInfoPanel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getAboutInfoPanel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getAboutInfoPanel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getAboutInfoPanel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getAboutTitleLabel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getMessageFrame,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getMessageFrame,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getMessageFrame,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getMessageFrame,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getMessageFrame,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getMessageFrame,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getMessageOutputLevelChoice,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getMessageTextArea,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getOptionenPanel,Long Identifier
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getOptionenPanel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getOptionenPanel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getOptionenPanel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getOptionenPanel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getOptionenPanel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getOptionenPanel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getOptionenPanel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getOptionenPanel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getOptionenPanel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getOptionenPanel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getOptionenPanel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getOptionenPanel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getOptionenPanel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getOptionenPanel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getOptionenPanel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getOptionenPanel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getOptionenPanel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getOptionenPanel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getOptionenPanel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getOptionenPanel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getOptionenPanel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getOptionenPanel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getOptionenPanel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getOptionenPanel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getOptionenPanel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getOptionenPanel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getOptionenPanel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getOptionenPanel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getOptionenPanel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getOptionenPanel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getOptionenPanel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getOptionenPanel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getOptionenPanel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getOptionenPanel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getOptionenPanel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getOptionenPanel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getOptionenPanel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getOptionenPanel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getOptionenPanel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getOptionenPanel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getOptionenPanel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getOptionenPanel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,getOptionenPanel,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,initialize,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,initialize,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,initialize,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,initialize,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,initialize,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJAntToolGUI,initialize,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJBuildLogger,buildFinished,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ide,PrivateEventHandler,actionPerformed,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.ide,PrivateEventHandler,actionPerformed,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJBuildInfo,parse,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJExport,execute,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJExportServlet,executeRequest,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJImport,importFileset,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJImportServlet,executeRequest,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJLocalUtil,exportPackages,Long Parameter List
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJLocalUtil,importFiles,Long Parameter List
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJLocalUtil,importFiles,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJLocalUtil,scanForImport,Long Parameter List
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJLocalUtil,addFilesToImport,Long Parameter List
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJRemoteUtil,exportPackages,Long Parameter List
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJRemoteUtil,exportPackages,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJRemoteUtil,importFiles,Long Parameter List
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJRemoteUtil,importFiles,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJRemoteUtil,assembleImportExportParams,Long Parameter List
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJRemoteUtil,assembleImportExportParams,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJRemoteUtil,loadProjects,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJRemoteUtil,sendRequest,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJRemoteUtil,sendRequest,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJRemoteUtil,sendRequest,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJUtil,exportPackages,Long Parameter List
+main,org.apache.tools.ant.taskdefs.optional.ide,VAJUtil,importFiles,Long Parameter List
+main,org.apache.tools.ant.taskdefs.optional.j2ee,JonasHotDeploymentTool,validateAttributes,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional.j2ee,JonasHotDeploymentTool,validateAttributes,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.j2ee,JonasHotDeploymentTool,validateAttributes,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.j2ee,JonasHotDeploymentTool,validateAttributes,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.j2ee,WebLogicHotDeploymentTool,validateAttributes,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional.j2ee,WebLogicHotDeploymentTool,validateAttributes,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional.j2ee,WebLogicHotDeploymentTool,validateAttributes,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional.j2ee,WebLogicHotDeploymentTool,validateAttributes,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.j2ee,WebLogicHotDeploymentTool,validateAttributes,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.j2ee,WebLogicHotDeploymentTool,validateAttributes,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.j2ee,WebLogicHotDeploymentTool,buildArgsPrefix,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.j2ee,WebLogicHotDeploymentTool,buildArgsPrefix,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.jdepend,JDependTask,execute,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.jlink,ConstantPool,ConstantPool,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.jlink,ClassNameReader,getClassName,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.jlink,jlink,link,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.jlink,jlink,main,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.jlink,jlink,getEntryName,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.jlink,jlink,processEntry,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.jsp,Jasper41Mangler,mangleChar,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.jsp,Jasper41Mangler,mangleChar,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.jsp,Jasper41Mangler,mangleChar,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.jsp,JspC,execute,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.jsp,JspC,execute,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.jsp,JspC,execute,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.jsp,JspC,isCompileNeeded,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.jsp,JspC,isCompileNeeded,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.jsp,JspNameMangler,stripExtension,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.jsp,JspNameMangler,mangleChar,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.jsp,JspNameMangler,mangleChar,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.jsp,JspNameMangler,mangleChar,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.jsp,WLJspc,execute,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.jsp,WLJspc,execute,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.jsp,WLJspc,execute,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.jsp,WLJspc,execute,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.junit,BriefJUnitResultFormatter,endTestSuite,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.junit,BriefJUnitResultFormatter,endTestSuite,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.junit,BriefJUnitResultFormatter,endTestSuite,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.junit,BriefJUnitResultFormatter,endTestSuite,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.junit,DOMUtil,getChildByTagName,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional.junit,DOMUtil,importNode,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.junit,DOMUtil,importNode,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.junit,DOMUtil,importNode,Missing default
+main,org.apache.tools.ant.taskdefs.optional.junit,JUnitTask,execute,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional.junit,JUnitTask,execute,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.junit,JUnitTask,executeAsForked,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.junit,JUnitTask,executeInVM,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.junit,JUnitTask,addClasspathEntry,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.junit,JUnitTask,addClasspathEntry,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.junit,JUnitTask,logTimeout,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.junit,JUnitTestRunner,JUnitTestRunner,Long Parameter List
+main,org.apache.tools.ant.taskdefs.optional.junit,JUnitTestRunner,JUnitTestRunner,Long Parameter List
+main,org.apache.tools.ant.taskdefs.optional.junit,JUnitTestRunner,JUnitTestRunner,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.junit,JUnitTestRunner,JUnitTestRunner,Long Parameter List
+main,org.apache.tools.ant.taskdefs.optional.junit,JUnitTestRunner,run,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.junit,JUnitTestRunner,main,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.junit,JUnitTestRunner,main,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.junit,JUnitTestRunner,main,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.junit,JUnitTestRunner,main,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.junit,JUnitTestRunner,main,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.junit,JUnitTestRunner,main,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.junit,JUnitTestRunner,main,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.junit,JUnitVersionHelper,getTestCaseName,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.junit,JUnitVersionHelper,getTestCaseName,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.junit,PlainJUnitResultFormatter,endTestSuite,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.junit,PlainJUnitResultFormatter,endTestSuite,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.junit,PlainJUnitResultFormatter,endTestSuite,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.junit,PlainJUnitResultFormatter,endTestSuite,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.junit,PlainJUnitResultFormatter,endTest,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.junit,SummaryJUnitResultFormatter,endTestSuite,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.junit,SummaryJUnitResultFormatter,endTestSuite,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.junit,XMLJUnitResultFormatter,endTestSuite,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.junit,XMLJUnitResultFormatter,endTestSuite,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.junit,XMLJUnitResultFormatter,endTest,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.metamata,AbstractMetamataTask,generateOptionsFile,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.metamata,AbstractMetamataTask,scanSources,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.metamata,MAudit,getOptions,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.metamata,MAudit,getOptions,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.metamata,MAudit,createStreamHandler,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.metamata,MAuditParser,parseLine,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.metamata,MAuditParser,parseLine,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.metamata,MAuditStreamHandler,stop,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.metamata,MAuditStreamHandler,stop,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.metamata,MMetrics,transformFile,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.metamata,MMetrics,transformFile,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.metamata,MMetrics,getOptions,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.metamata,MMetricsStreamHandler,start,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.metamata,MMetricsStreamHandler,start,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.metamata,MMetricsStreamHandler,startElement,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.metamata,MetricsElement,parse,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.metamata,MParse,checkOptions,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional.metamata,MParse,generateOptionsFile,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.net,FTP,scandir,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.net,FTP,transferFiles,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional.net,FTP,transferFiles,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.net,FTP,transferFiles,Missing default
+main,org.apache.tools.ant.taskdefs.optional.net,FTP,createParents,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.net,FTP,sendFile,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.net,FTP,getFile,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.net,FTP,handleMkDirFailure,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional.net,FTP,handleMkDirFailure,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.net,FTP,handleMkDirFailure,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.net,FTP,handleMkDirFailure,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.net,FTP,execute,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.net,FTP,execute,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.net,FTPDirectoryScanner,scandir,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.net,TelnetTask,waitForString,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.net,AntTelnetClient,waitForString,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.perforce,P4Base,execP4Command,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.perforce,P4HandlerAdapter,start,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional.pvcs,Pvcs,execute,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.pvcs,Pvcs,execute,Long Method
+main,org.apache.tools.ant.taskdefs.optional.pvcs,Pvcs,execute,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.pvcs,Pvcs,createFolders,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional.pvcs,Pvcs,createFolders,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.pvcs,Pvcs,createFolders,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.pvcs,Pvcs,createFolders,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.pvcs,Pvcs,createFolders,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.scm,AntStarTeamCheckOut,checkParameters,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional.scm,AntStarTeamCheckOut,runType,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.scm,AntStarTeamCheckOut,runType,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.scm,AntStarTeamCheckOut,runFolder,Long Parameter List
+main,org.apache.tools.ant.taskdefs.optional.scm,AntStarTeamCheckOut,runItem,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.scm,AntStarTeamCheckOut,runItem,Long Parameter List
+main,org.apache.tools.ant.taskdefs.optional.scm,AntStarTeamCheckOut,formatForDisplay,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.scm,AntStarTeamCheckOut,formatForDisplay,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.sitraka.bytecode,ClassFile,ClassFile,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.sitraka.bytecode,ClassFile,ClassFile,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.sitraka.bytecode,ClassFile,ClassFile,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.sitraka.bytecode,ClassFile,ClassFile,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.sitraka.bytecode,ClassPathLoader,getCachedStream,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.sitraka.bytecode,ClassPathLoader,getCachedStream,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.sitraka.bytecode,DirectoryLoader,getClasses,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.sitraka.bytecode,DirectoryLoader,getClasses,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.sitraka.bytecode,DirectoryLoader,listFiles,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.sitraka.bytecode,MethodInfo,readCode,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.sitraka.bytecode,MethodInfo,readCode,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.sitraka.bytecode,MethodInfo,readCode,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.sitraka.bytecode,MethodInfo,readCode,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.sitraka.bytecode,MethodInfo,readCode,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.sitraka.bytecode,MethodInfo,readCode,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.sitraka.bytecode,Utils,descriptor2java,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.sitraka.bytecode,Utils,descriptor2java,Missing default
+main,org.apache.tools.ant.taskdefs.optional.sitraka.bytecode,Utils,getMethodAccess,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.sitraka.bytecode,Utils,getFieldAccess,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.sitraka.bytecode,Utils,getClassAccess,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.sitraka,Coverage,checkOptions,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional.sitraka,Coverage,checkOptions,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.sitraka,Coverage,getParameters,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.sitraka,Coverage,createParamFile,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.sitraka,Coverage,setProcessInputStream,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.sitraka,CoverageStreamHandler,setProcessInputStream,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.sitraka,CovMerge,createParamFile,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.sitraka,XMLReport,createNodeMaps,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.sos,SOSCheckin,execute,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.sos,SOSCheckin,buildCmdLine,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.sos,SOSCheckout,execute,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.sos,SOSCheckout,buildCmdLine,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.sos,SOSGet,execute,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.sos,SOSGet,buildCmdLine,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.sos,SOSLabel,execute,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.sound,AntSoundPlayer,playClip,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.splash,SplashScreen,init,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.splash,SplashScreen,init,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.splash,SplashScreen,init,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.splash,SplashTask,execute,Complex Conditional
+main,org.apache.tools.ant.taskdefs.optional.splash,SplashTask,execute,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.splash,SplashTask,execute,Empty catch clause
+main,org.apache.tools.ant.taskdefs.optional.starteam,StarTeamCheckin,logOperationDescription,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.starteam,StarTeamCheckout,testPreconditions,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.starteam,StarTeamCheckout,logOperationDescription,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.starteam,StarTeamCheckout,logOperationDescription,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.starteam,StarTeamCheckout,logOperationDescription,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.starteam,StarTeamCheckout,visit,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.starteam,StarTeamCheckout,processFile,Complex Method
+main,org.apache.tools.ant.taskdefs.optional.starteam,StarTeamCheckout,processFile,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.starteam,StarTeamCheckout,processFile,Missing default
+main,org.apache.tools.ant.taskdefs.optional.starteam,StarTeamLabel,execute,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.starteam,StarTeamLabel,execute,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.starteam,StarTeamList,logOperationDescription,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.starteam,StarTeamList,list,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.starteam,StarTeamList,list,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.starteam,StarTeamList,list,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.starteam,StarTeamList,list,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.starteam,StarTeamTask,getURL,Long Statement
+main,org.apache.tools.ant.taskdefs.optional.vss,MSVSS,setVsspath,Magic Number
+main,org.apache.tools.ant.taskdefs.optional.vss,MSVSSHISTORY,getVersionDateCommand,Complex Conditional
+main,org.apache.tools.ant.taskdefs.rmic,DefaultRmicAdapter,setupRmicCommand,Complex Method
+main,org.apache.tools.ant.taskdefs.rmic,DefaultRmicAdapter,mapFileName,Complex Conditional
+main,org.apache.tools.ant.taskdefs.rmic,DefaultRmicAdapter,mapFileName,Complex Method
+main,org.apache.tools.ant.taskdefs.rmic,DefaultRmicAdapter,mapFileName,Long Statement
+main,org.apache.tools.ant.taskdefs.rmic,DefaultRmicAdapter,mapFileName,Long Statement
+main,org.apache.tools.ant.taskdefs.rmic,DefaultRmicAdapter,mapFileName,Magic Number
+main,org.apache.tools.ant.taskdefs.rmic,RmicFileNameMapper,mapFileName,Complex Conditional
+main,org.apache.tools.ant.taskdefs.rmic,RmicFileNameMapper,mapFileName,Complex Method
+main,org.apache.tools.ant.taskdefs.rmic,RmicFileNameMapper,mapFileName,Long Statement
+main,org.apache.tools.ant.taskdefs.rmic,RmicFileNameMapper,mapFileName,Long Statement
+main,org.apache.tools.ant.taskdefs.rmic,RmicFileNameMapper,mapFileName,Magic Number
+main,org.apache.tools.ant.taskdefs.rmic,KaffeRmic,execute,Long Statement
+main,org.apache.tools.ant.taskdefs.rmic,SunRmic,execute,Long Statement
+main,org.apache.tools.ant.taskdefs.rmic,WLRmic,execute,Long Statement
+main,org.apache.tools.ant.types,AntFilterReader,setRefid,Complex Conditional
+main,org.apache.tools.ant.types,Commandline,getArguments,Magic Number
+main,org.apache.tools.ant.types,Commandline,translateCommandline,Complex Method
+main,org.apache.tools.ant.types,Commandline,translateCommandline,Magic Number
+main,org.apache.tools.ant.types,Commandline,translateCommandline,Missing default
+main,org.apache.tools.ant.types,CommandlineJava,size,Magic Number
+main,org.apache.tools.ant.types,Mapper,setRefid,Complex Conditional
+main,org.apache.tools.ant.types,Path,list,Complex Method
+main,org.apache.tools.ant.types,Path,list,Magic Number
+main,org.apache.tools.ant.types,Path,addJavaRuntime,Long Statement
+main,org.apache.tools.ant.types,Path,addJavaRuntime,Long Statement
+main,org.apache.tools.ant.types,Path,addJavaRuntime,Long Statement
+main,org.apache.tools.ant.types,Path,addJavaRuntime,Long Statement
+main,org.apache.tools.ant.types,Path,addJavaRuntime,Long Statement
+main,org.apache.tools.ant.types,PatternSet,readPatterns,Empty catch clause
+main,org.apache.tools.ant.types,PatternSet,readFiles,Complex Method
+main,org.apache.tools.ant.types,XMLCatalog,filesystemLookup,Empty catch clause
+main,org.apache.tools.ant.types,XMLCatalog,filesystemLookup,Empty catch clause
+main,org.apache.tools.ant.types,XMLCatalog,filesystemLookup,Empty catch clause
+main,org.apache.tools.ant.types,XMLCatalog,urlLookup,Empty catch clause
+main,org.apache.tools.ant.types,XMLCatalog,urlLookup,Empty catch clause
+main,org.apache.tools.ant.types,XMLCatalog,resolveEntityImpl,Long Statement
+main,org.apache.tools.ant.types,XMLCatalog,resolveImpl,Long Statement
+main,org.apache.tools.ant.types,ZipFileSet,setFileMode,Magic Number
+main,org.apache.tools.ant.types,ZipFileSet,setDirMode,Magic Number
+main,org.apache.tools.ant.types,ZipScanner,scanme,Complex Conditional
+main,org.apache.tools.ant.types,ZipScanner,scanme,Empty catch clause
+main,org.apache.tools.ant.types,ZipScanner,scanme,Long Statement
+main,org.apache.tools.ant.types.optional.depend,ClassfileSet,getDirectoryScanner,Magic Number
+main,org.apache.tools.ant.types.selectors,DateSelector,DateSelector,Magic Number
+main,org.apache.tools.ant.types.selectors,DateSelector,setDatetime,Long Statement
+main,org.apache.tools.ant.types.selectors,DateSelector,setParameters,Complex Method
+main,org.apache.tools.ant.types.selectors,DateSelector,verifySettings,Long Statement
+main,org.apache.tools.ant.types.selectors,DependSelector,DependSelector,Magic Number
+main,org.apache.tools.ant.types.selectors,SelectorUtils,matchPath,Complex Method
+main,org.apache.tools.ant.types.selectors,SelectorUtils,match,Complex Method
+main,org.apache.tools.ant.types.selectors,SelectorUtils,match,Long Method
+main,org.apache.tools.ant.types.selectors,SizeSelector,setUnits,Complex Method
+main,org.apache.tools.ant.types.selectors,SizeSelector,setUnits,Magic Number
+main,org.apache.tools.ant.types.selectors,SizeSelector,setUnits,Magic Number
+main,org.apache.tools.ant.types.selectors,SizeSelector,setUnits,Magic Number
+main,org.apache.tools.ant.types.selectors,SizeSelector,setUnits,Magic Number
+main,org.apache.tools.ant.types.selectors,SizeSelector,setUnits,Magic Number
+main,org.apache.tools.ant.types.selectors,SizeSelector,setUnits,Magic Number
+main,org.apache.tools.ant.types.selectors,SizeSelector,setUnits,Magic Number
+main,org.apache.tools.ant.types.selectors,SizeSelector,setUnits,Magic Number
+main,org.apache.tools.ant.types.selectors,SizeSelector,setUnits,Magic Number
+main,org.apache.tools.ant.types.selectors,SizeSelector,setUnits,Magic Number
+main,org.apache.tools.ant.types.selectors,SizeSelector,setUnits,Magic Number
+main,org.apache.tools.ant.types.selectors,SizeSelector,setUnits,Magic Number
+main,org.apache.tools.ant.types.selectors,SizeSelector,setUnits,Magic Number
+main,org.apache.tools.ant.types.selectors,SizeSelector,setUnits,Magic Number
+main,org.apache.tools.ant.types.selectors,SizeSelector,setUnits,Magic Number
+main,org.apache.tools.ant.types.selectors,SizeSelector,setUnits,Magic Number
+main,org.apache.tools.ant.types.selectors,SizeSelector,setUnits,Magic Number
+main,org.apache.tools.ant.types.selectors,SizeSelector,setUnits,Magic Number
+main,org.apache.tools.ant.types.selectors,SizeSelector,setUnits,Magic Number
+main,org.apache.tools.ant.types.selectors,SizeSelector,setUnits,Magic Number
+main,org.apache.tools.ant.types.selectors,SizeSelector,setUnits,Magic Number
+main,org.apache.tools.ant.types.selectors,SizeSelector,setUnits,Magic Number
+main,org.apache.tools.ant.types.selectors,SizeSelector,setUnits,Magic Number
+main,org.apache.tools.ant.types.selectors,SizeSelector,getValues,Long Statement
+main,org.apache.tools.ant.types.selectors,ByteUnits,getValues,Long Statement
+main,org.apache.tools.ant.util,DateUtils,formatElapsedTime,Magic Number
+main,org.apache.tools.ant.util,DateUtils,formatElapsedTime,Magic Number
+main,org.apache.tools.ant.util,DateUtils,formatElapsedTime,Magic Number
+main,org.apache.tools.ant.util,DateUtils,getPhaseOfMoon,Complex Conditional
+main,org.apache.tools.ant.util,DateUtils,getPhaseOfMoon,Magic Number
+main,org.apache.tools.ant.util,DateUtils,getPhaseOfMoon,Magic Number
+main,org.apache.tools.ant.util,DateUtils,getPhaseOfMoon,Magic Number
+main,org.apache.tools.ant.util,DateUtils,getPhaseOfMoon,Magic Number
+main,org.apache.tools.ant.util,DateUtils,getPhaseOfMoon,Magic Number
+main,org.apache.tools.ant.util,DateUtils,getPhaseOfMoon,Magic Number
+main,org.apache.tools.ant.util,DateUtils,getPhaseOfMoon,Magic Number
+main,org.apache.tools.ant.util,DateUtils,getPhaseOfMoon,Magic Number
+main,org.apache.tools.ant.util,DateUtils,getPhaseOfMoon,Magic Number
+main,org.apache.tools.ant.util,DateUtils,getPhaseOfMoon,Magic Number
+main,org.apache.tools.ant.util,DateUtils,getPhaseOfMoon,Magic Number
+main,org.apache.tools.ant.util,DateUtils,getPhaseOfMoon,Magic Number
+main,org.apache.tools.ant.util,DateUtils,getPhaseOfMoon,Magic Number
+main,org.apache.tools.ant.util,DateUtils,getDateForHeader,Long Statement
+main,org.apache.tools.ant.util,DateUtils,getDateForHeader,Magic Number
+main,org.apache.tools.ant.util,DateUtils,getDateForHeader,Magic Number
+main,org.apache.tools.ant.util,DateUtils,getDateForHeader,Magic Number
+main,org.apache.tools.ant.util,DateUtils,getDateForHeader,Magic Number
+main,org.apache.tools.ant.util,DateUtils,getDateForHeader,Magic Number
+main,org.apache.tools.ant.util,DateUtils,getDateForHeader,Magic Number
+main,org.apache.tools.ant.util,DateUtils,getDateForHeader,Magic Number
+main,org.apache.tools.ant.util,DateUtils,getDateForHeader,Magic Number
+main,org.apache.tools.ant.util,DOMElementWriter,write,Complex Method
+main,org.apache.tools.ant.util,DOMElementWriter,encode,Complex Method
+main,org.apache.tools.ant.util,DOMElementWriter,encode,Missing default
+main,org.apache.tools.ant.util,DOMElementWriter,encodedata,Magic Number
+main,org.apache.tools.ant.util,DOMElementWriter,isReference,Magic Number
+main,org.apache.tools.ant.util,DOMElementWriter,isReference,Magic Number
+main,org.apache.tools.ant.util,DOMElementWriter,isReference,Magic Number
+main,org.apache.tools.ant.util,DOMElementWriter,isReference,Magic Number
+main,org.apache.tools.ant.util,DOMElementWriter,isLegalCharacter,Complex Conditional
+main,org.apache.tools.ant.util,DOMElementWriter,isLegalCharacter,Magic Number
+main,org.apache.tools.ant.util,DOMElementWriter,isLegalCharacter,Magic Number
+main,org.apache.tools.ant.util,DOMElementWriter,isLegalCharacter,Magic Number
+main,org.apache.tools.ant.util,DOMElementWriter,isLegalCharacter,Magic Number
+main,org.apache.tools.ant.util,DOMElementWriter,isLegalCharacter,Magic Number
+main,org.apache.tools.ant.util,DOMElementWriter,isLegalCharacter,Magic Number
+main,org.apache.tools.ant.util,DOMElementWriter,isLegalCharacter,Magic Number
+main,org.apache.tools.ant.util,FileUtils,copyFile,Long Parameter List
+main,org.apache.tools.ant.util,FileUtils,copyFile,Long Parameter List
+main,org.apache.tools.ant.util,FileUtils,copyFile,Long Parameter List
+main,org.apache.tools.ant.util,FileUtils,copyFile,Long Parameter List
+main,org.apache.tools.ant.util,FileUtils,copyFile,Long Parameter List
+main,org.apache.tools.ant.util,FileUtils,copyFile,Complex Conditional
+main,org.apache.tools.ant.util,FileUtils,copyFile,Complex Method
+main,org.apache.tools.ant.util,FileUtils,copyFile,Long Parameter List
+main,org.apache.tools.ant.util,FileUtils,copyFile,Magic Number
+main,org.apache.tools.ant.util,FileUtils,copyFile,Magic Number
+main,org.apache.tools.ant.util,FileUtils,copyFile,Magic Number
+main,org.apache.tools.ant.util,FileUtils,resolveFile,Complex Conditional
+main,org.apache.tools.ant.util,FileUtils,resolveFile,Complex Method
+main,org.apache.tools.ant.util,FileUtils,resolveFile,Long Statement
+main,org.apache.tools.ant.util,FileUtils,resolveFile,Magic Number
+main,org.apache.tools.ant.util,FileUtils,normalize,Complex Conditional
+main,org.apache.tools.ant.util,FileUtils,normalize,Complex Conditional
+main,org.apache.tools.ant.util,FileUtils,normalize,Complex Conditional
+main,org.apache.tools.ant.util,FileUtils,normalize,Complex Method
+main,org.apache.tools.ant.util,FileUtils,normalize,Long Statement
+main,org.apache.tools.ant.util,FileUtils,normalize,Magic Number
+main,org.apache.tools.ant.util,FileUtils,normalize,Magic Number
+main,org.apache.tools.ant.util,FileUtils,normalize,Magic Number
+main,org.apache.tools.ant.util,FileUtils,normalize,Magic Number
+main,org.apache.tools.ant.util,FileUtils,contentEquals,Complex Method
+main,org.apache.tools.ant.util,FileUtils,contentEquals,Empty catch clause
+main,org.apache.tools.ant.util,FileUtils,contentEquals,Empty catch clause
+main,org.apache.tools.ant.util,FileUtils,readFully,Magic Number
+main,org.apache.tools.ant.util,GlobPatternMapper,mapFileName,Complex Conditional
+main,org.apache.tools.ant.util,JavaEnvUtils,buildJrePackages,Magic Number
+main,org.apache.tools.ant.util,JavaEnvUtils,buildJrePackages,Magic Number
+main,org.apache.tools.ant.util,JavaEnvUtils,buildJrePackages,Magic Number
+main,org.apache.tools.ant.util,JavaEnvUtils,buildJrePackages,Magic Number
+main,org.apache.tools.ant.util,JavaEnvUtils,buildJrePackages,Missing default
+main,org.apache.tools.ant.util,JavaEnvUtils,getJrePackageTestCases,Magic Number
+main,org.apache.tools.ant.util,JavaEnvUtils,getJrePackageTestCases,Magic Number
+main,org.apache.tools.ant.util,JavaEnvUtils,getJrePackageTestCases,Magic Number
+main,org.apache.tools.ant.util,JavaEnvUtils,getJrePackageTestCases,Magic Number
+main,org.apache.tools.ant.util,JavaEnvUtils,getJrePackageTestCases,Missing default
+main,org.apache.tools.ant.util,RegexpPatternMapper,mapFileName,Complex Conditional
+main,org.apache.tools.ant.util,RegexpPatternMapper,replaceReferences,Magic Number
+main,org.apache.tools.ant.util,ResourceUtils,selectOutOfDateSources,Complex Method
+main,org.apache.tools.ant.util,ResourceUtils,selectOutOfDateSources,Long Statement
+main,org.apache.tools.ant.util,ResourceUtils,selectOutOfDateSources,Magic Number
+main,org.apache.tools.ant.util,Watchdog,run,Empty catch clause
+main,org.apache.tools.ant.util.depend.bcel,AncestorAnalyzer,AncestorAnalyzer,Empty catch clause
+main,org.apache.tools.ant.util.depend.bcel,AncestorAnalyzer,determineDependencies,Complex Method
+main,org.apache.tools.ant.util.depend.bcel,AncestorAnalyzer,determineDependencies,Empty catch clause
+main,org.apache.tools.ant.util.depend.bcel,AncestorAnalyzer,determineDependencies,Magic Number
+main,org.apache.tools.ant.util.depend.bcel,FullAnalyzer,FullAnalyzer,Empty catch clause
+main,org.apache.tools.ant.util.depend.bcel,FullAnalyzer,determineDependencies,Complex Method
+main,org.apache.tools.ant.util.depend.bcel,FullAnalyzer,determineDependencies,Empty catch clause
+main,org.apache.tools.ant.util.depend.bcel,FullAnalyzer,determineDependencies,Magic Number
+main,org.apache.tools.ant.util.regexp,JakartaOroRegexp,substitute,Magic Number
+main,org.apache.tools.ant.util.regexp,JakartaRegexpRegexp,substitute,Magic Number
+main,org.apache.tools.ant.util.regexp,Jdk14RegexpRegexp,substitute,Magic Number
+main,org.apache.tools.ant.util.regexp,RegexpFactory,newRegexp,Empty catch clause
+main,org.apache.tools.ant.util.regexp,RegexpFactory,newRegexp,Empty catch clause
+main,org.apache.tools.ant.util.regexp,RegexpFactory,newRegexp,Empty catch clause
+main,org.apache.tools.ant.util.regexp,RegexpMatcherFactory,newRegexpMatcher,Empty catch clause
+main,org.apache.tools.ant.util.regexp,RegexpMatcherFactory,newRegexpMatcher,Empty catch clause
+main,org.apache.tools.ant.util.regexp,RegexpMatcherFactory,newRegexpMatcher,Empty catch clause
+main,org.apache.tools.ant.util.regexp,RegexpUtil,removeFlag,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,makeMaps,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,read,Complex Method
+main,org.apache.tools.bzip2,CBZip2InputStream,read,Missing default
+main,org.apache.tools.bzip2,CBZip2InputStream,initialize,Complex Conditional
+main,org.apache.tools.bzip2,CBZip2InputStream,initBlock,Complex Conditional
+main,org.apache.tools.bzip2,CBZip2InputStream,initBlock,Complex Conditional
+main,org.apache.tools.bzip2,CBZip2InputStream,initBlock,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,initBlock,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,initBlock,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,initBlock,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,initBlock,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,initBlock,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,initBlock,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,initBlock,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,initBlock,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,initBlock,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,initBlock,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,initBlock,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,endBlock,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,bsFinishedWithStream,Empty catch clause
+main,org.apache.tools.bzip2,CBZip2InputStream,bsR,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,bsR,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,bsR,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,bsGetUChar,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,bsGetint,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,bsGetint,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,bsGetint,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,bsGetint,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,bsGetint,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,bsGetint,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,bsGetint,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,bsGetint,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,hbCreateDecodeTables,Complex Method
+main,org.apache.tools.bzip2,CBZip2InputStream,hbCreateDecodeTables,Long Parameter List
+main,org.apache.tools.bzip2,CBZip2InputStream,recvDecodingTables,Complex Method
+main,org.apache.tools.bzip2,CBZip2InputStream,recvDecodingTables,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,recvDecodingTables,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,recvDecodingTables,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,recvDecodingTables,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,recvDecodingTables,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,recvDecodingTables,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,recvDecodingTables,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,recvDecodingTables,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,recvDecodingTables,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,recvDecodingTables,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,recvDecodingTables,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,getAndMoveToFrontDecode,Complex Method
+main,org.apache.tools.bzip2,CBZip2InputStream,getAndMoveToFrontDecode,Long Method
+main,org.apache.tools.bzip2,CBZip2InputStream,getAndMoveToFrontDecode,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,getAndMoveToFrontDecode,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,getAndMoveToFrontDecode,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,getAndMoveToFrontDecode,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,getAndMoveToFrontDecode,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,getAndMoveToFrontDecode,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,getAndMoveToFrontDecode,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,getAndMoveToFrontDecode,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,getAndMoveToFrontDecode,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,getAndMoveToFrontDecode,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,getAndMoveToFrontDecode,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,getAndMoveToFrontDecode,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,getAndMoveToFrontDecode,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,getAndMoveToFrontDecode,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,getAndMoveToFrontDecode,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,getAndMoveToFrontDecode,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,getAndMoveToFrontDecode,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,getAndMoveToFrontDecode,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,getAndMoveToFrontDecode,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,getAndMoveToFrontDecode,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,getAndMoveToFrontDecode,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,setupBlock,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,setupBlock,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,setupBlock,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,setupBlock,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,setupRandPartA,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,setupRandPartB,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,setupRandPartB,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,setupNoRandPartB,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,setDecompressStructureSizes,Complex Conditional
+main,org.apache.tools.bzip2,CBZip2InputStream,setDecompressStructureSizes,Magic Number
+main,org.apache.tools.bzip2,CBZip2InputStream,setDecompressStructureSizes,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,makeMaps,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,hbMakeCodeLengths,Complex Method
+main,org.apache.tools.bzip2,CBZip2OutputStream,hbMakeCodeLengths,Long Method
+main,org.apache.tools.bzip2,CBZip2OutputStream,hbMakeCodeLengths,Long Statement
+main,org.apache.tools.bzip2,CBZip2OutputStream,hbMakeCodeLengths,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,hbMakeCodeLengths,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,hbMakeCodeLengths,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,hbMakeCodeLengths,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,hbMakeCodeLengths,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,hbMakeCodeLengths,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,hbMakeCodeLengths,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,hbMakeCodeLengths,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,hbMakeCodeLengths,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,hbMakeCodeLengths,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,hbMakeCodeLengths,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,hbMakeCodeLengths,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,hbMakeCodeLengths,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,hbMakeCodeLengths,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,hbMakeCodeLengths,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,hbMakeCodeLengths,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,CBZip2OutputStream,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,CBZip2OutputStream,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,CBZip2OutputStream,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,CBZip2OutputStream,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,write,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,write,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,write,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,writeRun,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,writeRun,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,writeRun,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,writeRun,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,writeRun,Missing default
+main,org.apache.tools.bzip2,CBZip2OutputStream,initBlock,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,initBlock,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,endBlock,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,endBlock,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,endBlock,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,endBlock,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,endBlock,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,endBlock,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,endBlock,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,endCompression,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,endCompression,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,endCompression,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,endCompression,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,endCompression,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,endCompression,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,hbAssignCodes,Long Parameter List
+main,org.apache.tools.bzip2,CBZip2OutputStream,bsFinishedWithStream,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,bsFinishedWithStream,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,bsFinishedWithStream,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,bsW,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,bsW,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,bsW,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,bsW,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,bsW,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,bsPutUChar,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,bsPutint,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,bsPutint,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,bsPutint,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,bsPutint,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,bsPutint,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,bsPutint,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,bsPutint,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,bsPutint,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,bsPutint,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,bsPutint,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,bsPutint,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,sendMTFValues,Complex Conditional
+main,org.apache.tools.bzip2,CBZip2OutputStream,sendMTFValues,Complex Method
+main,org.apache.tools.bzip2,CBZip2OutputStream,sendMTFValues,Long Method
+main,org.apache.tools.bzip2,CBZip2OutputStream,sendMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,sendMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,sendMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,sendMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,sendMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,sendMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,sendMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,sendMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,sendMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,sendMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,sendMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,sendMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,sendMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,sendMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,sendMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,sendMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,sendMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,sendMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,sendMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,sendMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,sendMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,sendMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,sendMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,sendMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,sendMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,sendMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,sendMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,sendMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,sendMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,sendMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,sendMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,sendMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,sendMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,sendMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,sendMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,sendMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,sendMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,sendMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,sendMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,sendMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,sendMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,sendMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,sendMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,moveToFrontCodeAndSend,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,simpleSort,Complex Method
+main,org.apache.tools.bzip2,CBZip2OutputStream,simpleSort,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,qSort3,Complex Method
+main,org.apache.tools.bzip2,CBZip2OutputStream,qSort3,Long Method
+main,org.apache.tools.bzip2,CBZip2OutputStream,mainSort,Complex Method
+main,org.apache.tools.bzip2,CBZip2OutputStream,mainSort,Long Method
+main,org.apache.tools.bzip2,CBZip2OutputStream,mainSort,Long Statement
+main,org.apache.tools.bzip2,CBZip2OutputStream,mainSort,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,mainSort,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,mainSort,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,mainSort,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,mainSort,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,mainSort,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,mainSort,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,mainSort,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,mainSort,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,mainSort,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,mainSort,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,mainSort,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,mainSort,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,mainSort,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,mainSort,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,mainSort,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,mainSort,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,mainSort,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,mainSort,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,mainSort,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,mainSort,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,mainSort,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,mainSort,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,mainSort,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,mainSort,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,mainSort,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,mainSort,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,mainSort,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,mainSort,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,mainSort,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,mainSort,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,mainSort,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,mainSort,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,mainSort,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,mainSort,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,mainSort,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,randomiseBlock,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,randomiseBlock,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,randomiseBlock,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,fullGtU,Complex Method
+main,org.apache.tools.bzip2,CBZip2OutputStream,fullGtU,Long Method
+main,org.apache.tools.bzip2,CBZip2OutputStream,fullGtU,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,allocateCompressStructures,Complex Conditional
+main,org.apache.tools.bzip2,CBZip2OutputStream,allocateCompressStructures,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,allocateCompressStructures,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,generateMTFValues,Complex Method
+main,org.apache.tools.bzip2,CBZip2OutputStream,generateMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,generateMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,generateMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,generateMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,generateMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,generateMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,generateMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,generateMTFValues,Magic Number
+main,org.apache.tools.bzip2,CBZip2OutputStream,generateMTFValues,Magic Number
+main,org.apache.tools.bzip2,CRC,initialiseCRC,Magic Number
+main,org.apache.tools.bzip2,CRC,updateCRC,Magic Number
+main,org.apache.tools.bzip2,CRC,updateCRC,Magic Number
+main,org.apache.tools.bzip2,CRC,updateCRC,Magic Number
+main,org.apache.tools.mail,MailMessage,sanitizeAddress,Complex Method
+main,org.apache.tools.mail,MailMessage,disconnect,Empty catch clause
+main,org.apache.tools.mail,MailMessage,disconnect,Empty catch clause
+main,org.apache.tools.mail,SmtpResponseReader,getResponse,Magic Number
+main,org.apache.tools.mail,SmtpResponseReader,getResponse,Magic Number
+main,org.apache.tools.mail,SmtpResponseReader,hasMoreLines,Magic Number
+main,org.apache.tools.mail,SmtpResponseReader,hasMoreLines,Magic Number
+main,org.apache.tools.mail,SmtpResponseReader,append,Magic Number
+main,org.apache.tools.mail,SmtpResponseReader,append,Magic Number
+main,org.apache.tools.tar,TarBuffer,writeRecord,Long Statement
+main,org.apache.tools.tar,TarBuffer,writeRecord,Long Statement
+main,org.apache.tools.tar,TarEntry,TarEntry,Magic Number
+main,org.apache.tools.tar,TarEntry,TarEntry,Magic Number
+main,org.apache.tools.tar,TarEntry,TarEntry,Magic Number
+main,org.apache.tools.tar,TarEntry,TarEntry,Magic Number
+main,org.apache.tools.tar,TarEntry,TarEntry,Magic Number
+main,org.apache.tools.tar,TarEntry,TarEntry,Complex Conditional
+main,org.apache.tools.tar,TarEntry,TarEntry,Complex Method
+main,org.apache.tools.tar,TarEntry,TarEntry,Magic Number
+main,org.apache.tools.tar,TarEntry,TarEntry,Magic Number
+main,org.apache.tools.tar,TarEntry,TarEntry,Magic Number
+main,org.apache.tools.tar,TarEntry,TarEntry,Magic Number
+main,org.apache.tools.tar,TarEntry,TarEntry,Magic Number
+main,org.apache.tools.tar,TarEntry,setModTime,Magic Number
+main,org.apache.tools.tar,TarEntry,setModTime,Magic Number
+main,org.apache.tools.tar,TarEntry,getModTime,Magic Number
+main,org.apache.tools.tar,TarInputStream,skip,Magic Number
+main,org.apache.tools.tar,TarInputStream,skip,Magic Number
+main,org.apache.tools.tar,TarInputStream,getNextEntry,Complex Conditional
+main,org.apache.tools.tar,TarInputStream,getNextEntry,Complex Method
+main,org.apache.tools.tar,TarInputStream,getNextEntry,Long Statement
+main,org.apache.tools.tar,TarInputStream,getNextEntry,Long Statement
+main,org.apache.tools.tar,TarInputStream,getNextEntry,Long Statement
+main,org.apache.tools.tar,TarInputStream,getNextEntry,Magic Number
+main,org.apache.tools.tar,TarInputStream,getNextEntry,Magic Number
+main,org.apache.tools.tar,TarInputStream,getNextEntry,Magic Number
+main,org.apache.tools.tar,TarInputStream,getNextEntry,Magic Number
+main,org.apache.tools.tar,TarInputStream,getNextEntry,Magic Number
+main,org.apache.tools.tar,TarInputStream,getNextEntry,Magic Number
+main,org.apache.tools.tar,TarInputStream,read,Complex Method
+main,org.apache.tools.tar,TarInputStream,copyEntryContents,Magic Number
+main,org.apache.tools.tar,TarInputStream,copyEntryContents,Magic Number
+main,org.apache.tools.tar,TarOutputStream,closeEntry,Long Statement
+main,org.apache.tools.tar,TarOutputStream,write,Long Statement
+main,org.apache.tools.tar,TarUtils,parseOctal,Magic Number
+main,org.apache.tools.tar,TarUtils,getOctalBytes,Magic Number
+main,org.apache.tools.tar,TarUtils,getOctalBytes,Magic Number
+main,org.apache.tools.tar,TarUtils,getCheckSumOctalBytes,Magic Number
+main,org.apache.tools.tar,TarUtils,computeCheckSum,Magic Number
+main,org.apache.tools.zip,AsiExtraField,getLocalFileDataLength,Magic Number
+main,org.apache.tools.zip,AsiExtraField,getLocalFileDataLength,Magic Number
+main,org.apache.tools.zip,AsiExtraField,getLocalFileDataLength,Magic Number
+main,org.apache.tools.zip,AsiExtraField,getLocalFileDataLength,Magic Number
+main,org.apache.tools.zip,AsiExtraField,getLocalFileDataLength,Magic Number
+main,org.apache.tools.zip,AsiExtraField,getLocalFileDataData,Magic Number
+main,org.apache.tools.zip,AsiExtraField,getLocalFileDataData,Magic Number
+main,org.apache.tools.zip,AsiExtraField,getLocalFileDataData,Magic Number
+main,org.apache.tools.zip,AsiExtraField,getLocalFileDataData,Magic Number
+main,org.apache.tools.zip,AsiExtraField,getLocalFileDataData,Magic Number
+main,org.apache.tools.zip,AsiExtraField,getLocalFileDataData,Magic Number
+main,org.apache.tools.zip,AsiExtraField,getLocalFileDataData,Magic Number
+main,org.apache.tools.zip,AsiExtraField,getLocalFileDataData,Magic Number
+main,org.apache.tools.zip,AsiExtraField,getLocalFileDataData,Magic Number
+main,org.apache.tools.zip,AsiExtraField,getLocalFileDataData,Magic Number
+main,org.apache.tools.zip,AsiExtraField,getLocalFileDataData,Magic Number
+main,org.apache.tools.zip,AsiExtraField,getLocalFileDataData,Magic Number
+main,org.apache.tools.zip,AsiExtraField,parseFromLocalFileData,Long Statement
+main,org.apache.tools.zip,AsiExtraField,parseFromLocalFileData,Magic Number
+main,org.apache.tools.zip,AsiExtraField,parseFromLocalFileData,Magic Number
+main,org.apache.tools.zip,AsiExtraField,parseFromLocalFileData,Magic Number
+main,org.apache.tools.zip,AsiExtraField,parseFromLocalFileData,Magic Number
+main,org.apache.tools.zip,AsiExtraField,parseFromLocalFileData,Magic Number
+main,org.apache.tools.zip,AsiExtraField,parseFromLocalFileData,Magic Number
+main,org.apache.tools.zip,AsiExtraField,parseFromLocalFileData,Magic Number
+main,org.apache.tools.zip,ExtraFieldUtils,parse,Magic Number
+main,org.apache.tools.zip,ExtraFieldUtils,parse,Magic Number
+main,org.apache.tools.zip,ExtraFieldUtils,parse,Magic Number
+main,org.apache.tools.zip,ExtraFieldUtils,parse,Magic Number
+main,org.apache.tools.zip,ExtraFieldUtils,parse,Magic Number
+main,org.apache.tools.zip,ExtraFieldUtils,mergeLocalFileDataData,Magic Number
+main,org.apache.tools.zip,ExtraFieldUtils,mergeLocalFileDataData,Magic Number
+main,org.apache.tools.zip,ExtraFieldUtils,mergeLocalFileDataData,Magic Number
+main,org.apache.tools.zip,ExtraFieldUtils,mergeLocalFileDataData,Magic Number
+main,org.apache.tools.zip,ExtraFieldUtils,mergeLocalFileDataData,Magic Number
+main,org.apache.tools.zip,ExtraFieldUtils,mergeLocalFileDataData,Magic Number
+main,org.apache.tools.zip,ExtraFieldUtils,mergeCentralDirectoryData,Magic Number
+main,org.apache.tools.zip,ExtraFieldUtils,mergeCentralDirectoryData,Magic Number
+main,org.apache.tools.zip,ExtraFieldUtils,mergeCentralDirectoryData,Magic Number
+main,org.apache.tools.zip,ExtraFieldUtils,mergeCentralDirectoryData,Magic Number
+main,org.apache.tools.zip,ExtraFieldUtils,mergeCentralDirectoryData,Magic Number
+main,org.apache.tools.zip,ExtraFieldUtils,mergeCentralDirectoryData,Magic Number
+main,org.apache.tools.zip,ZipEntry,setUnixMode,Magic Number
+main,org.apache.tools.zip,ZipEntry,setUnixMode,Magic Number
+main,org.apache.tools.zip,ZipEntry,setUnixMode,Magic Number
+main,org.apache.tools.zip,ZipEntry,checkSCS,Empty catch clause
+main,org.apache.tools.zip,ZipLong,ZipLong,Magic Number
+main,org.apache.tools.zip,ZipLong,ZipLong,Magic Number
+main,org.apache.tools.zip,ZipLong,ZipLong,Magic Number
+main,org.apache.tools.zip,ZipLong,ZipLong,Magic Number
+main,org.apache.tools.zip,ZipLong,ZipLong,Magic Number
+main,org.apache.tools.zip,ZipLong,ZipLong,Magic Number
+main,org.apache.tools.zip,ZipLong,ZipLong,Magic Number
+main,org.apache.tools.zip,ZipLong,ZipLong,Magic Number
+main,org.apache.tools.zip,ZipLong,ZipLong,Magic Number
+main,org.apache.tools.zip,ZipLong,getBytes,Magic Number
+main,org.apache.tools.zip,ZipLong,getBytes,Magic Number
+main,org.apache.tools.zip,ZipLong,getBytes,Magic Number
+main,org.apache.tools.zip,ZipLong,getBytes,Magic Number
+main,org.apache.tools.zip,ZipLong,getBytes,Magic Number
+main,org.apache.tools.zip,ZipLong,getBytes,Magic Number
+main,org.apache.tools.zip,ZipLong,getBytes,Magic Number
+main,org.apache.tools.zip,ZipLong,getBytes,Magic Number
+main,org.apache.tools.zip,ZipLong,getBytes,Magic Number
+main,org.apache.tools.zip,ZipLong,getBytes,Magic Number
+main,org.apache.tools.zip,ZipOutputStream,closeEntry,Long Statement
+main,org.apache.tools.zip,ZipOutputStream,closeEntry,Long Statement
+main,org.apache.tools.zip,ZipOutputStream,writeLocalFileHeader,Magic Number
+main,org.apache.tools.zip,ZipOutputStream,writeLocalFileHeader,Magic Number
+main,org.apache.tools.zip,ZipOutputStream,writeLocalFileHeader,Magic Number
+main,org.apache.tools.zip,ZipOutputStream,writeLocalFileHeader,Magic Number
+main,org.apache.tools.zip,ZipOutputStream,writeLocalFileHeader,Magic Number
+main,org.apache.tools.zip,ZipOutputStream,writeLocalFileHeader,Magic Number
+main,org.apache.tools.zip,ZipOutputStream,writeLocalFileHeader,Magic Number
+main,org.apache.tools.zip,ZipOutputStream,writeLocalFileHeader,Magic Number
+main,org.apache.tools.zip,ZipOutputStream,writeLocalFileHeader,Magic Number
+main,org.apache.tools.zip,ZipOutputStream,writeLocalFileHeader,Magic Number
+main,org.apache.tools.zip,ZipOutputStream,writeDataDescriptor,Magic Number
+main,org.apache.tools.zip,ZipOutputStream,writeCentralFileHeader,Magic Number
+main,org.apache.tools.zip,ZipOutputStream,writeCentralFileHeader,Magic Number
+main,org.apache.tools.zip,ZipOutputStream,writeCentralFileHeader,Magic Number
+main,org.apache.tools.zip,ZipOutputStream,writeCentralFileHeader,Magic Number
+main,org.apache.tools.zip,ZipOutputStream,writeCentralFileHeader,Magic Number
+main,org.apache.tools.zip,ZipOutputStream,writeCentralFileHeader,Magic Number
+main,org.apache.tools.zip,ZipOutputStream,writeCentralFileHeader,Magic Number
+main,org.apache.tools.zip,ZipOutputStream,writeCentralFileHeader,Magic Number
+main,org.apache.tools.zip,ZipOutputStream,writeCentralFileHeader,Magic Number
+main,org.apache.tools.zip,ZipOutputStream,writeCentralFileHeader,Magic Number
+main,org.apache.tools.zip,ZipOutputStream,writeCentralFileHeader,Magic Number
+main,org.apache.tools.zip,ZipOutputStream,writeCentralFileHeader,Magic Number
+main,org.apache.tools.zip,ZipOutputStream,writeCentralFileHeader,Magic Number
+main,org.apache.tools.zip,ZipOutputStream,writeCentralFileHeader,Magic Number
+main,org.apache.tools.zip,ZipOutputStream,writeCentralFileHeader,Magic Number
+main,org.apache.tools.zip,ZipOutputStream,writeCentralFileHeader,Magic Number
+main,org.apache.tools.zip,ZipOutputStream,writeCentralFileHeader,Magic Number
+main,org.apache.tools.zip,ZipOutputStream,writeCentralFileHeader,Magic Number
+main,org.apache.tools.zip,ZipOutputStream,toDosTime,Long Statement
+main,org.apache.tools.zip,ZipOutputStream,toDosTime,Magic Number
+main,org.apache.tools.zip,ZipOutputStream,toDosTime,Magic Number
+main,org.apache.tools.zip,ZipOutputStream,toDosTime,Magic Number
+main,org.apache.tools.zip,ZipOutputStream,toDosTime,Magic Number
+main,org.apache.tools.zip,ZipOutputStream,toDosTime,Magic Number
+main,org.apache.tools.zip,ZipOutputStream,toDosTime,Magic Number
+main,org.apache.tools.zip,ZipOutputStream,toDosTime,Magic Number
+main,org.apache.tools.zip,ZipOutputStream,toDosTime,Magic Number
+main,org.apache.tools.zip,ZipOutputStream,toDosTime,Magic Number
+main,org.apache.tools.zip,ZipOutputStream,toDosTime,Magic Number
+main,org.apache.tools.zip,ZipOutputStream,toDosTime,Magic Number
+main,org.apache.tools.zip,ZipOutputStream,toDosTime,Magic Number
+main,org.apache.tools.zip,ZipOutputStream,toDosTime,Magic Number
+main,org.apache.tools.zip,ZipOutputStream,toDosTime,Magic Number
+main,org.apache.tools.zip,ZipOutputStream,toDosTime,Magic Number
+main,org.apache.tools.zip,ZipOutputStream,toDosTime,Magic Number
+main,org.apache.tools.zip,ZipOutputStream,toDosTime,Magic Number
+main,org.apache.tools.zip,ZipOutputStream,toDosTime,Magic Number
+main,org.apache.tools.zip,ZipShort,ZipShort,Magic Number
+main,org.apache.tools.zip,ZipShort,ZipShort,Magic Number
+main,org.apache.tools.zip,ZipShort,ZipShort,Magic Number
+main,org.apache.tools.zip,ZipShort,getBytes,Magic Number
+main,org.apache.tools.zip,ZipShort,getBytes,Magic Number
+main,org.apache.tools.zip,ZipShort,getBytes,Magic Number
+main,org.apache.tools.zip,ZipShort,getBytes,Magic Number

@@ -1,0 +1,101 @@
+
+
+```{r}
+library(Hmisc)
+library(ggplot2)
+library(reshape2)
+library(lattice)
+library(GGally)
+library('caret')
+library(e1071)
+```
+
+
+Reading data for training:
+```{r}
+trainData <- read.csv2('data/trainset.csv',sep = ',',header = T)
+head(trainData)
+trainData<-trainData[names(trainData)!='X']
+head(trainData)
+```
+
+
+```{r}
+train_index <- sample(1:nrow(trainData), 0.8 * nrow(trainData))
+test_index <- setdiff(1:nrow(trainData), train_index)
+
+# Build X_train, y_train, X_test, y_test
+X_train <- trainData[train_index,]
+y_train <- trainData[train_index, "bug"]
+
+X_test <- trainData[test_index,]
+y_test <- trainData[test_index, "bug"]
+```
+
+
+
+
+
+
+
+
+```{r}
+summary(X_train$cbo)
+
+```
+
+
+```{r}
+model <- glm( bug ~ noc+cyclomatic+dit+lcom+noc+wmc, 
+              family = binomial, 
+              data = X_train)
+summary(model)
+```
+
+```{r}
+model2<- update(model,~.-lcom)
+summary(model2)
+```
+
+```{r}
+step(model2)
+```
+
+
+```{r}
+anova(model,model2,test = "Chi")
+```
+
+
+
+
+```{r}
+pred <- predict(model2,newdata = X_test,se.fit = FALSE,type = 'response')
+pred <- ifelse(pred>0.4,1,0)
+
+pred<-as.integer(pred)
+y_test<-as.integer(y_test)
+
+pred<-as.factor(pred)
+y_test<-as.factor(y_test)
+
+```
+
+
+
+```{r}
+confusionMatrix(pred,y_test)
+```
+
+
+**Retrain model on whole data**
+
+```{r}
+model <- glm( bug ~ noc+cyclomatic+dit+noc+wmc+cbo, 
+              family = binomial, 
+              data = trainData)
+summary(model)
+
+```
+
+
