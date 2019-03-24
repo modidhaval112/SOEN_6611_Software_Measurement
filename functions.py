@@ -152,7 +152,7 @@ def plot_heatMaps(df=pd.DataFrame(),proj_name=''):
             pass
     
     for ver in df:  
-        corr = df[ver].corr()
+        corr = df[ver].corr('spearman')
         
         title = '%s  %s_%s'%(fType.upper(),proj_name,ver)
         
