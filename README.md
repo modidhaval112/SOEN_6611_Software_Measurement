@@ -12,12 +12,16 @@ Practical aspect:<br>
 Collection of metrics from software systems. In context of the project, perform analytics on software 
 metrics by collecting metrics from Open-Source Systems and conducting empirical studies.
 
+**Folder Contents:**
+- Analysis Output : Contains the analysis notebooks in .html format
+- data : Contains data for analysis.
+- plots : Contains auto generated project folders and their respective plots.
+- docs : All the documents refered and created for project.
 
 
-
-
-
-
+**Notes:**
+- Data reading and cleaning functions are customly written.
+- These functions have been separated into a different file "functions.py"
 
 **REQUIREMENTS:**
 
