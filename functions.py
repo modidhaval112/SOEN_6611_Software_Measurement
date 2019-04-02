@@ -122,18 +122,28 @@ def process_project_data(file,exploratory=False):
 
 
 ## REMOVE OUTLIERS
+## REMOVE OUTLIERS
 def limit_data_dict(dic = dict()):
    
     for ver in dic :
         df = dic[ver]
-        df = df[df.rfc<60]
-        df = df[df.wmc<60]
-        df = df[df.noc<60]
-        df = df[df.lcom<60]
-        df = df[df.cbo<60]
+        df = df[df.wmc<2]
+        df = df[df.rfc<1]
+        df = df[df.lcom<1]
+        df = df[df.noc<1]
+        df = df[df.cbo<1]
+        df = df[df.dit<2]
         dic[ver] = df
     return dic
 
+def limit_data_eachcol_dict(dic = dict(),value = int,col=''):
+   
+    for ver in dic :
+        df = dic[ver]
+        df = df[df[col]<=value]
+    
+        dic[ver] = df
+    return dic
 
 
 ###############################################
