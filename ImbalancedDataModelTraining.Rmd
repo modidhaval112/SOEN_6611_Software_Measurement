@@ -1,0 +1,91 @@
+
+
+```{r}
+library(Hmisc)
+library(ggplot2)
+library(reshape2)
+library(lattice)
+library(GGally)
+library('caret')
+library(e1071)
+
+```
+
+
+Reading data for training:
+
+```{r}
+trainData <- read.csv2('data/trainset.csv',sep = ',',header = T)
+head(trainData,3)
+trainData<-trainData[names(trainData)!='X']
+```
+
+
+Splitting data for training:
+- 80% for training
+- 20% for testing
+- X : features (independent variables)
+- y : labels (dependent variable)
+
+```{r}
+train_index <- sample(1:nrow(trainData), 0.8 * nrow(trainData))
+test_index <- setdiff(1:nrow(trainData), train_index)
+
+# Build X_train, y_train, X_test, y_test
+X_train <- trainData[train_index,]
+y_train <- trainData[train_index, "designDefect"]
+
+X_test <- trainData[test_index,]
+y_test <- trainData[test_index, "designDefect"]
+```
+
+
+In exploratory data analysis we saw that the data is not linear,
+hence we use glm for building the model.
+
+```{r}
+model <- glm( designDefect ~ cbo+noc+lcom+rfc+wmc+cyclomatic+dit, 
+              family = binomial, 
+              data = X_train)
+summary(model)
+```
+
+### Observation:
+- DIT contributes less to the model, so we remove it
+
+```{r}
+model2<- update(model,~.-dit)
+summary(model2)
+```
+
+```{r}
+step(model2)
+```
+
+Elimination of DIT metric did not make any difference. It's not statistically significant
+
+```{r}
+anova(model,model2,test = "Chi")
+```
+
+Here we see that the accuracy is 94%, this is misleading as the dataset is imbalanced with output = 1 constituting only 5% of the total data. hence it's important to look at the sensitivity and specificity of the model. Here it is 99% and 1% respectively, which shows the model is not useful for real world usage.
+
+
+```{r}
+pred <- predict(model2,newdata = X_test,se.fit = FALSE,type = 'response')
+print(head(pred))
+pred <- ifelse(pred>0.43,1,0)
+
+pred<-as.integer(pred)
+y_test<-as.integer(y_test)
+
+pred<-as.factor(pred)
+y_test<-as.factor(y_test)
+
+confusionMatrix(pred,y_test)
+
+```
+
+
+
+

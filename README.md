@@ -13,11 +13,11 @@ Collection of metrics from software systems. In context of the project, perform 
 metrics by collecting metrics from Open-Source Systems and conducting empirical studies.
 
 **Folder Contents:**
-- Analysis Output : Contains the analysis notebooks in .html format
+- Html analysis notebooks : Contains the analysis notebooks in .html format
 - data : Contains data for analysis.
 - plots : Contains auto generated project folders and their respective plots.
 - docs : All the documents refered and created for project.
-
+- archive : All the previous work.
 
 **Notes:**
 - Data reading and cleaning functions are customly written.
@@ -28,4 +28,4 @@ metrics by collecting metrics from Open-Source Systems and conducting empirical 
 - Jupyter Notebook
 - Python 3.5
 - Understand by Scitools : for metrics collection
-
+- Designite Java : for code smell detection
