@@ -1,1020 +1,1020 @@
-Kind,Name,CountClassCoupled,CountLineCode,Cyclomatic,SumCyclomatic,PercentLackOfCohesion,MaxInheritanceTree
-File,"AllJUnitTests.java",,15,,2,,
-File,"Ant.java",,78,,16,,
-File,"AntStructure.java",,42,,5,,
-File,"Available.java",,55,,14,,
-File,"BuildEvent.java",,53,,11,,
-File,"BuildException.java",,39,,10,,
-File,"BuildListener.java",,11,,0,,
-File,"Chmod.java",,48,,12,,
-File,"CompileTask.java",,27,,5,,
-File,"Copydir.java",,53,,9,,
-File,"Copyfile.java",,29,,6,,
-File,"Cvs.java",,64,,20,,
-File,"DDCreator.java",,44,,8,,
-File,"DDCreatorHelper.java",,50,,8,,
-File,"DefaultLogger.java",,67,,17,,
-File,"Delete.java",,58,,16,,
-File,"Deltree.java",,43,,11,,
-File,"DesirableFilter.java",,24,,6,,
-File,"DirectoryScanner.java",,393,,103,,
-File,"Echo.java",,13,,2,,
-File,"EjbJar.java",,290,,41,,
-File,"Ejbc.java",,61,,11,,
-File,"EjbcHelper.java",,125,,18,,
-File,"EnumeratedAttribute.java",,27,,8,,
-File,"EnumeratedAttributeTest.java",,54,,11,,
-File,"Exec.java",,136,,31,,
-File,"Expand.java",,65,,12,,
-File,"Filter.java",,15,,3,,
-File,"FixCRLF.java",,188,,58,,
-File,"GUnzip.java",,68,,16,,
-File,"GZip.java",,56,,10,,
-File,"Get.java",,62,,15,,
-File,"IntrospectionHelper.java",,320,,67,,
-File,"IntrospectionHelperTest.java",,128,,20,,
-File,"Jar.java",,42,,9,,
-File,"Java.java",,115,,28,,
-File,"Javac.java",,154,,36,,
-File,"JavacOutputStream.java",,33,,7,,
-File,"Javadoc.java",,759,,205,,
-File,"Jikes.java",,24,,3,,
-File,"JikesOutputParser.java",,56,,17,,
-File,"KeySubst.java",,101,,16,,
-File,"Location.java",,30,,6,,
-File,"MSVSS.java",,56,,9,,
-File,"MSVSSGET.java",,105,,24,,
-File,"MailMessage.java",,215,,54,,
-File,"Main.java",,202,,39,,
-File,"Map.java",,5,,0,,
-File,"MatchingTask.java",,144,,42,,
-File,"Mkdir.java",,21,,4,,
-File,"NetRexxC.java",,188,,43,,
-File,"Patch.java",,70,,18,,
-File,"Path.java",,91,,25,,
-File,"PathTest.java",,128,,13,,
-File,"PathTokenizer.java",,40,,7,,
-File,"Project.java",,60,,5,,
-File,"ProjectHelper.java",,322,,78,,
-File,"Property.java",,150,,36,,
-File,"Rename.java",,30,,7,,
-File,"RenameExtensions.java",,61,,14,,
-File,"Replace.java",,78,,18,,
-File,"Rmic.java",,245,,62,,
-File,"Script.java",,61,,13,,
-File,"SignJar.java",,116,,25,,
-File,"Tar.java",,66,,11,,
-File,"TarBuffer.java",,223,,56,,
-File,"TarConstants.java",,25,,0,,
-File,"TarEntry.java",,244,,46,,
-File,"TarInputStream.java",,197,,41,,
-File,"TarOutputStream.java",,121,,24,,
-File,"TarUtils.java",,85,,20,,
-File,"Target.java",,70,,20,,
-File,"Task.java",,50,,15,,
-File,"TaskAdapter.java",,28,,5,,
-File,"TaskOutputStream.java",,28,,5,,
-File,"Taskdef.java",,40,,8,,
-File,"Touch.java",,98,,18,,
-File,"Tstamp.java",,20,,2,,
-File,"Untar.java",,73,,14,,
-File,"WLRun.java",,73,,14,,
-File,"WLStop.java",,42,,8,,
-File,"XSLTLiaison.java",,6,,0,,
-File,"XSLTProcess.java",,102,,22,,
-File,"XalanLiaison.java",,20,,3,,
-File,"XmlLogger.java",,155,,29,,
-File,"XslpLiaison.java",,20,,3,,
-File,"Zip.java",,130,,24,,
-File,"build.xml",,199,0,0,,
-File,"buildAnt.xml",,51,0,0,,
-Package,"com",,0,,0,,
-Package,"com.oreilly",,0,,0,,
-Package,"com.oreilly.servlet",,215,,54,,
-Public Class,"com.oreilly.servlet.MailMessage",1,177,,45,88,1
-Public Constructor,"com.oreilly.servlet.MailMessage.MailMessage",,3,1,1,,
-Public Constructor,"com.oreilly.servlet.MailMessage.MailMessage",,9,1,1,,
-Public Method,"com.oreilly.servlet.MailMessage.bcc",,3,1,1,,
-Public Method,"com.oreilly.servlet.MailMessage.cc",,4,1,1,,
-Method,"com.oreilly.servlet.MailMessage.connect",,8,1,1,,
-Method,"com.oreilly.servlet.MailMessage.disconnect",,5,4,4,,
-Method,"com.oreilly.servlet.MailMessage.flushHeaders",,10,2,2,,
-Public Method,"com.oreilly.servlet.MailMessage.from",,4,1,1,,
-Public Method,"com.oreilly.servlet.MailMessage.getPrintStream",,8,1,1,,
-Method,"com.oreilly.servlet.MailMessage.getReady",,8,2,2,,
-Method,"com.oreilly.servlet.MailMessage.isResponseOK",,8,3,3,,
-Static Method,"com.oreilly.servlet.MailMessage.sanitizeAddress",,31,9,9,,
-Method,"com.oreilly.servlet.MailMessage.send",,8,2,2,,
-Public Method,"com.oreilly.servlet.MailMessage.sendAndClose",,4,1,1,,
-Method,"com.oreilly.servlet.MailMessage.sendData",,4,1,1,,
-Method,"com.oreilly.servlet.MailMessage.sendDot",,4,1,1,,
-Method,"com.oreilly.servlet.MailMessage.sendFrom",,4,1,1,,
-Method,"com.oreilly.servlet.MailMessage.sendHelo",,5,1,1,,
-Method,"com.oreilly.servlet.MailMessage.sendQuit",,4,1,1,,
-Method,"com.oreilly.servlet.MailMessage.sendRcpt",,4,1,1,,
-Method,"com.oreilly.servlet.MailMessage.setCcHeader",,3,1,1,,
-Method,"com.oreilly.servlet.MailMessage.setFromHeader",,3,1,1,,
-Public Method,"com.oreilly.servlet.MailMessage.setHeader",,3,1,1,,
-Public Method,"com.oreilly.servlet.MailMessage.setSubject",,3,1,1,,
-Method,"com.oreilly.servlet.MailMessage.setToHeader",,3,1,1,,
-Public Method,"com.oreilly.servlet.MailMessage.to",,4,1,1,,
-Method,"com.oreilly.servlet.MailMessage.vectorToList",,11,3,3,,
-Class,"com.oreilly.servlet.MailPrintStream",0,34,,9,80,2
-Public Constructor,"com.oreilly.servlet.MailPrintStream.MailPrintStream",,3,1,1,,
-Method,"com.oreilly.servlet.MailPrintStream.rawPrint",,6,2,2,,
-Method,"com.oreilly.servlet.MailPrintStream.rawWrite",,3,1,1,,
-Public Method,"com.oreilly.servlet.MailPrintStream.write",,14,3,3,,
-Public Method,"com.oreilly.servlet.MailPrintStream.write",,5,2,2,,
-File,"core.html",,0,0,0,,
-File,"design guide.xml",,81,0,0,,
-File,"docbookx.css",,0,0,0,,
-File,"index.html",,0,0,0,,
-Package,"org",,0,,0,,
-Package,"org.apache",,0,,0,,
-Package,"org.apache.tools",,0,,0,,
-Package,"org.apache.tools.ant",,2312,,497,,
-Public Class,"org.apache.tools.ant.AllJUnitTests",3,11,,2,0,2
-Public Constructor,"org.apache.tools.ant.AllJUnitTests.AllJUnitTests",,3,1,1,,
-Public Static Method,"org.apache.tools.ant.AllJUnitTests.suite",,6,1,1,,
-Public Class,"org.apache.tools.ant.BuildEvent",3,50,,11,72,2
-Public Constructor,"org.apache.tools.ant.BuildEvent.BuildEvent",,6,1,1,,
-Public Constructor,"org.apache.tools.ant.BuildEvent.BuildEvent",,6,1,1,,
-Public Constructor,"org.apache.tools.ant.BuildEvent.BuildEvent",,6,1,1,,
-Public Method,"org.apache.tools.ant.BuildEvent.getException",,3,1,1,,
-Public Method,"org.apache.tools.ant.BuildEvent.getMessage",,3,1,1,,
-Public Method,"org.apache.tools.ant.BuildEvent.getPriority",,3,1,1,,
-Public Method,"org.apache.tools.ant.BuildEvent.getProject",,3,1,1,,
-Public Method,"org.apache.tools.ant.BuildEvent.getTarget",,3,1,1,,
-Public Method,"org.apache.tools.ant.BuildEvent.getTask",,3,1,1,,
-Public Method,"org.apache.tools.ant.BuildEvent.setException",,3,1,1,,
-Public Method,"org.apache.tools.ant.BuildEvent.setMessage",,4,1,1,,
-Public Class,"org.apache.tools.ant.BuildException",1,38,,10,60,2
-Public Constructor,"org.apache.tools.ant.BuildException.BuildException",,3,1,1,,
-Public Constructor,"org.apache.tools.ant.BuildException.BuildException",,4,1,1,,
-Public Constructor,"org.apache.tools.ant.BuildException.BuildException",,4,1,1,,
-Public Constructor,"org.apache.tools.ant.BuildException.BuildException",,4,1,1,,
-Public Constructor,"org.apache.tools.ant.BuildException.BuildException",,3,1,1,,
-Public Constructor,"org.apache.tools.ant.BuildException.BuildException",,4,1,1,,
-Public Method,"org.apache.tools.ant.BuildException.getException",,3,1,1,,
-Public Method,"org.apache.tools.ant.BuildException.getLocation",,3,1,1,,
-Public Method,"org.apache.tools.ant.BuildException.setLocation",,3,1,1,,
-Public Method,"org.apache.tools.ant.BuildException.toString",,3,1,1,,
-Public Interface,"org.apache.tools.ant.BuildListener",1,8,,0,0,2
-Public Abstract Method,"org.apache.tools.ant.BuildListener.buildFinished",,1,0,0,,
-Public Abstract Method,"org.apache.tools.ant.BuildListener.buildStarted",,1,0,0,,
-Public Abstract Method,"org.apache.tools.ant.BuildListener.messageLogged",,1,0,0,,
-Public Abstract Method,"org.apache.tools.ant.BuildListener.targetFinished",,1,0,0,,
-Public Abstract Method,"org.apache.tools.ant.BuildListener.targetStarted",,1,0,0,,
-Public Abstract Method,"org.apache.tools.ant.BuildListener.taskFinished",,1,0,0,,
-Public Abstract Method,"org.apache.tools.ant.BuildListener.taskStarted",,1,0,0,,
-Public Class,"org.apache.tools.ant.DefaultLogger",5,65,,17,72,1
-Public Constructor,"org.apache.tools.ant.DefaultLogger.DefaultLogger",,4,1,1,,
-Public Method,"org.apache.tools.ant.DefaultLogger.buildFinished",,20,4,4,,
-Public Method,"org.apache.tools.ant.DefaultLogger.buildStarted",,3,1,1,,
-Private Static Method,"org.apache.tools.ant.DefaultLogger.formatTime",,10,2,2,,
-Public Method,"org.apache.tools.ant.DefaultLogger.messageLogged",,13,4,4,,
-Public Method,"org.apache.tools.ant.DefaultLogger.targetFinished",,2,1,1,,
-Public Method,"org.apache.tools.ant.DefaultLogger.targetStarted",,5,2,2,,
-Public Method,"org.apache.tools.ant.DefaultLogger.taskFinished",,1,1,1,,
-Public Method,"org.apache.tools.ant.DefaultLogger.taskStarted",,1,1,1,,
-Public Class,"org.apache.tools.ant.DesirableFilter",0,20,,6,0,1
-Public Method,"org.apache.tools.ant.DesirableFilter.accept",,18,6,6,,
-Public Class,"org.apache.tools.ant.DirectoryScanner",0,390,,103,84,1
-Public Constructor,"org.apache.tools.ant.DirectoryScanner.DirectoryScanner",,2,1,1,,
-Public Method,"org.apache.tools.ant.DirectoryScanner.addDefaultExcludes",,12,4,4,,
-Public Method,"org.apache.tools.ant.DirectoryScanner.getBasedir",,3,1,1,,
-Public Method,"org.apache.tools.ant.DirectoryScanner.getExcludedDirectories",,8,2,2,,
-Public Method,"org.apache.tools.ant.DirectoryScanner.getExcludedFiles",,8,2,2,,
-Public Method,"org.apache.tools.ant.DirectoryScanner.getIncludedDirectories",,8,2,2,,
-Public Method,"org.apache.tools.ant.DirectoryScanner.getIncludedFiles",,8,2,2,,
-Public Method,"org.apache.tools.ant.DirectoryScanner.getNotIncludedDirectories",,8,2,2,,
-Public Method,"org.apache.tools.ant.DirectoryScanner.getNotIncludedFiles",,8,2,2,,
-Private Method,"org.apache.tools.ant.DirectoryScanner.isExcluded",,8,3,3,,
-Private Method,"org.apache.tools.ant.DirectoryScanner.isIncluded",,8,3,3,,
-Private Static Method,"org.apache.tools.ant.DirectoryScanner.match",,99,28,28,,
-Private Static Method,"org.apache.tools.ant.DirectoryScanner.matchPath",,101,27,27,,
-Public Method,"org.apache.tools.ant.DirectoryScanner.scan",,25,6,6,,
-Private Method,"org.apache.tools.ant.DirectoryScanner.scandir",,29,8,8,,
-Public Method,"org.apache.tools.ant.DirectoryScanner.setBasedir",,3,1,1,,
-Public Method,"org.apache.tools.ant.DirectoryScanner.setBasedir",,3,1,1,,
-Public Method,"org.apache.tools.ant.DirectoryScanner.setExcludes",,15,4,4,,
-Public Method,"org.apache.tools.ant.DirectoryScanner.setIncludes",,15,4,4,,
-Public Abstract Class,"org.apache.tools.ant.EnumeratedAttribute",1,26,,8,50,1
-Public Constructor,"org.apache.tools.ant.EnumeratedAttribute.EnumeratedAttribute",,1,1,1,,
-Public Method,"org.apache.tools.ant.EnumeratedAttribute.containsValue",,12,4,4,,
-Public Method,"org.apache.tools.ant.EnumeratedAttribute.getValue",,3,1,1,,
-Public Abstract Method,"org.apache.tools.ant.EnumeratedAttribute.getValues",,1,0,0,,
-Public Method,"org.apache.tools.ant.EnumeratedAttribute.setValue",,6,2,2,,
-Public Class,"org.apache.tools.ant.EnumeratedAttributeTest",4,51,,9,33,2
-Public Constructor,"org.apache.tools.ant.EnumeratedAttributeTest.EnumeratedAttributeTest",,3,1,1,,
-Public Static Class,"org.apache.tools.ant.EnumeratedAttributeTest.TestNormal",1,5,,1,0,2
-Public Method,"org.apache.tools.ant.EnumeratedAttributeTest.TestNormal.getValues",,3,1,1,,
-Public Static Class,"org.apache.tools.ant.EnumeratedAttributeTest.TestNull",0,5,,1,0,2
-Public Method,"org.apache.tools.ant.EnumeratedAttributeTest.TestNull.getValues",,3,1,1,,
-Public Method,"org.apache.tools.ant.EnumeratedAttributeTest.testContains",,13,2,2,,
-Public Method,"org.apache.tools.ant.EnumeratedAttributeTest.testExceptions",,22,6,6,,
-Public Class,"org.apache.tools.ant.IntrospectionHelper",7,316,,49,79,1
-Private Interface,"org.apache.tools.ant.IntrospectionHelper.AttributeSetter",2,5,,0,0,0
-Public Abstract Method,"org.apache.tools.ant.IntrospectionHelper.AttributeSetter.set",,3,0,0,,
-Private Constructor,"org.apache.tools.ant.IntrospectionHelper.IntrospectionHelper",,76,9,9,,
-Anonymous Class,"org.apache.tools.ant.IntrospectionHelper.IntrospectionHelper.(for_loop_1).(Anon_1)",1,6,,1,0,1
-Public Method,"org.apache.tools.ant.IntrospectionHelper.IntrospectionHelper.(for_loop_1).(Anon_1).create",,5,1,1,,
-Anonymous Class,"org.apache.tools.ant.IntrospectionHelper.IntrospectionHelper.(for_loop_1).(Anon_2)",1,7,,1,0,1
-Public Method,"org.apache.tools.ant.IntrospectionHelper.IntrospectionHelper.(for_loop_1).(Anon_2).create",,6,1,1,,
-Private Interface,"org.apache.tools.ant.IntrospectionHelper.NestedCreator",0,4,,0,0,0
-Public Abstract Method,"org.apache.tools.ant.IntrospectionHelper.NestedCreator.create",,2,0,0,,
-Public Method,"org.apache.tools.ant.IntrospectionHelper.addText",,18,5,5,,
-Private Method,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter",,120,14,14,,
-Anonymous Class,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_10)",2,5,,1,0,1
-Public Method,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_10).set",,4,1,1,,
-Anonymous Class,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_11)",2,6,,1,0,1
-Public Method,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_11).set",,5,1,1,,
-Anonymous Class,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_12)",3,9,,2,0,1
-Public Method,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_12).set",,8,2,2,,
-Anonymous Class,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_13)",2,5,,1,0,1
-Public Method,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_13).set",,4,1,1,,
-Anonymous Class,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_14)",4,12,,2,0,1
-Public Method,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_14).set",,11,2,2,,
-Anonymous Class,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_15)",3,10,,2,0,1
-Public Method,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_15).set",,9,2,2,,
-Anonymous Class,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_3)",2,5,,1,0,1
-Public Method,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_3).set",,4,1,1,,
-Anonymous Class,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_4)",2,5,,1,0,1
-Public Method,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_4).set",,4,1,1,,
-Anonymous Class,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_5)",2,5,,1,0,1
-Public Method,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_5).set",,4,1,1,,
-Anonymous Class,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_6)",2,5,,1,0,1
-Public Method,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_6).set",,4,1,1,,
-Anonymous Class,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_7)",2,5,,1,0,1
-Public Method,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_7).set",,4,1,1,,
-Anonymous Class,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_8)",2,5,,1,0,1
-Public Method,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_8).set",,4,1,1,,
-Anonymous Class,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_9)",2,5,,1,0,1
-Public Method,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_9).set",,4,1,1,,
-Public Method,"org.apache.tools.ant.IntrospectionHelper.createElement",,22,6,6,,
-Public Method,"org.apache.tools.ant.IntrospectionHelper.getAttributeType",,10,2,2,,
-Public Method,"org.apache.tools.ant.IntrospectionHelper.getAttributes",,3,1,1,,
-Public Method,"org.apache.tools.ant.IntrospectionHelper.getElementType",,10,2,2,,
-Public Static Method,"org.apache.tools.ant.IntrospectionHelper.getHelper",,8,2,2,,
-Public Method,"org.apache.tools.ant.IntrospectionHelper.getNestedElements",,3,1,1,,
-Private Method,"org.apache.tools.ant.IntrospectionHelper.getPropertyName",,4,1,1,,
-Public Method,"org.apache.tools.ant.IntrospectionHelper.setAttribute",,21,5,5,,
-Public Method,"org.apache.tools.ant.IntrospectionHelper.supportsCharacters",,3,1,1,,
-Public Class,"org.apache.tools.ant.IntrospectionHelperTest",2,122,,20,0,2
-Public Constructor,"org.apache.tools.ant.IntrospectionHelperTest.IntrospectionHelperTest",,3,1,1,,
-Public Method,"org.apache.tools.ant.IntrospectionHelperTest.testAddText",,16,3,3,,
-Public Method,"org.apache.tools.ant.IntrospectionHelperTest.testElementCreators",,74,14,14,,
-Public Method,"org.apache.tools.ant.IntrospectionHelperTest.testGetNestedElements",,16,1,1,,
-Public Method,"org.apache.tools.ant.IntrospectionHelperTest.testSupportsCharacters",,10,1,1,,
-Public Class,"org.apache.tools.ant.Location",0,28,,6,68,1
-Private Constructor,"org.apache.tools.ant.Location.Location",,3,1,1,,
-Public Constructor,"org.apache.tools.ant.Location.Location",,3,1,1,,
-Public Constructor,"org.apache.tools.ant.Location.Location",,5,1,1,,
-Public Method,"org.apache.tools.ant.Location.toString",,12,3,3,,
-Public Class,"org.apache.tools.ant.Main",5,199,,39,69,1
-Protected Constructor,"org.apache.tools.ant.Main.Main",,80,19,19,,
-Protected Method,"org.apache.tools.ant.Main.addBuildListeners",,14,3,3,,
-Private Method,"org.apache.tools.ant.Main.createDefaultBuildListener",,3,1,1,,
-Public Static Method,"org.apache.tools.ant.Main.main",,9,2,2,,
-Private Static Method,"org.apache.tools.ant.Main.printUsage",,15,1,1,,
-Private Static Method,"org.apache.tools.ant.Main.printVersion",,22,3,3,,
-Private Method,"org.apache.tools.ant.Main.runBuild",,47,10,10,,
-Public Interface,"org.apache.tools.ant.Map",0,3,,0,0,0
-Public Abstract Method,"org.apache.tools.ant.Map.get",,1,0,0,,
-Public Class,"org.apache.tools.ant.Path",1,85,,25,77,1
-Public Constructor,"org.apache.tools.ant.Path.Path",,3,1,1,,
-Public Constructor,"org.apache.tools.ant.Path.Path",,4,1,1,,
-Public Method,"org.apache.tools.ant.Path.append",,8,3,3,,
-Public Method,"org.apache.tools.ant.Path.createPathElement",,3,1,1,,
-Public Method,"org.apache.tools.ant.Path.list",,5,1,1,,
-Public Method,"org.apache.tools.ant.Path.setLocation",,8,3,3,,
-Public Method,"org.apache.tools.ant.Path.setPath",,9,3,3,,
-Public Method,"org.apache.tools.ant.Path.toString",,10,3,3,,
-Public Static Method,"org.apache.tools.ant.Path.translateFile",,8,3,3,,
-Protected Static Method,"org.apache.tools.ant.Path.translateFileSep",,7,2,2,,
-Public Static Method,"org.apache.tools.ant.Path.translatePath",,15,4,4,,
-Public Class,"org.apache.tools.ant.PathTest",1,124,,13,66,2
-Public Constructor,"org.apache.tools.ant.PathTest.PathTest",,3,1,1,,
-Public Method,"org.apache.tools.ant.PathTest.testAppending",,14,1,1,,
-Public Method,"org.apache.tools.ant.PathTest.testConstructor",,54,6,6,,
-Public Method,"org.apache.tools.ant.PathTest.testEmpyPath",,14,1,1,,
-Public Method,"org.apache.tools.ant.PathTest.testSetLocation",,22,3,3,,
-Public Method,"org.apache.tools.ant.PathTest.testUnique",,14,1,1,,
-Public Class,"org.apache.tools.ant.PathTokenizer",0,37,,7,22,1
-Public Constructor,"org.apache.tools.ant.PathTokenizer.PathTokenizer",,4,1,1,,
-Public Method,"org.apache.tools.ant.PathTokenizer.hasMoreTokens",,6,2,2,,
-Public Method,"org.apache.tools.ant.PathTokenizer.nextToken",,22,4,4,,
-Public Class,"org.apache.tools.ant.Project",1,55,,5,100,1
-Public Constructor,"org.apache.tools.ant.Project.Project",,2,1,1,,
-Public Method,"org.apache.tools.ant.Project.init",,26,4,4,,
-Public Class,"org.apache.tools.ant.ProjectHelper",6,315,,26,73,1
-Private Class,"org.apache.tools.ant.ProjectHelper.AbstractHandler",1,19,,5,50,2
-Public Constructor,"org.apache.tools.ant.ProjectHelper.AbstractHandler.AbstractHandler",,4,1,1,,
-Public Method,"org.apache.tools.ant.ProjectHelper.AbstractHandler.characters",,6,2,2,,
-Public Method,"org.apache.tools.ant.ProjectHelper.AbstractHandler.endElement",,3,1,1,,
-Public Method,"org.apache.tools.ant.ProjectHelper.AbstractHandler.startElement",,3,1,1,,
-Private Class,"org.apache.tools.ant.ProjectHelper.NestedElementHandler",3,34,,7,58,3
-Public Constructor,"org.apache.tools.ant.ProjectHelper.NestedElementHandler.NestedElementHandler",,4,1,1,,
-Public Method,"org.apache.tools.ant.ProjectHelper.NestedElementHandler.characters",,11,3,3,,
-Public Method,"org.apache.tools.ant.ProjectHelper.NestedElementHandler.init",,11,2,2,,
-Public Method,"org.apache.tools.ant.ProjectHelper.NestedElementHandler.startElement",,3,1,1,,
-Private Class,"org.apache.tools.ant.ProjectHelper.ProjectHandler",3,55,,17,0,3
-Public Constructor,"org.apache.tools.ant.ProjectHelper.ProjectHandler.ProjectHandler",,3,1,1,,
-Private Method,"org.apache.tools.ant.ProjectHelper.ProjectHandler.handleProperty",,3,1,1,,
-Private Method,"org.apache.tools.ant.ProjectHelper.ProjectHandler.handleTarget",,3,1,1,,
-Private Method,"org.apache.tools.ant.ProjectHelper.ProjectHandler.handleTaskdef",,3,1,1,,
-Public Method,"org.apache.tools.ant.ProjectHelper.ProjectHandler.init",,30,9,9,,
-Public Method,"org.apache.tools.ant.ProjectHelper.ProjectHandler.startElement",,11,4,4,,
-Private Constructor,"org.apache.tools.ant.ProjectHelper.ProjectHelper",,4,1,1,,
-Private Class,"org.apache.tools.ant.ProjectHelper.RootHandler",2,12,,3,0,2
-Public Method,"org.apache.tools.ant.ProjectHelper.RootHandler.setDocumentLocator",,3,1,1,,
-Public Method,"org.apache.tools.ant.ProjectHelper.RootHandler.startElement",,7,2,2,,
-Private Class,"org.apache.tools.ant.ProjectHelper.TargetHandler",3,50,,13,33,3
-Public Constructor,"org.apache.tools.ant.ProjectHelper.TargetHandler.TargetHandler",,3,1,1,,
-Public Method,"org.apache.tools.ant.ProjectHelper.TargetHandler.init",,41,11,11,,
-Public Method,"org.apache.tools.ant.ProjectHelper.TargetHandler.startElement",,3,1,1,,
-Private Class,"org.apache.tools.ant.ProjectHelper.TaskHandler",7,32,,7,37,3
-Public Constructor,"org.apache.tools.ant.ProjectHelper.TaskHandler.TaskHandler",,4,1,1,,
-Public Method,"org.apache.tools.ant.ProjectHelper.TaskHandler.characters",,11,3,3,,
-Public Method,"org.apache.tools.ant.ProjectHelper.TaskHandler.init",,10,2,2,,
-Public Method,"org.apache.tools.ant.ProjectHelper.TaskHandler.startElement",,3,1,1,,
-Private Method,"org.apache.tools.ant.ProjectHelper.configure",,23,5,5,,
-Public Static Method,"org.apache.tools.ant.ProjectHelper.configureProject",,3,1,1,,
-Private Static Method,"org.apache.tools.ant.ProjectHelper.getParserFactory",,6,2,2,,
-Private Method,"org.apache.tools.ant.ProjectHelper.parse",,36,9,9,,
-Public Static Method,"org.apache.tools.ant.ProjectHelper.replaceProperties",,34,8,8,,
-Public Class,"org.apache.tools.ant.Target",3,67,,20,85,1
-Public Method,"org.apache.tools.ant.Target.addDependency",,3,1,1,,
-Public Method,"org.apache.tools.ant.Target.addTask",,3,1,1,,
-Public Method,"org.apache.tools.ant.Target.execute",,18,4,4,,
-Public Method,"org.apache.tools.ant.Target.getDependencies",,3,1,1,,
-Public Method,"org.apache.tools.ant.Target.getName",,3,1,1,,
-Public Method,"org.apache.tools.ant.Target.getProject",,3,1,1,,
-Constructor,"org.apache.tools.ant.Target.project.log",,0,1,1,,
-Public Method,"org.apache.tools.ant.Target.setDepends",,9,3,3,,
-Public Method,"org.apache.tools.ant.Target.setIf",,3,2,2,,
-Public Method,"org.apache.tools.ant.Target.setName",,3,1,1,,
-Public Method,"org.apache.tools.ant.Target.setProject",,3,1,1,,
-Public Method,"org.apache.tools.ant.Target.setUnless",,3,2,2,,
-Public Method,"org.apache.tools.ant.Target.toString",,3,1,1,,
-Public Abstract Class,"org.apache.tools.ant.Task",4,49,,15,86,1
-Public Method,"org.apache.tools.ant.Task.execute",,0,1,1,,
-Public Method,"org.apache.tools.ant.Task.getDescription",,3,1,1,,
-Public Method,"org.apache.tools.ant.Task.getLocation",,3,1,1,,
-Public Method,"org.apache.tools.ant.Task.getOwningTarget",,3,1,1,,
-Public Method,"org.apache.tools.ant.Task.getProject",,3,1,1,,
-Public Method,"org.apache.tools.ant.Task.getTaskName",,3,1,1,,
-Public Method,"org.apache.tools.ant.Task.init",,1,1,1,,
-Public Method,"org.apache.tools.ant.Task.log",,3,1,1,,
-Public Method,"org.apache.tools.ant.Task.log",,3,1,1,,
-Public Method,"org.apache.tools.ant.Task.setDescription",,3,1,1,,
-Public Method,"org.apache.tools.ant.Task.setLocation",,3,1,1,,
-Public Method,"org.apache.tools.ant.Task.setOwningTarget",,3,1,1,,
-Method,"org.apache.tools.ant.Task.setProject",,3,1,1,,
-Public Method,"org.apache.tools.ant.Task.setTaskName",,3,1,1,,
-Method,"org.apache.tools.ant.Task.setTaskType",,3,1,1,,
-Public Class,"org.apache.tools.ant.TaskAdapter",2,25,,5,0,2
-Public Method,"org.apache.tools.ant.TaskAdapter.execute",,16,3,3,,
-Public Method,"org.apache.tools.ant.TaskAdapter.getProxy",,3,1,1,,
-Public Method,"org.apache.tools.ant.TaskAdapter.setProxy",,3,1,1,,
-Public Class,"org.apache.tools.ant.XmlLogger",6,150,,29,81,1
-Public Constructor,"org.apache.tools.ant.XmlLogger.XmlLogger",,2,1,1,,
-Public Method,"org.apache.tools.ant.XmlLogger.buildFinished",,17,3,3,,
-Public Method,"org.apache.tools.ant.XmlLogger.buildStarted",,5,1,1,,
-Private Static Method,"org.apache.tools.ant.XmlLogger.formatTime",,10,2,2,,
-Private Static Method,"org.apache.tools.ant.XmlLogger.getDocumentBuilder",,8,2,2,,
-Public Method,"org.apache.tools.ant.XmlLogger.messageLogged",,22,6,6,,
-Public Method,"org.apache.tools.ant.XmlLogger.targetFinished",,6,1,1,,
-Public Method,"org.apache.tools.ant.XmlLogger.targetStarted",,5,1,1,,
-Public Method,"org.apache.tools.ant.XmlLogger.taskFinished",,6,1,1,,
-Public Method,"org.apache.tools.ant.XmlLogger.taskStarted",,11,2,2,,
-Private Static Method,"org.apache.tools.ant.XmlLogger.write",,40,9,9,,
-Package,"org.apache.tools.ant.taskdefs",,3801,,898,,
-Public Class,"org.apache.tools.ant.taskdefs.Ant",6,74,,16,69,2
-Public Method,"org.apache.tools.ant.taskdefs.Ant.createProperty",,6,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Ant.execute",,17,5,5,,
-Public Method,"org.apache.tools.ant.taskdefs.Ant.init",,31,6,6,,
-Public Method,"org.apache.tools.ant.taskdefs.Ant.setAntfile",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Ant.setDir",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Ant.setOutput",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Ant.setTarget",,3,1,1,,
-Public Class,"org.apache.tools.ant.taskdefs.AntStructure",1,35,,5,66,2
-Public Method,"org.apache.tools.ant.taskdefs.AntStructure.execute",,25,4,4,,
-Public Method,"org.apache.tools.ant.taskdefs.AntStructure.setOutput",,3,1,1,,
-Public Class,"org.apache.tools.ant.taskdefs.Available",2,51,,14,75,2
-Private Method,"org.apache.tools.ant.taskdefs.Available.checkClass",,9,2,2,,
-Private Method,"org.apache.tools.ant.taskdefs.Available.checkFile",,9,2,2,,
-Private Method,"org.apache.tools.ant.taskdefs.Available.checkResource",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Available.init",,6,4,4,,
-Public Method,"org.apache.tools.ant.taskdefs.Available.setClass",,6,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Available.setClassname",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Available.setFile",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Available.setProperty",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Available.setResource",,3,1,1,,
-Public Class,"org.apache.tools.ant.taskdefs.Chmod",3,44,,12,66,3
-Private Method,"org.apache.tools.ant.taskdefs.Chmod.chmod",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Chmod.execute",,21,7,7,,
-Public Method,"org.apache.tools.ant.taskdefs.Chmod.setDir",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Chmod.setFile",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Chmod.setPerm",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Chmod.setSrc",,6,1,1,,
-Public Class,"org.apache.tools.ant.taskdefs.CompileTask",2,24,,5,33,4
-Public Method,"org.apache.tools.ant.taskdefs.CompileTask.createTaskdef",,5,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.CompileTask.execute",,2,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.CompileTask.init",,14,3,3,,
-Public Class,"org.apache.tools.ant.taskdefs.Copydir",3,48,,9,64,3
-Public Method,"org.apache.tools.ant.taskdefs.Copydir.execute",,29,5,5,,
-Public Method,"org.apache.tools.ant.taskdefs.Copydir.setDest",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Copydir.setFiltering",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Copydir.setForceoverwrite",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Copydir.setSrc",,3,1,1,,
-Public Class,"org.apache.tools.ant.taskdefs.Copyfile",2,25,,6,50,2
-Public Method,"org.apache.tools.ant.taskdefs.Copyfile.execute",,11,3,3,,
-Public Method,"org.apache.tools.ant.taskdefs.Copyfile.setDest",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Copyfile.setFiltering",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Copyfile.setSrc",,3,1,1,,
-Public Class,"org.apache.tools.ant.taskdefs.Cvs",1,61,,20,77,3
-Public Method,"org.apache.tools.ant.taskdefs.Cvs.execute",,18,7,7,,
-Public Method,"org.apache.tools.ant.taskdefs.Cvs.setCommand",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Cvs.setCvsRoot",,7,3,3,,
-Public Method,"org.apache.tools.ant.taskdefs.Cvs.setDate",,5,2,2,,
-Public Method,"org.apache.tools.ant.taskdefs.Cvs.setDest",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Cvs.setNoexec",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Cvs.setPackage",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Cvs.setQuiet",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Cvs.setTag",,7,3,3,,
-Public Class,"org.apache.tools.ant.taskdefs.Delete",3,55,,16,50,3
-Public Method,"org.apache.tools.ant.taskdefs.Delete.execute",,37,12,12,,
-Public Method,"org.apache.tools.ant.taskdefs.Delete.setDir",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Delete.setFile",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Delete.setVerbose",,7,2,2,,
-Public Class,"org.apache.tools.ant.taskdefs.Deltree",1,40,,11,33,2
-Public Method,"org.apache.tools.ant.taskdefs.Deltree.execute",,17,5,5,,
-Private Method,"org.apache.tools.ant.taskdefs.Deltree.removeDir",,17,5,5,,
-Public Method,"org.apache.tools.ant.taskdefs.Deltree.setDir",,3,1,1,,
-Public Class,"org.apache.tools.ant.taskdefs.Echo",1,9,,2,0,2
-Public Method,"org.apache.tools.ant.taskdefs.Echo.execute",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Echo.setMessage",,3,1,1,,
-Public Class,"org.apache.tools.ant.taskdefs.Exec",3,133,,23,79,2
-Class,"org.apache.tools.ant.taskdefs.Exec.StreamPumper",1,36,,8,40,2
-Public Constructor,"org.apache.tools.ant.taskdefs.Exec.StreamPumper.StreamPumper",,5,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Exec.StreamPumper.pumpStream",,13,3,3,,
-Public Method,"org.apache.tools.ant.taskdefs.Exec.StreamPumper.run",,11,4,4,,
-Public Method,"org.apache.tools.ant.taskdefs.Exec.execute",,3,1,1,,
-Protected Method,"org.apache.tools.ant.taskdefs.Exec.logFlush",,3,2,2,,
-Protected Method,"org.apache.tools.ant.taskdefs.Exec.outputLog",,6,2,2,,
-Protected Method,"org.apache.tools.ant.taskdefs.Exec.run",,60,13,13,,
-Public Method,"org.apache.tools.ant.taskdefs.Exec.setCommand",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Exec.setDir",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Exec.setFailonerror",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Exec.setOs",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Exec.setOutput",,3,1,1,,
-Public Class,"org.apache.tools.ant.taskdefs.Expand",3,61,,12,33,2
-Public Method,"org.apache.tools.ant.taskdefs.Expand.execute",,51,10,10,,
-Public Method,"org.apache.tools.ant.taskdefs.Expand.setDest",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Expand.setSrc",,3,1,1,,
-Public Class,"org.apache.tools.ant.taskdefs.Filter",1,13,,3,33,2
-Public Method,"org.apache.tools.ant.taskdefs.Filter.init",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Filter.setToken",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Filter.setValue",,3,1,1,,
-Public Class,"org.apache.tools.ant.taskdefs.FixCRLF",5,181,,57,70,3
-Public Static Class,"org.apache.tools.ant.taskdefs.FixCRLF.AddAsisRemove",0,5,,1,0,2
-Public Method,"org.apache.tools.ant.taskdefs.FixCRLF.AddAsisRemove.getValues",,3,1,1,,
-Public Constructor,"org.apache.tools.ant.taskdefs.FixCRLF.FixCRLF",,9,2,2,,
-Public Method,"org.apache.tools.ant.taskdefs.FixCRLF.execute",,116,42,42,,
-Public Method,"org.apache.tools.ant.taskdefs.FixCRLF.setCr",,10,3,3,,
-Public Method,"org.apache.tools.ant.taskdefs.FixCRLF.setDestdir",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.FixCRLF.setEof",,10,3,3,,
-Public Method,"org.apache.tools.ant.taskdefs.FixCRLF.setSrcdir",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.FixCRLF.setTab",,10,3,3,,
-Public Method,"org.apache.tools.ant.taskdefs.FixCRLF.setTablength",,7,2,2,,
-Public Class,"org.apache.tools.ant.taskdefs.GUnzip",1,64,,16,33,2
-Public Method,"org.apache.tools.ant.taskdefs.GUnzip.execute",,54,14,14,,
-Public Method,"org.apache.tools.ant.taskdefs.GUnzip.setDest",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.GUnzip.setSrc",,3,1,1,,
-Public Class,"org.apache.tools.ant.taskdefs.GZip",2,52,,10,60,2
-Public Method,"org.apache.tools.ant.taskdefs.GZip.execute",,22,5,5,,
-Public Method,"org.apache.tools.ant.taskdefs.GZip.setSrc",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.GZip.setZipfile",,3,1,1,,
-Private Method,"org.apache.tools.ant.taskdefs.GZip.zipFile",,10,2,2,,
-Private Method,"org.apache.tools.ant.taskdefs.GZip.zipFile",,10,1,1,,
-Public Class,"org.apache.tools.ant.taskdefs.Get",1,58,,15,60,2
-Public Method,"org.apache.tools.ant.taskdefs.Get.execute",,40,11,11,,
-Public Method,"org.apache.tools.ant.taskdefs.Get.setDest",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Get.setIgnoreErrors",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Get.setSrc",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Get.setVerbose",,3,1,1,,
-Public Class,"org.apache.tools.ant.taskdefs.Jar",1,38,,9,60,4
-Protected Method,"org.apache.tools.ant.taskdefs.Jar.initZipOutputStream",,14,3,3,,
-Public Method,"org.apache.tools.ant.taskdefs.Jar.setJarfile",,4,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Jar.setManifest",,3,1,1,,
-Protected Method,"org.apache.tools.ant.taskdefs.Jar.zipDir",,7,2,2,,
-Protected Method,"org.apache.tools.ant.taskdefs.Jar.zipFile",,7,2,2,,
-Public Class,"org.apache.tools.ant.taskdefs.Java",3,111,,28,80,3
-Protected Method,"org.apache.tools.ant.taskdefs.Java.array",,8,2,2,,
-Public Method,"org.apache.tools.ant.taskdefs.Java.createClasspath",,6,2,2,,
-Public Method,"org.apache.tools.ant.taskdefs.Java.execute",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Java.executeJava",,33,7,7,,
-Protected Method,"org.apache.tools.ant.taskdefs.Java.run",,20,6,6,,
-Public Method,"org.apache.tools.ant.taskdefs.Java.setArgs",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Java.setClass",,6,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Java.setClassname",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Java.setClasspath",,7,2,2,,
-Public Method,"org.apache.tools.ant.taskdefs.Java.setFork",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Java.setJvmargs",,3,1,1,,
-Protected Method,"org.apache.tools.ant.taskdefs.Java.tokenize",,9,3,3,,
-Public Class,"org.apache.tools.ant.taskdefs.Javac",4,148,,36,90,3
-Public Method,"org.apache.tools.ant.taskdefs.Javac.createBootclasspath",,6,2,2,,
-Public Method,"org.apache.tools.ant.taskdefs.Javac.createClasspath",,6,2,2,,
-Public Method,"org.apache.tools.ant.taskdefs.Javac.createExtdirs",,6,2,2,,
-Public Method,"org.apache.tools.ant.taskdefs.Javac.createSrc",,6,2,2,,
-Public Method,"org.apache.tools.ant.taskdefs.Javac.execute",,62,14,14,,
-Public Method,"org.apache.tools.ant.taskdefs.Javac.setBootclasspath",,7,2,2,,
-Public Method,"org.apache.tools.ant.taskdefs.Javac.setClasspath",,7,2,2,,
-Public Method,"org.apache.tools.ant.taskdefs.Javac.setDebug",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javac.setDeprecation",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javac.setDestdir",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javac.setExtdirs",,7,2,2,,
-Public Method,"org.apache.tools.ant.taskdefs.Javac.setFiltering",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javac.setOptimize",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javac.setSrcdir",,7,2,2,,
-Public Method,"org.apache.tools.ant.taskdefs.Javac.setTarget",,3,1,1,,
-Class,"org.apache.tools.ant.taskdefs.JavacOutputStream",1,30,,7,41,2
-Constructor,"org.apache.tools.ant.taskdefs.JavacOutputStream.JavacOutputStream",,4,1,1,,
-Method,"org.apache.tools.ant.taskdefs.JavacOutputStream.getErrorFlag",,3,1,1,,
-Private Method,"org.apache.tools.ant.taskdefs.JavacOutputStream.processLine",,8,2,2,,
-Public Method,"org.apache.tools.ant.taskdefs.JavacOutputStream.write",,10,3,3,,
-Public Class,"org.apache.tools.ant.taskdefs.Javadoc",8,755,,157,96,3
-Public Class,"org.apache.tools.ant.taskdefs.Javadoc.DocletInfo",2,35,,9,66,1
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.DocletInfo.createParam",,5,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.DocletInfo.createPath",,6,2,2,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.DocletInfo.getName",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.DocletInfo.getParams",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.DocletInfo.getPath",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.DocletInfo.setName",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.DocletInfo.setPath",,7,2,2,,
-Public Class,"org.apache.tools.ant.taskdefs.Javadoc.DocletParam",0,16,,4,50,1
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.DocletParam.getName",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.DocletParam.getValue",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.DocletParam.setName",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.DocletParam.setValue",,3,1,1,,
-Public Class,"org.apache.tools.ant.taskdefs.Javadoc.GroupArgument",0,18,,5,60,1
-Public Constructor,"org.apache.tools.ant.taskdefs.Javadoc.GroupArgument.GroupArgument",,2,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.GroupArgument.getPackages",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.GroupArgument.getTitle",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.GroupArgument.setPackages",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.GroupArgument.setTitle",,3,1,1,,
-Class,"org.apache.tools.ant.taskdefs.Javadoc.JavaReader",0,66,,23,0,2
-Public Constructor,"org.apache.tools.ant.taskdefs.Javadoc.JavaReader.JavaReader",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.JavaReader.read",,41,15,15,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.JavaReader.read",,14,4,4,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.JavaReader.skip",,6,3,3,,
-Public Class,"org.apache.tools.ant.taskdefs.Javadoc.LinkArgument",1,25,,7,71,1
-Public Constructor,"org.apache.tools.ant.taskdefs.Javadoc.LinkArgument.LinkArgument",,2,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.LinkArgument.getHref",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.LinkArgument.getPackagelistLoc",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.LinkArgument.isLinkOffline",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.LinkArgument.setHref",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.LinkArgument.setOffline",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.LinkArgument.setPackagelistLoc",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.createBootclasspath",,6,2,2,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.createClasspath",,6,2,2,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.createDoclet",,4,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.createGroup",,5,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.createLink",,5,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.createSourcepath",,6,2,2,,
-Private Method,"org.apache.tools.ant.taskdefs.Javadoc.evaluatePackages",,24,6,6,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.execute",,255,71,71,,
-Private Method,"org.apache.tools.ant.taskdefs.Javadoc.getFiles",,24,7,7,,
-Private Method,"org.apache.tools.ant.taskdefs.Javadoc.getPackageName",,25,5,5,,
-Protected Method,"org.apache.tools.ant.taskdefs.Javadoc.logFlush",,7,2,2,,
-Private Method,"org.apache.tools.ant.taskdefs.Javadoc.mapClasses",,12,3,3,,
-Private Method,"org.apache.tools.ant.taskdefs.Javadoc.matches",,3,1,1,,
-Protected Method,"org.apache.tools.ant.taskdefs.Javadoc.outputLog",,17,5,5,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setAuthor",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setBootclasspath",,7,2,2,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setBottom",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setCharset",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setClasspath",,7,2,2,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setDestdir",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setDocencoding",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setDoclet",,6,2,2,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setDocletPath",,6,2,2,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setDoctitle",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setEncoding",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setExtdirs",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setFooter",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setGroup",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setHeader",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setLink",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setLinkoffline",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setLocale",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setMaxmemory",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setNodeprecated",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setNodeprecatedlist",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setNohelp",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setNoindex",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setNonavbar",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setNotree",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setOld",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setOverview",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setPackage",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setPackageList",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setPackagenames",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setPrivate",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setProtected",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setPublic",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setSerialwarn",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setSourcefiles",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setSourcepath",,7,2,2,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setSplitindex",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setStylesheetfile",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setUse",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setVerbose",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setVersion",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setWindowtitle",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setadditionalParam",,3,1,1,,
-Public Class,"org.apache.tools.ant.taskdefs.Jikes",2,21,,3,0,1
-Protected Constructor,"org.apache.tools.ant.taskdefs.Jikes.Jikes",,5,1,1,,
-Protected Method,"org.apache.tools.ant.taskdefs.Jikes.compile",,12,2,2,,
-Public Class,"org.apache.tools.ant.taskdefs.JikesOutputParser",2,53,,17,76,1
-Protected Constructor,"org.apache.tools.ant.taskdefs.JikesOutputParser.JikesOutputParser",,5,1,1,,
-Protected Method,"org.apache.tools.ant.taskdefs.JikesOutputParser.getErrorFlag",,3,1,1,,
-Private Method,"org.apache.tools.ant.taskdefs.JikesOutputParser.log",,6,4,4,,
-Private Method,"org.apache.tools.ant.taskdefs.JikesOutputParser.parseEmacsOutput",,3,1,1,,
-Protected Method,"org.apache.tools.ant.taskdefs.JikesOutputParser.parseOutput",,6,2,2,,
-Private Method,"org.apache.tools.ant.taskdefs.JikesOutputParser.parseStandardOutput",,18,6,6,,
-Private Method,"org.apache.tools.ant.taskdefs.JikesOutputParser.setError",,5,2,2,,
-Public Class,"org.apache.tools.ant.taskdefs.KeySubst",1,96,,16,71,2
-Public Method,"org.apache.tools.ant.taskdefs.KeySubst.execute",,34,5,5,,
-Public Static Method,"org.apache.tools.ant.taskdefs.KeySubst.main",,12,2,2,,
-Public Static Method,"org.apache.tools.ant.taskdefs.KeySubst.replace",,22,3,3,,
-Public Method,"org.apache.tools.ant.taskdefs.KeySubst.setDest",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.KeySubst.setKeys",,14,3,3,,
-Public Method,"org.apache.tools.ant.taskdefs.KeySubst.setSep",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.KeySubst.setSrc",,3,1,1,,
-Public Abstract Class,"org.apache.tools.ant.taskdefs.MatchingTask",3,140,,35,80,2
-Public Class,"org.apache.tools.ant.taskdefs.MatchingTask.NameEntry",1,12,,7,37,1
-Public Method,"org.apache.tools.ant.taskdefs.MatchingTask.NameEntry.getName",,1,2,2,,
-Public Method,"org.apache.tools.ant.taskdefs.MatchingTask.NameEntry.setIf",,3,2,2,,
-Public Method,"org.apache.tools.ant.taskdefs.MatchingTask.NameEntry.setName",,1,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.MatchingTask.NameEntry.setUnless",,3,2,2,,
-Private Method,"org.apache.tools.ant.taskdefs.MatchingTask.addPatternToList",,5,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.MatchingTask.createExclude",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.MatchingTask.createInclude",,3,1,1,,
-Protected Method,"org.apache.tools.ant.taskdefs.MatchingTask.getDirectoryScanner",,9,2,2,,
-Protected Method,"org.apache.tools.ant.taskdefs.MatchingTask.getProperty",,3,1,1,,
-Private Method,"org.apache.tools.ant.taskdefs.MatchingTask.makeArray",,20,7,7,,
-Private Method,"org.apache.tools.ant.taskdefs.MatchingTask.readPatterns",,16,4,4,,
-Public Method,"org.apache.tools.ant.taskdefs.MatchingTask.setDefaultexcludes",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.MatchingTask.setExcludes",,5,2,2,,
-Public Method,"org.apache.tools.ant.taskdefs.MatchingTask.setExcludesfile",,11,3,3,,
-Public Method,"org.apache.tools.ant.taskdefs.MatchingTask.setIgnore",,12,3,3,,
-Public Method,"org.apache.tools.ant.taskdefs.MatchingTask.setIncludes",,5,2,2,,
-Public Method,"org.apache.tools.ant.taskdefs.MatchingTask.setIncludesfile",,11,3,3,,
-Public Method,"org.apache.tools.ant.taskdefs.MatchingTask.setItems",,17,4,4,,
-Public Class,"org.apache.tools.ant.taskdefs.Mkdir",1,18,,4,0,2
-Public Method,"org.apache.tools.ant.taskdefs.Mkdir.execute",,12,3,3,,
-Public Method,"org.apache.tools.ant.taskdefs.Mkdir.setDir",,3,1,1,,
-Public Class,"org.apache.tools.ant.taskdefs.Patch",1,67,,18,77,3
-Public Method,"org.apache.tools.ant.taskdefs.Patch.execute",,30,9,9,,
-Public Method,"org.apache.tools.ant.taskdefs.Patch.setBackups",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Patch.setCommand",,4,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Patch.setIgnorewhitespace",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Patch.setOriginalfile",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Patch.setPatchfile",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Patch.setQuiet",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Patch.setReverse",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Patch.setStrip",,6,2,2,,
-Public Class,"org.apache.tools.ant.taskdefs.Property",3,146,,36,81,2
-Private Method,"org.apache.tools.ant.taskdefs.Property.addProperties",,10,2,2,,
-Private Method,"org.apache.tools.ant.taskdefs.Property.addProperty",,15,4,4,,
-Private Method,"org.apache.tools.ant.taskdefs.Property.extractProperties",,18,4,4,,
-Public Method,"org.apache.tools.ant.taskdefs.Property.getName",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Property.getValue",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Property.init",,11,5,5,,
-Private Method,"org.apache.tools.ant.taskdefs.Property.loadFile",,14,3,3,,
-Private Method,"org.apache.tools.ant.taskdefs.Property.loadResource",,13,3,3,,
-Private Method,"org.apache.tools.ant.taskdefs.Property.resolveAllProperties",,37,8,8,,
-Public Method,"org.apache.tools.ant.taskdefs.Property.setFile",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Property.setName",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Property.setResource",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Property.setUserProperty",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Property.setValue",,3,1,1,,
-Public Class,"org.apache.tools.ant.taskdefs.Rename",1,26,,7,50,2
-Public Method,"org.apache.tools.ant.taskdefs.Rename.execute",,12,4,4,,
-Public Method,"org.apache.tools.ant.taskdefs.Rename.setDest",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Rename.setReplace",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Rename.setSrc",,3,1,1,,
-Public Class,"org.apache.tools.ant.taskdefs.Replace",2,73,,18,64,3
-Public Method,"org.apache.tools.ant.taskdefs.Replace.execute",,20,6,6,,
-Private Method,"org.apache.tools.ant.taskdefs.Replace.processFile",,25,6,6,,
-Private Method,"org.apache.tools.ant.taskdefs.Replace.replace",,11,2,2,,
-Public Method,"org.apache.tools.ant.taskdefs.Replace.setDir",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Replace.setFile",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Replace.setToken",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Replace.setValue",,3,1,1,,
-Public Class,"org.apache.tools.ant.taskdefs.Rmic",4,239,,62,85,3
-Private Method,"org.apache.tools.ant.taskdefs.Rmic.addExistingToClasspath",,12,3,3,,
-Public Method,"org.apache.tools.ant.taskdefs.Rmic.createClasspath",,6,2,2,,
-Public Method,"org.apache.tools.ant.taskdefs.Rmic.execute",,66,20,20,,
-Private Method,"org.apache.tools.ant.taskdefs.Rmic.getCompileClasspath",,14,4,4,,
-Private Method,"org.apache.tools.ant.taskdefs.Rmic.isValidRmiRemote",,18,6,6,,
-Private Method,"org.apache.tools.ant.taskdefs.Rmic.moveGeneratedFile",,27,4,4,,
-Protected Method,"org.apache.tools.ant.taskdefs.Rmic.scanDir",,34,9,9,,
-Public Method,"org.apache.tools.ant.taskdefs.Rmic.setBase",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Rmic.setClass",,6,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Rmic.setClassname",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Rmic.setClasspath",,7,2,2,,
-Public Method,"org.apache.tools.ant.taskdefs.Rmic.setFiltering",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Rmic.setSourceBase",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Rmic.setStubVersion",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Rmic.setVerify",,3,1,1,,
-Private Method,"org.apache.tools.ant.taskdefs.Rmic.shouldCompile",,21,5,5,,
-Public Class,"org.apache.tools.ant.taskdefs.SignJar",3,113,,25,83,2
-Public Method,"org.apache.tools.ant.taskdefs.SignJar.execute",,67,14,14,,
-Public Method,"org.apache.tools.ant.taskdefs.SignJar.setAlias",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.SignJar.setInternalsf",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.SignJar.setJar",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.SignJar.setKeypass",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.SignJar.setKeystore",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.SignJar.setSectionsonly",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.SignJar.setSigfile",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.SignJar.setSignedjar",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.SignJar.setStorepass",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.SignJar.setStoretype",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.SignJar.setVerbose",,3,1,1,,
-Public Class,"org.apache.tools.ant.taskdefs.Tar",4,62,,11,50,3
-Public Method,"org.apache.tools.ant.taskdefs.Tar.execute",,32,7,7,,
-Public Method,"org.apache.tools.ant.taskdefs.Tar.setBasedir",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Tar.setTarfile",,3,1,1,,
-Protected Method,"org.apache.tools.ant.taskdefs.Tar.tarFile",,20,2,2,,
-Public Class,"org.apache.tools.ant.taskdefs.TaskOutputStream",1,25,,5,22,2
-Constructor,"org.apache.tools.ant.taskdefs.TaskOutputStream.TaskOutputStream",,5,1,1,,
-Private Method,"org.apache.tools.ant.taskdefs.TaskOutputStream.processLine",,5,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.TaskOutputStream.write",,10,3,3,,
-Public Class,"org.apache.tools.ant.taskdefs.Taskdef",2,38,,8,40,2
-Public Method,"org.apache.tools.ant.taskdefs.Taskdef.getClassname",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Taskdef.init",,19,4,4,,
-Public Method,"org.apache.tools.ant.taskdefs.Taskdef.setClass",,6,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Taskdef.setClassname",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Taskdef.setName",,3,1,1,,
-Public Class,"org.apache.tools.ant.taskdefs.Touch",2,87,,18,60,2
-Public Method,"org.apache.tools.ant.taskdefs.Touch.execute",,23,5,5,,
-Public Method,"org.apache.tools.ant.taskdefs.Touch.setDatetime",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Touch.setFile",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Touch.setMillis",,3,1,1,,
-Method,"org.apache.tools.ant.taskdefs.Touch.touch",,48,10,10,,
-Public Class,"org.apache.tools.ant.taskdefs.Tstamp",1,15,,2,0,2
-Public Method,"org.apache.tools.ant.taskdefs.Tstamp.init",,13,2,2,,
-Public Class,"org.apache.tools.ant.taskdefs.Untar",5,69,,14,33,2
-Public Method,"org.apache.tools.ant.taskdefs.Untar.execute",,59,12,12,,
-Public Method,"org.apache.tools.ant.taskdefs.Untar.setDest",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Untar.setSrc",,3,1,1,,
-Public Interface,"org.apache.tools.ant.taskdefs.XSLTLiaison",0,4,,0,0,0
-Public Abstract Method,"org.apache.tools.ant.taskdefs.XSLTLiaison.setStylesheet",,1,0,0,,
-Public Abstract Method,"org.apache.tools.ant.taskdefs.XSLTLiaison.transform",,1,0,0,,
-Public Class,"org.apache.tools.ant.taskdefs.XSLTProcess",4,95,,22,72,3
-Public Constructor,"org.apache.tools.ant.taskdefs.XSLTProcess.XSLTProcess",,2,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.XSLTProcess.execute",,45,11,11,,
-Private Method,"org.apache.tools.ant.taskdefs.XSLTProcess.process",,20,3,3,,
-Public Method,"org.apache.tools.ant.taskdefs.XSLTProcess.setBasedir",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.XSLTProcess.setDestdir",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.XSLTProcess.setExtension",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.XSLTProcess.setProcessor",,9,3,3,,
-Public Method,"org.apache.tools.ant.taskdefs.XSLTProcess.setStyle",,3,1,1,,
-Public Class,"org.apache.tools.ant.taskdefs.Zip",3,123,,24,75,3
-Public Method,"org.apache.tools.ant.taskdefs.Zip.execute",,48,12,12,,
-Protected Method,"org.apache.tools.ant.taskdefs.Zip.initZipOutputStream",,4,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Zip.setBasedir",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Zip.setCompress",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.Zip.setZipfile",,3,1,1,,
-Protected Method,"org.apache.tools.ant.taskdefs.Zip.zipDir",,4,1,1,,
-Protected Method,"org.apache.tools.ant.taskdefs.Zip.zipFile",,10,1,1,,
-Protected Method,"org.apache.tools.ant.taskdefs.Zip.zipFile",,42,6,6,,
-Package,"org.apache.tools.ant.taskdefs.optional",,350,,76,,
-Public Class,"org.apache.tools.ant.taskdefs.optional.NetRexxC",3,180,,43,96,3
-Private Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.copyFilesToDestination",,16,3,3,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.execute",,13,3,3,,
-Private Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.scanDir",,18,5,5,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setBinary",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setClasspath",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setComments",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setCompact",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setCompile",,4,2,2,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setConsole",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setCrossref",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setDecimal",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setDestDir",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setDiag",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setExplicit",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setFormat",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setJava",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setKeep",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setLogo",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setReplace",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setSavelog",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setSourcedir",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setSrcDir",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setStrictargs",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setStrictassign",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setStrictcase",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setStrictimport",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setStrictprops",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setStrictsignal",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setSymbols",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setTime",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setTrace",,10,2,2,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setUtf8",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setVerbose",,3,1,1,,
-Public Class,"org.apache.tools.ant.taskdefs.optional.RenameExtensions",3,56,,14,60,3
-Public Constructor,"org.apache.tools.ant.taskdefs.optional.RenameExtensions.RenameExtensions",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.RenameExtensions.execute",,17,5,5,,
-Private Method,"org.apache.tools.ant.taskdefs.optional.RenameExtensions.scanDir",,18,4,4,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.RenameExtensions.setFromExtension",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.RenameExtensions.setReplace",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.RenameExtensions.setSrcDir",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.RenameExtensions.setToExtension",,3,1,1,,
-Public Class,"org.apache.tools.ant.taskdefs.optional.Script",1,56,,13,53,2
-Private Method,"org.apache.tools.ant.taskdefs.optional.Script.addBeans",,10,4,4,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.Script.addText",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.Script.execute",,20,4,4,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.Script.setLanguage",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.Script.setSrc",,15,3,3,,
-Public Class,"org.apache.tools.ant.taskdefs.optional.XalanLiaison",0,14,,3,33,1
-Public Constructor,"org.apache.tools.ant.taskdefs.optional.XalanLiaison.XalanLiaison",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.XalanLiaison.setStylesheet",,2,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.XalanLiaison.transform",,4,1,1,,
-Public Class,"org.apache.tools.ant.taskdefs.optional.XslpLiaison",0,14,,3,33,1
-Public Constructor,"org.apache.tools.ant.taskdefs.optional.XslpLiaison.XslpLiaison",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.XslpLiaison.setStylesheet",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.XslpLiaison.transform",,3,1,1,,
-Package,"org.apache.tools.ant.taskdefs.optional.ejb",,685,,108,,
-Public Class,"org.apache.tools.ant.taskdefs.optional.ejb.DDCreator",4,40,,8,50,3
-Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.DDCreator.execute",,26,5,5,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.DDCreator.setClasspath",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.DDCreator.setDescriptors",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.DDCreator.setDest",,3,1,1,,
-Public Class,"org.apache.tools.ant.taskdefs.optional.ejb.DDCreatorHelper",0,48,,8,33,1
-Private Constructor,"org.apache.tools.ant.taskdefs.optional.ejb.DDCreatorHelper.DDCreatorHelper",,9,2,2,,
-Public Static Method,"org.apache.tools.ant.taskdefs.optional.ejb.DDCreatorHelper.main",,4,1,1,,
-Private Method,"org.apache.tools.ant.taskdefs.optional.ejb.DDCreatorHelper.process",,30,5,5,,
-Public Class,"org.apache.tools.ant.taskdefs.optional.ejb.EjbJar",5,262,,33,85,3
-Protected Class,"org.apache.tools.ant.taskdefs.optional.ejb.EjbJar.DescriptorHandler",1,38,,8,63,2
-Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.EjbJar.DescriptorHandler.characters",,16,3,3,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.EjbJar.DescriptorHandler.endElement",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.EjbJar.DescriptorHandler.getFiles",,3,2,2,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.EjbJar.DescriptorHandler.startDocument",,4,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.EjbJar.DescriptorHandler.startElement",,4,1,1,,
-Protected Method,"org.apache.tools.ant.taskdefs.optional.ejb.EjbJar.addFileToJar",,22,3,3,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.EjbJar.buildWeblogicJar",,17,2,2,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.EjbJar.execute",,120,16,16,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.EjbJar.setBasenameterminator",,3,2,2,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.EjbJar.setDestdir",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.EjbJar.setGenerateweblogic",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.EjbJar.setGenericjarsuffix",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.EjbJar.setKeepgeneric",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.EjbJar.setSrcdir",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.EjbJar.setWeblogicjarsuffix",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.EjbJar.writeJar",,31,4,4,,
-Public Class,"org.apache.tools.ant.taskdefs.optional.ejb.Ejbc",4,57,,11,66,3
-Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.Ejbc.execute",,35,6,6,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.Ejbc.setClasspath",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.Ejbc.setDescriptors",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.Ejbc.setDest",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.Ejbc.setManifest",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.Ejbc.setSrc",,3,1,1,,
-Public Class,"org.apache.tools.ant.taskdefs.optional.ejb.EjbcHelper",0,116,,18,63,1
-Private Constructor,"org.apache.tools.ant.taskdefs.optional.ejb.EjbcHelper.EjbcHelper",,11,2,2,,
-Private Method,"org.apache.tools.ant.taskdefs.optional.ejb.EjbcHelper.isRegenRequired",,58,10,10,,
-Public Static Method,"org.apache.tools.ant.taskdefs.optional.ejb.EjbcHelper.main",,4,1,1,,
-Private Method,"org.apache.tools.ant.taskdefs.optional.ejb.EjbcHelper.process",,20,3,3,,
-Private Method,"org.apache.tools.ant.taskdefs.optional.ejb.EjbcHelper.regenerateSupportClasses",,15,2,2,,
-Public Class,"org.apache.tools.ant.taskdefs.optional.ejb.WLRun",3,69,,14,73,2
-Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.WLRun.execute",,42,8,8,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.WLRun.setClasspath",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.WLRun.setHome",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.WLRun.setName",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.WLRun.setPolicy",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.WLRun.setProperties",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.WLRun.setWlclasspath",,3,1,1,,
-Public Class,"org.apache.tools.ant.taskdefs.optional.ejb.WLStop",3,38,,8,66,2
-Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.WLStop.execute",,16,3,3,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.WLStop.setClasspath",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.WLStop.setDelay",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.WLStop.setPassword",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.WLStop.setUrl",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.WLStop.setUser",,3,1,1,,
-Package,"org.apache.tools.ant.taskdefs.optional.vss",,161,,33,,
-Public Abstract Class,"org.apache.tools.ant.taskdefs.optional.vss.MSVSS",0,52,,9,92,3
-Public Method,"org.apache.tools.ant.taskdefs.optional.vss.MSVSS.getLoginCommand",,7,2,2,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.vss.MSVSS.getSSCommand",,8,2,2,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.vss.MSVSS.getVsspath",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.vss.MSVSS.setLogin",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.vss.MSVSS.setSsdir",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.vss.MSVSS.setVsspath",,7,2,2,,
-Public Class,"org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET",2,102,,24,81,4
-Public Method,"org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET.execute",,21,3,3,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET.getLocalpathCommand",,17,4,4,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET.getRecursiveCommand",,7,2,2,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET.getVersionCommand",,12,4,4,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET.getWritableCommand",,7,2,2,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET.setDate",,7,2,2,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET.setLabel",,7,2,2,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET.setLocalpath",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET.setRecursive",,3,1,1,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET.setVersion",,7,2,2,,
-Public Method,"org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET.setWritable",,3,1,1,,
-Package,"org.apache.tools.tar",,895,,187,,
-Public Class,"org.apache.tools.tar.TarBuffer",0,221,,56,71,1
-Public Constructor,"org.apache.tools.tar.TarBuffer.TarBuffer",,3,1,1,,
-Public Constructor,"org.apache.tools.tar.TarBuffer.TarBuffer",,3,1,1,,
-Public Constructor,"org.apache.tools.tar.TarBuffer.TarBuffer",,5,1,1,,
-Public Constructor,"org.apache.tools.tar.TarBuffer.TarBuffer",,3,1,1,,
-Public Constructor,"org.apache.tools.tar.TarBuffer.TarBuffer",,3,1,1,,
-Public Constructor,"org.apache.tools.tar.TarBuffer.TarBuffer",,5,1,1,,
-Public Method,"org.apache.tools.tar.TarBuffer.close",,18,6,6,,
-Private Method,"org.apache.tools.tar.TarBuffer.flushBlock",,11,4,4,,
-Public Method,"org.apache.tools.tar.TarBuffer.getBlockSize",,3,1,1,,
-Public Method,"org.apache.tools.tar.TarBuffer.getCurrentBlockNum",,3,1,1,,
-Public Method,"org.apache.tools.tar.TarBuffer.getCurrentRecordNum",,3,1,1,,
-Public Method,"org.apache.tools.tar.TarBuffer.getRecordSize",,3,1,1,,
-Private Method,"org.apache.tools.tar.TarBuffer.initialize",,14,2,2,,
-Public Method,"org.apache.tools.tar.TarBuffer.isEOFRecord",,8,3,3,,
-Private Method,"org.apache.tools.tar.TarBuffer.readBlock",,29,7,7,,
-Public Method,"org.apache.tools.tar.TarBuffer.readRecord",,20,5,5,,
-Public Method,"org.apache.tools.tar.TarBuffer.setDebug",,3,1,1,,
-Public Method,"org.apache.tools.tar.TarBuffer.skipRecord",,15,5,5,,
-Private Method,"org.apache.tools.tar.TarBuffer.writeBlock",,12,3,3,,
-Public Method,"org.apache.tools.tar.TarBuffer.writeRecord",,22,5,5,,
-Public Method,"org.apache.tools.tar.TarBuffer.writeRecord",,22,5,5,,
-Public Interface,"org.apache.tools.tar.TarConstants",0,24,,0,0,0
-Public Class,"org.apache.tools.tar.TarEntry",1,241,,46,81,1
-Public Constructor,"org.apache.tools.tar.TarEntry.TarEntry",,20,3,3,,
-Private Constructor,"org.apache.tools.tar.TarEntry.TarEntry",,14,2,2,,
-Public Constructor,"org.apache.tools.tar.TarEntry.TarEntry",,47,9,9,,
-Public Constructor,"org.apache.tools.tar.TarEntry.TarEntry",,4,1,1,,
-Public Method,"org.apache.tools.tar.TarEntry.equals",,3,1,1,,
-Public Method,"org.apache.tools.tar.TarEntry.getDirectoryEntries",,11,3,3,,
-Public Method,"org.apache.tools.tar.TarEntry.getFile",,3,1,1,,
-Public Method,"org.apache.tools.tar.TarEntry.getGroupId",,3,1,1,,
-Public Method,"org.apache.tools.tar.TarEntry.getGroupName",,3,1,1,,
-Public Method,"org.apache.tools.tar.TarEntry.getModTime",,3,1,1,,
-Public Method,"org.apache.tools.tar.TarEntry.getName",,3,1,1,,
-Public Method,"org.apache.tools.tar.TarEntry.getSize",,3,1,1,,
-Public Method,"org.apache.tools.tar.TarEntry.getUserId",,3,1,1,,
-Public Method,"org.apache.tools.tar.TarEntry.getUserName",,3,1,1,,
-Public Method,"org.apache.tools.tar.TarEntry.isDescendent",,3,1,1,,
-Public Method,"org.apache.tools.tar.TarEntry.isDirectory",,12,4,4,,
-Public Method,"org.apache.tools.tar.TarEntry.parseTarHeader",,29,1,1,,
-Public Method,"org.apache.tools.tar.TarEntry.setGroupId",,3,1,1,,
-Public Method,"org.apache.tools.tar.TarEntry.setGroupName",,3,1,1,,
-Public Method,"org.apache.tools.tar.TarEntry.setIds",,4,1,1,,
-Public Method,"org.apache.tools.tar.TarEntry.setModTime",,3,1,1,,
-Public Method,"org.apache.tools.tar.TarEntry.setModTime",,3,1,1,,
-Public Method,"org.apache.tools.tar.TarEntry.setName",,3,1,1,,
-Public Method,"org.apache.tools.tar.TarEntry.setNames",,4,1,1,,
-Public Method,"org.apache.tools.tar.TarEntry.setSize",,3,1,1,,
-Public Method,"org.apache.tools.tar.TarEntry.setUserId",,3,1,1,,
-Public Method,"org.apache.tools.tar.TarEntry.setUserName",,3,1,1,,
-Public Method,"org.apache.tools.tar.TarEntry.writeEntryHeader",,25,3,3,,
-Public Class,"org.apache.tools.tar.TarInputStream",2,195,,41,82,2
-Public Constructor,"org.apache.tools.tar.TarInputStream.TarInputStream",,3,1,1,,
-Public Constructor,"org.apache.tools.tar.TarInputStream.TarInputStream",,3,1,1,,
-Public Constructor,"org.apache.tools.tar.TarInputStream.TarInputStream",,8,1,1,,
-Public Method,"org.apache.tools.tar.TarInputStream.available",,3,1,1,,
-Public Method,"org.apache.tools.tar.TarInputStream.close",,3,1,1,,
-Public Method,"org.apache.tools.tar.TarInputStream.copyEntryContents",,10,3,3,,
-Public Method,"org.apache.tools.tar.TarInputStream.getNextEntry",,73,12,12,,
-Public Method,"org.apache.tools.tar.TarInputStream.getRecordSize",,3,1,1,,
-Public Method,"org.apache.tools.tar.TarInputStream.mark",,1,1,1,,
-Public Method,"org.apache.tools.tar.TarInputStream.markSupported",,3,1,1,,
-Public Method,"org.apache.tools.tar.TarInputStream.read",,3,1,1,,
-Public Method,"org.apache.tools.tar.TarInputStream.read",,8,2,2,,
-Public Method,"org.apache.tools.tar.TarInputStream.read",,47,9,9,,
-Public Method,"org.apache.tools.tar.TarInputStream.reset",,1,1,1,,
-Public Method,"org.apache.tools.tar.TarInputStream.setDebug",,4,1,1,,
-Public Method,"org.apache.tools.tar.TarInputStream.skip",,12,4,4,,
-Public Class,"org.apache.tools.tar.TarOutputStream",2,119,,24,75,2
-Public Constructor,"org.apache.tools.tar.TarOutputStream.TarOutputStream",,3,1,1,,
-Public Constructor,"org.apache.tools.tar.TarOutputStream.TarOutputStream",,3,1,1,,
-Public Constructor,"org.apache.tools.tar.TarOutputStream.TarOutputStream",,9,1,1,,
-Public Method,"org.apache.tools.tar.TarOutputStream.close",,4,1,1,,
-Public Method,"org.apache.tools.tar.TarOutputStream.closeEntry",,15,4,4,,
-Public Method,"org.apache.tools.tar.TarOutputStream.finish",,3,1,1,,
-Public Method,"org.apache.tools.tar.TarOutputStream.getRecordSize",,3,1,1,,
-Public Method,"org.apache.tools.tar.TarOutputStream.putNextEntry",,10,2,2,,
-Public Method,"org.apache.tools.tar.TarOutputStream.setBufferDebug",,3,1,1,,
-Public Method,"org.apache.tools.tar.TarOutputStream.setDebug",,3,1,1,,
-Public Method,"org.apache.tools.tar.TarOutputStream.write",,40,6,6,,
-Public Method,"org.apache.tools.tar.TarOutputStream.write",,4,1,1,,
-Public Method,"org.apache.tools.tar.TarOutputStream.write",,3,1,1,,
-Private Method,"org.apache.tools.tar.TarOutputStream.writeEOFRecord",,6,2,2,,
-Public Class,"org.apache.tools.tar.TarUtils",0,84,,20,0,1
-Public Static Method,"org.apache.tools.tar.TarUtils.computeCheckSum",,7,2,2,,
-Public Static Method,"org.apache.tools.tar.TarUtils.getCheckSumOctalBytes",,6,1,1,,
-Public Static Method,"org.apache.tools.tar.TarUtils.getLongOctalBytes",,6,1,1,,
-Public Static Method,"org.apache.tools.tar.TarUtils.getNameBytes",,10,3,3,,
-Public Static Method,"org.apache.tools.tar.TarUtils.getOctalBytes",,21,4,4,,
-Public Static Method,"org.apache.tools.tar.TarUtils.parseName",,11,3,3,,
-Public Static Method,"org.apache.tools.tar.TarUtils.parseOctal",,21,6,6,,
+Kind,Name,CountClassCoupled,CountClassDerived,CountDeclMethodAll,CountLine,CountLineCode,Cyclomatic,MaxInheritanceTree,PercentLackOfCohesion,SumCyclomatic
+File,"AllJUnitTests.java",,,,78,15,,,,2
+File,"Ant.java",,,,179,78,,,,16
+File,"AntStructure.java",,,,126,42,,,,5
+File,"Available.java",,,,128,55,,,,14
+File,"BuildEvent.java",,,,166,53,,,,11
+File,"BuildException.java",,,,162,39,,,,10
+File,"BuildListener.java",,,,119,11,,,,0
+File,"Chmod.java",,,,125,48,,,,12
+File,"CompileTask.java",,,,112,27,,,,5
+File,"Copydir.java",,,,126,53,,,,9
+File,"Copyfile.java",,,,97,29,,,,6
+File,"Cvs.java",,,,154,64,,,,20
+File,"DDCreator.java",,,,162,44,,,,8
+File,"DDCreatorHelper.java",,,,149,50,,,,8
+File,"DefaultLogger.java",,,,162,67,,,,17
+File,"Delete.java",,,,156,58,,,,16
+File,"Deltree.java",,,,122,43,,,,11
+File,"DesirableFilter.java",,,,118,24,,,,6
+File,"DirectoryScanner.java",,,,827,393,,,,103
+File,"Echo.java",,,,85,13,,,,2
+File,"EjbJar.java",,,,645,290,,,,41
+File,"Ejbc.java",,,,200,61,,,,11
+File,"EjbcHelper.java",,,,278,125,,,,18
+File,"EnumeratedAttribute.java",,,,112,27,,,,8
+File,"EnumeratedAttributeTest.java",,,,122,54,,,,11
+File,"Exec.java",,,,240,136,,,,31
+File,"Expand.java",,,,159,65,,,,12
+File,"Filter.java",,,,81,15,,,,3
+File,"FixCRLF.java",,,,384,188,,,,58
+File,"GUnzip.java",,,,143,68,,,,16
+File,"GZip.java",,,,130,56,,,,10
+File,"Get.java",,,,157,62,,,,15
+File,"IntrospectionHelper.java",,,,510,320,,,,67
+File,"IntrospectionHelperTest.java",,,,201,128,,,,20
+File,"Jar.java",,,,123,42,,,,9
+File,"Java.java",,,,241,115,,,,28
+File,"Javac.java",,,,333,154,,,,36
+File,"JavacOutputStream.java",,,,125,33,,,,7
+File,"Javadoc.java",,,,989,759,,,,205
+File,"Jikes.java",,,,47,24,,,,3
+File,"JikesOutputParser.java",,,,103,56,,,,17
+File,"KeySubst.java",,,,203,101,,,,16
+File,"Location.java",,,,111,30,,,,6
+File,"MSVSS.java",,,,196,56,,,,9
+File,"MSVSSGET.java",,,,309,105,,,,24
+File,"MailMessage.java",,,,448,215,,,,54
+File,"Main.java",,,,361,202,,,,39
+File,"Map.java",,,,62,5,,,,0
+File,"MatchingTask.java",,,,310,144,,,,42
+File,"Mkdir.java",,,,87,21,,,,4
+File,"NetRexxC.java",,,,501,188,,,,43
+File,"Patch.java",,,,174,70,,,,18
+File,"Path.java",,,,224,91,,,,25
+File,"PathTest.java",,,,205,128,,,,13
+File,"PathTokenizer.java",,,,128,40,,,,7
+File,"Project.java",,,,153,60,,,,5
+File,"ProjectHelper.java",,,,503,322,,,,78
+File,"Property.java",,,,242,150,,,,36
+File,"Rename.java",,,,116,30,,,,7
+File,"RenameExtensions.java",,,,163,61,,,,14
+File,"Replace.java",,,,190,78,,,,18
+File,"Rmic.java",,,,417,245,,,,62
+File,"Script.java",,,,160,61,,,,13
+File,"SignJar.java",,,,218,116,,,,25
+File,"Tar.java",,,,148,66,,,,11
+File,"TarBuffer.java",,,,440,223,,,,56
+File,"TarConstants.java",,,,182,25,,,,0
+File,"TarEntry.java",,,,572,244,,,,46
+File,"TarInputStream.java",,,,419,197,,,,41
+File,"TarOutputStream.java",,,,314,121,,,,24
+File,"TarUtils.java",,,,234,85,,,,20
+File,"Target.java",,,,146,70,,,,20
+File,"Task.java",,,,197,50,,,,15
+File,"TaskAdapter.java",,,,102,28,,,,5
+File,"TaskOutputStream.java",,,,118,28,,,,5
+File,"Taskdef.java",,,,111,40,,,,8
+File,"Touch.java",,,,197,98,,,,18
+File,"Tstamp.java",,,,86,20,,,,2
+File,"Untar.java",,,,167,73,,,,14
+File,"WLRun.java",,,,224,73,,,,14
+File,"WLStop.java",,,,168,42,,,,8
+File,"XSLTLiaison.java",,,,70,6,,,,0
+File,"XSLTProcess.java",,,,314,102,,,,22
+File,"XalanLiaison.java",,,,87,20,,,,3
+File,"XmlLogger.java",,,,269,155,,,,29
+File,"XslpLiaison.java",,,,88,20,,,,3
+File,"Zip.java",,,,239,130,,,,24
+File,"build.xml",,,,283,199,0,,,0
+File,"buildAnt.xml",,,,84,51,0,,,0
+Package,"com",,,,0,0,,,,0
+Package,"com.oreilly",,,,0,0,,,,0
+Package,"com.oreilly.servlet",,,,448,215,,,,54
+Public Class,"com.oreilly.servlet.MailMessage",1,0,27,341,177,,1,88,45
+Public Constructor,"com.oreilly.servlet.MailMessage.MailMessage",,,,9,3,1,,,1
+Public Constructor,"com.oreilly.servlet.MailMessage.MailMessage",,,,16,9,1,,,1
+Public Method,"com.oreilly.servlet.MailMessage.bcc",,,,10,3,1,,,1
+Public Method,"com.oreilly.servlet.MailMessage.cc",,,,10,4,1,,,1
+Method,"com.oreilly.servlet.MailMessage.connect",,,,8,8,1,,,1
+Method,"com.oreilly.servlet.MailMessage.disconnect",,,,5,5,4,,,4
+Method,"com.oreilly.servlet.MailMessage.flushHeaders",,,,11,10,2,,,2
+Public Method,"com.oreilly.servlet.MailMessage.from",,,,10,4,1,,,1
+Public Method,"com.oreilly.servlet.MailMessage.getPrintStream",,,,15,8,1,,,1
+Method,"com.oreilly.servlet.MailMessage.getReady",,,,8,8,2,,,2
+Method,"com.oreilly.servlet.MailMessage.isResponseOK",,,,9,8,3,,,3
+Static Method,"com.oreilly.servlet.MailMessage.sanitizeAddress",,,,34,31,9,,,9
+Method,"com.oreilly.servlet.MailMessage.send",,,,10,8,2,,,2
+Public Method,"com.oreilly.servlet.MailMessage.sendAndClose",,,,10,4,1,,,1
+Method,"com.oreilly.servlet.MailMessage.sendData",,,,4,4,1,,,1
+Method,"com.oreilly.servlet.MailMessage.sendDot",,,,4,4,1,,,1
+Method,"com.oreilly.servlet.MailMessage.sendFrom",,,,4,4,1,,,1
+Method,"com.oreilly.servlet.MailMessage.sendHelo",,,,5,5,1,,,1
+Method,"com.oreilly.servlet.MailMessage.sendQuit",,,,4,4,1,,,1
+Method,"com.oreilly.servlet.MailMessage.sendRcpt",,,,4,4,1,,,1
+Method,"com.oreilly.servlet.MailMessage.setCcHeader",,,,3,3,1,,,1
+Method,"com.oreilly.servlet.MailMessage.setFromHeader",,,,3,3,1,,,1
+Public Method,"com.oreilly.servlet.MailMessage.setHeader",,,,8,3,1,,,1
+Public Method,"com.oreilly.servlet.MailMessage.setSubject",,,,7,3,1,,,1
+Method,"com.oreilly.servlet.MailMessage.setToHeader",,,,3,3,1,,,1
+Public Method,"com.oreilly.servlet.MailMessage.to",,,,10,4,1,,,1
+Method,"com.oreilly.servlet.MailMessage.vectorToList",,,,11,11,3,,,3
+Class,"com.oreilly.servlet.MailPrintStream",0,0,5,42,34,,2,80,9
+Public Constructor,"com.oreilly.servlet.MailPrintStream.MailPrintStream",,,,3,3,1,,,1
+Method,"com.oreilly.servlet.MailPrintStream.rawPrint",,,,6,6,2,,,2
+Method,"com.oreilly.servlet.MailPrintStream.rawWrite",,,,3,3,1,,,1
+Public Method,"com.oreilly.servlet.MailPrintStream.write",,,,14,14,3,,,3
+Public Method,"com.oreilly.servlet.MailPrintStream.write",,,,5,5,2,,,2
+File,"core.html",,,,278,0,0,,,0
+File,"design guide.xml",,,,82,81,0,,,0
+File,"docbookx.css",,,,64,0,0,,,0
+File,"index.html",,,,3758,0,0,,,0
+Package,"org",,,,0,0,,,,0
+Package,"org.apache",,,,0,0,,,,0
+Package,"org.apache.tools",,,,0,0,,,,0
+Package,"org.apache.tools.ant",,,,5038,2312,,,,497
+Public Class,"org.apache.tools.ant.AllJUnitTests",3,0,2,18,11,,2,0,2
+Public Constructor,"org.apache.tools.ant.AllJUnitTests.AllJUnitTests",,,,3,3,1,,,1
+Public Static Method,"org.apache.tools.ant.AllJUnitTests.suite",,,,6,6,1,,,1
+Public Class,"org.apache.tools.ant.BuildEvent",3,0,11,107,50,,2,72,11
+Public Constructor,"org.apache.tools.ant.BuildEvent.BuildEvent",,,,11,6,1,,,1
+Public Constructor,"org.apache.tools.ant.BuildEvent.BuildEvent",,,,11,6,1,,,1
+Public Constructor,"org.apache.tools.ant.BuildEvent.BuildEvent",,,,11,6,1,,,1
+Public Method,"org.apache.tools.ant.BuildEvent.getException",,,,11,3,1,,,1
+Public Method,"org.apache.tools.ant.BuildEvent.getMessage",,,,9,3,1,,,1
+Public Method,"org.apache.tools.ant.BuildEvent.getPriority",,,,9,3,1,,,1
+Public Method,"org.apache.tools.ant.BuildEvent.getProject",,,,6,3,1,,,1
+Public Method,"org.apache.tools.ant.BuildEvent.getTarget",,,,7,3,1,,,1
+Public Method,"org.apache.tools.ant.BuildEvent.getTask",,,,6,3,1,,,1
+Public Method,"org.apache.tools.ant.BuildEvent.setException",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.BuildEvent.setMessage",,,,4,4,1,,,1
+Public Class,"org.apache.tools.ant.BuildException",1,0,10,105,38,,2,60,10
+Public Constructor,"org.apache.tools.ant.BuildException.BuildException",,,,10,4,1,,,1
+Public Constructor,"org.apache.tools.ant.BuildException.BuildException",,,,7,3,1,,,1
+Public Constructor,"org.apache.tools.ant.BuildException.BuildException",,,,11,4,1,,,1
+Public Constructor,"org.apache.tools.ant.BuildException.BuildException",,,,6,3,1,,,1
+Public Constructor,"org.apache.tools.ant.BuildException.BuildException",,,,10,4,1,,,1
+Public Constructor,"org.apache.tools.ant.BuildException.BuildException",,,,8,4,1,,,1
+Public Method,"org.apache.tools.ant.BuildException.getException",,,,6,3,1,,,1
+Public Method,"org.apache.tools.ant.BuildException.getLocation",,,,6,3,1,,,1
+Public Method,"org.apache.tools.ant.BuildException.setLocation",,,,6,3,1,,,1
+Public Method,"org.apache.tools.ant.BuildException.toString",,,,6,3,1,,,1
+Public Interface,"org.apache.tools.ant.BuildListener",1,2,7,52,8,,2,0,0
+Public Abstract Method,"org.apache.tools.ant.BuildListener.buildFinished",,,,7,1,0,,,0
+Public Abstract Method,"org.apache.tools.ant.BuildListener.buildStarted",,,,4,1,0,,,0
+Public Abstract Method,"org.apache.tools.ant.BuildListener.messageLogged",,,,7,1,0,,,0
+Public Abstract Method,"org.apache.tools.ant.BuildListener.targetFinished",,,,7,1,0,,,0
+Public Abstract Method,"org.apache.tools.ant.BuildListener.targetStarted",,,,6,1,0,,,0
+Public Abstract Method,"org.apache.tools.ant.BuildListener.taskFinished",,,,7,1,0,,,0
+Public Abstract Method,"org.apache.tools.ant.BuildListener.taskStarted",,,,6,1,0,,,0
+Public Class,"org.apache.tools.ant.DefaultLogger",5,0,9,104,65,,1,72,17
+Public Constructor,"org.apache.tools.ant.DefaultLogger.DefaultLogger",,,,9,4,1,,,1
+Public Method,"org.apache.tools.ant.DefaultLogger.buildFinished",,,,28,20,4,,,4
+Public Method,"org.apache.tools.ant.DefaultLogger.buildStarted",,,,3,3,1,,,1
+Private Static Method,"org.apache.tools.ant.DefaultLogger.formatTime",,,,13,10,2,,,2
+Public Method,"org.apache.tools.ant.DefaultLogger.messageLogged",,,,20,13,4,,,4
+Public Method,"org.apache.tools.ant.DefaultLogger.targetFinished",,,,2,2,1,,,1
+Public Method,"org.apache.tools.ant.DefaultLogger.targetStarted",,,,5,5,2,,,2
+Public Method,"org.apache.tools.ant.DefaultLogger.taskFinished",,,,1,1,1,,,1
+Public Method,"org.apache.tools.ant.DefaultLogger.taskStarted",,,,1,1,1,,,1
+Public Class,"org.apache.tools.ant.DesirableFilter",0,0,1,50,20,,1,0,6
+Public Method,"org.apache.tools.ant.DesirableFilter.accept",,,,40,18,6,,,6
+Public Class,"org.apache.tools.ant.DirectoryScanner",0,0,19,768,390,,1,84,103
+Public Constructor,"org.apache.tools.ant.DirectoryScanner.DirectoryScanner",,,,5,2,1,,,1
+Public Method,"org.apache.tools.ant.DirectoryScanner.addDefaultExcludes",,,,16,12,4,,,4
+Public Method,"org.apache.tools.ant.DirectoryScanner.getBasedir",,,,9,3,1,,,1
+Public Method,"org.apache.tools.ant.DirectoryScanner.getExcludedDirectories",,,,15,8,2,,,2
+Public Method,"org.apache.tools.ant.DirectoryScanner.getExcludedFiles",,,,15,8,2,,,2
+Public Method,"org.apache.tools.ant.DirectoryScanner.getIncludedDirectories",,,,15,8,2,,,2
+Public Method,"org.apache.tools.ant.DirectoryScanner.getIncludedFiles",,,,15,8,2,,,2
+Public Method,"org.apache.tools.ant.DirectoryScanner.getNotIncludedDirectories",,,,15,8,2,,,2
+Public Method,"org.apache.tools.ant.DirectoryScanner.getNotIncludedFiles",,,,14,8,2,,,2
+Private Method,"org.apache.tools.ant.DirectoryScanner.isExcluded",,,,15,8,3,,,3
+Private Method,"org.apache.tools.ant.DirectoryScanner.isIncluded",,,,15,8,3,,,3
+Private Static Method,"org.apache.tools.ant.DirectoryScanner.match",,,,136,99,28,,,28
+Private Static Method,"org.apache.tools.ant.DirectoryScanner.matchPath",,,,133,101,27,,,27
+Public Method,"org.apache.tools.ant.DirectoryScanner.scan",,,,35,25,6,,,6
+Private Method,"org.apache.tools.ant.DirectoryScanner.scandir",,,,46,29,8,,,8
+Public Method,"org.apache.tools.ant.DirectoryScanner.setBasedir",,,,11,3,1,,,1
+Public Method,"org.apache.tools.ant.DirectoryScanner.setBasedir",,,,9,3,1,,,1
+Public Method,"org.apache.tools.ant.DirectoryScanner.setExcludes",,,,24,15,4,,,4
+Public Method,"org.apache.tools.ant.DirectoryScanner.setIncludes",,,,24,15,4,,,4
+Public Abstract Class,"org.apache.tools.ant.EnumeratedAttribute",1,3,5,56,26,,1,50,8
+Public Constructor,"org.apache.tools.ant.EnumeratedAttribute.EnumeratedAttribute",,,,1,1,1,,,1
+Public Method,"org.apache.tools.ant.EnumeratedAttribute.containsValue",,,,16,12,4,,,4
+Public Method,"org.apache.tools.ant.EnumeratedAttribute.getValue",,,,6,3,1,,,1
+Public Abstract Method,"org.apache.tools.ant.EnumeratedAttribute.getValues",,,,6,1,0,,,0
+Public Method,"org.apache.tools.ant.EnumeratedAttribute.setValue",,,,9,6,2,,,2
+Public Class,"org.apache.tools.ant.EnumeratedAttributeTest",4,0,3,62,51,,2,33,9
+Public Constructor,"org.apache.tools.ant.EnumeratedAttributeTest.EnumeratedAttributeTest",,,,3,3,1,,,1
+Public Static Class,"org.apache.tools.ant.EnumeratedAttributeTest.TestNormal",1,0,6,5,5,,2,0,1
+Public Method,"org.apache.tools.ant.EnumeratedAttributeTest.TestNormal.getValues",,,,3,3,1,,,1
+Public Static Class,"org.apache.tools.ant.EnumeratedAttributeTest.TestNull",0,0,6,5,5,,2,0,1
+Public Method,"org.apache.tools.ant.EnumeratedAttributeTest.TestNull.getValues",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.EnumeratedAttributeTest.testContains",,,,13,13,2,,,2
+Public Method,"org.apache.tools.ant.EnumeratedAttributeTest.testExceptions",,,,22,22,6,,,6
+Public Class,"org.apache.tools.ant.IntrospectionHelper",7,0,12,450,316,,1,79,49
+Private Interface,"org.apache.tools.ant.IntrospectionHelper.AttributeSetter",2,13,1,5,5,,0,0,0
+Public Abstract Method,"org.apache.tools.ant.IntrospectionHelper.AttributeSetter.set",,,,3,3,0,,,0
+Private Constructor,"org.apache.tools.ant.IntrospectionHelper.IntrospectionHelper",,,,94,76,9,,,9
+Anonymous Class,"org.apache.tools.ant.IntrospectionHelper.IntrospectionHelper.(for_loop_1).(Anon_1)",1,0,1,8,6,,1,0,1
+Public Method,"org.apache.tools.ant.IntrospectionHelper.IntrospectionHelper.(for_loop_1).(Anon_1).create",,,,6,5,1,,,1
+Anonymous Class,"org.apache.tools.ant.IntrospectionHelper.IntrospectionHelper.(for_loop_1).(Anon_2)",1,0,1,9,7,,1,0,1
+Public Method,"org.apache.tools.ant.IntrospectionHelper.IntrospectionHelper.(for_loop_1).(Anon_2).create",,,,7,6,1,,,1
+Private Interface,"org.apache.tools.ant.IntrospectionHelper.NestedCreator",0,2,1,4,4,,0,0,0
+Public Abstract Method,"org.apache.tools.ant.IntrospectionHelper.NestedCreator.create",,,,2,2,0,,,0
+Public Method,"org.apache.tools.ant.IntrospectionHelper.addText",,,,22,18,5,,,5
+Private Method,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter",,,,153,120,14,,,14
+Anonymous Class,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_10)",2,0,1,5,5,,1,0,1
+Public Method,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_10).set",,,,4,4,1,,,1
+Anonymous Class,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_11)",2,0,1,6,6,,1,0,1
+Public Method,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_11).set",,,,5,5,1,,,1
+Anonymous Class,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_12)",3,0,1,9,9,,1,0,2
+Public Method,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_12).set",,,,8,8,2,,,2
+Anonymous Class,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_13)",2,0,1,5,5,,1,0,1
+Public Method,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_13).set",,,,4,4,1,,,1
+Anonymous Class,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_14)",4,0,1,12,12,,1,0,2
+Public Method,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_14).set",,,,11,11,2,,,2
+Anonymous Class,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_15)",3,0,1,10,10,,1,0,2
+Public Method,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_15).set",,,,9,9,2,,,2
+Anonymous Class,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_3)",2,0,1,5,5,,1,0,1
+Public Method,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_3).set",,,,4,4,1,,,1
+Anonymous Class,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_4)",2,0,1,5,5,,1,0,1
+Public Method,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_4).set",,,,4,4,1,,,1
+Anonymous Class,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_5)",2,0,1,5,5,,1,0,1
+Public Method,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_5).set",,,,4,4,1,,,1
+Anonymous Class,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_6)",2,0,1,5,5,,1,0,1
+Public Method,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_6).set",,,,4,4,1,,,1
+Anonymous Class,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_7)",2,0,1,5,5,,1,0,1
+Public Method,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_7).set",,,,4,4,1,,,1
+Anonymous Class,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_8)",2,0,1,5,5,,1,0,1
+Public Method,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_8).set",,,,4,4,1,,,1
+Anonymous Class,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_9)",2,0,1,5,5,,1,0,1
+Public Method,"org.apache.tools.ant.IntrospectionHelper.createAttributeSetter.(Anon_9).set",,,,4,4,1,,,1
+Public Method,"org.apache.tools.ant.IntrospectionHelper.createElement",,,,27,22,6,,,6
+Public Method,"org.apache.tools.ant.IntrospectionHelper.getAttributeType",,,,13,10,2,,,2
+Public Method,"org.apache.tools.ant.IntrospectionHelper.getAttributes",,,,6,3,1,,,1
+Public Method,"org.apache.tools.ant.IntrospectionHelper.getElementType",,,,13,10,2,,,2
+Public Static Method,"org.apache.tools.ant.IntrospectionHelper.getHelper",,,,11,8,2,,,2
+Public Method,"org.apache.tools.ant.IntrospectionHelper.getNestedElements",,,,6,3,1,,,1
+Private Method,"org.apache.tools.ant.IntrospectionHelper.getPropertyName",,,,8,4,1,,,1
+Public Method,"org.apache.tools.ant.IntrospectionHelper.setAttribute",,,,25,21,5,,,5
+Public Method,"org.apache.tools.ant.IntrospectionHelper.supportsCharacters",,,,6,3,1,,,1
+Public Class,"org.apache.tools.ant.IntrospectionHelperTest",2,0,5,137,122,,2,0,20
+Public Constructor,"org.apache.tools.ant.IntrospectionHelperTest.IntrospectionHelperTest",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.IntrospectionHelperTest.testAddText",,,,17,16,3,,,3
+Public Method,"org.apache.tools.ant.IntrospectionHelperTest.testElementCreators",,,,77,74,14,,,14
+Public Method,"org.apache.tools.ant.IntrospectionHelperTest.testGetNestedElements",,,,16,16,1,,,1
+Public Method,"org.apache.tools.ant.IntrospectionHelperTest.testSupportsCharacters",,,,11,10,1,,,1
+Public Class,"org.apache.tools.ant.Location",0,0,4,54,28,,1,68,6
+Public Constructor,"org.apache.tools.ant.Location.Location",,,,8,5,1,,,1
+Private Constructor,"org.apache.tools.ant.Location.Location",,,,6,3,1,,,1
+Public Constructor,"org.apache.tools.ant.Location.Location",,,,6,3,1,,,1
+Public Method,"org.apache.tools.ant.Location.toString",,,,21,12,3,,,3
+Public Class,"org.apache.tools.ant.Main",5,0,7,301,199,,1,69,39
+Protected Constructor,"org.apache.tools.ant.Main.Main",,,,108,80,19,,,19
+Protected Method,"org.apache.tools.ant.Main.addBuildListeners",,,,17,14,3,,,3
+Private Method,"org.apache.tools.ant.Main.createDefaultBuildListener",,,,6,3,1,,,1
+Public Static Method,"org.apache.tools.ant.Main.main",,,,16,9,2,,,2
+Private Static Method,"org.apache.tools.ant.Main.printUsage",,,,18,15,1,,,1
+Private Static Method,"org.apache.tools.ant.Main.printVersion",,,,23,22,3,,,3
+Private Method,"org.apache.tools.ant.Main.runBuild",,,,68,47,10,,,10
+Public Interface,"org.apache.tools.ant.Map",0,0,1,4,3,,0,0,0
+Public Abstract Method,"org.apache.tools.ant.Map.get",,,,1,1,0,,,0
+Public Class,"org.apache.tools.ant.Path",1,0,11,161,85,,1,77,25
+Public Constructor,"org.apache.tools.ant.Path.Path",,,,3,3,1,,,1
+Public Constructor,"org.apache.tools.ant.Path.Path",,,,4,4,1,,,1
+Public Method,"org.apache.tools.ant.Path.append",,,,11,8,3,,,3
+Public Method,"org.apache.tools.ant.Path.createPathElement",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.Path.list",,,,9,5,1,,,1
+Public Method,"org.apache.tools.ant.Path.setLocation",,,,13,8,3,,,3
+Public Method,"org.apache.tools.ant.Path.setPath",,,,13,9,3,,,3
+Public Method,"org.apache.tools.ant.Path.toString",,,,20,10,3,,,3
+Public Static Method,"org.apache.tools.ant.Path.translateFile",,,,10,8,3,,,3
+Protected Static Method,"org.apache.tools.ant.Path.translateFileSep",,,,7,7,2,,,2
+Public Static Method,"org.apache.tools.ant.Path.translatePath",,,,16,15,4,,,4
+Public Class,"org.apache.tools.ant.PathTest",1,0,6,143,124,,2,66,13
+Public Constructor,"org.apache.tools.ant.PathTest.PathTest",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.PathTest.testAppending",,,,14,14,1,,,1
+Public Method,"org.apache.tools.ant.PathTest.testConstructor",,,,58,54,6,,,6
+Public Method,"org.apache.tools.ant.PathTest.testEmpyPath",,,,14,14,1,,,1
+Public Method,"org.apache.tools.ant.PathTest.testSetLocation",,,,23,22,3,,,3
+Public Method,"org.apache.tools.ant.PathTest.testUnique",,,,14,14,1,,,1
+Public Class,"org.apache.tools.ant.PathTokenizer",0,0,3,70,37,,1,22,7
+Public Constructor,"org.apache.tools.ant.PathTokenizer.PathTokenizer",,,,4,4,1,,,1
+Public Method,"org.apache.tools.ant.PathTokenizer.hasMoreTokens",,,,7,6,2,,,2
+Public Method,"org.apache.tools.ant.PathTokenizer.nextToken",,,,29,22,4,,,4
+Public Class,"org.apache.tools.ant.Project",1,0,2,90,55,,1,100,5
+Public Constructor,"org.apache.tools.ant.Project.Project",,,,2,2,1,,,1
+Public Method,"org.apache.tools.ant.Project.init",,,,38,26,4,,,4
+Public Class,"org.apache.tools.ant.ProjectHelper",6,0,6,439,315,,1,73,26
+Private Class,"org.apache.tools.ant.ProjectHelper.AbstractHandler",1,4,4,40,19,,2,50,5
+Public Constructor,"org.apache.tools.ant.ProjectHelper.AbstractHandler.AbstractHandler",,,,6,4,1,,,1
+Public Method,"org.apache.tools.ant.ProjectHelper.AbstractHandler.characters",,,,7,6,2,,,2
+Public Method,"org.apache.tools.ant.ProjectHelper.AbstractHandler.endElement",,,,5,3,1,,,1
+Public Method,"org.apache.tools.ant.ProjectHelper.AbstractHandler.startElement",,,,3,3,1,,,1
+Private Class,"org.apache.tools.ant.ProjectHelper.NestedElementHandler",3,0,8,46,34,,3,58,7
+Public Constructor,"org.apache.tools.ant.ProjectHelper.NestedElementHandler.NestedElementHandler",,,,5,4,1,,,1
+Public Method,"org.apache.tools.ant.ProjectHelper.NestedElementHandler.characters",,,,13,11,3,,,3
+Public Method,"org.apache.tools.ant.ProjectHelper.NestedElementHandler.init",,,,12,11,2,,,2
+Public Method,"org.apache.tools.ant.ProjectHelper.NestedElementHandler.startElement",,,,3,3,1,,,1
+Private Class,"org.apache.tools.ant.ProjectHelper.ProjectHandler",3,0,10,70,55,,3,0,17
+Public Constructor,"org.apache.tools.ant.ProjectHelper.ProjectHandler.ProjectHandler",,,,3,3,1,,,1
+Private Method,"org.apache.tools.ant.ProjectHelper.ProjectHandler.handleProperty",,,,3,3,1,,,1
+Private Method,"org.apache.tools.ant.ProjectHelper.ProjectHandler.handleTarget",,,,3,3,1,,,1
+Private Method,"org.apache.tools.ant.ProjectHelper.ProjectHandler.handleTaskdef",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.ProjectHelper.ProjectHandler.init",,,,37,30,9,,,9
+Public Method,"org.apache.tools.ant.ProjectHelper.ProjectHandler.startElement",,,,11,11,4,,,4
+Private Constructor,"org.apache.tools.ant.ProjectHelper.ProjectHelper",,,,7,4,1,,,1
+Private Class,"org.apache.tools.ant.ProjectHelper.RootHandler",2,0,2,16,12,,2,0,3
+Public Method,"org.apache.tools.ant.ProjectHelper.RootHandler.setDocumentLocator",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.ProjectHelper.RootHandler.startElement",,,,7,7,2,,,2
+Private Class,"org.apache.tools.ant.ProjectHelper.TargetHandler",3,0,7,64,50,,3,33,13
+Public Constructor,"org.apache.tools.ant.ProjectHelper.TargetHandler.TargetHandler",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.ProjectHelper.TargetHandler.init",,,,49,41,11,,,11
+Public Method,"org.apache.tools.ant.ProjectHelper.TargetHandler.startElement",,,,3,3,1,,,1
+Private Class,"org.apache.tools.ant.ProjectHelper.TaskHandler",7,0,8,44,32,,3,37,7
+Public Constructor,"org.apache.tools.ant.ProjectHelper.TaskHandler.TaskHandler",,,,5,4,1,,,1
+Public Method,"org.apache.tools.ant.ProjectHelper.TaskHandler.characters",,,,13,11,3,,,3
+Public Method,"org.apache.tools.ant.ProjectHelper.TaskHandler.init",,,,12,10,2,,,2
+Public Method,"org.apache.tools.ant.ProjectHelper.TaskHandler.startElement",,,,3,3,1,,,1
+Private Method,"org.apache.tools.ant.ProjectHelper.configure",,,,27,23,5,,,5
+Public Static Method,"org.apache.tools.ant.ProjectHelper.configureProject",,,,6,3,1,,,1
+Private Static Method,"org.apache.tools.ant.ProjectHelper.getParserFactory",,,,7,6,2,,,2
+Private Method,"org.apache.tools.ant.ProjectHelper.parse",,,,41,36,9,,,9
+Public Static Method,"org.apache.tools.ant.ProjectHelper.replaceProperties",,,,43,34,8,,,8
+Public Class,"org.apache.tools.ant.Target",3,0,13,86,67,,1,85,20
+Public Method,"org.apache.tools.ant.Target.addDependency",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.Target.addTask",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.Target.execute",,,,19,18,4,,,4
+Public Method,"org.apache.tools.ant.Target.getDependencies",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.Target.getName",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.Target.getProject",,,,3,3,1,,,1
+Constructor,"org.apache.tools.ant.Target.project.log",,,,0,0,1,,,1
+Public Method,"org.apache.tools.ant.Target.setDepends",,,,9,9,3,,,3
+Public Method,"org.apache.tools.ant.Target.setIf",,,,3,3,2,,,2
+Public Method,"org.apache.tools.ant.Target.setName",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.Target.setProject",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.Target.setUnless",,,,3,3,2,,,2
+Public Method,"org.apache.tools.ant.Target.toString",,,,3,3,1,,,1
+Public Abstract Class,"org.apache.tools.ant.Task",4,26,15,139,49,,1,86,15
+Public Method,"org.apache.tools.ant.Task.execute",,,,5,0,1,,,1
+Public Method,"org.apache.tools.ant.Task.getDescription",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.Task.getLocation",,,,6,3,1,,,1
+Public Method,"org.apache.tools.ant.Task.getOwningTarget",,,,8,3,1,,,1
+Public Method,"org.apache.tools.ant.Task.getProject",,,,8,3,1,,,1
+Public Method,"org.apache.tools.ant.Task.getTaskName",,,,8,3,1,,,1
+Public Method,"org.apache.tools.ant.Task.init",,,,6,1,1,,,1
+Public Method,"org.apache.tools.ant.Task.log",,,,8,3,1,,,1
+Public Method,"org.apache.tools.ant.Task.log",,,,9,3,1,,,1
+Public Method,"org.apache.tools.ant.Task.setDescription",,,,6,3,1,,,1
+Public Method,"org.apache.tools.ant.Task.setLocation",,,,6,3,1,,,1
+Public Method,"org.apache.tools.ant.Task.setOwningTarget",,,,8,3,1,,,1
+Method,"org.apache.tools.ant.Task.setProject",,,,11,3,1,,,1
+Public Method,"org.apache.tools.ant.Task.setTaskName",,,,8,3,1,,,1
+Method,"org.apache.tools.ant.Task.setTaskType",,,,8,3,1,,,1
+Public Class,"org.apache.tools.ant.TaskAdapter",2,0,18,43,25,,2,0,5
+Public Method,"org.apache.tools.ant.TaskAdapter.execute",,,,20,16,3,,,3
+Public Method,"org.apache.tools.ant.TaskAdapter.getProxy",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.TaskAdapter.setProxy",,,,6,3,1,,,1
+Public Class,"org.apache.tools.ant.XmlLogger",6,0,11,208,150,,1,81,29
+Public Constructor,"org.apache.tools.ant.XmlLogger.XmlLogger",,,,5,2,1,,,1
+Public Method,"org.apache.tools.ant.XmlLogger.buildFinished",,,,20,17,3,,,3
+Public Method,"org.apache.tools.ant.XmlLogger.buildStarted",,,,6,5,1,,,1
+Private Static Method,"org.apache.tools.ant.XmlLogger.formatTime",,,,13,10,2,,,2
+Private Static Method,"org.apache.tools.ant.XmlLogger.getDocumentBuilder",,,,8,8,2,,,2
+Public Method,"org.apache.tools.ant.XmlLogger.messageLogged",,,,25,22,6,,,6
+Public Method,"org.apache.tools.ant.XmlLogger.targetFinished",,,,7,6,1,,,1
+Public Method,"org.apache.tools.ant.XmlLogger.targetStarted",,,,5,5,1,,,1
+Public Method,"org.apache.tools.ant.XmlLogger.taskFinished",,,,7,6,1,,,1
+Public Method,"org.apache.tools.ant.XmlLogger.taskStarted",,,,13,11,2,,,2
+Private Static Method,"org.apache.tools.ant.XmlLogger.write",,,,59,40,9,,,9
+Package,"org.apache.tools.ant.taskdefs",,,,8072,3801,,,,898
+Public Class,"org.apache.tools.ant.taskdefs.Ant",6,0,22,119,74,,2,69,16
+Public Method,"org.apache.tools.ant.taskdefs.Ant.createProperty",,,,6,6,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Ant.execute",,,,28,17,5,,,5
+Public Method,"org.apache.tools.ant.taskdefs.Ant.init",,,,36,31,6,,,6
+Public Method,"org.apache.tools.ant.taskdefs.Ant.setAntfile",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Ant.setDir",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Ant.setOutput",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Ant.setTarget",,,,3,3,1,,,1
+Public Class,"org.apache.tools.ant.taskdefs.AntStructure",1,0,17,61,35,,2,66,5
+Public Method,"org.apache.tools.ant.taskdefs.AntStructure.execute",,,,37,25,4,,,4
+Public Method,"org.apache.tools.ant.taskdefs.AntStructure.setOutput",,,,6,3,1,,,1
+Public Class,"org.apache.tools.ant.taskdefs.Available",2,0,24,67,51,,2,75,14
+Private Method,"org.apache.tools.ant.taskdefs.Available.checkClass",,,,9,9,2,,,2
+Private Method,"org.apache.tools.ant.taskdefs.Available.checkFile",,,,9,9,2,,,2
+Private Method,"org.apache.tools.ant.taskdefs.Available.checkResource",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Available.init",,,,7,6,4,,,4
+Public Method,"org.apache.tools.ant.taskdefs.Available.setClass",,,,6,6,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Available.setClassname",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Available.setFile",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Available.setProperty",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Available.setResource",,,,3,3,1,,,1
+Public Class,"org.apache.tools.ant.taskdefs.Chmod",3,0,35,63,44,,3,66,12
+Private Method,"org.apache.tools.ant.taskdefs.Chmod.chmod",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Chmod.execute",,,,26,21,7,,,7
+Public Method,"org.apache.tools.ant.taskdefs.Chmod.setDir",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Chmod.setFile",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Chmod.setPerm",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Chmod.setSrc",,,,6,6,1,,,1
+Public Class,"org.apache.tools.ant.taskdefs.CompileTask",2,0,47,51,24,,4,33,5
+Public Method,"org.apache.tools.ant.taskdefs.CompileTask.createTaskdef",,,,8,5,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.CompileTask.execute",,,,5,2,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.CompileTask.init",,,,24,14,3,,,3
+Public Class,"org.apache.tools.ant.taskdefs.Copydir",3,0,34,62,48,,3,64,9
+Public Method,"org.apache.tools.ant.taskdefs.Copydir.execute",,,,32,29,5,,,5
+Public Method,"org.apache.tools.ant.taskdefs.Copydir.setDest",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Copydir.setFiltering",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Copydir.setForceoverwrite",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Copydir.setSrc",,,,3,3,1,,,1
+Public Class,"org.apache.tools.ant.taskdefs.Copyfile",2,0,19,35,25,,2,50,6
+Public Method,"org.apache.tools.ant.taskdefs.Copyfile.execute",,,,11,11,3,,,3
+Public Method,"org.apache.tools.ant.taskdefs.Copyfile.setDest",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Copyfile.setFiltering",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Copyfile.setSrc",,,,3,3,1,,,1
+Public Class,"org.apache.tools.ant.taskdefs.Cvs",1,0,33,92,61,,3,77,20
+Public Method,"org.apache.tools.ant.taskdefs.Cvs.execute",,,,27,18,7,,,7
+Public Method,"org.apache.tools.ant.taskdefs.Cvs.setCommand",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Cvs.setCvsRoot",,,,9,7,3,,,3
+Public Method,"org.apache.tools.ant.taskdefs.Cvs.setDate",,,,5,5,2,,,2
+Public Method,"org.apache.tools.ant.taskdefs.Cvs.setDest",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Cvs.setNoexec",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Cvs.setPackage",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Cvs.setQuiet",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Cvs.setTag",,,,9,7,3,,,3
+Public Class,"org.apache.tools.ant.taskdefs.Delete",3,0,33,97,55,,3,50,16
+Public Method,"org.apache.tools.ant.taskdefs.Delete.execute",,,,53,37,12,,,12
+Public Method,"org.apache.tools.ant.taskdefs.Delete.setDir",,,,8,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Delete.setFile",,,,8,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Delete.setVerbose",,,,12,7,2,,,2
+Public Class,"org.apache.tools.ant.taskdefs.Deltree",1,0,18,61,40,,2,33,11
+Public Method,"org.apache.tools.ant.taskdefs.Deltree.execute",,,,21,17,5,,,5
+Private Method,"org.apache.tools.ant.taskdefs.Deltree.removeDir",,,,25,17,5,,,5
+Public Method,"org.apache.tools.ant.taskdefs.Deltree.setDir",,,,3,3,1,,,1
+Public Class,"org.apache.tools.ant.taskdefs.Echo",1,0,17,26,9,,2,0,2
+Public Method,"org.apache.tools.ant.taskdefs.Echo.execute",,,,8,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Echo.setMessage",,,,8,3,1,,,1
+Public Class,"org.apache.tools.ant.taskdefs.Exec",3,5,24,181,133,,2,79,23
+Class,"org.apache.tools.ant.taskdefs.Exec.StreamPumper",1,0,3,40,36,,2,40,8
+Public Constructor,"org.apache.tools.ant.taskdefs.Exec.StreamPumper.StreamPumper",,,,5,5,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Exec.StreamPumper.pumpStream",,,,14,13,3,,,3
+Public Method,"org.apache.tools.ant.taskdefs.Exec.StreamPumper.run",,,,11,11,4,,,4
+Public Method,"org.apache.tools.ant.taskdefs.Exec.execute",,,,3,3,1,,,1
+Protected Method,"org.apache.tools.ant.taskdefs.Exec.logFlush",,,,3,3,2,,,2
+Protected Method,"org.apache.tools.ant.taskdefs.Exec.outputLog",,,,6,6,2,,,2
+Protected Method,"org.apache.tools.ant.taskdefs.Exec.run",,,,85,60,13,,,13
+Public Method,"org.apache.tools.ant.taskdefs.Exec.setCommand",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Exec.setDir",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Exec.setFailonerror",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Exec.setOs",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Exec.setOutput",,,,3,3,1,,,1
+Public Class,"org.apache.tools.ant.taskdefs.Expand",3,0,18,100,61,,2,33,12
+Public Method,"org.apache.tools.ant.taskdefs.Expand.execute",,,,69,51,10,,,10
+Public Method,"org.apache.tools.ant.taskdefs.Expand.setDest",,,,9,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Expand.setSrc",,,,8,3,1,,,1
+Public Class,"org.apache.tools.ant.taskdefs.Filter",1,0,18,23,13,,2,33,3
+Public Method,"org.apache.tools.ant.taskdefs.Filter.init",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Filter.setToken",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Filter.setValue",,,,3,3,1,,,1
+Public Class,"org.apache.tools.ant.taskdefs.FixCRLF",5,0,37,320,181,,3,70,57
+Public Static Class,"org.apache.tools.ant.taskdefs.FixCRLF.AddAsisRemove",0,0,6,8,5,,2,0,1
+Public Method,"org.apache.tools.ant.taskdefs.FixCRLF.AddAsisRemove.getValues",,,,3,3,1,,,1
+Public Constructor,"org.apache.tools.ant.taskdefs.FixCRLF.FixCRLF",,,,14,9,2,,,2
+Public Method,"org.apache.tools.ant.taskdefs.FixCRLF.execute",,,,162,116,42,,,42
+Public Method,"org.apache.tools.ant.taskdefs.FixCRLF.setCr",,,,21,10,3,,,3
+Public Method,"org.apache.tools.ant.taskdefs.FixCRLF.setDestdir",,,,7,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.FixCRLF.setEof",,,,21,10,3,,,3
+Public Method,"org.apache.tools.ant.taskdefs.FixCRLF.setSrcdir",,,,6,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.FixCRLF.setTab",,,,21,10,3,,,3
+Public Method,"org.apache.tools.ant.taskdefs.FixCRLF.setTablength",,,,12,7,2,,,2
+Public Class,"org.apache.tools.ant.taskdefs.GUnzip",1,0,18,81,64,,2,33,16
+Public Method,"org.apache.tools.ant.taskdefs.GUnzip.execute",,,,60,54,14,,,14
+Public Method,"org.apache.tools.ant.taskdefs.GUnzip.setDest",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.GUnzip.setSrc",,,,3,3,1,,,1
+Public Class,"org.apache.tools.ant.taskdefs.GZip",2,0,20,68,52,,2,60,10
+Public Method,"org.apache.tools.ant.taskdefs.GZip.execute",,,,25,22,5,,,5
+Public Method,"org.apache.tools.ant.taskdefs.GZip.setSrc",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.GZip.setZipfile",,,,3,3,1,,,1
+Private Method,"org.apache.tools.ant.taskdefs.GZip.zipFile",,,,10,10,2,,,2
+Private Method,"org.apache.tools.ant.taskdefs.GZip.zipFile",,,,10,10,1,,,1
+Public Class,"org.apache.tools.ant.taskdefs.Get",1,0,20,98,58,,2,60,15
+Public Method,"org.apache.tools.ant.taskdefs.Get.execute",,,,50,40,11,,,11
+Public Method,"org.apache.tools.ant.taskdefs.Get.setDest",,,,8,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Get.setIgnoreErrors",,,,8,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Get.setSrc",,,,8,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Get.setVerbose",,,,8,3,1,,,1
+Public Class,"org.apache.tools.ant.taskdefs.Jar",1,0,42,61,38,,4,60,9
+Protected Method,"org.apache.tools.ant.taskdefs.Jar.initZipOutputStream",,,,23,14,3,,,3
+Public Method,"org.apache.tools.ant.taskdefs.Jar.setJarfile",,,,4,4,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Jar.setManifest",,,,3,3,1,,,1
+Protected Method,"org.apache.tools.ant.taskdefs.Jar.zipDir",,,,9,7,2,,,2
+Protected Method,"org.apache.tools.ant.taskdefs.Jar.zipFile",,,,8,7,2,,,2
+Public Class,"org.apache.tools.ant.taskdefs.Java",3,0,36,181,111,,3,80,28
+Protected Method,"org.apache.tools.ant.taskdefs.Java.array",,,,13,8,2,,,2
+Public Method,"org.apache.tools.ant.taskdefs.Java.createClasspath",,,,9,6,2,,,2
+Public Method,"org.apache.tools.ant.taskdefs.Java.execute",,,,6,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Java.executeJava",,,,43,33,7,,,7
+Protected Method,"org.apache.tools.ant.taskdefs.Java.run",,,,26,20,6,,,6
+Public Method,"org.apache.tools.ant.taskdefs.Java.setArgs",,,,6,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Java.setClass",,,,9,6,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Java.setClassname",,,,6,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Java.setClasspath",,,,10,7,2,,,2
+Public Method,"org.apache.tools.ant.taskdefs.Java.setFork",,,,6,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Java.setJvmargs",,,,6,3,1,,,1
+Protected Method,"org.apache.tools.ant.taskdefs.Java.tokenize",,,,15,9,3,,,3
+Public Class,"org.apache.tools.ant.taskdefs.Javac",4,1,44,265,148,,3,90,36
+Public Method,"org.apache.tools.ant.taskdefs.Javac.createBootclasspath",,,,9,6,2,,,2
+Public Method,"org.apache.tools.ant.taskdefs.Javac.createClasspath",,,,9,6,2,,,2
+Public Method,"org.apache.tools.ant.taskdefs.Javac.createExtdirs",,,,9,6,2,,,2
+Public Method,"org.apache.tools.ant.taskdefs.Javac.createSrc",,,,12,6,2,,,2
+Public Method,"org.apache.tools.ant.taskdefs.Javac.execute",,,,84,62,14,,,14
+Public Method,"org.apache.tools.ant.taskdefs.Javac.setBootclasspath",,,,11,7,2,,,2
+Public Method,"org.apache.tools.ant.taskdefs.Javac.setClasspath",,,,10,7,2,,,2
+Public Method,"org.apache.tools.ant.taskdefs.Javac.setDebug",,,,6,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javac.setDeprecation",,,,6,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javac.setDestdir",,,,7,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javac.setExtdirs",,,,11,7,2,,,2
+Public Method,"org.apache.tools.ant.taskdefs.Javac.setFiltering",,,,6,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javac.setOptimize",,,,6,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javac.setSrcdir",,,,10,7,2,,,2
+Public Method,"org.apache.tools.ant.taskdefs.Javac.setTarget",,,,7,3,1,,,1
+Class,"org.apache.tools.ant.taskdefs.JavacOutputStream",1,0,4,63,30,,2,41,7
+Constructor,"org.apache.tools.ant.taskdefs.JavacOutputStream.JavacOutputStream",,,,8,4,1,,,1
+Method,"org.apache.tools.ant.taskdefs.JavacOutputStream.getErrorFlag",,,,7,3,1,,,1
+Private Method,"org.apache.tools.ant.taskdefs.JavacOutputStream.processLine",,,,11,8,2,,,2
+Public Method,"org.apache.tools.ant.taskdefs.JavacOutputStream.write",,,,16,10,3,,,3
+Public Class,"org.apache.tools.ant.taskdefs.Javadoc",8,0,81,927,755,,3,96,157
+Public Class,"org.apache.tools.ant.taskdefs.Javadoc.DocletInfo",2,0,7,44,35,,1,66,9
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.DocletInfo.createParam",,,,6,5,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.DocletInfo.createPath",,,,6,6,2,,,2
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.DocletInfo.getName",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.DocletInfo.getParams",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.DocletInfo.getPath",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.DocletInfo.setName",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.DocletInfo.setPath",,,,7,7,2,,,2
+Public Class,"org.apache.tools.ant.taskdefs.Javadoc.DocletParam",0,0,4,20,16,,1,50,4
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.DocletParam.getName",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.DocletParam.getValue",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.DocletParam.setName",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.DocletParam.setValue",,,,3,3,1,,,1
+Public Class,"org.apache.tools.ant.taskdefs.Javadoc.GroupArgument",0,0,5,23,18,,1,60,5
+Public Constructor,"org.apache.tools.ant.taskdefs.Javadoc.GroupArgument.GroupArgument",,,,2,2,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.GroupArgument.getPackages",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.GroupArgument.getTitle",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.GroupArgument.setPackages",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.GroupArgument.setTitle",,,,3,3,1,,,1
+Class,"org.apache.tools.ant.taskdefs.Javadoc.JavaReader",0,0,4,78,66,,2,0,23
+Public Constructor,"org.apache.tools.ant.taskdefs.Javadoc.JavaReader.JavaReader",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.JavaReader.read",,,,42,41,15,,,15
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.JavaReader.read",,,,14,14,4,,,4
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.JavaReader.skip",,,,6,6,3,,,3
+Public Class,"org.apache.tools.ant.taskdefs.Javadoc.LinkArgument",1,0,7,32,25,,1,71,7
+Public Constructor,"org.apache.tools.ant.taskdefs.Javadoc.LinkArgument.LinkArgument",,,,2,2,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.LinkArgument.getHref",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.LinkArgument.getPackagelistLoc",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.LinkArgument.isLinkOffline",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.LinkArgument.setHref",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.LinkArgument.setOffline",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.LinkArgument.setPackagelistLoc",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.createBootclasspath",,,,6,6,2,,,2
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.createClasspath",,,,6,6,2,,,2
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.createDoclet",,,,4,4,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.createGroup",,,,5,5,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.createLink",,,,5,5,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.createSourcepath",,,,6,6,2,,,2
+Private Method,"org.apache.tools.ant.taskdefs.Javadoc.evaluatePackages",,,,32,24,6,,,6
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.execute",,,,300,255,71,,,71
+Private Method,"org.apache.tools.ant.taskdefs.Javadoc.getFiles",,,,30,24,7,,,7
+Private Method,"org.apache.tools.ant.taskdefs.Javadoc.getPackageName",,,,33,25,5,,,5
+Protected Method,"org.apache.tools.ant.taskdefs.Javadoc.logFlush",,,,7,7,2,,,2
+Private Method,"org.apache.tools.ant.taskdefs.Javadoc.mapClasses",,,,20,12,3,,,3
+Private Method,"org.apache.tools.ant.taskdefs.Javadoc.matches",,,,8,3,1,,,1
+Protected Method,"org.apache.tools.ant.taskdefs.Javadoc.outputLog",,,,17,17,5,,,5
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setAuthor",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setBootclasspath",,,,7,7,2,,,2
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setBottom",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setCharset",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setClasspath",,,,7,7,2,,,2
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setDestdir",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setDocencoding",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setDoclet",,,,6,6,2,,,2
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setDocletPath",,,,6,6,2,,,2
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setDoctitle",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setEncoding",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setExtdirs",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setFooter",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setGroup",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setHeader",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setLink",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setLinkoffline",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setLocale",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setMaxmemory",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setNodeprecated",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setNodeprecatedlist",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setNohelp",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setNoindex",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setNonavbar",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setNotree",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setOld",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setOverview",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setPackage",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setPackageList",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setPackagenames",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setPrivate",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setProtected",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setPublic",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setSerialwarn",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setSourcefiles",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setSourcepath",,,,7,7,2,,,2
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setSplitindex",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setStylesheetfile",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setUse",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setVerbose",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setVersion",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setWindowtitle",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Javadoc.setadditionalParam",,,,3,3,1,,,1
+Public Class,"org.apache.tools.ant.taskdefs.Jikes",2,0,2,42,21,,1,0,3
+Protected Constructor,"org.apache.tools.ant.taskdefs.Jikes.Jikes",,,,10,5,1,,,1
+Protected Method,"org.apache.tools.ant.taskdefs.Jikes.compile",,,,21,12,2,,,2
+Public Class,"org.apache.tools.ant.taskdefs.JikesOutputParser",2,0,7,97,53,,1,76,17
+Protected Constructor,"org.apache.tools.ant.taskdefs.JikesOutputParser.JikesOutputParser",,,,9,5,1,,,1
+Protected Method,"org.apache.tools.ant.taskdefs.JikesOutputParser.getErrorFlag",,,,7,3,1,,,1
+Private Method,"org.apache.tools.ant.taskdefs.JikesOutputParser.log",,,,6,6,4,,,4
+Private Method,"org.apache.tools.ant.taskdefs.JikesOutputParser.parseEmacsOutput",,,,4,3,1,,,1
+Protected Method,"org.apache.tools.ant.taskdefs.JikesOutputParser.parseOutput",,,,10,6,2,,,2
+Private Method,"org.apache.tools.ant.taskdefs.JikesOutputParser.parseStandardOutput",,,,33,18,6,,,6
+Private Method,"org.apache.tools.ant.taskdefs.JikesOutputParser.setError",,,,5,5,2,,,2
+Public Class,"org.apache.tools.ant.taskdefs.KeySubst",1,0,22,142,96,,2,71,16
+Public Method,"org.apache.tools.ant.taskdefs.KeySubst.execute",,,,38,34,5,,,5
+Public Static Method,"org.apache.tools.ant.taskdefs.KeySubst.main",,,,12,12,2,,,2
+Public Static Method,"org.apache.tools.ant.taskdefs.KeySubst.replace",,,,27,22,3,,,3
+Public Method,"org.apache.tools.ant.taskdefs.KeySubst.setDest",,,,6,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.KeySubst.setKeys",,,,27,14,3,,,3
+Public Method,"org.apache.tools.ant.taskdefs.KeySubst.setSep",,,,7,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.KeySubst.setSrc",,,,6,3,1,,,1
+Public Abstract Class,"org.apache.tools.ant.taskdefs.MatchingTask",3,15,29,248,140,,2,80,35
+Public Class,"org.apache.tools.ant.taskdefs.MatchingTask.NameEntry",1,0,4,20,12,,1,37,7
+Public Method,"org.apache.tools.ant.taskdefs.MatchingTask.NameEntry.getName",,,,1,1,2,,,2
+Public Method,"org.apache.tools.ant.taskdefs.MatchingTask.NameEntry.setIf",,,,3,3,2,,,2
+Public Method,"org.apache.tools.ant.taskdefs.MatchingTask.NameEntry.setName",,,,1,1,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.MatchingTask.NameEntry.setUnless",,,,3,3,2,,,2
+Private Method,"org.apache.tools.ant.taskdefs.MatchingTask.addPatternToList",,,,8,5,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.MatchingTask.createExclude",,,,6,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.MatchingTask.createInclude",,,,6,3,1,,,1
+Protected Method,"org.apache.tools.ant.taskdefs.MatchingTask.getDirectoryScanner",,,,12,9,2,,,2
+Protected Method,"org.apache.tools.ant.taskdefs.MatchingTask.getProperty",,,,6,3,1,,,1
+Private Method,"org.apache.tools.ant.taskdefs.MatchingTask.makeArray",,,,26,20,7,,,7
+Private Method,"org.apache.tools.ant.taskdefs.MatchingTask.readPatterns",,,,25,16,4,,,4
+Public Method,"org.apache.tools.ant.taskdefs.MatchingTask.setDefaultexcludes",,,,10,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.MatchingTask.setExcludes",,,,11,5,2,,,2
+Public Method,"org.apache.tools.ant.taskdefs.MatchingTask.setExcludesfile",,,,17,11,3,,,3
+Public Method,"org.apache.tools.ant.taskdefs.MatchingTask.setIgnore",,,,18,12,3,,,3
+Public Method,"org.apache.tools.ant.taskdefs.MatchingTask.setIncludes",,,,11,5,2,,,2
+Public Method,"org.apache.tools.ant.taskdefs.MatchingTask.setIncludesfile",,,,17,11,3,,,3
+Public Method,"org.apache.tools.ant.taskdefs.MatchingTask.setItems",,,,24,17,4,,,4
+Public Class,"org.apache.tools.ant.taskdefs.Mkdir",1,0,17,26,18,,2,0,4
+Public Method,"org.apache.tools.ant.taskdefs.Mkdir.execute",,,,12,12,3,,,3
+Public Method,"org.apache.tools.ant.taskdefs.Mkdir.setDir",,,,3,3,1,,,1
+Public Class,"org.apache.tools.ant.taskdefs.Patch",1,0,33,115,67,,3,77,18
+Public Method,"org.apache.tools.ant.taskdefs.Patch.execute",,,,38,30,9,,,9
+Public Method,"org.apache.tools.ant.taskdefs.Patch.setBackups",,,,6,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Patch.setCommand",,,,4,4,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Patch.setIgnorewhitespace",,,,6,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Patch.setOriginalfile",,,,6,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Patch.setPatchfile",,,,6,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Patch.setQuiet",,,,6,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Patch.setReverse",,,,6,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Patch.setStrip",,,,12,6,2,,,2
+Public Class,"org.apache.tools.ant.taskdefs.Property",3,0,29,182,146,,2,81,36
+Private Method,"org.apache.tools.ant.taskdefs.Property.addProperties",,,,10,10,2,,,2
+Private Method,"org.apache.tools.ant.taskdefs.Property.addProperty",,,,15,15,4,,,4
+Private Method,"org.apache.tools.ant.taskdefs.Property.extractProperties",,,,22,18,4,,,4
+Public Method,"org.apache.tools.ant.taskdefs.Property.getName",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Property.getValue",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Property.init",,,,14,11,5,,,5
+Private Method,"org.apache.tools.ant.taskdefs.Property.loadFile",,,,14,14,3,,,3
+Private Method,"org.apache.tools.ant.taskdefs.Property.loadResource",,,,13,13,3,,,3
+Private Method,"org.apache.tools.ant.taskdefs.Property.resolveAllProperties",,,,41,37,8,,,8
+Public Method,"org.apache.tools.ant.taskdefs.Property.setFile",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Property.setName",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Property.setResource",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Property.setUserProperty",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Property.setValue",,,,3,3,1,,,1
+Public Class,"org.apache.tools.ant.taskdefs.Rename",1,0,19,55,26,,2,50,7
+Public Method,"org.apache.tools.ant.taskdefs.Rename.execute",,,,17,12,4,,,4
+Public Method,"org.apache.tools.ant.taskdefs.Rename.setDest",,,,7,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Rename.setReplace",,,,7,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Rename.setSrc",,,,7,3,1,,,1
+Public Class,"org.apache.tools.ant.taskdefs.Replace",2,0,36,129,73,,3,64,18
+Public Method,"org.apache.tools.ant.taskdefs.Replace.execute",,,,29,20,6,,,6
+Private Method,"org.apache.tools.ant.taskdefs.Replace.processFile",,,,38,25,6,,,6
+Private Method,"org.apache.tools.ant.taskdefs.Replace.replace",,,,17,11,2,,,2
+Public Method,"org.apache.tools.ant.taskdefs.Replace.setDir",,,,6,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Replace.setFile",,,,6,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Replace.setToken",,,,6,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Replace.setValue",,,,6,3,1,,,1
+Public Class,"org.apache.tools.ant.taskdefs.Rmic",4,0,45,353,239,,3,85,62
+Private Method,"org.apache.tools.ant.taskdefs.Rmic.addExistingToClasspath",,,,24,12,3,,,3
+Public Method,"org.apache.tools.ant.taskdefs.Rmic.createClasspath",,,,9,6,2,,,2
+Public Method,"org.apache.tools.ant.taskdefs.Rmic.execute",,,,78,66,20,,,20
+Private Method,"org.apache.tools.ant.taskdefs.Rmic.getCompileClasspath",,,,26,14,4,,,4
+Private Method,"org.apache.tools.ant.taskdefs.Rmic.isValidRmiRemote",,,,26,18,6,,,6
+Private Method,"org.apache.tools.ant.taskdefs.Rmic.moveGeneratedFile",,,,32,27,4,,,4
+Protected Method,"org.apache.tools.ant.taskdefs.Rmic.scanDir",,,,39,34,9,,,9
+Public Method,"org.apache.tools.ant.taskdefs.Rmic.setBase",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Rmic.setClass",,,,6,6,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Rmic.setClassname",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Rmic.setClasspath",,,,10,7,2,,,2
+Public Method,"org.apache.tools.ant.taskdefs.Rmic.setFiltering",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Rmic.setSourceBase",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Rmic.setStubVersion",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Rmic.setVerify",,,,8,3,1,,,1
+Private Method,"org.apache.tools.ant.taskdefs.Rmic.shouldCompile",,,,26,21,5,,,5
+Public Class,"org.apache.tools.ant.taskdefs.SignJar",3,0,27,159,113,,2,83,25
+Public Method,"org.apache.tools.ant.taskdefs.SignJar.execute",,,,84,67,14,,,14
+Public Method,"org.apache.tools.ant.taskdefs.SignJar.setAlias",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.SignJar.setInternalsf",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.SignJar.setJar",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.SignJar.setKeypass",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.SignJar.setKeystore",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.SignJar.setSectionsonly",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.SignJar.setSigfile",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.SignJar.setSignedjar",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.SignJar.setStorepass",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.SignJar.setStoretype",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.SignJar.setVerbose",,,,3,3,1,,,1
+Public Class,"org.apache.tools.ant.taskdefs.Tar",4,0,33,87,62,,3,50,11
+Public Method,"org.apache.tools.ant.taskdefs.Tar.execute",,,,38,32,7,,,7
+Public Method,"org.apache.tools.ant.taskdefs.Tar.setBasedir",,,,6,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Tar.setTarfile",,,,6,3,1,,,1
+Protected Method,"org.apache.tools.ant.taskdefs.Tar.tarFile",,,,23,20,2,,,2
+Public Class,"org.apache.tools.ant.taskdefs.TaskOutputStream",1,0,3,56,25,,2,22,5
+Constructor,"org.apache.tools.ant.taskdefs.TaskOutputStream.TaskOutputStream",,,,10,5,1,,,1
+Private Method,"org.apache.tools.ant.taskdefs.TaskOutputStream.processLine",,,,8,5,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.TaskOutputStream.write",,,,16,10,3,,,3
+Public Class,"org.apache.tools.ant.taskdefs.Taskdef",2,0,20,53,38,,2,40,8
+Public Method,"org.apache.tools.ant.taskdefs.Taskdef.getClassname",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Taskdef.init",,,,19,19,4,,,4
+Public Method,"org.apache.tools.ant.taskdefs.Taskdef.setClass",,,,6,6,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Taskdef.setClassname",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Taskdef.setName",,,,3,3,1,,,1
+Public Class,"org.apache.tools.ant.taskdefs.Touch",2,0,20,129,87,,2,60,18
+Public Method,"org.apache.tools.ant.taskdefs.Touch.execute",,,,31,23,5,,,5
+Public Method,"org.apache.tools.ant.taskdefs.Touch.setDatetime",,,,6,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Touch.setFile",,,,6,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Touch.setMillis",,,,6,3,1,,,1
+Method,"org.apache.tools.ant.taskdefs.Touch.touch",,,,56,48,10,,,10
+Public Class,"org.apache.tools.ant.taskdefs.Tstamp",1,0,16,25,15,,2,0,2
+Public Method,"org.apache.tools.ant.taskdefs.Tstamp.init",,,,16,13,2,,,2
+Public Class,"org.apache.tools.ant.taskdefs.Untar",5,0,18,107,69,,2,33,14
+Public Method,"org.apache.tools.ant.taskdefs.Untar.execute",,,,76,59,12,,,12
+Public Method,"org.apache.tools.ant.taskdefs.Untar.setDest",,,,9,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Untar.setSrc",,,,8,3,1,,,1
+Public Interface,"org.apache.tools.ant.taskdefs.XSLTLiaison",0,2,2,7,4,,0,0,0
+Public Abstract Method,"org.apache.tools.ant.taskdefs.XSLTLiaison.setStylesheet",,,,1,1,0,,,0
+Public Abstract Method,"org.apache.tools.ant.taskdefs.XSLTLiaison.transform",,,,1,1,0,,,0
+Public Class,"org.apache.tools.ant.taskdefs.XSLTProcess",4,0,37,249,95,,3,72,22
+Public Constructor,"org.apache.tools.ant.taskdefs.XSLTProcess.XSLTProcess",,,,5,2,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.XSLTProcess.execute",,,,60,45,11,,,11
+Private Method,"org.apache.tools.ant.taskdefs.XSLTProcess.process",,,,30,20,3,,,3
+Public Method,"org.apache.tools.ant.taskdefs.XSLTProcess.setBasedir",,,,6,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.XSLTProcess.setDestdir",,,,8,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.XSLTProcess.setExtension",,,,7,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.XSLTProcess.setProcessor",,,,14,9,3,,,3
+Public Method,"org.apache.tools.ant.taskdefs.XSLTProcess.setStyle",,,,6,3,1,,,1
+Public Class,"org.apache.tools.ant.taskdefs.Zip",3,1,37,174,123,,3,75,24
+Public Method,"org.apache.tools.ant.taskdefs.Zip.execute",,,,57,48,12,,,12
+Protected Method,"org.apache.tools.ant.taskdefs.Zip.initZipOutputStream",,,,4,4,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Zip.setBasedir",,,,7,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Zip.setCompress",,,,6,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.Zip.setZipfile",,,,7,3,1,,,1
+Protected Method,"org.apache.tools.ant.taskdefs.Zip.zipDir",,,,4,4,1,,,1
+Protected Method,"org.apache.tools.ant.taskdefs.Zip.zipFile",,,,58,42,6,,,6
+Protected Method,"org.apache.tools.ant.taskdefs.Zip.zipFile",,,,10,10,1,,,1
+Package,"org.apache.tools.ant.taskdefs.optional",,,,999,350,,,,76
+Public Class,"org.apache.tools.ant.taskdefs.optional.NetRexxC",3,0,62,430,180,,3,96,43
+Private Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.copyFilesToDestination",,,,19,16,3,,,3
+Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.execute",,,,28,13,3,,,3
+Private Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.scanDir",,,,26,18,5,,,5
+Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setBinary",,,,6,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setClasspath",,,,6,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setComments",,,,8,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setCompact",,,,8,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setCompile",,,,10,4,2,,,2
+Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setConsole",,,,8,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setCrossref",,,,6,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setDecimal",,,,9,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setDestDir",,,,7,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setDiag",,,,6,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setExplicit",,,,8,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setFormat",,,,7,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setJava",,,,8,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setKeep",,,,9,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setLogo",,,,6,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setReplace",,,,8,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setSavelog",,,,9,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setSourcedir",,,,9,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setSrcDir",,,,6,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setStrictargs",,,,10,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setStrictassign",,,,6,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setStrictcase",,,,6,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setStrictimport",,,,10,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setStrictprops",,,,8,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setStrictsignal",,,,6,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setSymbols",,,,8,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setTime",,,,8,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setTrace",,,,15,10,2,,,2
+Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setUtf8",,,,8,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.NetRexxC.setVerbose",,,,6,3,1,,,1
+Public Class,"org.apache.tools.ant.taskdefs.optional.RenameExtensions",3,0,36,91,56,,3,60,14
+Public Constructor,"org.apache.tools.ant.taskdefs.optional.RenameExtensions.RenameExtensions",,,,4,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.RenameExtensions.execute",,,,28,17,5,,,5
+Private Method,"org.apache.tools.ant.taskdefs.optional.RenameExtensions.scanDir",,,,19,18,4,,,4
+Public Method,"org.apache.tools.ant.taskdefs.optional.RenameExtensions.setFromExtension",,,,4,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.RenameExtensions.setReplace",,,,7,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.RenameExtensions.setSrcDir",,,,6,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.RenameExtensions.setToExtension",,,,4,3,1,,,1
+Public Class,"org.apache.tools.ant.taskdefs.optional.Script",1,0,20,99,56,,2,53,13
+Private Method,"org.apache.tools.ant.taskdefs.optional.Script.addBeans",,,,16,10,4,,,4
+Public Method,"org.apache.tools.ant.taskdefs.optional.Script.addText",,,,8,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.Script.execute",,,,29,20,4,,,4
+Public Method,"org.apache.tools.ant.taskdefs.optional.Script.setLanguage",,,,8,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.Script.setSrc",,,,23,15,3,,,3
+Public Class,"org.apache.tools.ant.taskdefs.optional.XalanLiaison",0,0,3,24,14,,1,33,3
+Public Constructor,"org.apache.tools.ant.taskdefs.optional.XalanLiaison.XalanLiaison",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.XalanLiaison.setStylesheet",,,,2,2,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.XalanLiaison.transform",,,,4,4,1,,,1
+Public Class,"org.apache.tools.ant.taskdefs.optional.XslpLiaison",0,0,3,24,14,,1,33,3
+Public Constructor,"org.apache.tools.ant.taskdefs.optional.XslpLiaison.XslpLiaison",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.XslpLiaison.setStylesheet",,,,3,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.XslpLiaison.transform",,,,3,3,1,,,1
+Package,"org.apache.tools.ant.taskdefs.optional.ejb",,,,1826,685,,,,108
+Public Class,"org.apache.tools.ant.taskdefs.optional.ejb.DDCreator",4,0,33,102,40,,3,50,8
+Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.DDCreator.execute",,,,43,26,5,,,5
+Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.DDCreator.setClasspath",,,,8,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.DDCreator.setDescriptors",,,,9,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.DDCreator.setDest",,,,10,3,1,,,1
+Public Class,"org.apache.tools.ant.taskdefs.optional.ejb.DDCreatorHelper",0,0,3,92,48,,1,33,8
+Private Constructor,"org.apache.tools.ant.taskdefs.optional.ejb.DDCreatorHelper.DDCreatorHelper",,,,14,9,2,,,2
+Public Static Method,"org.apache.tools.ant.taskdefs.optional.ejb.DDCreatorHelper.main",,,,10,4,1,,,1
+Private Method,"org.apache.tools.ant.taskdefs.optional.ejb.DDCreatorHelper.process",,,,41,30,5,,,5
+Public Class,"org.apache.tools.ant.taskdefs.optional.ejb.EjbJar",5,0,40,549,262,,3,85,33
+Protected Class,"org.apache.tools.ant.taskdefs.optional.ejb.EjbJar.DescriptorHandler",1,0,5,118,38,,2,63,8
+Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.EjbJar.DescriptorHandler.characters",,,,38,16,3,,,3
+Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.EjbJar.DescriptorHandler.endElement",,,,12,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.EjbJar.DescriptorHandler.getFiles",,,,7,3,2,,,2
+Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.EjbJar.DescriptorHandler.startDocument",,,,8,4,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.EjbJar.DescriptorHandler.startElement",,,,11,4,1,,,1
+Protected Method,"org.apache.tools.ant.taskdefs.optional.ejb.EjbJar.addFileToJar",,,,40,22,3,,,3
+Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.EjbJar.buildWeblogicJar",,,,28,17,2,,,2
+Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.EjbJar.execute",,,,191,120,16,,,16
+Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.EjbJar.setBasenameterminator",,,,7,3,2,,,2
+Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.EjbJar.setDestdir",,,,8,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.EjbJar.setGenerateweblogic",,,,7,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.EjbJar.setGenericjarsuffix",,,,7,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.EjbJar.setKeepgeneric",,,,7,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.EjbJar.setSrcdir",,,,7,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.EjbJar.setWeblogicjarsuffix",,,,7,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.EjbJar.writeJar",,,,49,31,4,,,4
+Public Class,"org.apache.tools.ant.taskdefs.optional.ejb.Ejbc",4,0,35,139,57,,3,66,11
+Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.Ejbc.execute",,,,52,35,6,,,6
+Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.Ejbc.setClasspath",,,,6,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.Ejbc.setDescriptors",,,,9,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.Ejbc.setDest",,,,8,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.Ejbc.setManifest",,,,11,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.Ejbc.setSrc",,,,9,3,1,,,1
+Public Class,"org.apache.tools.ant.taskdefs.optional.ejb.EjbcHelper",0,0,5,212,116,,1,63,18
+Private Constructor,"org.apache.tools.ant.taskdefs.optional.ejb.EjbcHelper.EjbcHelper",,,,15,11,2,,,2
+Private Method,"org.apache.tools.ant.taskdefs.optional.ejb.EjbcHelper.isRegenRequired",,,,93,58,10,,,10
+Public Static Method,"org.apache.tools.ant.taskdefs.optional.ejb.EjbcHelper.main",,,,7,4,1,,,1
+Private Method,"org.apache.tools.ant.taskdefs.optional.ejb.EjbcHelper.process",,,,26,20,3,,,3
+Private Method,"org.apache.tools.ant.taskdefs.optional.ejb.EjbcHelper.regenerateSupportClasses",,,,25,15,2,,,2
+Public Class,"org.apache.tools.ant.taskdefs.optional.ejb.WLRun",3,0,22,163,69,,2,73,14
+Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.WLRun.execute",,,,61,42,8,,,8
+Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.WLRun.setClasspath",,,,8,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.WLRun.setHome",,,,9,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.WLRun.setName",,,,8,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.WLRun.setPolicy",,,,8,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.WLRun.setProperties",,,,10,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.WLRun.setWlclasspath",,,,10,3,1,,,1
+Public Class,"org.apache.tools.ant.taskdefs.optional.ejb.WLStop",3,0,21,107,38,,2,66,8
+Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.WLStop.execute",,,,28,16,3,,,3
+Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.WLStop.setClasspath",,,,8,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.WLStop.setDelay",,,,8,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.WLStop.setPassword",,,,8,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.WLStop.setUrl",,,,8,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.ejb.WLStop.setUser",,,,8,3,1,,,1
+Package,"org.apache.tools.ant.taskdefs.optional.vss",,,,505,161,,,,33
+Public Abstract Class,"org.apache.tools.ant.taskdefs.optional.vss.MSVSS",0,1,30,134,52,,3,92,9
+Public Method,"org.apache.tools.ant.taskdefs.optional.vss.MSVSS.getLoginCommand",,,,10,7,2,,,2
+Public Method,"org.apache.tools.ant.taskdefs.optional.vss.MSVSS.getSSCommand",,,,12,8,2,,,2
+Public Method,"org.apache.tools.ant.taskdefs.optional.vss.MSVSS.getVsspath",,,,6,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.vss.MSVSS.setLogin",,,,10,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.vss.MSVSS.setSsdir",,,,8,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.vss.MSVSS.setVsspath",,,,15,7,2,,,2
+Public Class,"org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET",2,0,41,248,102,,4,81,24
+Public Method,"org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET.execute",,,,44,21,3,,,3
+Public Method,"org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET.getLocalpathCommand",,,,24,17,4,,,4
+Public Method,"org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET.getRecursiveCommand",,,,10,7,2,,,2
+Public Method,"org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET.getVersionCommand",,,,20,12,4,,,4
+Public Method,"org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET.getWritableCommand",,,,10,7,2,,,2
+Public Method,"org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET.setDate",,,,15,7,2,,,2
+Public Method,"org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET.setLabel",,,,15,7,2,,,2
+Public Method,"org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET.setLocalpath",,,,6,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET.setRecursive",,,,6,3,1,,,1
+Public Method,"org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET.setVersion",,,,15,7,2,,,2
+Public Method,"org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET.setWritable",,,,6,3,1,,,1
+Package,"org.apache.tools.tar",,,,2161,895,,,,187
+Public Class,"org.apache.tools.tar.TarBuffer",0,0,21,376,221,,1,71,56
+Public Constructor,"org.apache.tools.tar.TarBuffer.TarBuffer",,,,3,3,1,,,1
+Public Constructor,"org.apache.tools.tar.TarBuffer.TarBuffer",,,,3,3,1,,,1
+Public Constructor,"org.apache.tools.tar.TarBuffer.TarBuffer",,,,6,5,1,,,1
+Public Constructor,"org.apache.tools.tar.TarBuffer.TarBuffer",,,,3,3,1,,,1
+Public Constructor,"org.apache.tools.tar.TarBuffer.TarBuffer",,,,3,3,1,,,1
+Public Constructor,"org.apache.tools.tar.TarBuffer.TarBuffer",,,,6,5,1,,,1
+Public Method,"org.apache.tools.tar.TarBuffer.close",,,,26,18,6,,,6
+Private Method,"org.apache.tools.tar.TarBuffer.flushBlock",,,,16,11,4,,,4
+Public Method,"org.apache.tools.tar.TarBuffer.getBlockSize",,,,6,3,1,,,1
+Public Method,"org.apache.tools.tar.TarBuffer.getCurrentBlockNum",,,,8,3,1,,,1
+Public Method,"org.apache.tools.tar.TarBuffer.getCurrentRecordNum",,,,9,3,1,,,1
+Public Method,"org.apache.tools.tar.TarBuffer.getRecordSize",,,,6,3,1,,,1
+Private Method,"org.apache.tools.tar.TarBuffer.initialize",,,,18,14,2,,,2
+Public Method,"org.apache.tools.tar.TarBuffer.isEOFRecord",,,,15,8,3,,,3
+Private Method,"org.apache.tools.tar.TarBuffer.readBlock",,,,54,29,7,,,7
+Public Method,"org.apache.tools.tar.TarBuffer.readRecord",,,,31,20,5,,,5
+Public Method,"org.apache.tools.tar.TarBuffer.setDebug",,,,8,3,1,,,1
+Public Method,"org.apache.tools.tar.TarBuffer.skipRecord",,,,21,15,5,,,5
+Private Method,"org.apache.tools.tar.TarBuffer.writeBlock",,,,18,12,3,,,3
+Public Method,"org.apache.tools.tar.TarBuffer.writeRecord",,,,32,22,5,,,5
+Public Method,"org.apache.tools.tar.TarBuffer.writeRecord",,,,35,22,5,,,5
+Public Interface,"org.apache.tools.tar.TarConstants",0,1,0,120,24,,0,0,0
+Public Class,"org.apache.tools.tar.TarEntry",1,0,28,507,241,,1,81,46
+Public Constructor,"org.apache.tools.tar.TarEntry.TarEntry",,,,10,4,1,,,1
+Private Constructor,"org.apache.tools.tar.TarEntry.TarEntry",,,,21,14,2,,,2
+Public Constructor,"org.apache.tools.tar.TarEntry.TarEntry",,,,26,20,3,,,3
+Public Constructor,"org.apache.tools.tar.TarEntry.TarEntry",,,,73,47,9,,,9
+Public Method,"org.apache.tools.tar.TarEntry.equals",,,,10,3,1,,,1
+Public Method,"org.apache.tools.tar.TarEntry.getDirectoryEntries",,,,20,11,3,,,3
+Public Method,"org.apache.tools.tar.TarEntry.getFile",,,,8,3,1,,,1
+Public Method,"org.apache.tools.tar.TarEntry.getGroupId",,,,8,3,1,,,1
+Public Method,"org.apache.tools.tar.TarEntry.getGroupName",,,,8,3,1,,,1
+Public Method,"org.apache.tools.tar.TarEntry.getModTime",,,,8,3,1,,,1
+Public Method,"org.apache.tools.tar.TarEntry.getName",,,,8,3,1,,,1
+Public Method,"org.apache.tools.tar.TarEntry.getSize",,,,8,3,1,,,1
+Public Method,"org.apache.tools.tar.TarEntry.getUserId",,,,8,3,1,,,1
+Public Method,"org.apache.tools.tar.TarEntry.getUserName",,,,8,3,1,,,1
+Public Method,"org.apache.tools.tar.TarEntry.isDescendent",,,,11,3,1,,,1
+Public Method,"org.apache.tools.tar.TarEntry.isDirectory",,,,20,12,4,,,4
+Public Method,"org.apache.tools.tar.TarEntry.parseTarHeader",,,,35,29,1,,,1
+Public Method,"org.apache.tools.tar.TarEntry.setGroupId",,,,8,3,1,,,1
+Public Method,"org.apache.tools.tar.TarEntry.setGroupName",,,,8,3,1,,,1
+Public Method,"org.apache.tools.tar.TarEntry.setIds",,,,10,4,1,,,1
+Public Method,"org.apache.tools.tar.TarEntry.setModTime",,,,9,3,1,,,1
+Public Method,"org.apache.tools.tar.TarEntry.setModTime",,,,8,3,1,,,1
+Public Method,"org.apache.tools.tar.TarEntry.setName",,,,8,3,1,,,1
+Public Method,"org.apache.tools.tar.TarEntry.setNames",,,,10,4,1,,,1
+Public Method,"org.apache.tools.tar.TarEntry.setSize",,,,8,3,1,,,1
+Public Method,"org.apache.tools.tar.TarEntry.setUserId",,,,8,3,1,,,1
+Public Method,"org.apache.tools.tar.TarEntry.setUserName",,,,8,3,1,,,1
+Public Method,"org.apache.tools.tar.TarEntry.writeEntryHeader",,,,37,25,3,,,3
+Public Class,"org.apache.tools.tar.TarInputStream",2,0,16,356,195,,2,82,41
+Public Constructor,"org.apache.tools.tar.TarInputStream.TarInputStream",,,,3,3,1,,,1
+Public Constructor,"org.apache.tools.tar.TarInputStream.TarInputStream",,,,3,3,1,,,1
+Public Constructor,"org.apache.tools.tar.TarInputStream.TarInputStream",,,,9,8,1,,,1
+Public Method,"org.apache.tools.tar.TarInputStream.available",,,,13,3,1,,,1
+Public Method,"org.apache.tools.tar.TarInputStream.close",,,,6,3,1,,,1
+Public Method,"org.apache.tools.tar.TarInputStream.copyEntryContents",,,,19,10,3,,,3
+Public Method,"org.apache.tools.tar.TarInputStream.getNextEntry",,,,99,73,12,,,12
+Public Method,"org.apache.tools.tar.TarInputStream.getRecordSize",,,,8,3,1,,,1
+Public Method,"org.apache.tools.tar.TarInputStream.mark",,,,6,1,1,,,1
+Public Method,"org.apache.tools.tar.TarInputStream.markSupported",,,,8,3,1,,,1
+Public Method,"org.apache.tools.tar.TarInputStream.read",,,,16,8,2,,,2
+Public Method,"org.apache.tools.tar.TarInputStream.read",,,,11,3,1,,,1
+Public Method,"org.apache.tools.tar.TarInputStream.read",,,,78,47,9,,,9
+Public Method,"org.apache.tools.tar.TarInputStream.reset",,,,4,1,1,,,1
+Public Method,"org.apache.tools.tar.TarInputStream.setDebug",,,,9,4,1,,,1
+Public Method,"org.apache.tools.tar.TarInputStream.skip",,,,28,12,4,,,4
+Public Class,"org.apache.tools.tar.TarOutputStream",2,0,14,249,119,,2,75,24
+Public Constructor,"org.apache.tools.tar.TarOutputStream.TarOutputStream",,,,3,3,1,,,1
+Public Constructor,"org.apache.tools.tar.TarOutputStream.TarOutputStream",,,,3,3,1,,,1
+Public Constructor,"org.apache.tools.tar.TarOutputStream.TarOutputStream",,,,10,9,1,,,1
+Public Method,"org.apache.tools.tar.TarOutputStream.close",,,,9,4,1,,,1
+Public Method,"org.apache.tools.tar.TarOutputStream.closeEntry",,,,27,15,4,,,4
+Public Method,"org.apache.tools.tar.TarOutputStream.finish",,,,7,3,1,,,1
+Public Method,"org.apache.tools.tar.TarOutputStream.getRecordSize",,,,8,3,1,,,1
+Public Method,"org.apache.tools.tar.TarOutputStream.putNextEntry",,,,23,10,2,,,2
+Public Method,"org.apache.tools.tar.TarOutputStream.setBufferDebug",,,,8,3,1,,,1
+Public Method,"org.apache.tools.tar.TarOutputStream.setDebug",,,,8,3,1,,,1
+Public Method,"org.apache.tools.tar.TarOutputStream.write",,,,78,40,6,,,6
+Public Method,"org.apache.tools.tar.TarOutputStream.write",,,,12,4,1,,,1
+Public Method,"org.apache.tools.tar.TarOutputStream.write",,,,11,3,1,,,1
+Private Method,"org.apache.tools.tar.TarOutputStream.writeEOFRecord",,,,11,6,2,,,2
+Public Class,"org.apache.tools.tar.TarUtils",0,0,7,173,84,,1,0,20
+Public Static Method,"org.apache.tools.tar.TarUtils.computeCheckSum",,,,15,7,2,,,2
+Public Static Method,"org.apache.tools.tar.TarUtils.getCheckSumOctalBytes",,,,16,6,1,,,1
+Public Static Method,"org.apache.tools.tar.TarUtils.getLongOctalBytes",,,,16,6,1,,,1
+Public Static Method,"org.apache.tools.tar.TarUtils.getNameBytes",,,,21,10,3,,,3
+Public Static Method,"org.apache.tools.tar.TarUtils.getOctalBytes",,,,33,21,4,,,4
+Public Static Method,"org.apache.tools.tar.TarUtils.parseName",,,,22,11,3,,,3
+Public Static Method,"org.apache.tools.tar.TarUtils.parseOctal",,,,35,21,6,,,6

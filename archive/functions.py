@@ -101,7 +101,7 @@ def process_project_data(file,exploratory=False):
         # fill nan 
         #data[ver].code_smell = data[ver].code_smell.apply(lambda x: x if pd.notnull(x) else 0)
         data[ver] = data[ver].fillna(value=0)
-        data[ver]['designDefect'] = data[ver].code_smell.apply(lambda x: 1 if x>0 else 0)
+        data[ver]['bug'] = data[ver].code_smell.apply(lambda x: 1 if x>0 else 0)
         
         data[ver] = data[ver].rename(columns={'countclasscoupled':'cbo',
                                     'maxinheritancetree':'dit',
@@ -112,12 +112,10 @@ def process_project_data(file,exploratory=False):
                                     'cyclomatic':'cyclomatic',
                                             })
         if exploratory == True:
-            #data[ver].drop('name',axis=1,inplace=True)
-            #data[ver].drop('kind',axis=1,inplace=True)
-            #data[ver].drop('countline',axis=1,inplace=True)
-            #data[ver].drop(['countlinecode','package_name','type_name','method_name'],axis=1,inplace=True)
-            cols = ['cbo', 'noc', 'cyclomatic', 'dit', 'lcom', 'rfc', 'wmc', 'code_smell','designDefect']
-            data[ver]=data[ver][cols]
+            data[ver].drop('name',axis=1,inplace=True)
+            data[ver].drop('kind',axis=1,inplace=True)
+            data[ver].drop('countline',axis=1,inplace=True)
+            data[ver].drop(['countlinecode','package_name','type_name','method_name'],axis=1,inplace=True)
            
     return data
 
@@ -125,20 +123,6 @@ def process_project_data(file,exploratory=False):
 
 ## REMOVE OUTLIERS
 ## REMOVE OUTLIERS
-
-def limit_data_dict_outlier(dic = dict()):
-   
-    for ver in dic :
-        df = dic[ver]
-        df = df[df.wmc<2]
-        df = df[df.rfc<1]
-        df = df[df.lcom<1]
-        df = df[df.noc<1]
-        df = df[df.cbo<1]
-        df = df[df.dit<2]
-        dic[ver] = df
-    return dic
-
 def limit_data_dict(dic = dict(),value = 60):
    
     for ver in dic :
@@ -165,7 +149,7 @@ def limit_data_eachcol_dict(dic = dict(),value = int,col=''):
 ### Plotting Methods:
 #def create_heat_plots(df=pd.DataFrame(),proj_name=''):
 
-def plot_heatMaps(df=pd.DataFrame(),proj_name='',corrType='spearman',corrThresh=''):
+def plot_heatMaps(df=pd.DataFrame(),proj_name=''):
     path = os.getcwd()+'/plots/'+proj_name+'/'
     fType = 'heatmap'
     
@@ -176,41 +160,23 @@ def plot_heatMaps(df=pd.DataFrame(),proj_name='',corrType='spearman',corrThresh=
         except:
             pass
     
-    if corrThresh!='':
+    for ver in df:  
+        corr = df[ver].corr('spearman')
         
-        for ver in df:  
-            corr = df[ver].corr(corrType)
-            corr = corr>=corrThresh
+        title = '%s  %s_%s'%(fType.upper(),proj_name,ver)
+        
+        f,ax = plt.subplots(figsize=(8,8))
+        ax.set_title(title)
+        mask = np.zeros_like(corr)
+        mask[np.triu_indices_from(mask)] = True
 
-            title = '%s  %s_%s'%(fType.upper(),proj_name,ver)
+        with sns.axes_style("white"):
+            ax = sns.heatmap(corr, mask=mask, square=True, annot=True,linewidths=1)
+            plt.show()
+        if proj_name!='':
+            #print('saving at : %s/%s.jpg'%(path,title))
+            f.savefig('%s/%s.jpg'%(path,title))
 
-            f,ax = plt.subplots(figsize=(8,6))
-            ax.set_title(title)
-
-
-            with sns.axes_style("white"):
-                ax = sns.heatmap(corr,annot=True,linewidths=1)
-                plt.show()
-            if proj_name!='':
-                #print('saving at : %s/%s.jpg'%(path,title))
-                f.savefig('%s/%s_Threshold.jpg'%(path,title))
-    else:    
-    
-        for ver in df:  
-            corr = df[ver].corr(corrType)
-
-            title = '%s  %s_%s'%(fType.upper(),proj_name,ver)
-
-            f,ax = plt.subplots(figsize=(8,6))
-            ax.set_title(title)
-
-
-            with sns.axes_style("white"):
-                ax = sns.heatmap(corr,annot=True,linewidths=1)
-                plt.show()
-            if proj_name!='':
-                #print('saving at : %s/%s.jpg'%(path,title))
-                f.savefig('%s/%s.jpg'%(path,title))
 
 #def create_reg_plots(data=dict(),checkVar='',vsVarList=[],proj_name=''):
 def plot_regressions(data=dict(),checkVar='',vsVarList=[],proj_name='',ylim=120):

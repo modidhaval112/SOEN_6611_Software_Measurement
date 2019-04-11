@@ -1,0 +1,251 @@
+Project Name,Package Name,Type Name,Method Name,Code Smell
+ant1.1,com.oreilly.servlet,MailMessage,sanitizeAddress,Complex Method
+ant1.1,com.oreilly.servlet,MailMessage,connect,Magic Number
+ant1.1,org.apache.tools.ant,DefaultLogger,formatTime,Magic Number
+ant1.1,org.apache.tools.ant,DefaultLogger,formatTime,Magic Number
+ant1.1,org.apache.tools.ant,DefaultLogger,formatTime,Magic Number
+ant1.1,org.apache.tools.ant,DirectoryScanner,matchPath,Complex Method
+ant1.1,org.apache.tools.ant,DirectoryScanner,matchPath,Long Method
+ant1.1,org.apache.tools.ant,DirectoryScanner,match,Complex Method
+ant1.1,org.apache.tools.ant,DirectoryScanner,scandir,Complex Method
+ant1.1,org.apache.tools.ant,IntrospectionHelper,IntrospectionHelper,Complex Conditional
+ant1.1,org.apache.tools.ant,IntrospectionHelper,IntrospectionHelper,Complex Conditional
+ant1.1,org.apache.tools.ant,IntrospectionHelper,IntrospectionHelper,Complex Conditional
+ant1.1,org.apache.tools.ant,IntrospectionHelper,IntrospectionHelper,Complex Conditional
+ant1.1,org.apache.tools.ant,IntrospectionHelper,IntrospectionHelper,Complex Conditional
+ant1.1,org.apache.tools.ant,IntrospectionHelper,IntrospectionHelper,Complex Method
+ant1.1,org.apache.tools.ant,IntrospectionHelper,IntrospectionHelper,Empty catch clause
+ant1.1,org.apache.tools.ant,IntrospectionHelper,IntrospectionHelper,Long Statement
+ant1.1,org.apache.tools.ant,IntrospectionHelper,IntrospectionHelper,Long Statement
+ant1.1,org.apache.tools.ant,IntrospectionHelper,IntrospectionHelper,Long Statement
+ant1.1,org.apache.tools.ant,IntrospectionHelper,createAttributeSetter,Complex Method
+ant1.1,org.apache.tools.ant,IntrospectionHelper,createAttributeSetter,Empty catch clause
+ant1.1,org.apache.tools.ant,IntrospectionHelper,createAttributeSetter,Long Method
+ant1.1,org.apache.tools.ant,IntrospectionHelper,createAttributeSetter,Long Statement
+ant1.1,org.apache.tools.ant,IntrospectionHelper,createAttributeSetter,Long Statement
+ant1.1,org.apache.tools.ant,IntrospectionHelper,createAttributeSetter,Long Statement
+ant1.1,org.apache.tools.ant,Main,Main,Complex Conditional
+ant1.1,org.apache.tools.ant,Main,Main,Complex Conditional
+ant1.1,org.apache.tools.ant,Main,Main,Complex Conditional
+ant1.1,org.apache.tools.ant,Main,Main,Complex Conditional
+ant1.1,org.apache.tools.ant,Main,Main,Complex Method
+ant1.1,org.apache.tools.ant,Main,Main,Magic Number
+ant1.1,org.apache.tools.ant,Main,runBuild,Long Statement
+ant1.1,org.apache.tools.ant,Main,runBuild,Long Statement
+ant1.1,org.apache.tools.ant,Main,runBuild,Long Statement
+ant1.1,org.apache.tools.ant,PathTokenizer,nextToken,Complex Conditional
+ant1.1,org.apache.tools.ant,Project,detectJavaVersion,Empty catch clause
+ant1.1,org.apache.tools.ant,Project,createTask,Long Statement
+ant1.1,org.apache.tools.ant,Project,resolveFile,Complex Conditional
+ant1.1,org.apache.tools.ant,Project,resolveFile,Complex Conditional
+ant1.1,org.apache.tools.ant,Project,resolveFile,Complex Conditional
+ant1.1,org.apache.tools.ant,Project,resolveFile,Complex Method
+ant1.1,org.apache.tools.ant,Project,resolveFile,Magic Number
+ant1.1,org.apache.tools.ant,Project,translatePath,Magic Number
+ant1.1,org.apache.tools.ant,Project,copyFile,Magic Number
+ant1.1,org.apache.tools.ant,Project,copyFile,Magic Number
+ant1.1,org.apache.tools.ant,Project,tsort,Long Parameter List
+ant1.1,org.apache.tools.ant,ProjectHelper,init,Complex Method
+ant1.1,org.apache.tools.ant,ProjectHelper,init,Complex Method
+ant1.1,org.apache.tools.ant,ProjectHelper,replaceProperties,Magic Number
+ant1.1,org.apache.tools.ant,ProjectHelper,replaceProperties,Magic Number
+ant1.1,org.apache.tools.ant,ProjectHandler,init,Complex Method
+ant1.1,org.apache.tools.ant,TargetHandler,init,Complex Method
+ant1.1,org.apache.tools.ant,XmlLogger,messageLogged,Missing default
+ant1.1,org.apache.tools.ant,XmlLogger,write,Complex Method
+ant1.1,org.apache.tools.ant,XmlLogger,formatTime,Magic Number
+ant1.1,org.apache.tools.ant,XmlLogger,formatTime,Magic Number
+ant1.1,org.apache.tools.ant,XmlLogger,formatTime,Magic Number
+ant1.1,org.apache.tools.ant,EnumeratedAttributeTest,testExceptions,Empty catch clause
+ant1.1,org.apache.tools.ant,EnumeratedAttributeTest,testExceptions,Empty catch clause
+ant1.1,org.apache.tools.ant,IntrospectionHelperTest,testAddText,Empty catch clause
+ant1.1,org.apache.tools.ant,IntrospectionHelperTest,testElementCreators,Empty catch clause
+ant1.1,org.apache.tools.ant,IntrospectionHelperTest,testElementCreators,Empty catch clause
+ant1.1,org.apache.tools.ant,IntrospectionHelperTest,testElementCreators,Empty catch clause
+ant1.1,org.apache.tools.ant,IntrospectionHelperTest,testElementCreators,Empty catch clause
+ant1.1,org.apache.tools.ant,IntrospectionHelperTest,testElementCreators,Empty catch clause
+ant1.1,org.apache.tools.ant,IntrospectionHelperTest,testElementCreators,Empty catch clause
+ant1.1,org.apache.tools.ant,IntrospectionHelperTest,testElementCreators,Empty catch clause
+ant1.1,org.apache.tools.ant,IntrospectionHelperTest,testElementCreators,Empty catch clause
+ant1.1,org.apache.tools.ant,IntrospectionHelperTest,testElementCreators,Empty catch clause
+ant1.1,org.apache.tools.ant,IntrospectionHelperTest,testElementCreators,Empty catch clause
+ant1.1,org.apache.tools.ant,IntrospectionHelperTest,testElementCreators,Empty catch clause
+ant1.1,org.apache.tools.ant,IntrospectionHelperTest,testAttributeSetters,Empty catch clause
+ant1.1,org.apache.tools.ant,IntrospectionHelperTest,testAttributeSetters,Empty catch clause
+ant1.1,org.apache.tools.ant,IntrospectionHelperTest,testAttributeSetters,Empty catch clause
+ant1.1,org.apache.tools.ant,IntrospectionHelperTest,testAttributeSetters,Empty catch clause
+ant1.1,org.apache.tools.ant,IntrospectionHelperTest,testAttributeSetters,Empty catch clause
+ant1.1,org.apache.tools.ant,IntrospectionHelperTest,testAttributeSetters,Empty catch clause
+ant1.1,org.apache.tools.ant,IntrospectionHelperTest,testAttributeSetters,Long Method
+ant1.1,org.apache.tools.ant,IntrospectionHelperTest,setEight,Magic Number
+ant1.1,org.apache.tools.ant,IntrospectionHelperTest,setNine,Magic Number
+ant1.1,org.apache.tools.ant,PathTest,testConstructor,Magic Number
+ant1.1,org.apache.tools.ant,PathTest,testConstructor,Magic Number
+ant1.1,org.apache.tools.ant,PathTest,testConstructor,Magic Number
+ant1.1,org.apache.tools.ant,PathTest,testConstructor,Magic Number
+ant1.1,org.apache.tools.ant,PathTest,testConstructor,Magic Number
+ant1.1,org.apache.tools.ant,PathTest,testConstructor,Magic Number
+ant1.1,org.apache.tools.ant,PathTest,testConstructor,Magic Number
+ant1.1,org.apache.tools.ant,PathTest,testAppending,Magic Number
+ant1.1,org.apache.tools.ant,PathTest,testAppending,Magic Number
+ant1.1,org.apache.tools.ant,PathTest,testAppending,Magic Number
+ant1.1,org.apache.tools.ant,PathTest,testAppending,Magic Number
+ant1.1,org.apache.tools.ant.taskdefs,Delete,execute,Complex Method
+ant1.1,org.apache.tools.ant.taskdefs,Exec,run,Complex Method
+ant1.1,org.apache.tools.ant.taskdefs,Exec,run,Empty catch clause
+ant1.1,org.apache.tools.ant.taskdefs,Exec,run,Empty catch clause
+ant1.1,org.apache.tools.ant.taskdefs,Exec,run,Empty catch clause
+ant1.1,org.apache.tools.ant.taskdefs,StreamPumper,run,Empty catch clause
+ant1.1,org.apache.tools.ant.taskdefs,StreamPumper,run,Empty catch clause
+ant1.1,org.apache.tools.ant.taskdefs,Expand,execute,Empty catch clause
+ant1.1,org.apache.tools.ant.taskdefs,Expand,execute,Magic Number
+ant1.1,org.apache.tools.ant.taskdefs,FixCRLF,setTablength,Magic Number
+ant1.1,org.apache.tools.ant.taskdefs,FixCRLF,execute,Complex Conditional
+ant1.1,org.apache.tools.ant.taskdefs,FixCRLF,execute,Complex Method
+ant1.1,org.apache.tools.ant.taskdefs,FixCRLF,execute,Long Method
+ant1.1,org.apache.tools.ant.taskdefs,FixCRLF,execute,Long Statement
+ant1.1,org.apache.tools.ant.taskdefs,FixCRLF,execute,Magic Number
+ant1.1,org.apache.tools.ant.taskdefs,FixCRLF,execute,Magic Number
+ant1.1,org.apache.tools.ant.taskdefs,FixCRLF,execute,Magic Number
+ant1.1,org.apache.tools.ant.taskdefs,FixCRLF,execute,Magic Number
+ant1.1,org.apache.tools.ant.taskdefs,FixCRLF,execute,Magic Number
+ant1.1,org.apache.tools.ant.taskdefs,FixCRLF,execute,Magic Number
+ant1.1,org.apache.tools.ant.taskdefs,FixCRLF,execute,Magic Number
+ant1.1,org.apache.tools.ant.taskdefs,FixCRLF,execute,Magic Number
+ant1.1,org.apache.tools.ant.taskdefs,FixCRLF,execute,Missing default
+ant1.1,org.apache.tools.ant.taskdefs,Get,execute,Complex Method
+ant1.1,org.apache.tools.ant.taskdefs,Get,execute,Magic Number
+ant1.1,org.apache.tools.ant.taskdefs,Get,execute,Magic Number
+ant1.1,org.apache.tools.ant.taskdefs,Get,execute,Magic Number
+ant1.1,org.apache.tools.ant.taskdefs,GUnzip,execute,Complex Method
+ant1.1,org.apache.tools.ant.taskdefs,GUnzip,execute,Empty catch clause
+ant1.1,org.apache.tools.ant.taskdefs,GUnzip,execute,Empty catch clause
+ant1.1,org.apache.tools.ant.taskdefs,GUnzip,execute,Magic Number
+ant1.1,org.apache.tools.ant.taskdefs,GUnzip,execute,Magic Number
+ant1.1,org.apache.tools.ant.taskdefs,GUnzip,execute,Magic Number
+ant1.1,org.apache.tools.ant.taskdefs,GUnzip,execute,Magic Number
+ant1.1,org.apache.tools.ant.taskdefs,GUnzip,execute,Magic Number
+ant1.1,org.apache.tools.ant.taskdefs,GZip,execute,Empty catch clause
+ant1.1,org.apache.tools.ant.taskdefs,GZip,zipFile,Magic Number
+ant1.1,org.apache.tools.ant.taskdefs,GZip,zipFile,Magic Number
+ant1.1,org.apache.tools.ant.taskdefs,Javac,execute,Complex Method
+ant1.1,org.apache.tools.ant.taskdefs,Javac,execute,Long Statement
+ant1.1,org.apache.tools.ant.taskdefs,Javac,getCompileClasspath,Long Statement
+ant1.1,org.apache.tools.ant.taskdefs,Javac,getCompileClasspath,Long Statement
+ant1.1,org.apache.tools.ant.taskdefs,Javac,getCompileClasspath,Long Statement
+ant1.1,org.apache.tools.ant.taskdefs,Javac,doClassicCompile,Complex Method
+ant1.1,org.apache.tools.ant.taskdefs,Javac,doModernCompile,Complex Method
+ant1.1,org.apache.tools.ant.taskdefs,Javac,doJikesCompile,Complex Conditional
+ant1.1,org.apache.tools.ant.taskdefs,Javac,doJikesCompile,Complex Conditional
+ant1.1,org.apache.tools.ant.taskdefs,Javac,doJikesCompile,Complex Method
+ant1.1,org.apache.tools.ant.taskdefs,Javac,doJikesCompile,Long Statement
+ant1.1,org.apache.tools.ant.taskdefs,Javadoc,execute,Complex Method
+ant1.1,org.apache.tools.ant.taskdefs,Javadoc,execute,Long Method
+ant1.1,org.apache.tools.ant.taskdefs,Javadoc,execute,Long Statement
+ant1.1,org.apache.tools.ant.taskdefs,Javadoc,matches,Magic Number
+ant1.1,org.apache.tools.ant.taskdefs,Javadoc,getPackageName,Magic Number
+ant1.1,org.apache.tools.ant.taskdefs,Javadoc,read,Complex Method
+ant1.1,org.apache.tools.ant.taskdefs,JavaReader,read,Complex Method
+ant1.1,org.apache.tools.ant.taskdefs,KeySubst,replace,Magic Number
+ant1.1,org.apache.tools.ant.taskdefs,KeySubst,replace,Magic Number
+ant1.1,org.apache.tools.ant.taskdefs,KeySubst,replace,Magic Number
+ant1.1,org.apache.tools.ant.taskdefs,MatchingTask,setItems,Complex Conditional
+ant1.1,org.apache.tools.ant.taskdefs,Patch,execute,Complex Method
+ant1.1,org.apache.tools.ant.taskdefs,Property,resolveAllProperties,Complex Method
+ant1.1,org.apache.tools.ant.taskdefs,Property,extractProperties,Magic Number
+ant1.1,org.apache.tools.ant.taskdefs,Property,extractProperties,Magic Number
+ant1.1,org.apache.tools.ant.taskdefs,Rmic,execute,Complex Method
+ant1.1,org.apache.tools.ant.taskdefs,Rmic,execute,Magic Number
+ant1.1,org.apache.tools.ant.taskdefs,Rmic,scanDir,Complex Conditional
+ant1.1,org.apache.tools.ant.taskdefs,Rmic,shouldCompile,Long Statement
+ant1.1,org.apache.tools.ant.taskdefs,Rmic,shouldCompile,Long Statement
+ant1.1,org.apache.tools.ant.taskdefs,SignJar,execute,Complex Method
+ant1.1,org.apache.tools.ant.taskdefs,Tar,execute,Empty catch clause
+ant1.1,org.apache.tools.ant.taskdefs,Tar,tarFile,Magic Number
+ant1.1,org.apache.tools.ant.taskdefs,Tar,tarFile,Magic Number
+ant1.1,org.apache.tools.ant.taskdefs,Untar,execute,Complex Method
+ant1.1,org.apache.tools.ant.taskdefs,Untar,execute,Empty catch clause
+ant1.1,org.apache.tools.ant.taskdefs,Untar,execute,Magic Number
+ant1.1,org.apache.tools.ant.taskdefs,XSLTProcess,execute,Complex Method
+ant1.1,org.apache.tools.ant.taskdefs,Zip,execute,Complex Method
+ant1.1,org.apache.tools.ant.taskdefs,Zip,execute,Empty catch clause
+ant1.1,org.apache.tools.ant.taskdefs,Zip,execute,Long Statement
+ant1.1,org.apache.tools.ant.taskdefs,Zip,zipFile,Magic Number
+ant1.1,org.apache.tools.ant.taskdefs,Zip,zipFile,Magic Number
+ant1.1,org.apache.tools.ant.taskdefs,Zip,zipFile,Magic Number
+ant1.1,org.apache.tools.ant.taskdefs,Zip,zipFile,Magic Number
+ant1.1,org.apache.tools.ant.taskdefs,Zip,zipFile,Magic Number
+ant1.1,org.apache.tools.ant.taskdefs,Zip,zipFile,Magic Number
+ant1.1,org.apache.tools.ant.taskdefs.optional.ejb,DDCreatorHelper,process,Long Statement
+ant1.1,org.apache.tools.ant.taskdefs.optional.ejb,EjbcHelper,isRegenRequired,Complex Conditional
+ant1.1,org.apache.tools.ant.taskdefs.optional.ejb,EjbcHelper,isRegenRequired,Complex Conditional
+ant1.1,org.apache.tools.ant.taskdefs.optional.ejb,EjbcHelper,isRegenRequired,Complex Method
+ant1.1,org.apache.tools.ant.taskdefs.optional.ejb,EjbcHelper,isRegenRequired,Long Statement
+ant1.1,org.apache.tools.ant.taskdefs.optional.ejb,EjbJar,startDocument,Magic Number
+ant1.1,org.apache.tools.ant.taskdefs.optional.ejb,EjbJar,characters,Complex Conditional
+ant1.1,org.apache.tools.ant.taskdefs.optional.ejb,EjbJar,characters,Long Statement
+ant1.1,org.apache.tools.ant.taskdefs.optional.ejb,EjbJar,addFileToJar,Magic Number
+ant1.1,org.apache.tools.ant.taskdefs.optional.ejb,EjbJar,addFileToJar,Magic Number
+ant1.1,org.apache.tools.ant.taskdefs.optional.ejb,EjbJar,execute,Complex Method
+ant1.1,org.apache.tools.ant.taskdefs.optional.ejb,EjbJar,execute,Long Statement
+ant1.1,org.apache.tools.ant.taskdefs.optional.ejb,EjbJar,execute,Long Statement
+ant1.1,org.apache.tools.ant.taskdefs.optional.ejb,DescriptorHandler,startDocument,Magic Number
+ant1.1,org.apache.tools.ant.taskdefs.optional.ejb,DescriptorHandler,characters,Complex Conditional
+ant1.1,org.apache.tools.ant.taskdefs.optional.ejb,DescriptorHandler,characters,Long Statement
+ant1.1,org.apache.tools.ant.taskdefs.optional.ejb,WLRun,execute,Complex Method
+ant1.1,org.apache.tools.ant.taskdefs.optional.ejb,WLRun,execute,Long Statement
+ant1.1,org.apache.tools.ant.taskdefs.optional,NetRexxC,setTrace,Complex Conditional
+ant1.1,org.apache.tools.ant.taskdefs.optional,NetRexxC,setTrace,Long Statement
+ant1.1,org.apache.tools.ant.taskdefs.optional,NetRexxC,doNetRexxCompile,Complex Method
+ant1.1,org.apache.tools.ant.taskdefs.optional,RenameExtensions,execute,Complex Conditional
+ant1.1,org.apache.tools.ant.taskdefs.optional.vss,MSVSS,setVsspath,Magic Number
+ant1.1,org.apache.tools.tar,TarBuffer,writeRecord,Long Statement
+ant1.1,org.apache.tools.tar,TarBuffer,writeRecord,Long Statement
+ant1.1,org.apache.tools.tar,TarEntry,TarEntry,Magic Number
+ant1.1,org.apache.tools.tar,TarEntry,TarEntry,Magic Number
+ant1.1,org.apache.tools.tar,TarEntry,TarEntry,Magic Number
+ant1.1,org.apache.tools.tar,TarEntry,TarEntry,Magic Number
+ant1.1,org.apache.tools.tar,TarEntry,TarEntry,Magic Number
+ant1.1,org.apache.tools.tar,TarEntry,TarEntry,Complex Conditional
+ant1.1,org.apache.tools.tar,TarEntry,TarEntry,Complex Method
+ant1.1,org.apache.tools.tar,TarEntry,TarEntry,Magic Number
+ant1.1,org.apache.tools.tar,TarEntry,TarEntry,Magic Number
+ant1.1,org.apache.tools.tar,TarEntry,TarEntry,Magic Number
+ant1.1,org.apache.tools.tar,TarEntry,TarEntry,Magic Number
+ant1.1,org.apache.tools.tar,TarEntry,TarEntry,Magic Number
+ant1.1,org.apache.tools.tar,TarEntry,setModTime,Magic Number
+ant1.1,org.apache.tools.tar,TarEntry,setModTime,Magic Number
+ant1.1,org.apache.tools.tar,TarEntry,getModTime,Magic Number
+ant1.1,org.apache.tools.tar,TarInputStream,skip,Magic Number
+ant1.1,org.apache.tools.tar,TarInputStream,skip,Magic Number
+ant1.1,org.apache.tools.tar,TarInputStream,getNextEntry,Complex Conditional
+ant1.1,org.apache.tools.tar,TarInputStream,getNextEntry,Complex Method
+ant1.1,org.apache.tools.tar,TarInputStream,getNextEntry,Long Statement
+ant1.1,org.apache.tools.tar,TarInputStream,getNextEntry,Long Statement
+ant1.1,org.apache.tools.tar,TarInputStream,getNextEntry,Long Statement
+ant1.1,org.apache.tools.tar,TarInputStream,getNextEntry,Long Statement
+ant1.1,org.apache.tools.tar,TarInputStream,getNextEntry,Magic Number
+ant1.1,org.apache.tools.tar,TarInputStream,getNextEntry,Magic Number
+ant1.1,org.apache.tools.tar,TarInputStream,getNextEntry,Magic Number
+ant1.1,org.apache.tools.tar,TarInputStream,getNextEntry,Magic Number
+ant1.1,org.apache.tools.tar,TarInputStream,getNextEntry,Magic Number
+ant1.1,org.apache.tools.tar,TarInputStream,getNextEntry,Magic Number
+ant1.1,org.apache.tools.tar,TarInputStream,getNextEntry,Magic Number
+ant1.1,org.apache.tools.tar,TarInputStream,getNextEntry,Magic Number
+ant1.1,org.apache.tools.tar,TarInputStream,getNextEntry,Magic Number
+ant1.1,org.apache.tools.tar,TarInputStream,getNextEntry,Magic Number
+ant1.1,org.apache.tools.tar,TarInputStream,getNextEntry,Magic Number
+ant1.1,org.apache.tools.tar,TarInputStream,getNextEntry,Magic Number
+ant1.1,org.apache.tools.tar,TarInputStream,getNextEntry,Magic Number
+ant1.1,org.apache.tools.tar,TarInputStream,getNextEntry,Magic Number
+ant1.1,org.apache.tools.tar,TarInputStream,getNextEntry,Magic Number
+ant1.1,org.apache.tools.tar,TarInputStream,read,Complex Method
+ant1.1,org.apache.tools.tar,TarInputStream,copyEntryContents,Magic Number
+ant1.1,org.apache.tools.tar,TarInputStream,copyEntryContents,Magic Number
+ant1.1,org.apache.tools.tar,TarOutputStream,closeEntry,Long Statement
+ant1.1,org.apache.tools.tar,TarOutputStream,write,Long Statement
+ant1.1,org.apache.tools.tar,TarUtils,parseOctal,Magic Number
+ant1.1,org.apache.tools.tar,TarUtils,getOctalBytes,Magic Number
+ant1.1,org.apache.tools.tar,TarUtils,getOctalBytes,Magic Number
+ant1.1,org.apache.tools.tar,TarUtils,getCheckSumOctalBytes,Magic Number
+ant1.1,org.apache.tools.tar,TarUtils,computeCheckSum,Magic Number
